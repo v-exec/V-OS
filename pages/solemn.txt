@@ -1,0 +1,19 @@
+name: Solemn
+image: solemn>1
+image name: #[Solemn]
+white: true
+tags: verse, person
+title: The #[Solemn] are the remaining ex-inhabitants of #[Re-L].
+content: The #[Solemn] are a species of humanoid creatures in the #[Antiverse]. Following the global collapse of #[Re-L]'s infrastructure through resource depletion and usage of mega-weaponry, only few were capable of making their way off the now anarchic atmosphere. Currently, no signs of intelligent life on #[Re-L] are present.
++
++
+Hundreds of years of biotechnical progression have refined the #[Solemn]'s bodies to extremely malleable products, allowing them manual control over various components of their vessels. This leads to the theory that by slowing their metabolism, they are capable of surviving millenia, meaning that many of the survivors of #[Re-L]'s downfall could still be alive. In combination with their extremely energy-effecient bodies, there are few reasons to assume that none of them remain, aside from suicide.
++
++
+The remaining survivors have no contact with one another, suggesting questionable mental health stability for those who have deliberately not gone into metabolic stasis. The fact that the #[Antiverse] is in its intermediate stages of heat death doesn't help, as the quantity of planets capable of supporting life is quickly dwindling. As it stands, any #[Solemn] survivors are destined to eternal solitude.
+
+details:
+118 #[Solemn] were capable of successfully making their way off the planet.
++
++
+I can confirm some have survived to this day. I saw at least two solitary drifters on separate occasions.

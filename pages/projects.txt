@@ -1,0 +1,24 @@
+name: Projects
+image: atomarray>2
+image name: #[Atom Array]
+tags: nav
+title: The #[projects] section is a collection of all publicly documented projects.
+content: Projects here represent a curated selection of projects that I feel are catalysts to interesting stories, and are of sufficiently high quality.
++
++
+Many projects are never really finished, so don't be surprised if some of these get updated with more content over time. Also, don't be surprised if some of these are literally not finished, as some projects are currently a work in progress.
+
+%[]
+![#[Visual]]
+=[visual]
+
+%[]
+![#[Audio]]
+=[audio]
+
+%[]
+![#[Code]]
+=[code]
+
+%[]
+If a project is logged in the @[Log>http://log.v-os.ca], a link to its hours and logs will be visible on the header of its page.

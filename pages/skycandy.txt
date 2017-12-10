@@ -1,0 +1,16 @@
+name: SkyCandy
+image: skycandy>1
+image name: #[SkyCandy]
+tags: project, code, display
+title: #[SkyCandy] is a motion-navigated galactic installation.
+content: #[SkyCandy] is an installation that puts the user in a dense, procedurally generated nebula, navigated using the Microsoft Kinect.
++
++
+<iframe class="media" src="https://www.youtube.com/embed/uYe7Iovi_-A" frameborder="0" allowfullscreen></iframe>
++
++
+This project was created in parallel to #[Light Tone], and has a bigger focus on tactile input. #[SkyCandy] is projected onto a flexible fabric in front of the user, and the user must push the fabric in the direction that they wish to travel in (using one, or both of their hands). The further they push into the fabric, the faster they travel. The project also works without the fabric.
++
++
+The Kinect interfacing with UnrealEngine 4 was done using @[Kinect4Unreal>http://www.opaque.media/kinect-4-unreal/#about-k4u], and everything else was made using Unreal's stock assets.
+&[skycandy>2]

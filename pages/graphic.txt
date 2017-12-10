@@ -1,0 +1,8 @@
+name: Graphic
+image: truli>1
+image name: #[Truli]
+tags: project, visual, nav
+title: The #[graphic] section features all visual digital media.
+content: =[graphic]
+%[]
+The majority of my graphic work is made using Photoshop, Illustrator, Cinema4D, Blender, and Terragen. Images are often combinations of multiple methodologies, typically starting from 3D and then progressing into 2D illustration, compositing, and editing.

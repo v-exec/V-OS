@@ -1,0 +1,16 @@
+RewriteEngine on
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://v-os.ca/$1 [R,L]
+
+DirectoryIndex page.php
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ /page.php?v=$1 [NC,L]
+
+ErrorDocument 404 http://v-os.ca/404
+ErrorDocument 403 http://v-os.ca/404
+ErrorDocument 500 http://v-os.ca/404

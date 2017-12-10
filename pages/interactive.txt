@@ -1,0 +1,9 @@
+name: Interactive
+image: elyium>2
+image name: #[Elyium]
+white: true
+tags: project, code, nav
+title: The #[interactive] section features games and applications.
+content: =[interactive]
+%[]
+The projects found here are created using Unity, Unreal Engine, Kinect, Processing, and web languages (or any given combination of those).

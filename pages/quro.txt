@@ -1,0 +1,10 @@
+name: Quro
+image: qurotema>1
+image name: #[Quro]
+white: true
+tags: project, audio, single
+title: #[Quro], the celestial sailboat.
+content: The sound of a paradox universe relayed by Dr. Sino during his last visit to #[Qurotema].
++
++
+<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304048474&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

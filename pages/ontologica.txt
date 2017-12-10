@@ -1,0 +1,23 @@
+name: Ontologica
+image: ontologica>6
+image name: #[Ontologica]
+white: true
+tags: project, code, interactive
+title: #[Ontologica] is an infinite digital library.
+content: #[Ontologica] is the product of a research project at @[Obx Labs>http://www.obxlabs.net/], focusing on exploring text in virtual reality environments.
++
++
+<iframe class="media" src="https://www.youtube.com/embed/ygqf5qUr6mY" frameborder="0" allowfullscreen></iframe>
++
++
+This library was inspired by Borges' @[Library of Babel>https://en.wikipedia.org/wiki/The_Library_of_Babel], and the @[Library of Babel Website>https://libraryofbabel.info/]. It was made in Unreal Engine 4 in an effort to create a digital version of the library that allows the user to explore a quasi-infinite environment of randomly generated text.
+
+&[ontologica>1]
+
+This environment aims to position the user in a world where text is no longer a guaranteed container for meaning, but a structural element of reality. Through exploration of this universe, the user may come accross snippets of coherent phrases, rare instances of sensical data.
+
+&[ontologica>2]
+
+In terms of additions, #[Ontologica] could be expanded to be a persistent, shared world. Players could highlight text, allowing others to explore areas of interest heavily marked by others, or entirely uncharted territories with no highlights whatsoever, creating a large-scale exploration game in a digital library of randomness.
+
+&[ontologica>3]

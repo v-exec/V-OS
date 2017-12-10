@@ -1,0 +1,16 @@
+name: Grand Archives
+image: ontologica>2
+image name: #[Ontologica]
+white: true
+tags: verse, location
+title: The #[Grand Archives] are a collection of vast public archives relating to the #[Multiverse].
+content: The #[Grand Archives]' development began during Earth's early years of interstellar spacefaring, after the establishment of the UEG. They acted as a universal encyclopedia, documenting information ranging from all forms of sciences (biology, physics, chemistry, psychology), to the simulated/theorized-hybrid history of both Earth and a variety of discovered worlds.
++
++
+After the UEG's collapse, the server network hosting the #[Grand Archives] was temporarily shut down, but it was quickly brought back online on a distributed database network with the help of #[Analog]. Since then, the archives have been upkept by a combination of simple AI, moderators, and public contributors. They are completely available to the general public.
++
++
+Despite these archives acting as a sum of all publicly collected knowledge (and with the help of simple AI, a pool of knowledge that is increasing in size exponentially), there's still tremendous amounts of information yet to be discovered.
++
++
+The #[Grand Archives] project aims to document as much data as possible, eventually gathering all finite data in the known universes. More advanced AI, especially, have the capacity to gather unreal amounts of information. However the majority in existence have either gone rogue and disappeared, or outright refused to work with humans. The ones who have decided to provide information to the archives have done so cautiously, never giving more information than is necessary.

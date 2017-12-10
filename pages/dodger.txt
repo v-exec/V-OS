@@ -1,0 +1,21 @@
+name: Dodger
+image: dodger>1
+image name: #[Dodger]
+tags: project, code, interactive
+title: #[Dodger] is a body tracking experiment made into a dodging game.
+content: #[Dodger] is a game about dodging obstacles for as long as possible, by using your body as input.
++
++
+<iframe class="media" src="https://www.youtube.com/embed/EhJddoWpf94" frameborder="0" allowfullscreen></iframe>
++
++
+This project was created over the course of a single weekend, and I consider it as more of a fun experiment with the Kinect than an actual game. The point is to dodge the red bars, which increase in speed and spawning rate as the game goes on. By breaking the occaisionally spawning sphere, the obstacle movement speed and spawning rate is slightly diminished.
++
++
+My interest was focused primarily on camera controls, and how despite not using any VR helmet, putting the camera in first person while controlling the character with the Kinect still evoked a strong sense of physical immersion.
++
++
+Additionally, #[Dodger] ended up being a very good general exercise tool.
++
++
+The Kinect interfacing with UnrealEngine 4 was done using @[Kinect4Unreal>http://www.opaque.media/kinect-4-unreal/#about-k4u].

@@ -1,0 +1,16 @@
+name: Witome
+image: witome>7
+image name: #[Witome]
+tags: project, visual, photography
+title: #[Witome] is a series of photographs taken during a typical outing in Montreal, summer 2016.
+content: #[Witome] takes place almost exclusively in downtown Montreal.
+&[witome>1]
+&[witome>2]
+&[witome>3]
+&[witome>4]
+&[witome>6]
+&[witome>7]
+&[witome>8]
+&[witome>9]
+&[witome>10]
+&[witome>5]

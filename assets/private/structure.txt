@@ -1,0 +1,101 @@
+content
+	cv.pdf
+	DotCycle.win
+home
+	404
+	index
+	victor
+	research
+		timekeeping
+		lifeset
+X		runtime
+	projects
+		visual
+			graphic
+				BlackBox 11
+				Dir
+				Truli
+				Atmos
+				Atom Array
+				Crystaline
+				Mosterra
+				Saturn
+				Scale
+				Stratet
+				Topography
+				Re-l
+				Dentatsuna
+				Moré
+				Di
+				Atomic AI
+				Gates of Qurotema
+			photography
+				Amy2
+				Witome
+				Papur
+				PC
+				Sira
+		audio
+			singles
+				Quro
+				Direction; Wave
+				Urban Regen
+				2074
+			albums
+				The Cosmic Affliction
+				Keyden
+		code
+			Tools
+				Drone Dreams
+				Log
+				Seven
+				Visor
+				Purity
+				V-OS
+			Interactive
+				Elyium
+				Dodger
+				Keyde
+				S.O.S.
+				Ontologica
+				ScopeOne
+				VisN
+				DotCycle
+				Relay
+			Display
+				Wire
+				superMORPH
+				SkyCandy
+				Light Tone
+	verse
+		People
+			Analog
+			Nihilim
+			Solemn
+			Technomancers
+			Automata
+			Dei
+		Locations
+			Antiverse
+			Multiverse
+			Temporalis
+			Voxelverse
+			Void
+			Grand archives
+X			ARK Simulation
+X			Entropica (reverse entropy world)
+		Phenomena
+			Warp Travel
+			Birth of a Microstar
+		AI
+			LOGO (Lux) - Data (Light)
+			Nox - Darkness
+X			Aeva - Existence
+X			Nil - Void
+X			Mora - Space
+X			Mod - Time
+
+What belongs in the verse?
+Narratives relating specifically to what is demonstrated in a project
+should stay inside the project's page. Narratives that extend the narrative
+that the project speaks specifically of should be their own verse page.

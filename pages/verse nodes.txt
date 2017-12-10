@@ -1,0 +1,25 @@
+name: Verse Nodes
+image: temporalis>1
+image name: #[Temporalis]
+white: true
+tags: project, visual, graphic
+title: The #[Verse Nodes] are a collection of images made specifically for the #[verse].
+content:
+![$[Qurotema>title]]
+&[qurotema>2]
+
+%[]
+![$[Analog>title]]
+&[analog>1]
+
+%[]
+![$[Nihilim>title]]
+&[nihilim>1]
+
+%[]
+![$[Solemn>title]]
+&[solemn>1]
+
+%[]
+![$[Temporalis>title]]
+&[temporalis>1]

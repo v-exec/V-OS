@@ -1,0 +1,10 @@
+name: Moré
+image: moré>1
+image name: #[Moré]
+white: true
+tags: project, visual, graphic
+title: #[Moré] is a snow planet filled with monuments dedicated to #[Mora].
+content:
+The creator of the temples has not been pinpointed, though many travellers have made their way to the white planes to visit them and worship #[Mora]. Among her many visitors, The #[Dei] came to challenge her power, which led to their demise.
+&[moré>2]
+&[moré>1]

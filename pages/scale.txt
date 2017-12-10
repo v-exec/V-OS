@@ -1,0 +1,7 @@
+name: Scale
+image: scale>2
+image name: #[Scale]
+tags: project, visual, graphic
+title: #[Scale] depicts the now fallen skypiercers of #[Re-L].
+content: &[scale>1]
+&[scale>2]

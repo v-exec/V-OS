@@ -1,0 +1,13 @@
+name: VisN
+image: visn>1
+image name: #[VisN]
+tags: project, code, interactive
+title: #[VisN] is an experiment in framing poetry;
+content: #[VisN] is the product of a research project at @[Obx Labs>http://www.obxlabs.net/], focusing on exploring text in virtual reality environments. It was made in Unity, for the HTC Vive.
++
++
+#[VisN] puts players in an environment with a few lines of text, and four manipulatable ‘frames’. These frames each show a slightly altered vision of reality. More specifically, each frame showcases a different piece of text. With each frame having its own unique set of visible texts, this setup encourages players to explore different interpretations of a reading through the combination, splicing, and juxtaposition of different phrases.
+
+&[visn>4]
+&[visn>3]
+&[visn>2]

@@ -1,0 +1,12 @@
+name: Visual
+image: re-l>1
+image name: #[Re-L]
+white: true
+tags: project, nav
+title: The #[visual] division includes all still-image art #[projects].
+content: $[graphic>title]
+=[graphic]
+%[]
+
+$[photography>title]
+=[photography]

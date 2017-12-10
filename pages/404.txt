@@ -1,0 +1,13 @@
+name: 404
+image: 404>1
+image name: Error.
+white: true
+tags: error
+title: Artifact _[$[self]] not found.
+content: Seems like #[LOGO] hasn't indexed _[$[self]] yet, sorry about that.
++
++
+If you're lost, take a look at the #[index], or check out some of the #[projects].
++
++
+If you think this page should exist, contact #[me] at my email _[me@v-os.ca], or on @[Twitter>https://twitter.com/v_exec].

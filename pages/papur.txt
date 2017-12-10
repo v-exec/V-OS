@@ -1,0 +1,18 @@
+name: Papur
+image: papur>4
+image name: #[Papur]
+tags: project, visual, photography
+title: #[Papur], the cosmic station.
+content: Megastructures, filled with intergalactic travellers, around a sun long extinguished.
+&[papur>1]
+&[papur>2]
+&[papur>3]
+&[papur>4]
+&[papur>5]
+&[papur>6]
+&[papur>7]
+&[papur>8]
+&[papur>9]
+&[papur>10]
+&[papur>11]
+&[papur>12]

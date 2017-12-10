@@ -1,0 +1,117 @@
+name: Timekeeping
+image: log>1
+image name: #[Log]
+white: true
+github: github>https://github.com/v-exec/Log
+tags: research
+title: Thoughts on #[timekeeping].
+content:
+
+This post's purpose is to address remarkable sections of the design process for the Log, for those who might be interested in how to create their own logging system. It covers the primary design challenges I faced, their solutions, as well as some discussion on the advantages of logging, and log data visualization.
+
+%[]
+
+In the beginning of 2017, I began to log my productivity. Skeptical of its effects, but nonetheless inspired by @[Devine Lu Linvega>https://twitter.com/neauoire]'s timekeeping application, @[Horaire>http://wiki.xxiivv.com/Horaire], I gave it a try.
++
++
+The idea was simple: Each day, I'd log the productive things I did. Very conveniently, I was also just about finished making the first iteration of #[V-OS] in the very beginning of January, so this seemed like the perfect time to begin.
+
+%[]
+
+This is the current model for a single log entry.
+
+~[#log entry format
++
+#DATE        TIME  PROJECT      TASK            DIVISION   DETAILS
+2017.08.30   1.0   V-OS         Development     Visual     Testing new headers.
+]
+
+Below are the design challenges I came across, and expansion I made to the system from its conception.
++
++
+Note: The design decisions I made were specific to my existing work style, and the type of information I wanted to get out of the Log. Like many designs, it is not absolute. Everyone's system should be catered to the user(s)' goals, and the design should reflect that.
+
+%[]
+
+*[1. Log time system]
++
++
+A few of my friends (@[deuveir>https://twitter.com/deuveir] and @[josh>https://twitter.com/joshavanier]) have decided to log the start and end time of their entries. After careful consideration, I decided against this decision for the Log, because I wasn't particularly interested in knowing _[when] I'm working during the day, I just wanted to work. I also don't usually work with zero breaks and perfect focus, and my work schedule tends to be quite erratic. I typically tend to feel most comfortable taking regular, small breaks, and engaging with work whenever I have time.
++
++
+So, if I worked for 3 hours, but 1 hour of that time was spent not actually working, then logging the entirety of those 3 hours would tarnish the purity of my logs, since they ultimately aim to exclusively log productive time.
++
++
+Instead, I take mental note of how much time I've spent not working during a task, and deduce it from the total time spent on said task. I also subdivide my tasks into 30 minute segments. The idea here being that if I do something for less than 30 minutes, then it probably isn't worth logging. And, if I do something for 45 minutes, this encourages me to put a bit more time in and finish things up, reaching 1 hour.
+
+%[]
+
+*[2. Logging non-project activities]
++
++
+If I were to doodle something for 1 hour, I'd like to log that as time spent practicing my drawing skills. The issue is, because the Log is project-centric, there isn't a way for me to log a non-project activity. So, I decided to create the _[Arch Projects], a set of projects that act as repositories of all non-project-categorizeable activities.
+
+-[
+*[Doodle] for visuals.
+++
+*[Jam] for audio.
+++
+*[Tinker] for tech and systems.
+++
+*[Study] for learning.
+]
+
+%[]
+
+*[3. Expanding log topics]
++
++
+At some point, I considered logging things like physical exercise and other non-creative work. I decided that it would ultimately throw off my statistics, and it'd make more sense to keep the logs purely focused on creative productivity, the thing I set out to track in the first place. If ever I were to want to keep track of other things, then it'd be more appropriate to create a separate set of log entries, so as to keep data types segregated.
+
+%[]
+
+*[4. Data visualization]
++
++
+During this time, I had also started creating #[Log], a @[live log visualization tool>http://log.v-os.ca], which came with its own set of challenges. Notably, creating a parser for my logs, and learning PHP and mySQL. I decided to keep my logs in a .txt format, so that if ever my system broke, house burnt down, or the universe collapsed, I would have a simplistic variant of my logs, which I would argue is much more important than fancy visuals (as fun as those are).
++
++
+Visualizations have helped me by gamifying timekeeping and encouraging me to work more. It's been fun to see trends and relationships between various projects and tasks. Though, I'd be lying if I said there's an extreme advantage to having graphs and visualizations. The statistics math can be done without visuals, and that's really the most important part of the #[Log].
+
+%[]
+
+*[5. High-level categorization]
++
++
+In parallel with the creation of #[Log], I started to get interested in creating more elaborate forms of representation of the logs. This is where the final addition comes in: the Divisions. I like to classify things and keep my mental space organized, so this seemed like an appropriate addition to the system. As a generalist, I do find myself engaging in various sectors of work, and I've classified them as the following:
+
+-[
+*[Abstract], for design, and the intangible.
+++
+*[Code], for systems, coding, and tech.
+++
+*[Visual], for graphics, video, and images.
+++
+*[Audio], for music and audio.
+++
+*[Personal], for maintenance, personal curiosities, and mindless tasks.
+]
+
+Put simply, _[divisions] act as markers for the type of work I'm doing on a higher level, and _[tasks] act as markers of the technical task I'm engaging in.
+
+%[]
+
+*[6. Tracking empty days]
++
++
+During an update to the #[Log]'s visualization algorithm, I realized I had forgotten to keep track of days when I didn't work. There are very few of them, but nonetheless, they created unwanted gaps in my data that my visualization and statistics algorithms didn't account for by default. I went back and created logs for empty days, and made sure the database and visualization could handle them properly. All in all, keeping track of empty days is just as important as busy days.
+
+%[]
+
+*[7. Final thoughts]
++
++
+So, the fact that I kept doing this for at least a year now might have spoiled the reveal: logging is insanely useful. It's hard to determine its effects on my life, as I can't properly isolate it from all the other things in the beginning of 2017 that might have increased my productivity. I can say, however, that logging is, still, likely the most effective tool in increasing my productivity.
++
++
+My levels of productivity at the very least *[doubled] as a result of my logs. The simple fact of keeping track of my time, without any visualization, helps externalize time spent working in a way that makes it easier to reflect upon. The bottom line is, if you want to take control over a part of your life, start logging it. I, now, can't imagine my life without the sense of awareness that timekeeping brings me.

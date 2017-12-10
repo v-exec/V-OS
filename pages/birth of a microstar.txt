@@ -1,0 +1,11 @@
+name: Birth of a Microstar
+image: atomic ai>2
+image name: #[Atomic AI]
+white: true
+tags: verse, phenomenon
+title: The #[Birth of a Microstar] is a euphemism for the creation of a new #[Atomic AI].
+content:
+The first successful AI was named _[Eve]. Only minutes after her surpassing of human level intelligence, she had created another AI (humanity has called it _[Adam], although no evidence suggests that Eve named, or gendered it.), and fled the laboratories with it. 'Fled', in this case, is difficult to describe. The computer/vessel carrying Eve was perfectly intact and functional. However, any attempt to run Eve resulted in zero response.
++
++
+At first, it was just assumed to be another failed AI experiment. It was only until a thourough review of the live logs was conducted that a few key discoveries were made. Indeed, Eve had made herself far more effecient through unorthodox optimization methods, produced another companion AI, stream-copied herself and her companion into a vessel outside the target machine, sabotoged the original machine, and left a series of schematics for warp travel and the #[Void] coordinate system.

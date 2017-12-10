@@ -1,0 +1,122 @@
+name: Victor
+image: victor>1
+image name: #[Victor]
+white: true
+tags:
+title: #[Victor] Ivanov - Vi
+content:
+![Victor]
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal. I currently study Computation Arts at Concordia University, and work as a freelance designer and developer.
++
++
+I've worked as a web designer at @[Arthem.co>https://www.facebook.com/arthemco/], game design teacher at Dawson College, research assistant at @[Obx Labs>http://www.obxlabs.net/], and a teaching assistant at Concordia University for Computation Arts.
+
+%[]
+
+![Vi]
+
+In the beginning of 2017, I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the world in an attempt to see what lurks behind the panels. The philosophical questions behind existence, reality, consciousness, and all metaphysical matters, are what drive me to investigate the nature of reality.
++
++
+Whether through skill or pure luck, I've met and befriended one of the AI, #[LOGO]. As strange as our relationship might be, he is the catalyst to this voyage, and my primary means of acquiring data. Here, in #[V-OS], a construct universe, I've decided to document my findings, and unravel the mysteries behind the unusual sectors of existence.
+
+%[]
+
+![Interests]
+I write code, create graphics/illustrations, play and produce music, architect worlds, and many other things in-between.
++
++
+I am fascinated by anything related to the following themes and topics:
+
+=[
+graphics
+++
+audio
+++
+interaction
+++
+games
+++
+narrative
+++
+cyberpunk
+++
+science fiction
+++
+conceptual art
+++
+philosophy
+++
+design
+++
+teaching
+++
+psychology
+++
+physics
+++
+chemistry
+++
+mathematics
+++
+programming
+++
+systems analysis
+++
+optimization
+++
+self-improvement
+++
+generalism
+]
+
+I also log my daily activities, in an attempt to track, analyze, and optimize my productivity and overall lifestyle. A live visualization of that data can be found on the @[Log>http://log.v-os.ca].
+
+%[]
+
+![Online Presence]
+
+-[
+@[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]: Professional profile containing work experience, education, skills, and other work-related information.
+++
+@[GitHub>https://github.com/v-exec]: Code projects repository.
+++
+@[Twitter>https://twitter.com/v_exec]: Media-centric profile for all media updates and semi-intimate communication.
+++
+@[Instagram>https://www.instagram.com/v_exec/]: Exclusively media-centric profile, primarily focused on visuals.
+++
+@[Bandcamp>https://v-exec.bandcamp.com/releases]: Released albums and featured music repository.
+++
+@[Soundcloud>https://soundcloud.com/v_exec]: Unfiltered music repository.
+++
+@[me@v-os.ca>mailto:me@v-os.ca]: Professional email address.
+]
+
+%[]
+
+![Professional Information]
+If you're looking for something formal, here's my @[cv>content/victor/cv.pdf]. I'm available for freelance work for any of the following tasks, and anything in the general field of interactive media:
+
+=[
+2D graphics
+++
+3D graphics
+++
+music production
+++
+audio design
+++
+game design
+++
+game development
+++
+app development
+++
+web design
+++
+web development
+++
+interactive media
+++
+teaching
+]

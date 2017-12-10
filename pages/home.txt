@@ -1,0 +1,50 @@
+name: Home
+image: atomic ai>2
+image name: #[Atomic AI]
+github: https://github.com/v-exec
+white: true
+tags: hub
+title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
+content: Welcome. This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
++
++
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect worlds and deconstruct the physical realm.
++
++
+Here, you can find my #[projects] and their documentation. If you don't know where to start, check out the #[index].
+
+%[]
+
+~[
+@[Vi>victor]'s recent @[activities>http://log.v-os.ca].
++
++
++
+>[getRecentActivities(7);]
+]
+
+%[]
+
+![Updates]
+
+-[
+Made small visual changes to #[V-OS].
+++
+Added archive for The #[Dei].
+++
+Filled #[AI] directory with information about existing #[AI].
+++
+Added documentation for #[Di], the only survivor from The #[Dei].
+++
+Added documentation for #[Moré], a snow planet dedicated to the Goddess #[Mora].
+++
+Cleaned up #[V-OS] by removing unappealing projects, updating #[Purity], and reorganizing the #[verse] in preparation for a new wave of content.
+++
+Information on #[Atomic AI] has been made public.
+++
+Added notes on the #[Automata].
+++
+Released #[Dentatsuna] studies.
+++
+Documented and released #[DotCycle], a narrative game exploring archived memories of an #[atomic AI].
+]

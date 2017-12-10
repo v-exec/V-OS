@@ -1,0 +1,182 @@
+name: Lifeset
+image: truli>8
+image name: #[Truli]
+tags: research
+title: #[Lifeset] is a collection of guidelines to human existence.
+content:
+
+#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human. The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
++
++
+More specifically, these are the rules that @[I>me] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
++
++
+I'd like to mention a few other short texts that cover similar topics of self-improvement and productivity, by @[Ian Battaglia>https://monochromatic.co/metachromatic/index/the-blank-pages] and @[Devine Lu Linvega>http://wiki.xxiivv.com/Aesthetics].
+
+-[
+*[Balance and Well-being] focuses on happiness in general, and personal improvement.
+++
+*[Perspective and Awareness] deals with questions of how one sees and interprets the world.
+++
+*[Focus and Motivation] looks at optimizing productivity and being overall industrious.
+++
+*[Knowledge and Abstraction] focuses on expanding knowledge, and using it effectively.
+]
+
+These divisions exist to provide a simple form of organization, though most of the guidelines below bleed into one or more divisions, so the classifications are not to be taken too seriously.
+
+%[]
+
+![Balance and Well-being]
+
+*[Avoid excess]: Whether it be drugs and alcohol, exercise, media consumption, work, etc., excesses are to be avoided. Excess is acceptable, only when it is temporarily (in the short-term) brought on deliberately through specific activities.
+
++
++
+
+*[Avoid spectrum extremes]: We often find ourselves criticizing our location on spectrums and conclude that we should jump to the opposite extreme of where we initially were. For many cases, it is best to avoid this altogether, if possible, and go towards the relative center as soon as possible. Keep in mind that 'center', in this case, is subject to personal preference and circumstances, meaning that the center must first be found, in order to travel to it.
++
++
+Things to be especially careful about in terms of balance: Taking things too seriously / not seriously enough, being too emotional / cold, working too much / not enough, being too social / not social enough, being too considerate / inconsiderate. The list goes on, but these aspects are typical areas of imbalance.
+
++
++
+
+*[Avoid neglecting aspects of life you think you do not need but really do]: Existing as a human comes with many quirks. One of them is that you most likely need the things everyone else needs. Social interaction, sexual stimulation, emotional presence; think carefully if you're thinking of cutting them out.
+
++
++
+
+*[Be malleable]: When you've encountered an aspect of yourself that you'd like to change, put extensive focus and effort into changing it. A habit might take a long time to form, but until then, consciously practice what you'd like to change. Making gradual changes (over the course of months, and even years) is often unnecessarily time consuming, and puts you in a state of instability for a longer period of time. Be malleable, and make changes to yourself quickly.
+
++
++
+
+*[Do not become overly attached]: All is temporary, and attachments (especially to material possessions) create unnecessary anchors to the physical realm. Neglecting the temporary nature of everything also encourages taking said things for granted. Appreciate that which is temporary, but be ready to let it go at any given point.
+
++
++
+
+*[Expand your comfort zone]: Take advantage of and involve yourself in situations where you have a chance to put yourself outside of your comfort zone, so as to expand your experience, your degree of comfort with the unknown, and your ease with whatever foreign activity you were involved in.
+
++
++
+
+*[Do not aim to impress others]: "Being yourself" is a popular saying, but it fails to explicitly specify how trying to impress others is the catalyst to no longer being yourself. Going about life persistently looking for ways to make others like you / your work only brings anxiety. It is wiser to treat impressions as a side-effect of your genuine interests and behavior.
+
+%[]
+
+![Perspective and Awareness]
+
+*[Treat different layers of value sets appropriately]: In the human world, each abstraction of culture calls for a possible new set of values. These series of abstractions (Human>Earth>Country>City>Neighborhood>Family, for example) form a hierarchy of nested value systems. In this hierarchy, inner-values are dependent on the outer-values, but outer-values are not dependent on inner-values.
++
++
+Only outer-values can be treated as 'correct' from the perspective of inner-values. How far down or high up the given value set is irrelevant to its overall 'correctness', it only affects its popularity and likelihood of adoption. Be aware of the value sets at different levels, but do not pass subjective judgment. Their validity must be evaluated through the goals they aim to achieve, their efficiency in doing so, and their compatibility with other value sets.
+
++
++
+
+*[Be aware of the human perspective, versus the cosmic perspective]: On a scale larger than human communities, as animals, we assign meaning based on our biological programming and its systems for evaluating value (and all sub-sets of values are based on this overarching value system). With that in mind, we also possess the ability to handle abstractions and consciously conjure thoughts that do not pertain to this primal value system. Through this practice, we may eventually reach the value system belonging to the cosmos itself, which, at the moment, is void.
++
++
+Despite the cosmos' all-encompassing nature, as humans, we remain at least partially anchored to our primal value system and perspective. A healthy life uses the human perspective to drive healthy habits for the human body and mind (the practical), and it uses the cosmic perspective to drive some forms of morality, higher purpose, and higher understanding (the philosophical).
++
++
+Do not neglect the human perspective, for it cannot be escaped before death. Do not neglect the cosmic perspective, for it cannot be escaped after death.
+
++
++
+
+*[Do not idolize]: Admiration is fine, but idolization is not. In idolizing an existing entity, you set your upper-limits of appreciation to something that already exists. It avoids disappointment in attempts to reach it, as reaching whatever existing entity you idolize is technically possible. However, it equally avoids progress towards creating and reaching that which does not yet exist.
+
++
++
+
+*[Un-immerse yourself]: Every now and then, step out of the immersive world of your occupations, and reflect on the state of affairs. Being mindful, introspective, and reflective in this manner encourages regular reassessments of values and objectives, and gives good peace of mind.
+
+%[]
+
+![Focus and Motivation]
+
+*[List objectives and plans]: Create a list of objectives, and detailed plans on how to reach each one. In making explicit instructions on how to achieve given objectives, you're working out and preparing yourself for the potential obstacles, as well as paving a path for the work to come.
+
++
++
+
+*[Track your progress]: Track your progress explicitly through writing, or relevant applications. The simple act of consciously reviewing your progress will encourage you to be more aware of your work habits, and push you to work more if you're not progressing as quickly as you'd like.
+
++
++
+
+*[Stay true to your aspirations]: On bigger projects especially, it is easy to lose track of the underlying purpose behind your work. In times like these, it is good to refer to a clearly defined objective, so as to not lose focus on the ultimate goal.
+
++
++
+
+*[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand on your pool of knowledge.
+
++
++
+
+*[Commit]: When you've made a decision you are confident in, commit to it. Create a defined justification for your decision, and refer to it when you feel doubtful. You will waste a lot more time and nearly always come to unpleasant conclusions if you persistently flip flop between options.
+
++
++
+
+*[Progress consistently and regularly]: Even small steps on a regular basis lead to substantial results over a long period of time. Practice on a regular basis, regardless of short-term motivation or desire to do so.
+
++
++
+
+*[Improve your workflow]: Study, understand, and improve your workflow. After every project, review your work and the way it was created, and be critical. When the next project comes, consciously integrate the improvements you wish to make into your workflow.
+
++
++
+
+*[Avoid unnecessary comparisons]: Do not become obsessive in comparing your work to others'; always remember your personal ambitions. When facing moments of detrimental comparison, remind yourself of the reasons for why you enjoy doing the work you do. If you aren't progressing towards your objective, then the comparison is fair, and should be used as motivation.
+
++
++
+
+*[Create a plan]: Analyze your environment, find what you want to change, create a plan on how to change it, and then execute it. This cycle is found in all aspects of existence in our cause and effect universe. Master it, and only nature itself will prove an obstacle.
+
++
++
+
+*[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. On a small scale, a meta-objective, like improving the quality of your drawings of hands, will make you more critical towards your technique and accelerate your improvement. On a larger scale, long-term objectives will encourage you to be fully and more consistently engaged in the activities you wish to practice.
+
++
++
+
+*[Do not depend on inspiration]: To operate exclusively on inspiration is to ignore developing creativity as a skill. Inspiration should be utilized when it is present, but creative work should not depend on it. Furthermore, no activity is exclusively composed of creativity. In waiting for inspiration to strike, countless hours of potential improvement in the technical side of an activity are gone.
+
+%[]
+
+![Knowledge and Abstraction]
+
+*[Practice curiosity]: Seek to learn and satiate all curiosities. The act of learning should provide joy, and should be sought out on a regular basis. Many topics seem superficially uninteresting, but end up being very engaging at a higher depth.
+
++
++
+
+*[Learn and balance low and high level perspectives]: Low and high level workflows are both important in creating a proper balance between time and control. Working on a higher level allows for quicker production, but forces you to depend on the quality of lower levels, which can often be limiting for more complex projects. Working on a low level allows for extensive control over your work, but developing more complex tools takes a lot of time. Each task requires you to choose the balance between these two, and being familiar with both allows for more freedom in choosing an appropriate setup.
+
++
++
+
+*[Be a generalist]: Engage in all practices that interest you, avoid specializing in a single field. Find ways to combine knowledge and skills from one discipline to another. Information is too accessible and conveniently structured to only engage in a single discipline.
+
++
++
+
+*[Use rationality appropriately]: Rationality is a tool, to be used in all cases involving the methodology of reaching a goal. That is to say, a situation where the purpose is to find the most appropriate way to achieving a pre-established goal. Rationality's appropriateness ends at situations that have no goal, and subjective preferences based on innate biological traits take over.
+
++
++
+
+*[Anchor abstract concepts]: Abstract concepts can be difficult to grasp and to keep track of. When trying to develop abstract ideas, it is good to, at the very least, manifest them into the physical realm through symbols like writing. Beyond that, they can also be manifested through designed experiences. Each attempt to manifest an abstract idea is one step closer to understanding it fully.
+
++
++
+
+*[Do not over-indulge in theory]: Theoretical knowledge is useful, but it is easy to get lost in the world of theory without balancing it out through practice. Theoretical knowledge is pointless if it is not put to use.

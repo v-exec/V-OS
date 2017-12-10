@@ -1,0 +1,15 @@
+name: Keyde
+image: keyde>6
+image name: #[Keyde]
+tags: project, code, interactive
+title: #[Keyde] is a contemporary kaleidoscope.
+content: Created using Unity, #[Keyde] is a virtual reality application for Android an iOS. It is composed of a series of generative visuals driven by hardware data: accelorometer, location, camera feed, and touch. The application also features two dynamicly mixed ambient audio tracks, found in the #[Keyden] series.
+&[keyde>1]
+&[keyde>2]
+&[keyde>3]
+&[keyde>4]
+&[keyde>5]
+&[keyde>6]
+&[keyde>7]
+&[keyde>8]
+&[keyde>9]

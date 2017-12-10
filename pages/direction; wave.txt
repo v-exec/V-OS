@@ -1,0 +1,9 @@
+name: Direction; Wave
+image: scale>2
+image name: #[Scale]
+tags: project, audio, single
+title: #[Direction; Wave] is an acoustic ambient song.
+content: Discovered only a few years before the UEG collapse, _[Direction] is an algorithm produced by multimedia artist A-LP9 which, using a combination of pitched audio samples and recordings of atmospheric changes in pressure, produces generative musical pieces.
++
++
+<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215014252&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

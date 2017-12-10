@@ -1,0 +1,20 @@
+name: Analog
+image: analog>1
+image name: #[Analog]
+white: true
+tags: verse, person
+title: #[Analog] is a decentralized group of tech-savvy vigilantes, operating in various sectors of the #[Multiverse].
+content: #[Analog] was formed as a reactionary response to governmental secrecy in regards to interuniversal data. Its founders are D██████ ███e█████ and Fl███ █████, a theoretical physicist and systems expert respectively. When working privately for the UEG, they were the first to oppose the privatization of the information, covering topics like interuniversal travel, logs regarding at least 23 different universes, confirmation of 2 other alien species, and new progress in AI research.
++
++
+The group released as much of this private data as they could. The illegal publication of this information and its extreme sociopolitical consequences are what gave #[Analog] their reputation. The group remains highly controversial.
++
++
+Since the downfall of the UEG, new members have joined the vigilante group, with its size estimated at between 40 and 60 members. Information beyond this is scarce, as the group does not operate publicly.
++
++
+At the time of their formation and rise to fame, their motto became a trademark of the new era;
+
+?[./FREEDOM OF INFORMATION : AT ANY COST/.]
+
+Unfortunately, the scarcity of recent information doesn't help in confirming whether they still follow the same philosophy.

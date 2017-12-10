@@ -1,0 +1,8 @@
+name: ScopeOne
+image: scopeone>2
+image name: #[ScopeOne]
+white: true
+tags: project, code, interactive
+title: #[ScopeOne] is a relaxing VR experience for the Google Cardboard.
+content: #[ScopeOne] is a relaxing experience made in Unity that uses breathing frequency to control a particle system and day/night cycle that reflects the user's level of relaxation.
+&[scopeone>1]

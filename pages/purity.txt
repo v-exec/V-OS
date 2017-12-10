@@ -1,0 +1,35 @@
+name: Purity
+image: purity>1
+image name: #[Purity]
+github: https://github.com/v-exec/Purity
+tags: project, code, tool
+title: #[Purity] is an authoring engine that acts as the back-end of #[V-OS].
+content: #[Purity] is a specialized wiki engine built in PHP, with the purpose of creating a minimalistic platform for complex, interwoven networks of data.
++
++
+#[Purity] allows for elaborate connectivity between its object-based data structures (made easily accessible from a user standpoint with the help of Apache's URI rewriting system), intuitive writing as a result of its multi-layered parser, and generalized usage due to its functional usage as a content management system, and even a text-based game engine.
++
++
+Its markup language is based on a simple syntax. It contains 'attributes', which are declared through the attribute name, followed by a colon, and the information to be attributed to said attribute.
+
+~[
+name : text
++
+image :  directory>imagename
++
+etc.
+]
+
+And it contains 'rules', which are inline elements used to format text according to predetermined functions.
+
+~[
+= [tag] link list
++
+= [text ++ text0] compact custom list
++
+! [text] subtitle
++
+# [local link]
++
+etc.
+]

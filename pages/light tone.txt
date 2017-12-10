@@ -1,0 +1,31 @@
+name: Light Tone
+image: lighttone>1
+image name: #[Light Tone]
+github: https://github.com/v-exec/LightTone
+tags: project, code, display
+title: #[Light Tone] is an interactive audio sculpture and experimental musical instrument.
+content:#[Light Tone] allows users to play music on an imaginary piano roll in the air. Here's a video showcasing the project exhibition in Dawson College.
++
++
+<iframe class="media" src="https://www.youtube.com/embed/1LM5dB6Scdo" frameborder="0" allowfullscreen></iframe>
++
++
+#[Light Tone] aims to create an etheral feeling of playing music simply by extending one's hands, without touching anything, and to allow just about anyone to experience the joy of creating music on-the-fly.
++
++
+The project is programmed in Processing (Java) and uses Microsoft's Kinect for input. I used @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2] for Kinect interfacing with Processing, @[TheMidiBus>https://github.com/sparks/themidibus] for MIDI output, and @[LoopMidi>http://www.tobias-erichsen.de/software/loopmidi.html] for interfacing between Processing and Ableton Live.
++
++
+In simple terms, Processing scans a line of pixels, and once that line is intersected, a note is played dependant on the intersection point's normalized position. The X coordinate (left-right for the user) of the intersection point drives pitch, and the Y coordinate (up-down for the user) drives note velocity. The current setup covers 2 octaves, though it could technically cover anywhere between 1 and 512 notes (limited by the kinect's IR camera resolution).
++
++
+This midi information is sent to Ableton, goes through a synth, and plays along with a dynamically arranged piece with over 50 million unique combinations, using Ableton's clip triggers.
++
++
+Here's a sample of the dynamic soundtrack.
++
++
+<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283293885&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
++
++
+I wanted to add two lasers with line lenses and angle them to match with the pixel line so as to provide users with more visual feedback and help them interact with the project. Of course, for the light emitted from the lasers to be seen, it needed to intersect with something, like smoke from a smoke machine. I decided not to feature them in the exhibition because 1. the lasers I got were strong, and I didn't want to create a health hazard, and 2. I was (unsurprisingly) not allowed to use a smoke machine inside the school.

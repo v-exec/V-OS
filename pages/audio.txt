@@ -1,0 +1,20 @@
+name: Audio
+image: papur>3
+image name: #[Papur]
+tags: project, nav
+title: The #[audio] division includes all music and sound #[projects].
+content:$[singles>title]
+=[single]
+%[]
+
+$[albums>title]
+=[album]
+%[]
+
+I make my audio work primarily using Ableton as a DAW, with my Nektar Impact LX 61 as a midi controller. I also have experience with FL Studio and Logic Pro, but prefer Ableton, as its UI and functionality suits my workflow.
++
++
+I synthesize all of my audio, aside from drum samples. For sound synthesis, I use synths like Massive, IL Harmor, and a bunch of VSTs I've found on the web. Some of my projects also involve synthesis through programming with frameworks like MaxMSP, PureData, and Tone.js.
++
++
+Most of my music doesn't feature acoustic instruments, however I've played guitar for over a decade, and a bit of piano.

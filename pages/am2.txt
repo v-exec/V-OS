@@ -1,0 +1,20 @@
+name: AM2
+image: am2>4
+image name: #[AM2]
+white: true
+tags: project, visual, photography
+title: #[AM2] is a series of photographs of an interactive projection-mapped alleyway.
+content: This alleyway in Montreal had a set of projectors mounted on the surrounding building rooftops that cycled through a variety of interactive animations.
++
++
+I spent most of my time trying to get my shutter speed as high as possible to get glimpses of single frames of the projectors.
+
+&[am2>9]
+&[am2>8]
+&[am2>7]
+&[am2>6]
+&[am2>5]
+&[am2>4]
+&[am2>3]
+&[am2>2]
+&[am2>1]

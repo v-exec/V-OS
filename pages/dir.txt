@@ -1,0 +1,15 @@
+name: Dir
+image: dir>5
+image name: #[Dir]
+tags: project, visual, graphic
+title: #[Dir] is the avatar of technomancy.
+content: #[Dir] is, as claimed by a few rare witnesses, the symbol worn by the #[Technomancers].
++
++
+The #[Grand Archives] suggests that #[Dir] is possibly a chosen visual identity of a high-ranking agent within the group.
+&[dir>1]
+&[dir>2]
+&[dir>3]
+&[dir>4]
+&[dir>5]
+&[dir>6]

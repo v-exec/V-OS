@@ -1,0 +1,9 @@
+name: People
+image: solemn>1
+image name: #[Solemn]
+white: true
+tags: verse, nav
+title: The #[people] section includes sentient entities and groups of interest in the #[Multiverse].
+content: =[person]
+%[]
+The people of the #[Multiverse] include AI, as well as biological entities.

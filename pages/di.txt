@@ -1,0 +1,8 @@
+name: Di
+image: di>1
+image name: #[Di]
+white: true
+tags: project, visual, graphic
+title: #[Di] was a leading rank of The #[Dei] before their disbandment.
+content:&[di>1]
+&[di>2]
