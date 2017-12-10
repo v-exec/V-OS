@@ -26,6 +26,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Make #[V-OS] @[open source>https://github.com/v-exec/V-OS].
+++
 Made small visual changes to #[V-OS].
 ++
 Added archive for The #[Dei].
@@ -37,12 +39,4 @@ Added documentation for #[Di], the only survivor from The #[Dei].
 Added documentation for #[Moré], a snow planet dedicated to the Goddess #[Mora].
 ++
 Cleaned up #[V-OS] by removing unappealing projects, updating #[Purity], and reorganizing the #[verse] in preparation for a new wave of content.
-++
-Information on #[Atomic AI] has been made public.
-++
-Added notes on the #[Automata].
-++
-Released #[Dentatsuna] studies.
-++
-Documented and released #[DotCycle], a narrative game exploring archived memories of an #[atomic AI].
 ]
