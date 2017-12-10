@@ -15,9 +15,7 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 
 %[]
 
-~[
-@[Vi>victor]'s recent @[activities>http://log.v-os.ca].
-+
+~[@[Vi>victor]'s recent @[activities>http://log.v-os.ca].
 +
 +
 >[getRecentActivities(7);]
