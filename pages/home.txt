@@ -26,6 +26,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Added #[Wite], a proof of concept modular interface environment.
+++
 Made #[V-OS] @[open source>https://github.com/v-exec/V-OS].
 ++
 Made small visual changes to #[V-OS] and the #[Log].
