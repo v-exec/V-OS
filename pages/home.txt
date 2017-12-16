@@ -8,7 +8,7 @@ title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse]
 content: Welcome. This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
 +
 +
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect worlds and deconstruct the physical realm.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm.
 +
 +
 Here, you can find my #[projects] and their documentation. If you don't know where to start, check out the #[index].
