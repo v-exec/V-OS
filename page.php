@@ -162,6 +162,7 @@ else $artifact = getArtifact('404');
 
 <script src="assets/scripts/logo.js"></script>
 <script src="assets/scripts/cli.js"></script>
+<script src="assets/scripts/requestscript.js"></script>
 
 <?php checkWhite();?>
 

@@ -223,7 +223,7 @@ class Parser {
 		global $artifacts;
 
 		$string = $this->cleanString($string);
-		if ($this->artifactExist($string)) return '<a href="'.strtolower($string).'" '.$style.'>'.$string.'</a>';
+		if ($this->artifactExist($string)) return '<a href="'.strtolower($string).'"'.$style.'>'.$string.'</a>';
 		return '<span '.$style.'>'.$string.'</span>';
 	}
 
@@ -240,7 +240,7 @@ class Parser {
 		$word = trim(substr($string, 0, $accessor));
 		$link = trim(substr($string, $accessor + 1, strlen($string)));
 
-		if ($this->artifactExist($link)) return '<a href="'.strtolower($link).'" '.$style.'>'.$word.'</a>';
+		if ($this->artifactExist($link)) return '<a href="'.strtolower($link).'"'.$style.'>'.$word.'</a>';
 		return '<a href="'.$link.'" class="external">'.$word.'</a>';
 	}
 

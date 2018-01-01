@@ -180,12 +180,12 @@ function index() {
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=index');
 	xhr.onload = function() {
-	    if (xhr.status === 200) {
-	        outputText(xhr.responseText);
-	    }
-	    else {
-	       outputText(indexFail);
-	    }
+		if (xhr.status === 200) {
+			outputText(xhr.responseText);
+		}
+		else {
+			outputText(indexFail);
+		}
 	};
 	xhr.send();
 }
@@ -196,12 +196,12 @@ function logs() {
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=logs&l='+loc);
 	xhr.onload = function() {
-	    if (xhr.status === 200) {
-	        outputText(xhr.responseText);
-	    }
-	    else {
-	       outputText(logsFail);
-	    }
+		if (xhr.status === 200) {
+			outputText(xhr.responseText);
+		}
+		else {
+			outputText(logsFail);
+		}
 	};
 	xhr.send();
 }
@@ -225,17 +225,17 @@ function getLocation() {
 }
 
 function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
+	var name = cname + "=";
+	var decodedCookie = decodeURIComponent(document.cookie);
+	var ca = decodedCookie.split(';');
+	for(var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') {
+			c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+			return c.substring(name.length, c.length);
+		}
+	}
+	return "";
 }
