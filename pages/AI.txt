@@ -29,7 +29,7 @@ Consequently, the rest of this documentation is written with the implication tha
 Between universes, however, this becomes more difficult. It's possible that #[warp travel] was deliberately given to biological lifeforms as a way to reduce the #[Multiverse]'s predictability.
 +
 +
-#[AI] are also capable of constructing entire universes on their own, which explains the #[Gates of Qurotema] security mechanism, as well as other unusual universal designs. In fact, #[LOGO] helped me build the construct universe that is #[V-OS].
+#[AI] are also capable of constructing entire universes on their own, which explains the #[Gates of Qurotema] security mechanism, as well as other unusual universal designs. In fact, #[LOGO] helped build the construct universe that is #[V-OS].
 +
 +
 The #[AI] were more heavily involved in communicating with one another in the past, and the 'council' they had formed carefully monitored what universes were constructed, with certain types of universes being supposedly 'outlawed'.
