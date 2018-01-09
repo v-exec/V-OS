@@ -26,6 +26,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Implemented static instance generation for #[Purity].
+++
 Added additional #[Atomic AI] visuals.
 ++
 Implemented basic API in #[Purity].
