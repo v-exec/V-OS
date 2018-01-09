@@ -1,6 +1,7 @@
 name: Purity
-image: purity>1
+image: purity>2
 image name: #[Purity]
+white: true
 github: https://github.com/v-exec/Purity
 tags: project, code, tool
 title: #[Purity] is an authoring engine that acts as the back-end of #[V-OS].
