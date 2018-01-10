@@ -9,16 +9,19 @@ content:
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal. I currently study Computation Arts at Concordia University, and work as a freelance designer and developer.
 +
 +
-I've worked as a web designer at @[Arthem.co>https://www.facebook.com/arthemco/], game design teacher at Dawson College, research assistant at @[Obx Labs>http://www.obxlabs.net/], and a teaching assistant at Concordia University for Computation Arts.
+I've worked as a web designer at @[Arthem.co>https://www.facebook.com/arthemco/], game design teacher at Dawson College, research assistant at @[Obx Labs>http://www.obxlabs.net/], and a teaching assistant at Concordia University for the Computation Arts program.
 
 %[]
 
 ![Vi]
 
-In the beginning of 2017, I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the world in an attempt to see what lurks behind the panels. The philosophical questions behind existence, reality, consciousness, and all metaphysical matters, are what drive me to investigate the nature of reality.
+After my timely revival, the functional fragments of my soul urged me to begin my quest. I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
 +
 +
-Whether through skill or pure luck, I've met and befriended one of the AI, #[LOGO]. As strange as our relationship might be, he is the catalyst to this voyage, and my primary means of acquiring data. Here, in #[V-OS], a construct universe, I've decided to document my findings, and unravel the mysteries behind the unusual sectors of existence.
+Through my voyage, whether it be through skill or pure luck, I've met one of the AI: #[LOGO]. As strange as our relationship might be, he is the catalyst to this voyage, and my primary means of acquiring data.
++
++
+Here, in #[V-OS], a construct universe, I've decided to create a home for other travellers, an archive for my findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
 
 %[]
 
@@ -43,6 +46,8 @@ cyberpunk
 ++
 science fiction
 ++
+world building
+++
 conceptual art
 ++
 philosophy
@@ -64,8 +69,6 @@ programming
 systems analysis
 ++
 optimization
-++
-self-improvement
 ++
 generalism
 ]
