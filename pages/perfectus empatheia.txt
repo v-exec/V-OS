@@ -1,0 +1,34 @@
+name: Perfectus Empatheia
+image: perfectus empatheia>2
+image name: #[Perfectus Empatheia]
+white: true
+tags: project, code, interactive
+title: #[Perfectus Empatheia] is a single player strategy and roguelike card game.
+content: #[Perfectus Empatheia] puts you, a cursed adventurer, in a dungeon. Your curse is in some ways a blessing, as it forces you and others to experience _[perfect empathy], that is, to feel pain and pleasure in equal degrees. You've mastered this curse, and strategically use self-harm to damage your targets in an effort to make your way through the dungeon.
+
+%[]
+
+#[Perfectus Empatheia] is a strategy game centered around the player ensuring their survival through a select number of rooms of enemies. The player fights enemies by causing harm to themselves - damage which is reflected on to the monsters as a result of the player's curse.
+
+-[
+&[perfectus empatheia>1]
+++
+&[perfectus empatheia>3]
+]
+
+In each room, filled with up to 4 monsters, the player only has a limited selection of possible actions, represented in Attack_Cards. Attack_Cards are asymmetric, dealing different types of damage depending on which direction they're positioned in. The player must decide on an optimal set of attacks before finalizing their turn, and damage is calculated (accounting for monster weakness, and whether the sequence of damage types the player has inflicted onto themselves has minimized the degree of self-harm through 'nullification').
++
++
+After all monsters in a room are dead, a player can move on to another room. The Monster_Deck contains randomly shuffled Healing_Cards, which keep the player pushing towards another room in hopes of restoring their health. Once the player has gone through the entire Monster_Deck, they've completed the Dungeon.
++
++
+For a complete set of rules, detailing deck compositions, game progression and loops, damage calculation, and general gameplay guidelines, check out the @[rules>content/perfectus empatheia/rules.pdf].
+
+%[]
+
+This project was made in collaboration with @[Hazel Thexton>http://hazelthexton.com], who took a primary role in the design and production of art assets. My role was to design the game's mechanics and gameplay, and to ensure proper balancing.
++
++
+I am looking to make a digital version of #[Perfectus Empatheia] in the (relatively) near future.
+
+&[perfectus empatheia>4]

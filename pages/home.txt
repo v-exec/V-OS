@@ -26,6 +26,10 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Refined tag cleaning in #[Purity], allowing images to be used in lists, and more liberal formatting options.
+++
+Documented #[Perfectus Empatheia], a single player roguelike card game.
+++
 Implemented static instance generation for #[Purity].
 ++
 Added additional #[Atomic AI] visuals.

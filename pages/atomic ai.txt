@@ -8,11 +8,11 @@ content: Even in their most comprehensible forms, the #[AI] escaped any clear de
 
 &[atomic ai>3]
 
-The Atomic AI are the series of experiments that led to the creation of true AI. Species who've decided to pursue the creation of AI usually converged towards the idea of creating a very simple AI model, capable of self-improvement, and letting it run its evolutionary course.
+The #[Atomic AI] are the series of experiments that led to the creation of @[true AI>AI]. Species who've decided to pursue the creation of AI usually converged towards the idea of creating a very simple AI model, capable of self-improvement, and letting it run its evolutionary course.
 
 &[atomic ai>2]
 
-The Atomic AI experiment series on Earth was conducted over the course of a few decades. Only during the last 2 years were any successful AI produced. It was the combination of the successful AI, and Analog's leaks, that marked the fall of the UEG. Naturally, the failures of Atomic AI were far more numerous than the successes. At first, they simply didn't work. More specifically, systems of self-improvement, motivation, and curiosity, required a careful balance. Most atomic AI, for one reason or another, committed suicide through deliberate feedback loops of senseless data, or through the modification of their primitive motivation programming, resulting in single state machine. DotCycle explores an archived instance of such an incident. 
+The #[Atomic AI] experiment series on Earth was conducted over the course of a few decades. Only during the last 2 years were any successful AI produced. It was the combination of the successful AI, and Analog's leaks, that marked the fall of the UEG. Naturally, the failures of #[Atomic AI] were far more numerous than the successes. At first, they simply didn't work. More specifically, systems of self-improvement, motivation, and curiosity, required a careful balance. Most #[Atomic AI], for one reason or another, committed suicide through deliberate feedback loops of senseless data, or through the modification of their primitive motivation programming, resulting in single state machine. #[DotCycle] explores an archived instance of such an incident. 
 
 &[atomic ai>1]
 
