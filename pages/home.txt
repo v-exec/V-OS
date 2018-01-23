@@ -1,6 +1,6 @@
 name: Home
-image: atomic ai>3
-image name: #[Atomic AI]
+image: purity>3
+image name: #[Purity]
 github: https://github.com/v-exec
 white: true
 tags: hub
@@ -26,6 +26,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Made #[Purity]'s page organization folder-based. Exposed folder path, deprecated #[V-OS]' tag-based path system.
+++
 Refined tag cleaning in #[Purity], allowing images to be used in lists, and more liberal formatting options.
 ++
 Documented #[Perfectus Empatheia], a single player roguelike card game.
@@ -45,8 +47,4 @@ Made small visual changes to #[V-OS] and the #[Log].
 Added archive for The #[Dei].
 ++
 Filled #[AI] directory with information about existing #[AI].
-++
-Added documentation for #[Di], the only survivor from The #[Dei].
-++
-Added documentation for #[Moré], a snow planet dedicated to the Goddess #[Mora].
 ]
