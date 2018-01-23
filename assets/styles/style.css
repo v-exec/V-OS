@@ -251,7 +251,7 @@ a.external:after {
 
 .text-image {
 	width: calc(100% - 80px);
-	border-radius: 2px;
+	border-radius: 3px;
 	margin: 0 40px 40px 40px;
 }
 

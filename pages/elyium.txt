@@ -14,9 +14,7 @@ Aside from being a story-centered game, #[Elyium] is also a storytelling format.
 +
 A @[writing guide>https://github.com/v-exec/Elyium/blob/master/public/Guide%20to%20Writing.md], along with a large quantity of information relating to #[Elyium], is available on the @[Github repo>https://github.com/v-exec/Elyium].
 
-%[]
-
-_[NOTE]: #[Elyium] is playable. Remaining tasks to be completed are related to user experience / interaction design, some minor fixes, and testing. As of right now, the project is on hold indefinitely. It acts as a proof of concept, and would require a full rewrite for increased accessability and expandability.
+~[_[NOTE]: #[Elyium] is playable. Remaining tasks to be completed are related to user experience / interaction design, some minor fixes, and testing. As of right now, the project is on hold indefinitely. It acts as a proof of concept, and would require a full rewrite for increased accessability and expandability.]
 
 %[]
 

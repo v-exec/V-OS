@@ -92,7 +92,9 @@ I also log my daily activities, in an attempt to track, analyze, and optimize my
 ++
 @[Soundcloud>https://soundcloud.com/v_exec]: Unfiltered music repository.
 ++
-@[me@v-os.ca>mailto:me@v-os.ca]: Professional email address.
+@[me@v-os.ca>mailto:me@v-os.ca]: #[V-OS]-specific email address.
+++
+@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Professional email address.
 ]
 
 %[]

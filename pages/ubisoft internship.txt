@@ -1,0 +1,184 @@
+name: Ubisoft Internship
+image: ubisoft internship>1
+image name: #[]
+white: true
+tags:
+title: Curated portfolio selection for Ubisoft internship application - Victor Ivanov.
+content:
+
+Hello, my name is #[Victor] Ivanov, and I'm a multidisciplinary designer and developer studying at Concordia. I am also a participant in this year's Ubisoft Game Lab Competition.
++
++
+My skills and interests reach a variety of media and topics, and I would be thrilled to have the opportunity to both provide my existing abilities to Ubisoft, as well as take full advantage of such an occasion to learn from more experienced and skillful developers, artists, and designers.
++
++
+This document is a curated portfolio made specifically to showcase a series of projects relevant to game design and development, as well as a convenient way to communicate additional information in regards to certain projects. Each project's title is clickable, and leads to the project page, which typically contains additional details in terms of rules, mechanics, and/or narratives.
++
++
+Thank you for taking the time to review my application for an internship at your studio.
+
+%[======================]
+![Links]
+
+-[
+@[Portfolio>https://v-os.ca]
+++
+@[Github>https://github.com/v-exec]
+++
+@[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]
+++
+@[Email>mailto:victor.ivanov.design@gmail.com]
+++
+@[CV>content/ubisoft internship/victor_ivanov_cv.pdf]
+++
+@[Transcript>content/ubisoft internship/victor_ivanov_transcript.pdf]
+]
+
+%[======================]
+![#[DotCycle]]
+
+<iframe class="media" src="https://www.youtube.com/embed/eX9zbHPs6eY" frameborder="0" allowfullscreen></iframe>
++
++
+#[DotCycle] is a linear, narrative-centric game. Its purpose is to provide an atmospheric environment in which the player traverses environmental scenes that act as visual support for on-screen poetry.
++
++
+@[Download it for windows here>https://v-os.ca/content/dotcycle/DotCycle_Build_win.zip].
++
+@[Code repository here>https://github.com/v-exec/DotCycle].
+
+~[Made using Unity, with the only plugin being a simple motion blur post-processing effect.
++
+Created in 35 hours.]
+
+%[======================]
+![#[Perfectus Empatheia]]
+=[
+&[perfectus empatheia>1]
+++
+&[perfectus empatheia>2]
+++
+&[perfectus empatheia>3]
+++
+&[perfectus empatheia>4]
+]
+
+#[Perfectus Empatheia] is a singleplayer strategy roguelike card game. The purpose is to survive a dungeon; the deck of monster cards. The player is cursed with _["Perfect Empathy"], the ability to inflict damage onto others _[by means of self-harm]. In other words, to damage an enemy, the player must damage themselves. So, to make their way through the dungeon, the player must strategically formulate a sequence of attacks that is optimally damaging towards enemies, and minimally damaging towards oneself.
++
++
+The player attacks using attack cards. These cards have 2 polarities, each polarity with a damage amount, and an attack type. The types of attacks the player executes, the direction that each of the attack cards is placed in, as well as the sequence of attacks, can take advantage of enemies' weaknesses to certain attack types, as well as 'nullify' damage towards the player by sequencing attack types that cancel each other out.
++
++
+@[Full rule set, terminology, and deck composition here>https://v-os.ca/content/perfectus empatheia/rules.pdf].
++
+@[More involved elaboration on mechanics here>perfectus empatheia].
+
+~[Graphics produced by @[Hazel Thexton>https://hazelthexton.com/].]
+
+%[======================]
+![#[RELAY]]
+&[relay>2]
+
+#[RELAY] is an asymmetric, multiplayer geolocative hacking game. It's a game that puts desktop players in their home in a team with mobile players walking about in the physical world, and gives them unique opportunities to cooperate with one another in order to hack other pairs of players. Mobile and desktop players in a team can chat in-game, but have access to different interfaces and mechanics.
++
++
+The purpose was to create a geolocative game where players could engage in entirely different mechanics, and take on complementary roles. For this reason, mobile players only have access to feedback of what their partner is doing (hacking, casting an ability, etc.). Their primary role is to be engaged in the physical world. Desktop players, however, have access to a map, and can initiate hacks. Their primary role is to guide their partner, and to engage in actions in the digital world.
++
++
+By getting their mobile partner 100m from another player, the desktop player can initiate a hack. This hack takes approximately 5 minutes to complete, during which time the target can either escape, or find the mobile player hacking them, get within 25m of them, and have their desktop partner initiate a counter-hack, immediately rendering the targeted team victorious.
++
++
+@[Code repository and detailed mechanics here>https://github.com/v-exec/Relay].
++
+@[More involved elaboration on mechanics here>relay].
+
+~[Made using NodeJS and Socket.io.
++
+Requires NodeJS-compatible server to host, which I unfortunately have no access to, at the moment. 
++
+User interfacing inspired by WatchDogs' UI and art direction.
++
+All images are in-game shots of gameplay.
++
+Created in 50 hours.]
+
+%[======================]
+![#[Elyium]]
+&[elyium>3]
+
+#[Elyium] is a narrative-centric alternate reality game made for Android. It can also be used as a platform for geolocative storytelling.
++
++
+Players turn on their location tracking on their phone, and as they walk around, they can either randomly stumble upon an 'entity', or if an entity's location has been hardcoded, meet the entity once they've reached its location.
++
++
+An 'entity' is a character, location, or object, and it holds a collection of stories. Upon meeting an entity for the first time, the player is given a randomly chosen story from the entity's repertoire, in which they have to make a series of choices, producing a branching action tree. These choices are recorded, saved over multiple sessions, and used to determine which stories other entities can present to the player (producing conditional stories, i.e. stories that are only accessible if the player has completed another story by making a specific decision / series of decisions). Players can revisit entities to gain access to the other stories in their repertoire over multiple visits.
++
++
+#[Elyium] can also be used as a platform for geolocative storytelling. Writers can build their own versions of #[Elyium], with their own sets of content/stories, and utilize its mechanics to tell their own narratives.
++
++
+@[Code repository and APK download here>https://github.com/v-exec/Elyium].
+
+~[Made exclusively in Processing.
++
+Created in 80 hours.]
+
+%[======================]
+![#[Moré]]
+&[moré>1]
+&[moré>2]
+
+#[Moré] is 3D concept art depicting a large-scale scene, including a low-detail sculpted character, as well as a hardsurface structure and snowy terrain.
+
+~[Made exclusively in Blender.]
+
+%[======================]
+![#[Atmos]]
+&[atmos>1]
+
+#[Atmos] is composite concept art depicting a large structure in a stormy environment, including an illustrated character and generated terrain.
+
+~[Terrain and atmospherics made using Terragen.
++
+Distant structure made using Mandelbulb 3D as source of 3D fractals.
++
+Compositing, illustration, and heavy editing done in Photoshop.]
+
+%[======================]
+![#[Blackbox 11]]
+&[blackbox11>1]
+
+#[Blackbox 11] is composite concept art depicting the exploration of a monument in a desolate, night-time environment. The challenge associated to this project was that I was not allowed to create any base images on my own, meaning that all elements in #[Blackbox 11] are from found imagery. I was only allowed to draw lighting (shadows and highlights) over existing imagery.
+
+~[Made exclusively in Photoshop, with all visual elements (including textures) used from found imagery.]
+
+%[======================]
+![#[Dentatsuna]]
+&[dentatsuna>2]
+
+#[Dentatsuna] is 3D concept art depicting an abandoned ship in foggy, dark dunes.
+
+~[Made exclusively in Blender.]
+
+%[======================]
+![#[Saturn]]
+&[saturn>1]
+
+#[Saturn] is composite concept art depicting a vast, foggy planet covered with skeletal, symbolic relics. It is also used as the cover art for #[The Cosmic Affliction], a musical album.
+
+~[Terrain and atmospherics made in Terragen.
++
+Compositing, illustration, and heavy editing done in Photoshop.]
+
+%[======================]
+![Final Notes]
+
+- For a full list of my projects, there's the #[projects] page.
++
+- Je n'ai aucune difficulté à m'intégrer dans un milieu Francophone.
++
+- For more information about me, my interests, and motivations, there's the #[Victor] page.
++
++
+Thank you for your consideration.
