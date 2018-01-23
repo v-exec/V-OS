@@ -55,7 +55,7 @@
 
 			<div id="additional">
 				<div class="additional-left">
-					<?php echo $artifact->attributes['path'];?>
+					<?php echo $artifact->path;?>
 				</div>
 				<div class="additional-right">
 					<a href="javascript:void(0)" class="additional-info neutral-link" onclick="toggleCLI()">lo-cli</a>

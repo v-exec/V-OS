@@ -30,12 +30,14 @@ X		runtime
 				Di
 				Atomic AI
 				Gates of Qurotema
+				Verse Nodes
 			photography
-				Amy2
+				AM2
 				Witome
 				Papur
 				PC
 				Sira
+				Flora
 		audio
 			singles
 				Quro

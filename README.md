@@ -6,7 +6,7 @@ Its purpose is to act as both a portfolio for existing work, as well as a reposi
 
 Its differences with a base Purity instance are:
 
-- Purity modifications for additional parameters, including a simple navigation path using Purity's artifact tags.
+- Additional page construction parameters.
 
 - Navigation CLI for expanded user experience.
 

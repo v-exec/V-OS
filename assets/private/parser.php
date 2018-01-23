@@ -7,27 +7,6 @@ In the event of an expansion or customization of this system,
 new parsing criteria and features can seamlessly be introduced as a basic addition to the existing code.
 */
 class Parser {
-	//all acceptable tags, and what they should read out when creating path
-	private $tags = array(
-		['project', 'projects'],
-		['verse', 'verse'],
-		['research', 'research'],
-		['audio', 'audio'],
-		['visual', 'visual'],
-		['code', 'code'],
-		['tool', 'tools'],
-		['interactive', 'interactive'],
-		['display', 'display'],
-		['graphic', 'graphic'],
-		['photography', 'photography'],
-		['single', 'singles'],
-		['album', 'albums'],
-		['person', 'people'],
-		['location', 'locations'],
-		['AI', 'AI'],
-		['phenomenon', 'phenomena']
-	);
-
 	//image directory
 	private $imageDirectory = 'images';
 
@@ -40,8 +19,15 @@ class Parser {
 			}
 		}
 
-		//create path
-		if ($artifact->tags) $this->createPath($artifact);
+		//format path
+		if ($artifact->path) {
+			$tempPath;
+			for ($i = 0; $i < sizeof($artifact->path); $i++) {
+				$tempPath = $tempPath . '<a href="' . $artifact->path[$i] . '" class="path neutral-link">' . strtolower($artifact->path[$i]) . '</a>';
+				if ($i != sizeof($artifact->path) - 1) $tempPath = $tempPath . '<span class="path">/</span>';
+			}
+			$artifact->path = $tempPath;
+		}
 
 		//create image
 		if($artifact->attributes['image']) $artifact->attributes['image'] = $this->createImage($artifact->attributes['image'], "", false);
@@ -55,7 +41,7 @@ class Parser {
 			$this->formatText($artifact, 'image name', '@', 'class="header-title neutral-link"');
 		}
 
-//format title
+		//format title
 		if ($artifact->attributes['title']) {
 			$this->formatText($artifact, 'title', '@', '');
 			$this->formatText($artifact, 'title', '#', '');
@@ -78,47 +64,24 @@ class Parser {
 			$this->formatText($artifact, 'content', '!', '');
 			$this->formatText($artifact, 'content', '>', '');
 		}
-
-		//format details
-		if ($artifact->attributes['details']) {
-			$this->formatText($artifact, 'details', '#', '');
-			$this->formatText($artifact, 'details', '_', '');
-			$this->formatText($artifact, 'details', '*', '');
-			$this->formatText($artifact, 'details', '$', '');
-			$this->formatText($artifact, 'details', '@', '');
-			$this->formatText($artifact, 'details', '>', '');
-		}
 	}
 
 	//goes through remaining artifact attributes (ones that are dependant on the previous formats being complete) and formats each one according to the existing formatting rules
 	public function secondFormat($artifact) {
+		//format content
+		if ($artifact->attributes['content']) {
 
-		//reformat 10 times to allow for 10 levels of nested artifact content retrieval
-		//could be theoretically infinite, but that doesn't seem practical, and will easily end up with infinite loops
-		for ($i = 0; $i < 10; $i++) {
-			$this->formatText($artifact, 'content', '-', '');
-			$this->formatText($artifact, 'content', '=', '');
-			$this->formatText($artifact, 'content', '$', '');
+			//reformat 10 times to allow for 10 levels of nested artifact content retrieval
+			//could be theoretically infinite, but that doesn't seem practical, and will easily end up with infinite loops
+			for ($i = 0; $i < 10; $i++) {
+				$this->formatText($artifact, 'content', '-', '');
+				$this->formatText($artifact, 'content', '=', '');
+				$this->formatText($artifact, 'content', '$', '');
+			}
+			
+			//clean paragraphs
+			$artifact->attributes['content'] = $this->cleanParagraphs($artifact->attributes['content']);
 		}
-		
-		//clean paragraphs
-		$artifact->attributes['content'] = $this->cleanParagraphs($artifact->attributes['content']);
-	}
-
-	//creates a path for predetermined hierarchy/navigation, based on tags
-	private function createPath($artifact) {
-		//set up artifact path
-		$artifact->attributes['path'] = '<a href="home" class="path neutral-link">home</a><span class="path">/</span>';
-
-		//check all artifact tags for parse tags
-		for ($i = 0; $i < sizeof($this->tags); $i++) {
-			if ($artifact->hasTag($this->tags[$i][0])) $artifact->attributes['path'] = $artifact->attributes['path'].'<a href="'.$this->tags[$i][1].'" class="path neutral-link">'.$this->tags[$i][1].'</a><span class="path">/</span>';
-
-			//hub tag clears path
-			if ($artifact->hasTag('hub')) $artifact->attributes['path'] = null;
-		}
-		//assign path
-		$artifact->attributes['path'] = $artifact->attributes['path'].'<a href="'.strtolower($artifact->attributes['name']).'" class="path neutral-link">'.strtolower($artifact->attributes['name']).'</a>';
 	}
 
 	//finds all instances of $symbol[] within $artifact->attributes[$attribute], and replaces it with the appropriate html element, and applies custom $style to said element
@@ -132,8 +95,7 @@ class Parser {
 			$artifact->attributes['github'] = null;
 			$artifact->attributes['content'] = null;
 			$artifact->attributes['white'] = null;
-			$artifact->attributes['path'] = null;
-			$artifact->attributes['details'] = null;
+			$artifact->path = null;
 			$artifact->tags = null;
 			$artifact->attributes['title'] = 'There was an error loading this page. Please contact <a href="LOGO">LOGO</a>.';
 			return;
