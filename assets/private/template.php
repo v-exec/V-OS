@@ -1,4 +1,4 @@
-<?php global $artifact; ?>
+<?php global $artifact;?>
 
 <!DOCTYPE html>
 
@@ -46,37 +46,64 @@
 		</div>
 	</div>
 
+	<div id="no-page-header"></div>
+
 	<div id="body">
-		<div id="body-content">
-
-			<div id="title">
-				<h1><?php echo $artifact->attributes['title']?></h1>
-			</div>
-
-			<div id="additional">
-				<div class="additional-left">
+		<div id="full-container">
+			<div id="sidebar">
+				<div class="path-container">
 					<?php echo $artifact->path;?>
 				</div>
-				<div class="additional-right">
-					<a href="javascript:void(0)" class="additional-info neutral-link" onclick="toggleCLI()">lo-cli</a>
-					<?php if ($artifact->attributes['github']) echo $artifact->attributes['github'];?>
-					<?php echo getLogData();?>
-				</div>
-			</div>
 
-			<div id="cli">
-				<div id="cli-output">
-					<span id="lo-cli-output"></span>
-				</div>
-				<div id="cli-input">
-					<span id="cli-symbol">></span><input type="text" id="lo-cli-input" value="" onkeypress="guide(event)"></input>
-				</div>
-			</div>
+				<?php echo $artifact->attributes['icon'];?>
 
-			<div id="content">
-				<?php echo $artifact->attributes['content'];?>
-			</div>
+				<div id="cli">
+					<div id="cli-output">
+						<span id="lo-cli-output"></span>
+					</div>
+					<div id="cli-input">
+						<span id="cli-symbol">></span><input type="text" id="lo-cli-input" value="" onkeypress="guide(event)"></input>
+					</div>
+				</div>
 
+				<?php
+				if ($data = getLogData()) {
+					echo '<span class="side-title"><a href="https://log.v-os.ca/'. $artifact->attributes['name'] .'">Log.Entries</a></span>';
+					echo $data;
+				}
+				?>
+
+				<?php
+				if ($github = $artifact->attributes['github']) {
+					echo '<span class="side-title">Links</span>';
+					echo $github;
+				}
+				?>
+
+				<?php
+				if ($related = getRelated($artifact, false, null, 'sidebar-related-title', 'sidebar-related-same')) {
+					$dir = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
+					echo '<span class="side-title"><a href="'. $dir .'">'. ucfirst($dir) .'</a></span>';
+					echo $related;
+				}
+				?>
+			</div><div id="body-content">
+
+				<div id="mobile-path">
+					<?php echo $artifact->path;?>
+				</div>
+
+				<div id="title">
+					<h1><?php echo $artifact->attributes['title']?></h1>
+				</div>
+
+				<div class="divider"></div>
+
+				<div id="content">
+					<?php echo $artifact->attributes['content'];?>
+				</div>
+
+			</div>
 		</div>
 	</div>
 
@@ -109,6 +136,7 @@
 <script src="assets/scripts/requestscript.js"></script>
 
 <?php checkWhite();?>
+<?php checkImage();?>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 name: 404
 image: 404>1
-image name: Error.
+image name: Error
 white: true
 tags: error
 title: Artifact _[$[self]] not found.

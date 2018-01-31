@@ -1,6 +1,6 @@
 name: Voxelverse
-image: antifall>1
-image name: #[Antifall]
+image: voxelverse>1
+image name: #[Voxelverse]
 tags: verse, location
 title: The #[Voxelverse] is a construct world with spatial curiosities.
 content: The #[Voxelverse] is one of the few noteworthy discovered universes available in the #[Grand Archives]. It has no link to #[Temporalis], and likely uses its own timekeeping system. Its smallest unit of space is equivalent to approximately 4.402 centimeters, and its time is split into cycles of localized stasis and runtime.
@@ -13,9 +13,3 @@ There's no discernable pattern as to when a cluster (a collection of particles t
 +
 +
 There exist a few popular conjectures related to the #[Voxelverse]. One claims that the size of the particles suggests that there is complex activity occuring on a much larger scale, though no evidence of large-scale analysis seems to confirm this. The most widely accepted speculation questions the universe's lack of connection to #[Temporalis], and states that the timekeeping mechanisms must be the source of the activity in the world. This timekeeping system would be similar to that of #[Temporalis], in that each particle is connected to the mechanisms through a general field. A few rare mentions of each cluster being parameterized, and running on a slightly different versions of the timekeeping protocol, have also surfaced.
-
-details:
-The #[Voxelverse] is a construct universe, created deliberately by a single entity. Very few know of this.
-+
-+
-I'm not sure who made it, though I suspect the information in the #[Crypt] might lead to new data.

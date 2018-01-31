@@ -19,9 +19,3 @@ In more secluded areas of the city, however, are a multitude of machines used fo
 +
 +
 Time in #[Temporalis] is in fact driven by #[Temporalis] itself. This means that the time-keeping mechanisms in the city are simply actors in a feedback loop that upholds the passage of time. How this process was kickstarted is unknown.
-
-details:
-#[Temporalis] is indeed the primary timekeeper of a large quantity of universes, though it is not a default constituent to all universes.
-+
-+
-That is to say, there are many worlds that either track their time through their own means, or do not handle time whatsoever.

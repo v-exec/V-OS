@@ -1,7 +1,6 @@
 //===================================================== Variables
 
 var cli = document.getElementById('cli');
-var isDisplayed;
 
 var outputBox = document.getElementById('lo-cli-output');
 var inputBox = document.getElementById('lo-cli-input');
@@ -33,11 +32,9 @@ var rename = "Okay, I'll call you #[user] from now on.";
 
 var commands = [
 "<i><b>help</b></i> - get list of commands<br><br>",
-"<i><b>logs</b></i> - get additional log information for page<br><br>",
 "<i><b>index</b></i> - get list of navigation pages<br><br>",
 "<i><b>travel page_name</b></i> - travel to page <i>page_name</i><br><br>",
 "<i><b>rename new_name</b></i> - change name to <i>new_name</i><br><br>",
-"<i><b>exit</b></i> - exit cli<br><br>",
 "Alternatively, you may also write the first letter of each command as shorthand."
 ];
 
@@ -49,36 +46,13 @@ var indexFail = "There seemed to be an error fetching the indices, my apologies.
 
 //===================================================== Runtime
 
-cli.style.display = "none";
 intro();
 
 //===================================================== Primary Functions
 
-function toggleCLI() {
-	if (isDisplayed) {
-		cli.style.display = "none";
-		isDisplayed = false;
-		document.cookie = "isDisplayed=false; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
-	}
-	else {
-		cli.style.display = "block";
-		inputBox.focus();
-		isDisplayed = true;
-		document.cookie = "isDisplayed=true; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
-	}
-}
-
-document.addEventListener("keydown", cliToggleCheck, false);
-
-function cliToggleCheck(e) {
-	if (e.keyCode == 13 && !isDisplayed) {
-		e.preventDefault();
-		cli.style.display = "block";
-		inputBox.focus();
-		isDisplayed = true;
-		document.cookie = "isDisplayed=true; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
-	}
-}
+cli.addEventListener("click", function() {
+	inputBox.focus();
+});
 
 inputBox.onpaste = function(e) {
 	e.preventDefault();
@@ -86,20 +60,11 @@ inputBox.onpaste = function(e) {
 
 function intro() {
 	username = getCookie("username");
-	isDisplayed = getCookie("isDisplayed");
 
 	if (username == "") username = null;
 
 	if (username != null) outputText(replaceUsername(nameGreetings[getRandomInt(0, nameGreetings.length)]));
 	else outputText(noNameGreetings[getRandomInt(0, noNameGreetings.length)]);
-
-	if (isDisplayed == "true") {
-		cli.style.display = "block";
-		inputBox.focus();
-	} else {
-		cli.style.display = "none";
-		isDisplayed = false;
-	}
 }
 
 function guide(e) {
@@ -151,18 +116,6 @@ function guide(e) {
 			var destination = input.substring(2, input.length).trim();
 			travel(destination);
 
-		} else if (input.toLowerCase().startsWith("logs")) {
-			logs();
-
-		} else if (input.toLowerCase().startsWith("l") && input.trim().length == 1) {
-			logs();
-
-		} else if (input.toLowerCase().startsWith("exit")) {
-			toggleCLI();
-
-		} else if (input.toLowerCase().startsWith("e") && input.trim().length == 1) {
-			toggleCLI();
-
 		} else {
 			outputText("Write 'help' for a list of valid commands.");
 		}
@@ -185,22 +138,6 @@ function index() {
 		}
 		else {
 			outputText(indexFail);
-		}
-	};
-	xhr.send();
-}
-
-function logs() {
-	getLocation();
-
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=logs&l='+loc);
-	xhr.onload = function() {
-		if (xhr.status === 200) {
-			outputText(xhr.responseText);
-		}
-		else {
-			outputText(logsFail);
 		}
 	};
 	xhr.send();

@@ -1,6 +1,6 @@
 name: Example
 
-image: example>di
+//image: example>di
 
 image name: #[Example]
 
@@ -132,7 +132,7 @@ Creates a custom link to any given URL.
 +
 +
 Creates an image.
-&[example>di]
+&[di>2]
 
 %[======================================]
 * [text] bold

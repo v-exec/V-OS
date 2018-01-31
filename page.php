@@ -28,6 +28,34 @@ function checkWhite() {
 		.long-divider {
 			background-color: #fff;
 		}
+		.header-title:hover {
+			background-color: #777;
+		}
+		</style>
+
+		<script>
+		V.colorR = 255;
+		V.colorG = 255;
+		V.colorB = 255;
+		</script>';
+	}
+}
+
+function checkImage() {
+	global $artifact;
+
+	if (!$artifact->attributes['image']) {
+		echo
+		'<style>
+		#header {
+			display: none;
+		}
+		#no-page-header {
+			display: block;
+		}
+		#userCanvas {
+			position: absolute;
+		}
 		</style>
 
 		<script>

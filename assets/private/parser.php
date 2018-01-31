@@ -21,10 +21,10 @@ class Parser {
 
 		//format path
 		if ($artifact->path) {
-			$tempPath;
+			$tempPath = "";
 			for ($i = 0; $i < sizeof($artifact->path); $i++) {
-				$tempPath = $tempPath . '<a href="' . $artifact->path[$i] . '" class="path neutral-link">' . strtolower($artifact->path[$i]) . '</a>';
-				if ($i != sizeof($artifact->path) - 1) $tempPath = $tempPath . '<span class="path">/</span>';
+				$tempPath = $tempPath . '<a href="' . $artifact->path[$i] . '" class="neutral-link">' . strtolower($artifact->path[$i]) . '</a>';
+				if ($i != sizeof($artifact->path) - 1) $tempPath = $tempPath . '<span class="">/</span>';
 			}
 			$artifact->path = $tempPath;
 		}
@@ -33,7 +33,7 @@ class Parser {
 		if($artifact->attributes['image']) $artifact->attributes['image'] = $this->createImage($artifact->attributes['image'], "", false);
 
 		//make github into link
-		if ($artifact->attributes['github']) $artifact->attributes['github'] = '<a href="'.$artifact->attributes['github'].'" class="additional-info neutral-link">code repository</a>';
+		if ($artifact->attributes['github']) $artifact->attributes['github'] = '<a href="'.$artifact->attributes['github'].'" class="neutral-link">Code Repository</a>';
 
 		//format image name
 		if ($artifact->attributes['image name']) {
@@ -60,7 +60,7 @@ class Parser {
 			$this->formatText($artifact, 'content', '~', '');
 			$this->formatText($artifact, 'content', '?', '');
 			$this->formatText($artifact, 'content', '&', 'class="text-image"');
-			$this->formatText($artifact, 'content', '%', 'class="small-divider"');
+			$this->formatText($artifact, 'content', '%', 'class="divider"');
 			$this->formatText($artifact, 'content', '!', '');
 			$this->formatText($artifact, 'content', '>', '');
 		}
@@ -95,6 +95,7 @@ class Parser {
 			$artifact->attributes['github'] = null;
 			$artifact->attributes['content'] = null;
 			$artifact->attributes['white'] = null;
+			$artifact->borkenPath = null;
 			$artifact->path = null;
 			$artifact->tags = null;
 			$artifact->attributes['title'] = 'There was an error loading this page. Please contact <a href="LOGO">LOGO</a>.';

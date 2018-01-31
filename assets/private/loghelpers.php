@@ -4,8 +4,10 @@ function connect() {
 	global $username;
 	global $password;
 	global $database;
+
 	$conn = new mysqli($servername, $username, $password, $database);
 	$conn->set_charset("utf8");
+
 	return $conn;
 }
 
@@ -22,50 +24,57 @@ function getnum($q, $e) {
 	return $r;
 }
 
-//checks if current page has log data, and outputs it as html element
+//checks if current page has log data, and outputs it in sidebar
 function getLogData() {
 	global $artifact;
+	$location = $artifact->attributes['name'];
 
 	if ($artifact->hasTag('hub')) {
-		$query = 'select sum(time) as hours, count(*) as logs from log;';
-		//if hub, remove name so that it isn't put in log link path (will be added back later)
-		$name = $artifact->attributes['name'];
-		$artifact->attributes['name'] = null;
-	}
-	else if ($artifact->hasTag('nav')) $query = 'select sum(log.time) as hours, count(*) as logs from log left join division on division.id = log.division_id where division.name = '."'".$artifact->attributes['name']."'".';';
-	else if ($artifact->hasTag('project')) $query = 'select sum(log.time) as hours, count(*) as logs from log left join project on project.id = log.project_id where project.name = '."'".$artifact->attributes['name']."'".';';
-
-	if (isset($query)) {
-		//connect to database and query
-		$conn = connect();
-		$result = $conn->query($query);
-
-		//get log info
-		if ($result && $result->num_rows > 0) {
-			$row = $result->fetch_assoc();
-			$hours = $row['hours'];
-			$logs = $row['logs'];
-
-			//get proper phrasing
-			if (number_format($hours, 0, '.', '') == 1) $hourphrase = 'hour';
-			else $hourphrase = 'hours';
-			if ($logs == 1) $logphrase = 'log';
-			else $logphrase = 'logs';
-
-			$conn->close();
-
-			//output log data
-			if ($logs > 0 && $hours > 0) {
-
-				return '<a href="https://log.v-os.ca/'.$artifact->attributes['name'].'" class="additional-info neutral-link">'.number_format($hours, 0, '.', '').' '.$hourphrase.'</a>' . '<a href="https://log.v-os.ca/'.$artifact->attributes['name'].'" class="additional-info neutral-link">'.$logs.' '.$logphrase.'</a>';
-			} else return null;
-		}
-
-		$conn->close();
+		$hours = getAllHours(null, null);
+		$logs = getAllLogs(null, null);
 	}
 
-	//add name back if it was removed in query setup
-	if ($name) $artifact->attributes['name'] = $name;
+	if ($artifact->hasTag('nav')) {
+		$firstDate = getExtremeDate($location, 'division', 0);
+
+		if ($firstDate == null)
+			return null;
+
+		$lastDate = getExtremeDate($location, 'division', 1);
+		$hours = getAllHours($location, 'division');
+		$logs = getAllLogs($location, 'division');
+		$days = getAllDays($location, 'division');
+		$divisionStats = getDivisionRatio(null, null, $location, 'division');
+
+	} else if ($artifact->hasTag('project')) {
+		$firstDate = getExtremeDate($location, 'project', 0);
+
+		if ($firstDate == null)
+			return null;
+
+		$lastDate = getExtremeDate($location, 'project', 1);
+		$hours = getAllHours($location, 'project');
+		$logs = getAllLogs($location, 'project');
+		$days = getAllDays($location, 'project');
+		$divisionStats = getDivisionRatio(null, null, $location, 'project');
+
+	} else {
+		return null;
+	}
+
+	$hourDayAverage = number_format($hours / $days, 1);
+
+	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
+
+	for ($i = 0; $i < sizeof($divisionStats); $i++) {
+		$data = $data . '<span class="log-stat">'. $divisionStats[$i][0] .'</span>';
+		$data = $data . '<div class="log-bar" style="width: '.number_format($divisionStats[$i][1] / $hours * 100, 1) .'%;"></div>';
+	}
+
+	$data = $data . '<span class="log-text">'.$hours.' '.pluralize('hour', $hours).' · '.$logs.' '.pluralize('log', $logs).'</span>';
+	$data = $data . '<span class="log-text">'.$days.' '.pluralize('day', $days).' · '.$hourDayAverage.' '.pluralize('hour', $hourDayAverage).' / day</span>';
+
+	return $data;
 }
 
 function getRecentActivities($logLimit) {

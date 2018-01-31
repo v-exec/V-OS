@@ -26,6 +26,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Redesigned #[V-OS]' content area.
+++
 Made #[Purity]'s page organization folder-based. Exposed folder path, deprecated #[V-OS]' tag-based path system.
 ++
 Refined tag cleaning in #[Purity], allowing images to be used in lists, and more liberal formatting options.
@@ -41,10 +43,4 @@ Implemented basic API in #[Purity].
 Added #[Wite], a proof of concept modular interface environment.
 ++
 Made #[V-OS] @[open source>https://github.com/v-exec/V-OS].
-++
-Made small visual changes to #[V-OS] and the #[Log].
-++
-Added archive for The #[Dei].
-++
-Filled #[AI] directory with information about existing #[AI].
 ]
