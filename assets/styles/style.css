@@ -253,8 +253,13 @@ a.external:after {
 }
 
 /*-----------CONTENT-----------*/
+#content {
+	width: 100%;
+}
+
 #body-content {
 	display: inline-block;
+	width: 100%;
 	max-width: 960px;
 	background-color: #f7f7f7;
 	border-left: solid 1px #ccc;
