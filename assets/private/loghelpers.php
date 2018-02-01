@@ -30,11 +30,51 @@ function getLogData() {
 	$location = $artifact->attributes['name'];
 
 	if ($artifact->hasTag('hub')) {
+		$firstDate;
+		$lastDate = getExtremeDate(null, null, null);
+
+		$q = 'select log.date from log;';
+			
+		$conn = connect();
+		$result = $conn->query($q);
+
+		if ($result->num_rows > 0) {
+			$rows = array();
+
+			while ($row = $result->fetch_assoc()) {
+				array_push($rows, $row['date']);
+			}
+
+			$date = new DateTime($rows[0]);
+			$date = $date->format('Y.m.d');
+			$firstDate = $date;
+		}
+
+		$conn->close();
+
 		$hours = getAllHours(null, null);
 		$logs = getAllLogs(null, null);
-	}
+		$days = getAllDays(null, null);
+		$divisionStats;
 
-	if ($artifact->hasTag('nav')) {
+		$q = 'select division.name as division, sum(log.time) as hours from log left join project on project.id = log.project_id join task on task.id = log.task_id join division on division.id = log.division_id group by division order by hours desc;';
+
+		$conn = connect();
+		$result = $conn->query($q);
+
+		if ($result->num_rows > 0) {
+			$rows = array();
+
+			//get query results
+			while ($row = $result->fetch_assoc()) {
+				if ($row['division'] == 'None' || $row['division'] == 'Personal') continue;
+				array_push($rows, [$row['division'], $row['hours']]);
+			}
+			$divisionStats = $rows;
+		}
+		$conn->close();
+
+	} else if ($artifact->hasTag('nav')) {
 		$firstDate = getExtremeDate($location, 'division', 0);
 
 		if ($firstDate == null)

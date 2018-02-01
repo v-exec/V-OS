@@ -87,6 +87,16 @@
 					echo $related;
 				}
 				?>
+
+				<span class="side-title" style="margin-bottom: 0;"></span>
+				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·
+				<a class="neutral-link" href="https://github.com/v-exec">Github</a> ·
+				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>
+				<br>
+				<br>
+				<a class="neutral-link" href="https://soundcloud.com/v_exec">Soundcloud</a> ·
+				<a class="neutral-link" href="https://www.instagram.com/v_exec/">Instagram</a> ·
+				<a class="neutral-link" href="https://www.linkedin.com/in/victor-ivanov/">LinkedIn</a>
 			</div><div id="body-content">
 
 				<div id="mobile-path">
