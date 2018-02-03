@@ -55,8 +55,6 @@
 					<?php echo $artifact->path;?>
 				</div>
 
-				<?php echo $artifact->attributes['icon'];?>
-
 				<div id="cli">
 					<div id="cli-output">
 						<span id="lo-cli-output"></span>

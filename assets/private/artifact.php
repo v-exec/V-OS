@@ -15,8 +15,7 @@ class Artifact {
 		'github'=>'',
 		'title'=>'',
 		'content'=>'',
-		'white'=>'',
-		'icon'=>''
+		'white'=>''
 	);
 
 	//tags carries a selection of tags, which can be used for grouping and organizational purposes. the array is retrieved from first to last - most important to least important

@@ -9,6 +9,9 @@ content:
 Hello, my name is #[Victor] Ivanov, and I'm a multidisciplinary designer and developer studying at Concordia. I am also a participant in this year's Ubisoft Game Lab Competition.
 +
 +
+I'm quite the generalist, as my interests range from programming (gameplay systems, physics, trying to get into shaders), to art (3D hardsurface modeling and sculpting, texturing, lighting, concept art, user interfacing), all encompassed by my passion for design (systems design, user experience,).
++
++
 My skills and interests reach a variety of media and topics, and I would be thrilled to have the opportunity to both provide my existing abilities to Ubisoft, as well as take full advantage of such an occasion to learn from more experienced and skillful developers, artists, and designers.
 +
 +

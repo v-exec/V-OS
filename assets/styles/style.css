@@ -201,7 +201,7 @@ a.external:after {
 /*-----------BODY-----------*/
 #full-container {
 	display: flex;
-	max-width: calc(320px + 970px);
+	max-width: calc(320px + 910px);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -221,7 +221,6 @@ a.external:after {
 	font-family: "Roboto Mono";
 	font-size: 13px;
 	width: 100%;
-	margin-bottom: 40px;
 }
 
 #lo-cli-input {
@@ -238,9 +237,7 @@ a.external:after {
 }
 
 #cli-output {
-	padding-bottom: 20px;
 	margin-bottom: 20px;
-	border-bottom: solid 1px #ccc;
 }
 
 #lo-cli-output {
@@ -260,7 +257,7 @@ a.external:after {
 #body-content {
 	display: inline-block;
 	width: 100%;
-	max-width: 960px;
+	max-width: 900px;
 	background-color: #f7f7f7;
 	border-left: solid 1px #ccc;
 }
@@ -364,7 +361,7 @@ li .text-image {
 }
 
 #footer-content {
-	max-width: 960px;
+	max-width: 900px;
     position: relative;
     overflow: auto;
     padding: 30px 40px 30px 40px;
