@@ -7,8 +7,7 @@ tags: project, code, display
 title: #[superMORPH] is a visual mathmind.
 content: #[superMORPH] uses the mathematical superformula to generate 3D supershapes whose parameters are driven through a user’s input using a Kinect.
 
-~[
-# Superformula
+~[# Superformula
 +
 +
 # Where 'theta' is equal to a given pole in 2D space
