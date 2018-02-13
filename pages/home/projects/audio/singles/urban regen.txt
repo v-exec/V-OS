@@ -2,6 +2,7 @@ name: Urban Regen
 image: witome>5
 image name: #[Urban Regen]
 white: true
+links: Soundcloud>https://soundcloud.com/v_exec/ihatenames
 tags: project, audio, single
 title: #[Urban Regen] is a chill electro track.
 content:

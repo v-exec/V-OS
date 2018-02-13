@@ -72,9 +72,11 @@
 				?>
 
 				<?php
-				if ($github = $artifact->attributes['github']) {
+				if ($artifact->links) {
 					echo '<span class="side-title">Links</span>';
-					echo $github;
+					for ($i = 0; $i < sizeof($artifact->links); $i++) {
+						echo $artifact->links[$i];
+					}
 				}
 				?>
 

@@ -19,6 +19,18 @@ class Parser {
 			}
 		}
 
+		//format links
+		if ($artifact->links) {
+			$newLinks = array();
+			for ($i = 0; $i < sizeof($artifact->links); $i++) {
+				$parts = explode('>', $artifact->links[$i]);
+				$parts[0] = trim($parts[0]);
+				$parts[1] = trim($parts[1]);
+				array_push($newLinks, '<a href="' . $parts[1] . '" class="sidelink-holder"><span class="neutral-link sidelink">' . $parts[0] . '</span></a>');
+			}
+			$artifact->links = $newLinks;
+		}
+
 		//format path
 		if ($artifact->path) {
 			$tempPath = "";
@@ -31,9 +43,6 @@ class Parser {
 
 		//create image
 		if($artifact->attributes['image']) $artifact->attributes['image'] = $this->createImage($artifact->attributes['image'], "", false);
-
-		//make github into link
-		if ($artifact->attributes['github']) $artifact->attributes['github'] = '<a href="'.$artifact->attributes['github'].'" class="neutral-link">Code Repository</a>';
 
 		//format image name
 		if ($artifact->attributes['image name']) {
@@ -93,6 +102,7 @@ class Parser {
 			$artifact->attributes['image'] = null;
 			$artifact->attributes['image name'] = null;
 			$artifact->attributes['github'] = null;
+			$artifact->attributes['page'] = null;
 			$artifact->attributes['content'] = null;
 			$artifact->attributes['white'] = null;
 			$artifact->borkenPath = null;

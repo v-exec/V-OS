@@ -1,7 +1,7 @@
 name: Wite
 image: wite>1
 image name: #[Wite]
-github: https://github.com/v-exec/Wite
+links: Github>https://github.com/v-exec/Wite
 tags: project, code, tool
 title: #[Wite] is a proof of concept modular interface and media hub environment.
 content: #[Wite] aims to provide an environment where a selection of APIs can collectively display data in an aesthetically consistent and customizeable interface, as well as provide users with a single location that acts as a hub for various media sites.

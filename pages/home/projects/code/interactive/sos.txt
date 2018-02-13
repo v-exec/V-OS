@@ -2,7 +2,7 @@ name: SOS
 image: sos>1
 image name: @[S.O.S.>sos]
 white: true
-github: https://github.com/v-exec/S.O.S.
+links: Play Online>https://v-exec.github.io/S.O.S./, Github>https://github.com/v-exec/S.O.S.
 tags: project, code, interactive
 title: @[S.O.S.>sos] is a cosmic audio exploration game.
 content: @[S.O.S.>sos] is a work in progress web game. Play it @[here>https://v-exec.github.io/S.O.S./].

@@ -1,6 +1,7 @@
 name: Perfectus Empatheia
 image: perfectus empatheia>2
 image name: #[Perfectus Empatheia]
+links: Rules>content/perfectus empatheia/rules.pdf
 white: true
 tags: project, code, interactive
 title: #[Perfectus Empatheia] is a single player strategy and roguelike card game.

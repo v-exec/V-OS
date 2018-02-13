@@ -1,7 +1,6 @@
 name: Home
 image: purity>3
 image name: #[Purity]
-github: https://github.com/v-exec
 white: true
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
@@ -26,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Abstracted page links for #[Purity] into generic links array.
+++
 Redesigned #[V-OS]' content area.
 ++
 Made #[Purity]'s page organization folder-based. Exposed folder path, deprecated #[V-OS]' tag-based path system.

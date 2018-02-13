@@ -2,15 +2,20 @@ name: RELAY
 image: relay>1
 image name: #[RELAY]
 white: true
-github: https://github.com/v-exec/Relay
+links: Play Online>https://relaygame.herokuapp.com/, Github>https://github.com/v-exec/Relay
+page: https://relaygame.herokuapp.com/
 tags: project, code, interactive
 title: #[RELAY] is an asymmetric multiplayer geolocative hacking game.
 content:
 #[RELAY] is a game that puts PC users in their home (ORIGINS) in a team with a players walking about in the physical world (RELAYS), and gives them unique opportunities to cooperate with one another in order to hack other pairs of players.
 +
 +
+Play it @[here>https://relaygame.herokuapp.com/].
++
++
 Through narrative immersion, #[RELAY] aims to give players the chance to meet others through playful interaction, significantly increasing their chances of developing a more robust relationship with one another. It aims to address the relatively cold social environments in the northwesthern part of the world by allowing players to engage in an alternate reality game that depends on meaningful interaction with other players. 
-
++
++
 More introverted players are free to play from home, acting as ORIGINS, and developing relationships with their partners on a one-on-one basis. Players who are more outgoing can take on the role of RELAY, and engage with players in the physical world, potentially running into larger groups of people, and extending their social circle.
 
 %[]

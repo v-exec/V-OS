@@ -1,7 +1,7 @@
 name: Code
 image: keyde>1
 image name: #[Keyde]
-github: https://github.com/v-exec
+links: Github>https://github.com/v-exec
 tags: project, nav
 title: The #[code] division is dedicated to programming and multimedia composite #[projects].
 content:

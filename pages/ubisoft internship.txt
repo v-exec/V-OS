@@ -91,13 +91,13 @@ The purpose was to create a geolocative game where players could engage in entir
 By getting their mobile partner 100m from another player, the desktop player can initiate a hack. This hack takes approximately 5 minutes to complete, during which time the target can either escape, or find the mobile player hacking them, get within 25m of them, and have their desktop partner initiate a counter-hack, immediately rendering the targeted team victorious.
 +
 +
+@[Playabe here, requires minimum 4 players for game session (2 on PC, 2 on mobile)>https://relaygame.herokuapp.com/].
++
 @[Code repository and detailed mechanics here>https://github.com/v-exec/Relay].
 +
 @[More involved elaboration on mechanics here>relay].
 
 ~[Made using NodeJS and Socket.io.
-+
-Requires NodeJS-compatible server to host, which I unfortunately have no access to, at the moment. 
 +
 User interfacing inspired by WatchDogs' UI and art direction.
 +

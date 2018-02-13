@@ -2,7 +2,7 @@ name: superMORPH
 image: supermorph>1
 image name: #[superMORPH]
 white: true
-github: https://github.com/v-exec/superMORPH
+links: Github>https://github.com/v-exec/superMORPH
 tags: project, code, display
 title: #[superMORPH] is a visual mathmind.
 content: #[superMORPH] uses the mathematical superformula to generate 3D supershapes whose parameters are driven through a user’s input using a Kinect.

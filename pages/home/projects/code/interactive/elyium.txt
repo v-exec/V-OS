@@ -2,7 +2,7 @@ name: Elyium
 image: elyium>2
 image name: #[Elyium]
 white: true
-github: https://github.com/v-exec/Elyium
+links: Github>https://github.com/v-exec/Elyium, Writing Guide>https://github.com/v-exec/Elyium/blob/master/public/Guide%20to%20Writing.md
 tags: project, code, interactive
 title: #[Elyium] is an alternate reality game which takes place in a limbo realm.
 content:
