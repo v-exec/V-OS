@@ -1,5 +1,5 @@
 name: Ontologica
-image: ontologica>6
+image: ontologica>7
 image name: #[Ontologica]
 white: true
 tags: project, code, interactive

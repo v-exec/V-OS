@@ -1,5 +1,5 @@
 name: superMORPH
-image: supermorph>1
+image: supermorph>3
 image name: #[superMORPH]
 white: true
 links: Github>https://github.com/v-exec/superMORPH

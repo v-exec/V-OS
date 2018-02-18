@@ -1,6 +1,7 @@
 name: SkyCandy
-image: skycandy>1
+image: skycandy>3
 image name: #[SkyCandy]
+white: true
 tags: project, code, display
 title: #[SkyCandy] is a motion-navigated galactic installation.
 content: #[SkyCandy] is an installation that puts the user in a dense, procedurally generated nebula, navigated using the Microsoft Kinect.

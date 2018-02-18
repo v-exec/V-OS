@@ -1,7 +1,6 @@
 name: Home
-image: purity>3
-image name: #[Purity]
-white: true
+image: atomarray>5
+image name: #[Atom Array]
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
 content: Welcome. This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
@@ -25,6 +24,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Added animated gifs as headers to select pages(#[Keyde], #[Atom Array], #[SkyCandy], and a few others).
+++
 Updated #[timekeeping] notes.
 ++
 Abstracted page links for #[Purity] into generic links array.

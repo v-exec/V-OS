@@ -1,5 +1,5 @@
 name: Dodger
-image: dodger>1
+image: dodger>2
 image name: #[Dodger]
 tags: project, code, interactive
 title: #[Dodger] is a body tracking experiment made into a dodging game.

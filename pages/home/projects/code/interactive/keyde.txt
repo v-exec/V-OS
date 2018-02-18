@@ -1,5 +1,5 @@
 name: Keyde
-image: keyde>6
+image: keyde>10
 image name: #[Keyde]
 tags: project, code, interactive
 title: #[Keyde] is a contemporary kaleidoscope.

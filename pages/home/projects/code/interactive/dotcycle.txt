@@ -1,5 +1,5 @@
 name: DotCycle
-image: dotcycle>1
+image: dotcycle>4
 image name: #[DotCycle]
 white: true
 links: Download>http://v-os.ca/content/dotcycle/DotCycle_Build_win.zip, Playthrough>https://www.youtube.com/watch?v=eX9zbHPs6eY, Github>https://github.com/v-exec/DotCycle
@@ -17,5 +17,6 @@ content: #[DotCycle] is a recorded exploration of archived memories. It is compo
 #[DotCycle], in particular, is an archive from one of the last unsuccessful #[atomic AI].
 +
 +
+&[dotcycle>1]
 &[dotcycle>2]
 &[dotcycle>3]
