@@ -1,6 +1,7 @@
 name: Home
-image: atomarray>5
-image name: #[Atom Array]
+image: qurotema>4
+image name: #[Qurotema]
+white: true
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
 content: Welcome. This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
@@ -24,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Documented #[Delta], a collection of realtime webcam and kinect-cam filters.
+++
 Added animated gifs as headers to select pages(#[Keyde], #[Atom Array], #[SkyCandy], and a few others).
 ++
 Updated #[timekeeping] notes.

@@ -72,6 +72,7 @@ X		runtime
 				superMORPH
 				SkyCandy
 				Light Tone
+				Delta
 	verse
 		People
 			Analog
@@ -90,6 +91,7 @@ X			Nil Cursors
 			Grand archives
 X			ARK Simulation
 X			Entropica (reverse entropy world)
+			Qurotema
 		Phenomena
 			Warp Travel
 			Birth of a Microstar
