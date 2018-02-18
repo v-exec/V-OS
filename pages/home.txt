@@ -25,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Updated #[timekeeping] notes.
+++
 Abstracted page links for #[Purity] into generic links array.
 ++
 Redesigned #[V-OS]' content area.
@@ -36,12 +38,4 @@ Refined tag cleaning in #[Purity], allowing images to be used in lists, and more
 Documented #[Perfectus Empatheia], a single player roguelike card game.
 ++
 Implemented static instance generation for #[Purity].
-++
-Added additional #[Atomic AI] visuals.
-++
-Implemented basic API in #[Purity].
-++
-Added #[Wite], a proof of concept modular interface environment.
-++
-Made #[V-OS] @[open source>https://github.com/v-exec/V-OS].
 ]
