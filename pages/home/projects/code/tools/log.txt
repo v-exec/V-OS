@@ -5,7 +5,7 @@ links: Log>https://log.v-os.ca, Github>https://github.com/v-exec/Log
 white: true
 tags: project, code, tool
 title: The #[Log] is a timekeeping tool and data visualizer overseen by #[LOGO].
-content: The #[Log] is a tool used for daily output logging and data analysis. It can be found @[here>http://log.v-os.ca], and in the header of all project pages logged in it (including this one).
+content: The #[Log] is a tool used for daily output logging and data analysis. It can be found @[here>http://log.v-os.ca], and in the sidebar of all project pages logged in it (including this one).
 +
 +
 It works by taking a simple text file of logs which it then parses using a Ruby script into mySQL queries. Using PHP with access to the database, the data is visualized into generated pages.

@@ -2,7 +2,7 @@ name: Gates of Qurotema
 image: qurotema>2
 image name: #[Gates of Qurotema]
 white: true
-tags: verse, phenomenon
+tags: project, visual, graphic
 title: The #[Gates of Qurotema] are the security mechanism of a mysterious, artificial universe.
 content: 
 

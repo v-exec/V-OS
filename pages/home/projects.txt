@@ -21,4 +21,4 @@ Many projects are never really finished, so don't be surprised if some of these 
 =[code]
 
 %[]
-If a project is logged in the @[Log>http://log.v-os.ca], a link to its hours and logs will be visible on the header of its page.
+If a project is logged in the @[Log>http://log.v-os.ca], its logged statistics will be visible in the sidebar.
