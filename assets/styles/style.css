@@ -423,7 +423,6 @@ li .text-image {
 /*-----------MEDIA-----------*/
 #mobile-path {
 	display: none;
-
 }
 
 @media (max-width: 1620px) {

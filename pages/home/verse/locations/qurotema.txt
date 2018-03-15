@@ -3,7 +3,7 @@ image: qurotema>4
 image name: #[Qurotema]
 white: true
 tags: verse, location
-title: #[Qurotema] is mysterious construct universe.
+title: #[Qurotema] is a mysterious construct universe.
 content:
 
 #[Qurotema] was discovered and explored predominantly by Dr. Sino in his research on interuniversal travel. Practically no information beyond his research exists in regards to the nature and laws of #[Qurotema]. This also includes #[LOGO], who claims to have no information, either.
@@ -14,7 +14,7 @@ Dr. Sino first found #[Qurotema] whilst working on an experimental travel protoc
 +
 It was a success. After a few test runs, he coincidentally came across #[Qurotema] by entering it through direct travel (currently the only known way in which to get there). He described the world as:
 
-?[Extremely dark, to the point of complete darkness. Despite there being no light, I could still see. I heard voices that spoke in languages I had never heard, but I could still understand them. There were fluids stacked on top of one another. A dark fluid, like water, sat below me, and an equally dark fluid, air, I traveled through. These fluids were unlike any other; each one as dark as the last, I could sink or swim upwards freely, as they gave no resistance to my exploration. The feeling was that of floating in water, but less resistance, and no urge to breathe.]
+?[Extremely dark, to the point of complete darkness. Despite there being no light, I could still see. I heard voices that spoke in languages I had never heard, but I could still understand them. There seemed to be fluid-like substances stacked on top of one another. A dark fluid, like water, sat below me, and an equally dark fluid, air, I traveled through. These fluids, the apparent constituents of this atmosphere, were unlike any other; each one as dark as the last, I could sink or swim upwards freely, as they gave no resistance to my exploration. The feeling was that of floating in water, but less resistance, and no urge to breathe.]
 
 +
 His notes suggest that with each subsequent visit, he became increasingly compulsive in returning. Each trip would last approximately 2 days (though he claimed they lasted 4 hours, on average). During his second trip, he discovered what is theorized to be the second security layer of #[Qurotema]: The #[Gates of Qurotema]. He notes:

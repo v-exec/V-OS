@@ -9,4 +9,4 @@ content: The #[Antiverse] is one of many universes within the #[Multiverse]. As 
 Superficially, it appears to be very similar to our own. The justification for its name, however, is that it contains only a fraction of the matter found in our world due to the increased particle-to-antiparticle collisions during its creation.
 +
 +
-A slightly alternate set of physical constants has allowed it to stabilize in a similar fashion to our universe. A combination of matter quantity and universe age has caused the #[Antiverse] to go begin its transition into heat death soon after human discovery, prompting additional research of our universe's future.
+A slightly alternate set of physical constants has allowed it to stabilize in a similar fashion to our universe. A combination of matter quantity and universe age has caused the #[Antiverse] to begin its transition into heat death soon after human discovery, prompting additional research of our universe's future.
