@@ -3,7 +3,7 @@ image: truli>colored>6
 image name: #[Truli]
 tags: nav
 title: The #[index] is the main navigation hub of #[V-OS].
-content: The #[index] is managed by #[LOGO], so be sure to thank him for keeping things tidy. If you need help, you can talk with him through his CLI by clicking on 'lo-cli' in the header, or pressing 'Enter'.
+content: The #[index] is managed by #[LOGO], so be sure to thank him for keeping things tidy. If you need help, you can talk with him through his CLI in the sidebar.
 +
 +
 The #[site] is divided into three sectors.
