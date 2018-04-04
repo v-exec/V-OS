@@ -25,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Updated #[DotCycle] for improved user-experience.
+++
 Documented #[Delta], a collection of realtime webcam and kinect-cam filters.
 ++
 Added animated gifs as headers to select pages(#[Keyde], #[Atom Array], #[SkyCandy], and a few others).
