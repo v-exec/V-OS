@@ -1,7 +1,7 @@
 name: Visor
 image: visor>1
 image name: Visor
-links: Github>https://github.com/v-exec/Visor
+links: Github>https://github.com/v-exec/Visor, Use Online>https://v-exec.github.io/Visor/
 tags: project, code, tool
 title: #[Visor] is a minimalistic presentation tool.
 content: #[Visor] is a presentation application made using javascript. It features a set of simple syntax rules for creating slides.

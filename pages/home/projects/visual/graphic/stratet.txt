@@ -4,3 +4,5 @@ image name: #[Stratet]
 tags: project, visual, graphic
 title: The #[Stratet] is a small biological organism known for its tendency to persistently turn inside out in cycles.
 content: What makes the #[Stratet] (also referred to as 'Stratlet') unique, aside from its strange cyclical loops into itself, is the fact that it was discovered in deep space. As one of the few (though varied) organisms found outside of the proximity of a celestial body, it suggests the existence of a rich, universe-wide ecosystem of unicellular and small multicellular organisms.
+
+&[stratet>1]

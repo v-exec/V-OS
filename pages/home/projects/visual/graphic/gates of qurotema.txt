@@ -7,3 +7,5 @@ title: The #[Gates of Qurotema] are the security mechanism of a mysterious, arti
 content: 
 
 What makes #[Qurotema] unique is its security mechanisms. It is the only known universe to have an actual security protocol that actively keeps interuniversal travelers out. Any attempts to travel there using standard tech and Qurotema's documented coordinates yields the transporter's current coordinates as the destination, effectively setting a trajectory for the current location.
+
+&[qurotema>2]

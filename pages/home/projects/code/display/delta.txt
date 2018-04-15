@@ -5,5 +5,6 @@ links: Github>https://github.com/v-exec/Delta
 tags: project, code, display
 title: #[Delta] is a collection of customizable, live webcam and kinect-cam filters.
 content: #[Delta] was created for the purpose of providing a realtime stylized filter for webcam chat.
-&[delta>2]
-&[delta>3]
+&[delta>2 ++ Running Kinect version of #[Delta].]
+&[delta>3 ++ Running webcam version of #[Delta].]
+&[delta>1 ++ Running webcam version of #[Delta].]

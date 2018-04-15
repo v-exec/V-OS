@@ -323,8 +323,14 @@ a.external:after {
 	content: "+ ";
 }
 
-li .text-image {
-	margin: 0 40px 0 40px;
+li .text-image,
+li .text-image-annotated {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+
+li .annotation {
+	padding: 0;
 }
 
 .note {
