@@ -147,6 +147,8 @@ Mod
 ARK Simulation
 	An ARK Simulation is a personalized instance of a digital Paradise for a select body of Automata.
 
+Orders of Reality
+
 What belongs in the verse?
 	Narratives relating specifically to what is demonstrated in a project
 	should stay inside the project's page. Narratives that extend the narrative

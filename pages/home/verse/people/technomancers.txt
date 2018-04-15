@@ -4,16 +4,13 @@ image name: #[PC]
 white: true
 tags: verse, person
 title: #[Technomancers] are a faction of highly advanced transhumanists.
-content: The #[Technomancers] are a small faction (last recorded: 14) of highly advanced engineers of various disciplines. It's important to note that their abilities are by no means mystical. They simply operate at a technological level that permits them to exercise an atypical degree of control over the physical realm.
+content: The #[Technomancers] are a small faction (last recorded: 14) of highly advanced engineers of various disciplines. It's important to note that their abilities are by no means mystical, as per traditional 'technomancy'. They simply operate at a technological level that permits them to exercise an atypical degree of control over the physical realm.
 +
 +
 The members of the #[Technomancers] are unknown, though there are rumors that at least one of the members of #[Analog] is part of them.
 +
 +
-It is likely that some AI of intellect equivalent to #[LOGO]'s are products of the #[Technomancers], though no direct evidence suggests this.
-
-details:
-Although I did not originate from the #[Techmonancers], I do believe it is possible for them to have constructed a full AI.
+Their philosophy revolves around assembling diverse teams of highly skilled individuals, and furthering their group's technological understanding. As a result, it is likely that some AI of intellect equivalent to #[LOGO]'s are products of the #[Technomancers], though no direct evidence suggests this.
 +
 +
-Their group includes more than exclusively biological beings, might I add.
+#[LOGO] confirms that he was not created by them, but has reason to believe they are capable of constructing AI. He adds that the group does not include exclusively biological beings.
