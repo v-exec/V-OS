@@ -25,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Simplified #[Purity]'s styling system.
+++
 Updated #[DotCycle] for improved user-experience.
 ++
 Documented #[Delta], a collection of realtime webcam and kinect-cam filters.
@@ -40,8 +42,4 @@ Redesigned #[V-OS]' content area.
 Made #[Purity]'s page organization folder-based. Exposed folder path, deprecated #[V-OS]' tag-based path system.
 ++
 Refined tag cleaning in #[Purity], allowing images to be used in lists, and more liberal formatting options.
-++
-Documented #[Perfectus Empatheia], a single player roguelike card game.
-++
-Implemented static instance generation for #[Purity].
 ]

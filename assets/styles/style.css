@@ -307,6 +307,22 @@ a.external:after {
 	margin: 0 40px 40px 40px;
 }
 
+.text-image-annotated {
+	width: calc(100% - 80px);
+	border-radius: 3px;
+	margin: 0 40px 5px 40px;
+}
+
+.annotation {
+	display: block;
+	color: #777;
+	padding: 0 40px 40px 40px;
+}
+
+.annotation:before {
+	content: "+ ";
+}
+
 li .text-image {
 	margin: 0 40px 0 40px;
 }
