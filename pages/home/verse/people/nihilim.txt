@@ -2,7 +2,7 @@ name: Nihilim
 image: nihilim>1
 image name: #[Nihilim]
 white: true
-tags: verse, person
+tags: verse, people
 title: The #[Nihilim] are unseen ultradimensionals.
 content: The #[Nihilim] are what is assumed to be a species of interdimensional travelers. Their ability to pass _[through] the third dimension (by presumably moving through the fourth), is inferred through the extremely rare relics they leave behind during travels: #[Atmos] being one of the largest structures to ever remain in the third dimension.
 +

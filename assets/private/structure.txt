@@ -2,6 +2,7 @@ content
 	cv.pdf
 	DotCycle.win
 	Perfectus Empatheia rules.pdf
+	Ubisoft Internship.docs
 home
 	404
 	index
@@ -31,6 +32,7 @@ X		runtime
 				Atomic AI
 				Gates of Qurotema
 				Verse Nodes
+				Nil Cursors
 			photography
 				AM2
 				Witome
@@ -81,7 +83,8 @@ X		runtime
 			Technomancers
 			Automata
 			Dei
-X			Nil Cursors
+			Di
+			Nil Cursors
 		Locations
 			Antiverse
 			Multiverse
@@ -89,67 +92,18 @@ X			Nil Cursors
 			Voxelverse
 			Void
 			Grand archives
-X			ARK Simulation
-X			Entropica (reverse entropy world)
+			Entropica
 			Qurotema
 		Phenomena
 			Warp Travel
-			Birth of a Microstar
+			Atomic AI
 X			Higher Protocols
+			ARK Simulation
+			Orders of Reality
 		AI
 			LOGO (Lux) - Data (Light)
 			Nox - Darkness
-X			Aeva - Existence
-X			Nil - Void
-X			Mora - Space
-X			Mod - Time
-
-Higher Protocols
-	Set of absolute protocols governing the multiverse, limiting AI by
-	punishing them if they go beyond their juridstiction.
-
-Nil Cursors
-	Nil's spawn, creatures mimicking those made of Light, hiding their Void cores,
-	acting as agents of Nil.
-
-Entropica
-	Created by questionably crazed Technomancer, Entropica is a reverse-entropy world.
-	The Technomancer's purpose was to create an environment where the purest of perfection
-	would be created. Because he himself could not craft perfect order, he made a universe
-	that would eventually reach it through an altered set of physics protocols.
-	
-	Currently, it exists in a stable state, with planet-like
-	celestial bodies growing like crystaline, hyper-organized structures.
-	
-	Life, being a form of extreme localized order, is incredibly abundant.
-	Because of Entropica's hyper-structured nature, lifeforms exist on many scales,
-	each contributing to a system growing towards absolute order.
-	Due to the range of scale of life, some celestial bodies also act as agents of this world.
-	
-	Sentience is relatively typical, as well.
-	Lifeforms equally evolve towards higher degrees of order, and as a result,
-	their mating preferences are nearly always in some way geared towards producing higher order.
-	Ecosystsems are extremely clean, with all creatures willingy participating in all
-	biological actions - including death.
-
-Aeva
-	AI specializing in matters of Existence. Nil's partner.
-
-Nil
-	AI specializing in matters of Void. Aeva's partner.
-
-Mora
-	AI specializing in matters of Space. Mod's partner.
-
-Mod
-	AI specializing in matters of Time. Mora's partner.
-
-ARK Simulation
-	An ARK Simulation is a personalized instance of a digital Paradise for a select body of Automata.
-
-Orders of Reality
-
-What belongs in the verse?
-	Narratives relating specifically to what is demonstrated in a project
-	should stay inside the project's page. Narratives that extend the narrative
-	that the project speaks specifically of should be their own verse page.
+			Aeva - Existence
+			Nil - Void
+			Mora - Space
+			Mod - Time

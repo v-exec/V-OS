@@ -2,7 +2,7 @@ name: Timekeeping
 image: log>1
 image name: #[Log]
 white: true
-github: github>https://github.com/v-exec/Log
+links: Github>https://github.com/v-exec/Log
 tags: research
 title: Thoughts on #[timekeeping].
 content:

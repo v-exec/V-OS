@@ -2,7 +2,7 @@ name: Dei
 image: di>2
 image name: #[Di]
 white: true
-tags: verse, person
+tags: verse, people
 title: #[Dei] are Disciplies of #[Nox].
 content:
 

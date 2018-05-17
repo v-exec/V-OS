@@ -198,7 +198,7 @@ function getDirContents($dir, &$results = array()){
 	return $results;
 }
 
-//get pages in same directory
+//intelligently get pages in same directory if navigation pages, and pages with same 'lead' tag if end-page / content page
 function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 	global $artifacts;
 
@@ -206,24 +206,33 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 		return null;
 	}
 
-	$dir = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
+	$tag = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
 	$contents = '';
 
 	for ($i = 0; $i < sizeof($artifacts); $i++) {
 		if ($artifacts[$i]->hasTag('error')) continue;
 
-		if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $dir) {
+		if ($artifact->hasTag('nav')) {
+			if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $tag) {
+				if ($artifacts[$i] == $artifact) {
+					if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
+					$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+				} else {
+					if ($getName) $contents += '<span class="'. $nameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
+					$contents = $contents . '<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+				}
+			}
+		} else if ($artifacts[$i]->hasTag($tag)) {
 			if ($artifacts[$i] == $artifact) {
 				if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
 				$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 			} else {
 				if ($getName) $contents += '<span class="'. $nameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
 				$contents = $contents . '<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
-			}	
+			}
 		}
 	}
 
-	//return $contents;
 	return $contents;
 }
 ?>

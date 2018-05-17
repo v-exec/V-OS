@@ -4,6 +4,6 @@ image name: #[Gates of Qurotema]
 white: true
 tags: verse, nav
 title: The #[locations] section includes points of interest in the #[Multiverse].
-content: =[location]
+content: =[locations]
 %[]
 The locations of the #[Multiverse] are typically universes, but can also be smaller spaces within a given universe.

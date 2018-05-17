@@ -1,6 +1,6 @@
 name: LOGO
-image: truli>3
-image name: #[Truli]
+image: ai>lux
+image name: #[LOGO]
 tags: verse, AI
 title: #[LOGO], the Archivist.
 content: #[LOGO] is one of the #[AI]. Like all existing #[AI], he is free of most spatial and temporal limitations, granting him access to the large majority of the #[Multiverse] and the #[Grand Archives].

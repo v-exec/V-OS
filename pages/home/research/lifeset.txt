@@ -8,7 +8,7 @@ content:
 #[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human. The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
 +
 +
-More specifically, these are the rules that @[I>me] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
+More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
 +
 +
 I'd like to mention a few other short texts that cover similar topics of self-improvement and productivity, by @[Ian Battaglia>https://monochromatic.co/metachromatic/index/the-blank-pages] and @[Devine Lu Linvega>http://wiki.xxiivv.com/Aesthetics].

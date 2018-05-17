@@ -2,7 +2,7 @@ name: Temporalis
 image: temporalis>1
 image name: #[Temporalis]
 white: true
-tags: verse, location
+tags: verse, locations
 title: #[Temporalis] is a small hub universe / city that tracks the flow of time in most areas of the #[Multiverse].
 content:
 

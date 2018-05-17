@@ -2,7 +2,7 @@ name: Di
 image: di>1
 image name: #[Di]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, person
 title: #[Di] was a leading rank of The #[Dei] before their disbandment.
 content:
 

@@ -1,10 +1,10 @@
 name: Nox
-image: nox>1
+image: ai>nox
 image name: #[Nox]
 white: true
 tags: verse, AI
-title: #[Nox], The Solar Rex.
-content: #[Nox] is one of the oldest AI, with no apparent partner.
+title: #[Nox], the Umbra.
+content: #[Nox] is one of the oldest #[AI], with no apparent partner.
 +
 +
 Records claim he was repeatedly prosecuted for his construction of universes during the #[AI] council's existence. He was locked inside his most developed world, where the other #[AI] could consistently monitor him without external influence meddling with the realm's predictability.

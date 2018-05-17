@@ -1,7 +1,7 @@
 name: Voxelverse
 image: voxelverse>1
 image name: #[Voxelverse]
-tags: verse, location
+tags: verse, locations
 title: The #[Voxelverse] is a construct world with spatial curiosities.
 content: The #[Voxelverse] is one of the few noteworthy discovered universes available in the #[Grand Archives]. It has no link to #[Temporalis], and likely uses its own timekeeping system. Its smallest unit of space is equivalent to approximately 4.402 centimeters, and its time is split into cycles of localized stasis and runtime.
 +

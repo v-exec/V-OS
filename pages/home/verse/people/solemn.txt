@@ -2,7 +2,7 @@ name: Solemn
 image: solemn>1
 image name: #[Solemn]
 white: true
-tags: verse, person
+tags: verse, people
 title: The #[Solemn] are the remaining ex-inhabitants of #[Re-L].
 content: The #[Solemn] are a species of humanoid creatures in the #[Antiverse]. Following the global collapse of #[Re-L]'s infrastructure through resource depletion and usage of mega-weaponry, only few were capable of making their way off the now anarchic atmosphere. Currently, no signs of intelligent life on #[Re-L] are present.
 +

@@ -1,6 +1,6 @@
 name: Home
-image: qurotema>4
-image name: #[Qurotema]
+image: ai>mora
+image name: #[Mora]
 white: true
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
@@ -25,21 +25,19 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
-Simplified #[Purity]'s styling system.
+Changed how #[V-OS] handles sidebar and related pages, encouraging cross-section related pages to guide users along more complex site paths.
 ++
-Updated #[DotCycle] for improved user-experience.
+Added quote regarding different #[Orders of Reality].
 ++
-Documented #[Delta], a collection of realtime webcam and kinect-cam filters.
+Added documentation of an #[ARK Simulation].
 ++
-Added animated gifs as headers to select pages(#[Keyde], #[Atom Array], #[SkyCandy], and a few others).
+Added documentation for all known #[AI].
 ++
-Updated #[timekeeping] notes.
+Updated documentation for #[Atomic AI].
 ++
-Abstracted page links for #[Purity] into generic links array.
+Added documentation for #[Entropica], a reverse-entropy universe.
 ++
-Redesigned #[V-OS]' content area.
+Added world-documentation, as well as media, of #[Mythaphil].
 ++
-Made #[Purity]'s page organization folder-based. Exposed folder path, deprecated #[V-OS]' tag-based path system.
-++
-Refined tag cleaning in #[Purity], allowing images to be used in lists, and more liberal formatting options.
+Added documentation for #[Nil Cursors].
 ]

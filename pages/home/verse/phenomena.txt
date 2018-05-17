@@ -4,6 +4,6 @@ image name: #[Papur]
 white: true
 tags: verse, nav
 title: The #[phenomena] section includes remarkable historical events, happenings, and items.
-content: =[phenomenon]
+content: =[phenomena]
 %[]
 Phenomena include both documented happenings of the past, as well as the future.

@@ -2,7 +2,7 @@ name: Automata
 image: dentatsuna>2
 image name: #[Dentatsuna]
 white: true
-tags: verse, person
+tags: verse, people
 title: The #[Automata] are a species of mechanical creatures.
 content: The #[Automata] are a purely technological organism. They live in #[Dentatsuna], in large nomadic societies.
 +

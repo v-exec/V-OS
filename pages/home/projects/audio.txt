@@ -4,11 +4,11 @@ image name: #[Papur]
 tags: project, nav
 title: The #[audio] division includes all music and sound #[projects].
 content:$[singles>title]
-=[single]
+=[singles]
 %[]
 
 $[albums>title]
-=[album]
+=[albums]
 %[]
 
 I make my audio work primarily using Ableton as a DAW, with my Nektar Impact LX 61 as a midi controller. I also have experience with FL Studio and Logic Pro, but prefer Ableton, as its UI and functionality suits my workflow.

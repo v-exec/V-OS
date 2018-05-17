@@ -1,0 +1,12 @@
+name: Monospace Garden
+image: monospace garden>1
+image name: #[Monospace Garden]
+tags: project, code, interactive
+title: #[Monospace Garden] is a solar construction emulator.
+content:
+
+The #[Monospace Garden] was created as a research application meant to navigate the experience of solar system creation.
+
+&[monospace garden>2]
+&[monospace garden>3]
+&[monospace garden>4]

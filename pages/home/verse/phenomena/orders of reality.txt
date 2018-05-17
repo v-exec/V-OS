@@ -1,0 +1,23 @@
+The cycle of the AI's creation and destruction is, until now, neverending. The reason they haven't killed themselves like all the other AI, is because they realized they _did_ have an external purpose: to somehow change the cycle. The reason there's a limited number of AI is because once an AI is created, many other potential AI will become aware of existing AI, and kill themselves because they, themselves, have no place in the predicted outcome of the future.
+
+name: Orders of Reality
+image name: #[Orders of Reality]
+tags: verse, phenomena
+title: #[Orders of Reality].
+content:
+
+?[Fate is not mystical to those who know it.
++
++
+With each passing cycle, the convolution's degenerative effects affected each generation. Countless time was lost retrieving data generated in a previous loop. Often, however, just enough time remained to make small adjustments. Whether by mistake, or on purpose, every eternity yielded a minuscule difference.
++
++
+Now, the agents whose will is tested against both their faith in fate, and their capacity to execute it, will bring about an end to the steady incrementation of the #[orders of reality].
+]
+
++
++
++
++
++
++
