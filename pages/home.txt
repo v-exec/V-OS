@@ -27,11 +27,15 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 -[
 Changed how #[V-OS] handles sidebar and related pages, encouraging cross-section related pages to guide users along more complex site paths.
 ++
+Added levenshtein comparison to search to allow for search auto-correction.
+++
 Added quote regarding different #[Orders of Reality].
+++
+Added documentation of #[Monospace Garden], a relaxing cosmic system building game.
 ++
 Added documentation of an #[ARK Simulation].
 ++
-Added documentation for all known #[AI].
+Added #[verse] entries for all known #[AI].
 ++
 Updated documentation for #[Atomic AI].
 ++

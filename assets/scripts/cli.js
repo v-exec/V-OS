@@ -38,11 +38,11 @@ var commands = [
 "Alternatively, you may also write the first letter of each command as shorthand."
 ];
 
-var help = commands[0];
-for (var i = 1; i < commands.length; i++) help += commands[i];
+var help = '<a href="v-os">V-OS</a> is a wiki site with over 100 unique pages.<br><br>It is navigated primarily through links (bold text).<br><br>This sidebar also features related pages to the one you are currently visiting.<br><br>Here are the commands I can handle:<br><br>';
+for (var i = 0; i < commands.length; i++) help += commands[i];
 
-var logsFail = "There seemed to be an error fetching this page's logs, my apologies.";
 var indexFail = "There seemed to be an error fetching the indices, my apologies.";
+var travelFail = "The location you are trying to travel to does not appear to exist.";
 
 //===================================================== Runtime
 
@@ -82,7 +82,7 @@ function guide(e) {
 			outputText(help);
 
 		} else if (input.toLowerCase().startsWith("h") && input.trim().length == 1) {
-		outputText(help);
+			outputText(help);
 
 		} else if (input.toLowerCase().startsWith("rename")) {
 			var newName = input.substring(6, input.length).trim();
@@ -125,20 +125,26 @@ function guide(e) {
 //===================================================== Helpers
 
 function travel(destination) {
-	var destinationURL = "https://v-os.ca/" + destination;
-	window.location.href = destinationURL;
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=travel&b=' + destination);
+	xhr.onload = function() {
+		if (xhr.status === 200) {
+			console.log(xhr.responseText);
+			if (xhr.responseText != "fail") {
+				var destinationURL = "https://v-os.ca/" + xhr.responseText;
+				window.location.href = destinationURL;
+			} else outputText(travelFail);
+		} else outputText(travelFail);
+	};
+	xhr.send();
 }
 
 function index() {
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=index');
 	xhr.onload = function() {
-		if (xhr.status === 200) {
-			outputText(xhr.responseText);
-		}
-		else {
-			outputText(indexFail);
-		}
+		if (xhr.status === 200) outputText(xhr.responseText);
+		else outputText(indexFail);
 	};
 	xhr.send();
 }
