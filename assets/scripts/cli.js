@@ -18,14 +18,14 @@ var noNameGreetings = [
 ];
 
 var nameGreetings = [
-"Hi #[user], welcome back to V-OS. If there's anything I can do, just write 'help' for a list of commands.",
-"Welcome back, #[user]. Write 'help' if you need any assistance.",
+"Hi #[user], welcome back to V-OS. If there's anything I can do, just write <b>help</b> for a list of commands.",
+"Welcome back, #[user]. Write <b>help</b> if you need any assistance.",
 "Hello #[user], your return is welcome."
 ];
 
 var introductions = [
-"Nice to meet you, #[user]. I am V-OS' guide. If there's anything you need help with, just write 'help'.",
-"Welcome, #[user]. I am the guide for this construct world. If you need help, just write 'help'."
+"Nice to meet you, #[user]. I am V-OS' guide. If there's anything you need help with, just write <b>help</b>.",
+"Welcome, #[user]. I am the guide for this construct world. If you need help, just write <b>help</b>."
 ];
 
 var rename = "Okay, I'll call you #[user] from now on.";
@@ -38,7 +38,7 @@ var commands = [
 "Alternatively, you may also write the first letter of each command as shorthand."
 ];
 
-var help = '<a href="v-os">V-OS</a> is a wiki site with over 100 unique pages.<br><br>It is navigated primarily through links (bold text).<br><br>This sidebar also features related pages to the one you are currently visiting.<br><br>Here are the commands I can handle:<br><br>';
+var help = 'V-OS is a wiki site with over 100 unique pages.<br><br>It is navigated primarily through links (bold text).<br><br>This sidebar also features related pages to the one you are currently visiting.<br><br>Here are the commands I can handle:<br><br>';
 for (var i = 0; i < commands.length; i++) help += commands[i];
 
 var indexFail = "There seemed to be an error fetching the indices, my apologies.";
@@ -117,7 +117,7 @@ function guide(e) {
 			travel(destination);
 
 		} else {
-			outputText("Write 'help' for a list of valid commands.");
+			outputText("Write <b>help</b> for a list of valid commands.");
 		}
 	}
 }

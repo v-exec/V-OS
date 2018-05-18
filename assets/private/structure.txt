@@ -1,6 +1,7 @@
 content
 	cv.pdf
 	DotCycle.win
+	Monospace_Garden.win
 	Perfectus Empatheia rules.pdf
 	Ubisoft Internship.docs
 home
@@ -33,6 +34,7 @@ X		runtime
 				Gates of Qurotema
 				Verse Nodes
 				Nil Cursors
+X				Entropica
 			photography
 				AM2
 				Witome
@@ -69,6 +71,7 @@ X		runtime
 				DotCycle
 				Relay
 				Perfectus Empatheia
+				Monospace_Garden
 			Display
 				Wire
 				superMORPH
@@ -97,9 +100,9 @@ X		runtime
 		Phenomena
 			Warp Travel
 			Atomic AI
-X			Higher Protocols
 			ARK Simulation
 			Orders of Reality
+X			Higher Protocols
 		AI
 			LOGO (Lux) - Data (Light)
 			Nox - Darkness
