@@ -1,6 +1,7 @@
 name: Crystaline
 image: crystaline>7
 image name: #[Crystaline]
+white: true
 tags: project, visual, graphic
 title: The #[Crystaline] are the glass shards of #[Temporalis].
 content: A collection of timeless refractive pieces used in the winding cogs of #[Temporalis].

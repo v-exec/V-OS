@@ -126,6 +126,9 @@
 					<a class="neutral-link" href="https://v-os.ca/home">V-OS</a> · <a class="neutral-link" href="https://log.v-os.ca">LOG</a>
 				</span>
 			</div>
+
+			<a class="footer-center neutral-link" href='http://webring.xxiivv.com/#random' target='_blank'><img src='https://v-os.ca/assets/ui/ring.svg'></img></a>
+
 			<div class="footer-right">
 				<span class="footer-text">
 					<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllDays(null, null);?> days</a><br>

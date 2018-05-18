@@ -423,6 +423,20 @@ li .annotation {
 	text-align: right;
 }
 
+.footer-center {
+	position: absolute;
+	height: 28px;
+	left: calc(50% - 14px);
+}
+
+.footer-center img {
+	height: 28px;
+}
+
+.footer-center:hover {
+	background-color: #000;
+}
+
 .footer-text {
 	display: inline-block;
 	vertical-align: top;
