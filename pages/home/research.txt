@@ -5,8 +5,4 @@ white: true
 tags: nav
 title: The #[research] section is the space destined for my research, and personal inquiries.
 content: Currently, there exist the following public entries.
--[
-$[lifeset>title]
-++
-$[timekeeping>title]
-]
+-[research]

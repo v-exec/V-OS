@@ -9,9 +9,11 @@ home
 	index
 	victor
 	research
-		timekeeping
-		lifeset
-X		runtime
+		Timekeeping
+		Lifeset
+X		Runtime
+		Lucency
+		Luna
 	projects
 		visual
 			graphic
@@ -34,7 +36,8 @@ X		runtime
 				Gates of Qurotema
 				Verse Nodes
 				Nil Cursors
-X				Entropica
+				Entropica
+				Keerosin
 			photography
 				AM2
 				Witome
@@ -60,6 +63,7 @@ X				Entropica
 				Purity
 				V-OS
 				Wite
+				Freya
 			Interactive
 				Elyium
 				Dodger
@@ -72,6 +76,8 @@ X				Entropica
 				Relay
 				Perfectus Empatheia
 				Monospace_Garden
+				Eradise
+				You Are Two
 			Display
 				Wire
 				superMORPH
@@ -97,6 +103,7 @@ X				Entropica
 			Grand archives
 			Entropica
 			Qurotema
+			Eradise
 		Phenomena
 			Warp Travel
 			Atomic AI

@@ -1,0 +1,8 @@
+name: Freya
+image: freya>1
+image name: #[Freya]
+white: true
+links: Github>https://github.com/v-exec/Freya
+tags: project, code, tool
+title: #[Freya] is a minimal Discord bot.
+content: #[Freya] is an in-production Discord bot. She was created to assist members of #[Lucency] with simple media-based functionality.

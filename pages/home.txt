@@ -25,6 +25,14 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Added quote for #[Keerosin], a bio-sustain tool.
+++
+Added documentation for #[You Are Two], a narrative-driven cooperative multiplayer game targeting bipolar disorder.
+++
+Added documentation for #[Eradise], a third person exploration game revisiting ruins of the #[Automata].
+++
+Added documentation for #[Lucency], and the exhibition it hosts, #[Luna].
+++
 Changed how #[V-OS] handles sidebar and related pages, encouraging cross-section related pages to guide users along more complex site paths.
 ++
 Added levenshtein comparison to search to #[V-OS] to allow for search auto-correction.
