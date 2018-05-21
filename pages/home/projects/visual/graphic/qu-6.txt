@@ -1,0 +1,26 @@
+name: QU-6
+image: qu-6>1
+image name: #[QU-6]
+white: true
+tags: project, visual, graphic, verse, locations
+title: #[QU-6], m_struct #760.
+content:
+
+~[xyz:lun_sol, +2 cell
+core struct [6]
++
+parent: #[luna]
+dat: 40-05-34
+]
+
+&[qu-6>1]
+&[qu-6>2]
+&[qu-6>3]
+&[qu-6>4]
+&[qu-6>5]
+&[qu-6>6]
+&[qu-6>7]
+&[qu-6>8]
+&[qu-6>9]
+&[qu-6>10]
+&[qu-6>11]

@@ -4,7 +4,7 @@ image name: #[Mora]
 white: true
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
-content: Welcome. This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
+content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
 +
 +
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm.
@@ -25,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+New entry: #[QU-6].
+++
 Added quote for #[Keerosin], a bio-sustain tool.
 ++
 Added documentation for #[You Are Two], a narrative-driven cooperative multiplayer game targeting bipolar disorder.
@@ -39,7 +41,7 @@ Added levenshtein comparison to search to #[V-OS] to allow for search auto-corre
 ++
 Added quote regarding different #[Orders of Reality].
 ++
-Added documentation of #[Monospace Garden], a relaxing cosmic system building game.
+Added documentation of #[Monospace_Garden], a relaxing cosmic system building game.
 ++
 Added documentation of an #[ARK Simulation].
 ++

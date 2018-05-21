@@ -11,11 +11,11 @@ content:
 +
 +
 
-My production partners in this project were @[Charles Doucet>http://charlesdoucet.com/] and @[Codrin Negrei>https://www.behance.net/kodrintxps1ecf].
+My primary production partners in this project were @[Charles Doucet>http://charlesdoucet.com/] and @[Codrin Negrei>https://www.behance.net/kodrintxps1ecf].
 
 &[you are two>2]
 
-#[You Are Two] is a cooperative game. The two players take on the role of each extreme of the bipolar spectrum: depression and mania. Each can see in different lighting contexts: the depressive player in the dark, and the manic player in the light, motivating them to take the alternate in taking the lead in navigational sections.
+#[You Are Two] is a cooperative game. The two players take on the role of each extreme of the bipolar spectrum: depression and mania. Each can see in different lighting contexts: the depressive player in the dark, and the manic player in the light, motivating them to alternate in taking the lead in navigational sections.
 
 &[you are two>3]
 
