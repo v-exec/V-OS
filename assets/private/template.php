@@ -24,7 +24,7 @@
 	<meta name="description" content="The V Wiki">
 	<meta name="keywords" content="Digital, Art, Design, Videogames, Games, Music, Portfolio, Montreal">
 	<meta name="author" content="Victor Ivanov">
-	<link rel='icon' href='https://v-os.ca/assets/icons/v_ico.ico' type='image/x-icon'>
+	<link rel='icon' href='https://v-os.ca/assets/ui/v_ico.ico' type='image/x-icon'>
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,900|Roboto:400,400i,700|Roboto+Mono">

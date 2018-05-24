@@ -35,9 +35,14 @@ if ($_GET["a"] == "travel") {
 	$test = strtolower($_GET["b"]);
 	$result;
 
-	for ($j = 12; $j > 0; $j--) {
+	if (getArtifact($test)) {
+		echo getArtifact($test)->attributes['name'];
+		return;
+	}
+
+	for ($j = 0; $j < 4; $j++) {
 		for ($i = 0; $i < sizeof($artifacts); $i++) {
-			if (levenshtein($test, $artifacts[$i]->attributes['name'], 1, 2, 1) < $j) {
+			if (levenshtein($test, $artifacts[$i]->attributes['name'], 1, 2, 1) < strlen($test) - $j) {
 				$result = $artifacts[$i]->attributes['name'];
 			}
 		}
