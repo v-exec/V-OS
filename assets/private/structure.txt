@@ -38,6 +38,7 @@ X		Runtime
 				Nil Cursors
 				Entropica
 				Keerosin
+				Ethera's Word
 			photography
 				AM2
 				Witome
@@ -110,6 +111,7 @@ X		Runtime
 			ARK Simulation
 			Orders of Reality
 X			Higher Protocols
+			Ethera's Word
 		AI
 			LOGO (Lux) - Data (Light)
 			Nox - Darkness

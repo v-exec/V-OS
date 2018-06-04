@@ -39,7 +39,7 @@
 	</a>
 	
 	<div id="header">
-		<div class="header-image" style="background-image: url(<?php echo $artifact->attributes['image'];?>)">
+		<div class="header-image" style="background-image: url(<?php echo addslashes($artifact->attributes['image']);?>)">
 			<div class="header-content">
 				<span class="header-title"><?php echo $artifact->attributes['image name'];?></span>
 			</div>
