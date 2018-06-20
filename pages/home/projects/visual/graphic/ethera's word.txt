@@ -10,17 +10,12 @@ Another anomaly for the records began to manifest itself before me.
 +
 +
 
-It’s been exactly 13 years, 273 days, 14 hours, 2 minutes, and 40 seconds since the last one.
+13 years, 273 days, 14 hours, 2 minutes, and 40 seconds since the last one.
 
 +
 +
 
-I had spent that time organizing the library.
-
-+
-+
-
-A task I long ago realized would never end.
+And still, this library remains disorganized.
 
 +
 +
@@ -44,7 +39,7 @@ _[You are an archivist?]
 +
 +
 
-It possessed a voice.
+It speaks.
 
 +
 +
@@ -64,17 +59,22 @@ The entity’s speech felt like neither statement nor question. Already, this ex
 +
 +
 
-It was humanoid in nature. Short, with snow-white skin and black dots, like freckles. Feminine. White eyelashes, dark blue eyes. I’d think she were an angel, were I younger.
+It was humanoid in nature. Short, with snow-white skin and black dots, like freckles. Feminine. White eyelashes, dark blue eyes. Angelic in presnece, but I'd seen angels. She was not one.
 
 +
 +
 
-*[_[Yes. Though few have diagnosed it as a defect.]]
+*[_[I am not an archivist by choice, no.]]
 
 +
 +
 
-_[You do not find this convenient?]
+As far as I can tell, no one would be, had they a foresight as refined as their retrospection.
+
++
++
+
+_[You do not find it convenient?]
 
 +
 +
@@ -94,12 +94,12 @@ Her lips were only slightly darker than her complexion. A once again blue, strai
 +
 +
 
-It pained me to know that the novelty of this image would fade. Such aesthetics can only be appreciated so long as they are not understood. And it is, in a sense, my burden to only experience in eternity.
+It pained me to know that the novelty of this image would fade. There was a certain aesthetic quality to this moment, and such aesthetics can only be appreciated so long as our exposure to them is limited.
 
 +
 +
 
-_[You do not find this poetic?]
+_[You do not find it poetic?]
 
 +
 +
@@ -109,12 +109,12 @@ Her small lips did not move. Yet words flowed through the still air; now a curre
 +
 +
 
-And as she spoke, the current grew. Consonants became taps in the water, and vowels, the breeze forming small waves on its surface.
+And as she spoke, the current grew. Consonants became taps in a pool of water, and vowels, the breeze forming small waves on its surface.
 
 +
 +
 
-*[_[Indeed. I do.]]
+*[_[What does it matter?]]
 
 +
 +
@@ -124,7 +124,7 @@ A pause.
 +
 +
 
-I did not think she would understand.
+The water, now at my ankles, completely still.
 
 +
 +
@@ -159,7 +159,7 @@ Once again. As if I had nearly said the perfect words.
 +
 +
 
-Her neutral, pale aura gave to some emotion. With a tiny crease above her nose, she expressed something of a frown.
+Her neutral aura gave to some emotion. With a tiny crease above her nose, she expressed something of a frown.
 
 +
 +
@@ -174,7 +174,7 @@ _[You would like to be corrected?]
 +
 +
 
-The frown quickly faded. She formed a subtle smile. As her eyes closed, I felt the fragile breeze from her lashes collide with my cheeks.
+The frown quickly faded. She formed a subtle smile. As her eyes closed, I felt the fragile breeze begin anew.
 
 +
 +
@@ -184,12 +184,12 @@ She slowly lifted her relaxed arm to her mouth and whispered something unintelli
 +
 +
 
-The calm water that previously wet my ankles had now climbed over me. Her sign was not to keep me quiet, but to keep my breath.
+The calm water that previously wet my ankles had now climbed over me. Her sign was not to keep my silence, but to keep my breath.
 
 +
 +
 
-The pressure increased steadily, arousing a slight panic within me.
+The pressure increased steadily, causing a small panic. For a short moment, my mind was filled with a focus that tore my attention away from pasts revisited.
 
 +
 +
@@ -204,11 +204,6 @@ She moved her finger delicately forward.
 +
 +
 
-It was ever so slow a movement. I was now at the mercy of the flooding she had caused.
-
-+
-+
-
 And as her proximity grew, I felt increasingly relaxed by the climbing pressure.
 
 +
@@ -218,12 +213,7 @@ _[You do not need to hold your breath anymore.]
 
 %[]
 
-What is going on?
-
-+
-+
-
-What are these halls?
+What's going on?
 
 +
 +
@@ -238,7 +228,7 @@ _[What recollections do you have?]
 +
 +
 
-I don't understand. What do you mean, what's happening?
+What does that mean, what's happening?
 
 +
 +
@@ -248,7 +238,7 @@ _[You do not remember?]
 +
 +
 
-No, remember what?
+No? Remember what?
 
 +
 +
@@ -263,7 +253,7 @@ What does that mean?
 +
 +
 
-_[Through it is no longer in your nature, retain what you can of this.]
+_[Though it is no longer in your nature, retain what you can of this.]
 
 +
 +
@@ -273,18 +263,11 @@ _[It is inconvenient to go against the tides of the world.]
 +
 +
 
-+
-+
-
 _[It is not your burden to remember that which even the universe has forgotten.]
 
-+
-+
+%[]
 
-+
-+
-
-I only saw- and then- strings faded.
+I only saw... and then... strings faded.
 
 +
 +
@@ -299,14 +282,24 @@ Faded?
 +
 +
 
+...
+
++
++
+
 What's faded?
 
 +
 +
 
-Maybe... I should find a way... to get out of this library.
+...
 
 +
 +
 
-Could have sworn I was talking to someone just now.
+Maybe... I should find a way to... to get out of this library.
+
++
++
+
+Could've sworn I was talking to someone just now.

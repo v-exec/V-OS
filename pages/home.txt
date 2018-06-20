@@ -25,6 +25,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Added the retelling of #[Ethera's Word].
+++
 New entry: #[QU-6].
 ++
 Added quote for #[Keerosin], a bio-sustain tool.

@@ -28,6 +28,7 @@ function getnum($q, $e) {
 function getLogData() {
 	global $artifact;
 	$location = $artifact->attributes['name'];
+	$location = addslashes($location);
 
 	if ($artifact->hasTag('hub')) {
 		$firstDate;
