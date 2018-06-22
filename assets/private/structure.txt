@@ -3,7 +3,6 @@ content
 	DotCycle.win
 	Monospace_Garden.win
 	Perfectus Empatheia rules.pdf
-	Ubisoft Internship.docs
 home
 	404
 	index
@@ -11,9 +10,9 @@ home
 	research
 		Timekeeping
 		Lifeset
-X		Runtime
 		Lucency
 		Luna
+X		Runtime
 	projects
 		visual
 			graphic
@@ -110,8 +109,8 @@ X		Runtime
 			Atomic AI
 			ARK Simulation
 			Orders of Reality
-X			Higher Protocols
 			Ethera's Word
+X			Higher Protocols
 		AI
 			LOGO (Lux) - Data (Light)
 			Nox - Darkness
