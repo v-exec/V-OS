@@ -2,7 +2,7 @@ name: Victor
 image: victor>1
 image name: #[Victor]
 white: true
-tags:
+tags: personal
 title: #[Victor] Ivanov - Vi
 content:
 ![Victor]

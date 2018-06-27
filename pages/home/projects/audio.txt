@@ -1,10 +1,10 @@
 name: Audio
 image: papur>3
 image name: #[Papur]
-tags: project, nav
+tags: nav
 title: The #[audio] division includes all music and sound #[projects].
 content:$[singles>title]
-=[singles]
+=[single]
 %[]
 
 $[albums>title]

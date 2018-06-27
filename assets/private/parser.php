@@ -19,6 +19,15 @@ class Parser {
 			}
 		}
 
+		//format tags
+		if ($artifact->tags) {
+			$newTags = array();
+			for ($i = 0; $i < sizeof($artifact->tags); $i++) {
+				array_push($newTags, '<a href="tag-' . $artifact->tags[$i] . '" class="sidelink-holder"><span class="neutral-link sidelink">' . $artifact->tags[$i] . '</span></a>');
+			}
+			$artifact->formattedTags = $newTags;
+		}
+
 		//format links
 		if ($artifact->links) {
 			$newLinks = array();
@@ -233,7 +242,7 @@ class Parser {
 		//check if is custom list by checking if there are (++) seperating text elements
 		if (strpos($string, '++') == false) {
 			for ($i = 0; $i < sizeof($artifacts); $i++) {
-				if ($artifacts[$i]->hasTag($string) && !$artifacts[$i]->hasTag('nav')) $list = $list.'<li>'.$artifacts[$i]->attributes['title'].'</li>';
+				if ($artifacts[$i]->hasTag($string)) $list = $list.'<li>'.$artifacts[$i]->attributes['title'].'</li>';
 			}
 		} else {
 			$strings = explode('++', trim($string));

@@ -20,6 +20,9 @@ class Artifact {
 	//tags carries a selection of tags, which can be used for grouping and organizational purposes. the array is retrieved from first to last - most important to least important
 	public $tags = array();
 
+	//formatted tags contain tags made for display
+	public $formattedTags = array();
+
 	//links carries a set of links and their respective name associations
 	public $links = array();
 
@@ -206,14 +209,16 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 		return null;
 	}
 
-	$tag = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
+	$location = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
+	$tag = $artifact->tags[sizeof($artifact->tags) - 1];
 	$contents = '';
 
 	for ($i = 0; $i < sizeof($artifacts); $i++) {
 		if ($artifacts[$i]->hasTag('error')) continue;
 
+		//if navigation page, include pages in same directory
 		if ($artifact->hasTag('nav')) {
-			if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $tag) {
+			if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $location) {
 				if ($artifacts[$i] == $artifact) {
 					if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
 					$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
@@ -222,7 +227,8 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 					$contents = $contents . '<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 				}
 			}
-		} else if ($artifacts[$i]->hasTag($tag)) {
+		//if content page, include pages with same leading tag OR ones in same folder
+		} else if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $location || $artifacts[$i]->hasTag($tag)) {
 			if ($artifacts[$i] == $artifact) {
 				if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
 				$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';

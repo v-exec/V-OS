@@ -3,7 +3,7 @@ image: saturn>1
 image name: #[Saturn]
 white: true
 links: Bandcamp>https://v-exec.bandcamp.com/album/the-cosmic-affliction
-tags: project, audio, albums
+tags: project, audio, album
 title: #[The Cosmic Affliction] is a narrative-centric electronic album, following a #[Solemn] drifter of the planes.
 content:
 <iframe class="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1552257507/size=large/bgcol=ffffff/linkcol=333333/tracklist=true/transparent=true/" seamless><a href="http://v-exec.bandcamp.com/album/the-cosmic-affliction">The Cosmic Affliction by v_exec</a></iframe>

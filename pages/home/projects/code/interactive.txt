@@ -2,7 +2,7 @@ name: Interactive
 image: elyium>2
 image name: #[Elyium]
 white: true
-tags: project, code, nav
+tags: nav
 title: The #[interactive] section features games and interactive media.
 content: =[interactive]
 %[]

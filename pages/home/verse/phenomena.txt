@@ -2,7 +2,7 @@ name: Phenomena
 image: papur>2
 image name: #[Papur]
 white: true
-tags: verse, nav
+tags: nav
 title: The #[phenomena] section includes remarkable historical events, happenings, and items.
 content: =[phenomena]
 %[]

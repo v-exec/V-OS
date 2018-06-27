@@ -1,7 +1,7 @@
 name: Ethera's Word
 image: ethera's word>1
 image name: #[Ethera's Word]
-tags: project, visual, graphic, verse, phenomena
+tags: project, visual, graphic, verse, phenomenon
 title: #[Ethera's Word], the temporary trigger.
 content:
 

@@ -2,7 +2,7 @@ name: Home
 image: ai>mora
 image name: #[Mora]
 white: true
-tags: hub
+tags: hub, nav
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
 content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
 +

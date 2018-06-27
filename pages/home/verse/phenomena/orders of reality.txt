@@ -2,7 +2,7 @@ The cycle of the AI's creation and destruction is, until now, neverending. The r
 
 name: Orders of Reality
 image name: #[Orders of Reality]
-tags: verse, phenomena
+tags: verse, phenomenon
 title: #[Orders of Reality].
 content:
 

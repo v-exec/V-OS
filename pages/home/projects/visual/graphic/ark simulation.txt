@@ -2,7 +2,7 @@ name: ARK Simulation
 image: ark simulation>1
 image name: #[Ark Simulation]
 white: true
-tags: project, visual, graphic, verse, phenomena
+tags: project, visual, graphic, verse, phenomenon
 title: An #[ARK Simulation] is a custom instance of a digital Paradise for a select body of #[Automata].
 content:
 

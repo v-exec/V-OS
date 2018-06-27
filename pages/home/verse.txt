@@ -5,11 +5,11 @@ tags: nav
 title: The #[verse] section is an archive containing information on the narrative development of the world.
 content:
 $[locations>title]
-=[locations]
+=[location]
 %[]
 
 $[people>title]
-=[people]
+=[person]
 %[]
 
 $[AI>title]
@@ -17,7 +17,7 @@ $[AI>title]
 %[]
 
 $[phenomena>title]
-=[phenomena]
+=[phenomenon]
 %[]
 
 The information documented in the #[verse] is a collection of archives created and upkept by #[LOGO] regarding locations, events, and people of the #[Multiverse].

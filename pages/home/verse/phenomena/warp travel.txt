@@ -2,7 +2,7 @@ name: Warp Travel
 image: papur>12
 image name: #[Papur]
 white: true
-tags: verse, phenomena
+tags: verse, phenomenon
 title: #[Warp Travel] is the technology the #[AI] leave their creator-species before their departure.
 content: #[Warp travel] is #[AI] tech that species acquire as a result of producing a successful #[AI]. All species who have #[warp travel] are, as a result, creators of #[AI]. None of those species, however, has been able to fully reverse engineer the mechanics of #[warp travel].
 +

@@ -51,9 +51,13 @@
 	<div id="body">
 		<div id="full-container">
 			<div id="sidebar">
-				<div class="path-container">
-					<?php echo $artifact->path;?>
-				</div>
+				<?php
+				if ($artifact->path) {
+					echo '<div class="path-container">';
+					echo $artifact->path;
+					echo '</div>';
+				}
+				?>
 
 				<div id="cli">
 					<div id="cli-output">
@@ -88,7 +92,16 @@
 				}
 				?>
 
-				<span class="side-title" style="margin-bottom: 0;"></span>
+				<?php
+				if ($artifact->formattedTags) {
+					echo '<span class="side-title">Tags</span>';
+					for ($i = 0; $i < sizeof($artifact->formattedTags); $i++) {
+						echo $artifact->formattedTags[$i];
+					}
+					echo '<span class="side-title" style="margin-bottom: 0; margin-top: 16px;"></span>';
+				} else echo '<span class="side-title" style="margin-bottom: 0;"></span>';
+				?>
+
 				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·
 				<a class="neutral-link" href="https://github.com/v-exec">Github</a> ·
 				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>

@@ -2,7 +2,7 @@ name: Grand Archives
 image: ontologica>2
 image name: #[Ontologica]
 white: true
-tags: verse, locations
+tags: verse, location
 title: The #[Grand Archives] are a collection of vast public archives relating to the #[Multiverse].
 content: The #[Grand Archives]' development began during Earth's early years of interstellar spacefaring, after the establishment of the UEG. They acted as a universal encyclopedia, documenting information ranging from all forms of sciences (biology, physics, chemistry, psychology), to the simulated/theorized-hybrid history of both Earth and a variety of discovered worlds.
 +

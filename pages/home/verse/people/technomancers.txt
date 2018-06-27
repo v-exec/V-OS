@@ -2,7 +2,7 @@ name: Technomancers
 image: pc>10
 image name: #[PC]
 white: true
-tags: verse, people
+tags: verse, person
 title: #[Technomancers] are a faction of highly advanced transhumanists.
 content: The #[Technomancers] are a small faction (last recorded: 14) of highly advanced engineers of various disciplines. It's important to note that their abilities are by no means mystical, as per traditional 'technomancy'. They simply operate at a technological level that permits them to exercise an atypical degree of control over the physical realm.
 +

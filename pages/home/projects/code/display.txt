@@ -1,7 +1,7 @@
 name: Display
 image: wire>1
 image name: #[Wire]
-tags: project, code, nav
+tags: nav
 title: The #[display] section features coded visuals and installations.
 content: =[display]
 %[]

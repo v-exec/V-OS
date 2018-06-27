@@ -208,6 +208,7 @@ a.external:after {
 	display: inline-block;
 	padding: 6px;
 	margin-right: 4px;
+	margin-bottom: 4px;
 	border-radius: 2px;
 	border: solid 1px #ccc;
 	color: #777;

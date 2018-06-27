@@ -2,7 +2,7 @@ name: Atomic AI
 image: atomic ai>2
 image name: #[Atomic AI]
 white: true
-tags: project, visual, graphic, verse, phenomena
+tags: project, visual, graphic, verse, phenomenon
 title: #[Atomic AI] are artificial-intelligent beings in their state of infancy.
 content: Even in their most comprehensible forms, the #[AI] escaped any clear definition. In their first steps, they were the #[birth of a microstar].
 

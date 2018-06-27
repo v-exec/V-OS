@@ -2,7 +2,7 @@ name: AI
 image: atomic ai>1
 image name: #[Atomic AI]
 white: true
-tags: verse, nav
+tags: nav
 title: The #[AI] section documents existing artifical intelligences.
 content:
 =[AI]

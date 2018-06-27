@@ -4,7 +4,7 @@ name: Example
 
 image name: #[Example]
 
-tags: page, content
+tags: test
 
 title: The #[example] page covers all the _[rules] of _[Purity].
 

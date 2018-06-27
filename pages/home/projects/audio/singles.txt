@@ -1,6 +1,6 @@
 name: Singles
 image: truli>colored>11
 image name: #[Truli]
-tags: project, audio, nav
+tags: nav
 title: The #[singles] section includes singular songs.
-content: =[singles]
+content: =[single]

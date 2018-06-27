@@ -2,7 +2,7 @@ name: Qurotema
 image: qurotema>4
 image name: #[Qurotema]
 white: true
-tags: verse, locations
+tags: verse, location
 title: #[Qurotema] is a mysterious construct universe.
 content:
 
