@@ -54,12 +54,12 @@ _[You are not willingly so?]
 +
 +
 
-The entity’s speech felt like neither statement nor question. Already, this exchange felt like more of a formality than a conversation.
+The entity’s speech seemed like neither statement nor question. Already, this exchange felt like more of a formality than a conversation.
 
 +
 +
 
-It was humanoid in nature. Short, with snow-white skin and black dots, like freckles. Feminine. White eyelashes, dark blue eyes. Angelic in presnece, but I'd seen angels. She was not one.
+It was humanoid in nature. Short, with snow-white skin and black dots, like freckles. Feminine. White eyelashes, dark blue eyes. Angelic in presence, but I'd seen angels. She was not one.
 
 +
 +
@@ -89,12 +89,7 @@ Her clothing was exquisitely clean, and flowed in perfect symmetry. Ribbons whos
 +
 +
 
-Her lips were only slightly darker than her complexion. A once again blue, straight, vertical line streamed down from the top lip to the bottom, becoming seemingly pitch black towards the center.
-
-+
-+
-
-It pained me to know that the novelty of this image would fade. There was a certain aesthetic quality to this moment, and such aesthetics can only be appreciated so long as our exposure to them is limited.
+Her lips were only slightly darker than her complexion. A once again blue, straight, vertical line streamed down from the top lip to the bottom, becoming seemingly pitch black towards the center. Likely a mark associated with her kind.
 
 +
 +
@@ -110,6 +105,16 @@ Her small lips did not move. Yet words flowed through the still air; now a curre
 +
 
 And as she spoke, the current grew. Consonants became taps in a pool of water, and vowels, the breeze forming small waves on its surface.
+
++
++
+
+Indeed, there was a certain poetic quality to this moment. But I had learned that such aesthetics retain their value so long as our exposure to them is limited.
+
++
++
+
+And preciely, an overexposure would render them useless. The curiosity generated through aesthetic interest would eventually fade. The drive to explore that which we do not understand would move on to less familiar items.
 
 +
 +
@@ -149,12 +154,12 @@ Another pause. She wanted me to continue.
 +
 +
 
-Once again. As if I had nearly said the perfect words.
+Once again. As if I had nearly said what she wanted to hear.
 
 +
 +
 
-*[_[I realized how overwhelming such details can be once collected.]]
+*[_[I realized how the retention of such details can ruin a soul.]]
 
 +
 +
@@ -179,7 +184,7 @@ The frown quickly faded. She formed a subtle smile. As her eyes closed, I felt t
 +
 +
 
-She slowly lifted her relaxed arm to her mouth and whispered something unintelligible. She held her index finger lightly pressed against her lips, I assumed it was a sign for me to be quiet.
+She slowly lifted her relaxed arm to her mouth and whispered something unintelligible. Her index finger froze, lightly pressed against her lips, parallel to the line on them. I assumed it was a sign for me to be quiet.
 
 +
 +
@@ -267,37 +272,17 @@ _[It is not your burden to remember that which even the universe has forgotten.]
 
 %[]
 
-I only saw... and then... strings faded.
+What is this place?
 
 +
 +
 
-...
+I look around.
 
 +
 +
 
-Faded?
-
-+
-+
-
-...
-
-+
-+
-
-What's faded?
-
-+
-+
-
-...
-
-+
-+
-
-Maybe... I should find a way to... to get out of this library.
+Golden, endless halls made of what seems like bookshelves surround me. I should find my way around here.
 
 +
 +
