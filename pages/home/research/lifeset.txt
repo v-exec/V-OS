@@ -5,7 +5,7 @@ tags: research
 title: #[Lifeset] is a collection of guidelines to human existence.
 content:
 
-#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human. The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
+#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human (currently 35). The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
 +
 +
 More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
@@ -78,6 +78,11 @@ Things to be especially careful about in terms of balance: Taking things too ser
 +
 
 *[Know your passions]: Not every subject needs to be something you deeply care about. Understand what it is that motivates you to exist, make that the forefront of your life, and appreciate everything else more passively. People will have different passions, and that is natural.
+
++
++
+
+*[Do not overwork]: Productivity is important, but it is fueled through a well-rested mind. Investigate why productity is important to you, and seek out low-stress ways of achieving the same goals. Life's experiences should not be exclusively dedicated to formal work.
 
 %[]
 
