@@ -2,6 +2,7 @@ name: Mythaphil
 image: mythaphil>1
 image name: #[Mythaphil]
 tags: project, audio, single, verse, location
+white: true
 title: #[Mythaphil] is the major region of a lush jungle planet sharing the same name.
 content:
 Once filled with civilization, #[Mythaphil] is now nothing but overgrown vegetation and wildlife. Underneath the layers of plants lies the synthetic infrastructure of the world that used to be, abandoned for unknown reasons.
