@@ -2,12 +2,9 @@ name: BlackBox 11
 image: blackbox11>1
 image name: #[BlackBox 11]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, phenomenon
 title: #[BlackBox 11]: deathphase:null.
 content: The investigation of an old body. With all phases finished, and no knowledge of what death would bring.
-+
-+
-#[LOGO]'s had this image for a very long time. He didn't want to talk about its origin, but felt the need to share a small poem.
 
 ?[
 Second unit period zero

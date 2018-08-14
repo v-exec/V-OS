@@ -2,7 +2,7 @@ name: Keerosin
 image: keerosin>4
 image name: #[Keerosin]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, phenomenon
 title: A #[Keerosin] is an environmental tool used for automated bio-sustainability.
 content:
 

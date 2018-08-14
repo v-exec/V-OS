@@ -2,7 +2,7 @@ name: Saturn
 image: saturn>3
 image name: #[Saturn]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, location
 title: #[Saturn] is a term associated to the romantic, infinite travels along planets saturated in fog.
 content: #[Saturn] is the cover art for #[The Cosmic Affliction].
 &[saturn>1]

@@ -37,7 +37,7 @@ z = radius * r2 * sin(latitude point)
 <iframe class="media" src="https://www.youtube.com/embed/IBONVVaH-2o" frameborder="0" allowfullscreen></iframe>
 +
 +
-I used the Kinect's depth sensor to gather data regarding the user's width, height, distance, and joint coordinates, using a combination of @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2], a library to interface Kinect with Processing(Java), and my own code.
+#[SuperMORPH] uses the Kinect's depth sensor to gather data regarding the user's width, height, distance, and joint coordinates, using a combination of @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2], a library to interface Kinect with Processing(Java).
 
 &[supermorph>2]
 
@@ -45,4 +45,4 @@ This data is normalized to reduce the jittery input, and then used to drive the 
 
 &[supermorph>1]
 
-This project was a collaborative piece I made with Sarah Lauzon, who managed the majority of the work and coding related to the supershape generation, rendering, and animation, as well as the camera system. I created the algorithms required for reliable user width and height calculaiton using pixel scanning, hand gesturing handling, and parameter and camera control mapping. Simply put, Sarah worked on the output, and I worked on the input.
+This project was a collaborative piece made with Sarah Lauzon, who managed supershape generation and rendering. I dealt with the algorithms for user input, gesture handling, and supershape dynamics.

@@ -3,7 +3,7 @@ image: dotcycle>4
 image name: #[DotCycle]
 white: true
 links: Download>http://v-os.ca/content/dotcycle/DotCycle_Windows.zip, Playthrough>https://www.youtube.com/watch?v=eX9zbHPs6eY, Github>https://github.com/v-exec/DotCycle
-tags: project, code, interactive
+tags: project, code, interactive, verse, phenomenon
 title: #[DotCycle] is a narrative game taking place in archived memories of an #[atomic AI].
 content: #[DotCycle] is a recorded exploration of archived memories. It is composed of poetry, music, and environments that coalesce into a representation of the subject's most remarkable memories.
 +

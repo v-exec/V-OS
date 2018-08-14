@@ -2,7 +2,7 @@ name: Mosterra
 image: mosterra>1
 image name: #[Mosterra]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, phenomenon
 title: A #[Mosterra] is a small, ornamental petri dish containing various bacteria.
 content: The bacteria in a #[Mosterra] are specifically chosen to be hostile to one another. In the span of a few weeks, the bacteria wage a micro-war, producing unique topography-like structures as a result the chemical reactions produced during battle.
 +

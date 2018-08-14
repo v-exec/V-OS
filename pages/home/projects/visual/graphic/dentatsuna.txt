@@ -2,7 +2,7 @@ name: Dentatsuna
 image: dentatsuna>1
 image name: #[Dentatsuna]
 white: true
-tags: project, visual, graphic
+tags: project, visual, graphic, verse, phenomenon
 title: A #[Dentatsuna] is a mobile temple, the #[Automata]'s travelling cathedral.
 content: A #[Dentatsuna] is the #[Automata]'s interstellar temple and place of residence. As a fundamentally religious species, the #[Automata] engineered large cosmic vehicles destined to act as both modes of transport / residential ships, as well as catalysts for the spread of their #[ARK Simulation].
 
