@@ -3,7 +3,7 @@ image: eradise>1
 image name: #[Eradise]
 links: Github>https://github.com/Eradise/Eradise
 white: true
-tags: project, code, interactive, verse, locations
+tags: project, code, interactive, verse, location
 title: #[Eradise] is a third person exploration game taking place in an #[Automata] relic.
 content:
 

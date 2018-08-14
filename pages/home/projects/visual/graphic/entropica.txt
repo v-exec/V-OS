@@ -2,7 +2,7 @@ name: Entropica
 image: entropica>1
 image name: #[Entropica]
 white: true
-tags: project, visual, graphic, verse, locations
+tags: project, visual, graphic, verse, location
 title: #[Entropica] is a world with inverted entropy.
 content:
 

@@ -2,7 +2,7 @@ name: QU-6
 image: qu-6>1
 image name: #[QU-6]
 white: true
-tags: project, visual, graphic, verse, locations
+tags: project, visual, graphic, verse, location
 title: #[QU-6], m_struct #760.
 content:
 

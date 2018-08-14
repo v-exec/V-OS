@@ -3,7 +3,7 @@ image: elyium>2
 image name: #[Elyium]
 white: true
 links: Github>https://github.com/v-exec/Elyium, Writing Guide>https://github.com/v-exec/Elyium/blob/master/public/Guide%20to%20Writing.md
-tags: project, code, interactive
+tags: project, code, interactive, verse, location
 title: #[Elyium] is an alternate reality game which takes place in a limbo realm.
 content:
 #[Elyium] is an experimental, mobile alternate reality game, and narrative platform. It is a limbo world that exists in the void between other realms, and is composed of numerous entities that each posess their own branching stories, often intertwining with one another's narratives. These entities are encountered through the exploration of the physical realm, with the phone, the artifact, acting as a conduit to #[Elyium]'s infinite planes. Each new encounter saves the entity's location in a database, allowing revisitations of old entities for new experiences.
