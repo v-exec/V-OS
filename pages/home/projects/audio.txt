@@ -8,13 +8,13 @@ content:$[singles>title]
 %[]
 
 $[albums>title]
-=[albums]
+=[album]
 %[]
 
-I make my audio work primarily using Ableton as a DAW, with my Nektar Impact LX 61 as a midi controller. I also have experience with FL Studio and Logic Pro, but prefer Ableton, as its UI and functionality suits my workflow.
+Audio is produced primarily using Ableton as a DAW, previously with FL Studio and at times Logic Pro. Assisted through Nektar Impact LX 61 as a midi controller.
 +
 +
-I synthesize all of my audio, aside from drum samples. For sound synthesis, I use synths like Massive, IL Harmor, and a bunch of VSTs I've found on the web. Some of my projects also involve synthesis through programming with frameworks like MaxMSP, PureData, and Tone.js.
+All audio excluding drum samples are synthesized, whether through popular VSTs or, in more experimental projects, frameworks like MaxMSP, PureData, and Tone.js.
 +
 +
-Most of my music doesn't feature acoustic instruments, however I've played guitar for over a decade, and a bit of piano.
+Music regularly includes (typically processed) electric guitar.

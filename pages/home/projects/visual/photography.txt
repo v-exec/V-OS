@@ -5,7 +5,7 @@ tags: nav
 title: The #[photography] section features all photographic work.
 content: =[photography]
 %[]
-I shoot with a Canon T6i, almost exclusively with prime lenses, and edit my photos in Lightroom.
+Most pictures taken with Canon T6i, almost exclusively with prime lenses, edited in Lightroom.
 +
 +
-Unfortunately, many of the photos in #[V-OS] are compressed for download size, which introduces a lot of noise in the images. For full resolution images, please contact me at @[me@v-os.ca>mailto:me@v-os.ca] or on @[Twitter>https://twitter.com/v_exec].
+Unfortunately, many of the photos in #[V-OS] are compressed for download size, which introduces a lot of visual noise. Contact me through @[Twitter>https://twitter.com/v_exec] or any of the social media in the sidebar for full resolution images.

@@ -17,7 +17,7 @@ $[display>title]
 =[display]
 %[]
 
-The projects found here are created using a variety of tools. They range from game engines like Unity and Unreal, to web languages like Javascript and PHP, to frameworks like Processing, to microprocessors like the Arduino.
+Projects under #[code]'s production process is varied, ranging from game engines like Unity and Unreal, to web languages like Javascript and PHP, to frameworks like Processing, to microprocessors like the Arduino.
 +
 +
-Many of my coding projects' code is available on @[Github>https://github.com/v-exec]. Any project whose code is published on github will have a link to the github repo on the header of its page.
+Many of the projects' code is available on @[Github>https://github.com/v-exec]. Any project whose code is published on github will have a link to the github repo and other relevant links on the sidebar of its page.

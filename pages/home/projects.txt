@@ -6,7 +6,7 @@ title: The #[projects] section is a collection of all publicly documented projec
 content: Projects here represent a curated selection of projects that I feel are catalysts to interesting stories, and are of sufficiently high quality.
 +
 +
-Many projects are never really finished, so don't be surprised if some of these get updated with more content over time. Also, don't be surprised if some of these are literally not finished, as some projects are currently a work in progress.
+Some projects may be updated over time.
 
 %[]
 ![#[Visual]]
