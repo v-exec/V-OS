@@ -2,9 +2,9 @@ name: Lucency
 image: lucency>1
 image name: #[Lucency]
 tags: research
-title: #[Lucency] is a private collective of creators seeking self-improvement as both producers and humans.
+title: #[Lucency] is a ███████.
 content:
-#[Lucency] was created in the beginning of 2018 for the purpose of providing creators with an environment to seek technical and artistic feedback. It has since grown into a platform for creators to discuss philosophical, technical, and artistic topics, in an effort to maximize self-growth.
+#[Lucency] was created in the beginning of 2018 for the purpose of █████████. It has since grown into ██████████.
 +
 +
-Each month, #[Lucency] hosts a web exhibition named #[Luna], @[here>https://luna.v-os.ca/].
+#[Lucency] hosts a web exhibition named #[Luna], @[here>https://luna.v-os.ca/].
