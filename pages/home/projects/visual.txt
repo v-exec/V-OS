@@ -1,7 +1,6 @@
 name: Visual
-image: re-l>1
-image name: #[Re-L]
-white: true
+image: org proc>1
+image name: #[Org_Proc]
 tags: nav
 title: The #[visual] division includes all still-image art #[projects].
 content: $[graphic>title]

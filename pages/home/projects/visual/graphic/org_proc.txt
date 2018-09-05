@@ -1,0 +1,26 @@
+name: Org_Proc
+image: org proc>1
+image name: #[Org_Proc]
+tags: project, visual, graphic
+title: #[Org_Proc] is an organic synthesis model.
+content:
+
+In a late 22nd century edition of "Architecting Worlds: A Simple Guide For Simple People", Stolmir et al.'s research in the proceduralization of organic synthesis was compiled into a short, 14 page synth-booklet. The manual was an attempt to raise interest in universal architecture in the general population, as well as to solidify the basic principles of organic pattern production.
+
++
++
+
+It only sold half a million copies. Coincidentally, the information had not been fully experimented with, and as a result, a 17 year old teenager, and avid reader of science articles, inadvertedly created and destroyed 2 universes in a matter of microseconds, causing one of the most catastrophic events in human history.
+
++
++
+
+The booklet was a hit thereafter.
+
+&[org proc>1]
+&[org proc>2]
+&[org proc>3]
+&[org proc>4]
+&[org proc>5]
+&[org proc>6]
+&[org proc>7]

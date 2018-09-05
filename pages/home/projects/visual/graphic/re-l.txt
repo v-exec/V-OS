@@ -1,9 +1,0 @@
-name: Re-L
-image: re-l>1
-image name: #[Re-L]
-white: true
-tags: project, visual, graphic, verse, location
-title: #[Re-L] is the now uninhabited homeworld of the #[Solemn].
-content: The #[Antiverse] is one of the more well-studied verses of the #[Multiverse]. Within it lives #[Re-L], a world often described as Earth's twin. Now a wasteland, it used to be a homeworld to the #[Solemn] before it was bombed into fallout.
-
-&[re-l>1]

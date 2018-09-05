@@ -18,17 +18,12 @@ X		Runtime
 			graphic
 				ARK Simulation
 				BlackBox 11
-				Dir
 				Truli
 				Atmos
 				Atom Array
 				Crystaline
-				Mosterra
 				Saturn
-				Scale
-				Stratet
 				Topography
-				Re-L
 				Dentatsuna
 				Moré
 				Di
@@ -37,11 +32,11 @@ X		Runtime
 				Gates of Qurotema
 				Verse Nodes
 				Nil Cursors
-				Entropica
 				Keerosin
 				Ethera's Word
+				Org_Proc
+				Nom
 			photography
-				AM2
 				Witome
 				Papur
 				PC
@@ -50,8 +45,6 @@ X		Runtime
 		audio
 			singles
 				Quro
-				Direction; Wave
-				Urban Regen
 				2074
 				Mythaphil
 			albums
@@ -73,8 +66,6 @@ X		Runtime
 				Keyde
 				S.O.S.
 				Ontologica
-				ScopeOne
-				VisN
 				DotCycle
 				Relay
 				Perfectus Empatheia
@@ -107,7 +98,6 @@ X		Runtime
 			Voxelverse
 			Void
 			Grand Archives
-			Entropica
 			Qurotema
 			Eradise
 			Moré
@@ -116,6 +106,7 @@ X		Runtime
 			Re-L
 			Saturn
 			Topography
+			Entropica
 		Phenomena
 			Warp Travel
 			Atom Array
@@ -125,9 +116,7 @@ X		Runtime
 			DotCycle
 			Gates of Qurotema
 			Keerosin
-			Mosterra
 			Quro
-			Stratet
 			The Cosmic Affliction
 			ARK Simulation
 			Orders of Reality

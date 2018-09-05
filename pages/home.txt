@@ -1,7 +1,6 @@
 name: Home
-image: ai>mora
-image name: #[Mora]
-white: true
+image: org proc>3
+image name: #[Org_Proc]
 tags: hub
 title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
 content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
@@ -25,7 +24,13 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
-Add new #[Lifeset] entries.
+Added documentation for #[Org_Proc], an organic synthesis model.
+++
+Updated @[work history>victor].
+++
+Added documentation for #[Nom], a candy commercial.
+++
+Added new #[Lifeset] entries.
 ++
 Cleaned up #[V-OS] page tags, and added verse tags to appropriate pages.
 ++

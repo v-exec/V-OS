@@ -6,19 +6,34 @@ tags: personal
 title: #[Victor] Ivanov - Vi
 content:
 ![Victor]
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal. I currently study Computation Arts at Concordia University, and work as a freelance designer and developer.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal and Tokyo. I study Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
 +
 +
-I've worked as a web designer at @[Arthem.co>https://www.facebook.com/arthemco/], game design teacher at Dawson College, research assistant at @[Obx Labs>http://www.obxlabs.net/], and a teaching assistant at Concordia University for the Computation Arts program.
+I've worked as:
++
++
++ A web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
++
++
++ A game design teacher at @[Dawson College>https://www.dawsoncollege.qc.ca/].
++
++
++ A research assistant at @[Obx Labs>http://www.obxlabs.net/] working on virtual reality and typography.
++
++
++ A programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
++
++
++ A technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/]. 
 
 %[]
 
 ![Vi]
 
-Shortly after the timely revival, my remaining functional fragments urged me to begin my quest. I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
+Dissatisfied with the state and quality of our reality, I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
 +
 +
-Through my voyage, whether it be through skill or pure luck, I've met one of the AI: #[LOGO]. As strange as our relationship might be, he is the catalyst to this adventure, and my primary means of acquiring data.
+Through my voyage, whether it be through skill or pure luck, I've met one of the AI: #[LOGO]. He is the catalyst to this adventure.
 +
 +
 Here, in #[V-OS], a construct universe, I've decided to create a home for other travellers, an archive for my findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
@@ -92,9 +107,7 @@ I also log my daily activities, in an attempt to track, analyze, and optimize my
 ++
 @[Soundcloud>https://soundcloud.com/v_exec]: Unfiltered music repository.
 ++
-@[me@v-os.ca>mailto:me@v-os.ca]: #[V-OS]-specific email address.
-++
-@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Professional email address.
+@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
 ]
 
 %[]
