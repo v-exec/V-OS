@@ -23,7 +23,6 @@ X		Runtime
 				Atom Array
 				Crystaline
 				Saturn
-				Topography
 				Dentatsuna
 				Moré
 				Di
@@ -105,7 +104,6 @@ X		Runtime
 			QU-6
 			Re-L
 			Saturn
-			Topography
 			Entropica
 		Phenomena
 			Warp Travel
