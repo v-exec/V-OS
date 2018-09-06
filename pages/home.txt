@@ -24,6 +24,8 @@ Here, you can find my #[projects] and their documentation. If you don't know whe
 ![Updates]
 
 -[
+Added photography set for #[Archform].
+++
 Added documentation for #[Org_Proc], an organic synthesis model.
 ++
 Updated @[work history>victor].
