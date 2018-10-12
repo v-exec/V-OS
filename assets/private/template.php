@@ -69,18 +69,22 @@
 				</div>
 
 				<?php
+				echo '<div class="side-divider"></div>';
+
 				if ($data = getLogData()) {
-					echo '<span class="side-title"><a href="https://log.v-os.ca/'. $artifact->attributes['name'] .'">Log.Entries</a></span>';
+					echo '<a class="side-box" href="https://log.v-os.ca/'. $artifact->attributes['name'] .'">';
 					echo $data;
+					echo '</a>';
+					echo '<div class="side-divider"></div>';
 				}
 				?>
 
 				<?php
 				if ($artifact->links) {
-					echo '<span class="side-title">Links</span>';
 					for ($i = 0; $i < sizeof($artifact->links); $i++) {
 						echo $artifact->links[$i];
 					}
+					echo '<div class="side-divider" style="margin-top: 16px"></div>';
 				}
 				?>
 
@@ -89,17 +93,17 @@
 					$dir = $artifact->brokenPath[sizeof($artifact->brokenPath) - 2];
 					echo '<span class="side-title"><a href="'. $dir .'">'. ucfirst($dir) .'</a></span>';
 					echo $related;
+					echo '<div class="side-divider"></div>';
 				}
 				?>
 
 				<?php
 				if ($artifact->formattedTags) {
-					echo '<span class="side-title">Tags</span>';
 					for ($i = 0; $i < sizeof($artifact->formattedTags); $i++) {
 						echo $artifact->formattedTags[$i];
 					}
-					echo '<span class="side-title" style="margin-bottom: 0; margin-top: 16px;"></span>';
-				} else echo '<span class="side-title" style="margin-bottom: 0;"></span>';
+					echo '<div class="side-divider" style="margin-top: 16px"></div>';
+				} else echo '<div class="side-divider"></div>';
 				?>
 
 				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·

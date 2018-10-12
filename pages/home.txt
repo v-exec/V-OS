@@ -2,7 +2,7 @@ name: Home
 image: org proc>3
 image name: #[Org_Proc]
 tags: hub
-title: Welcome to #[V-OS], a virtual library of #[projects], @[narratives>verse], and experiments.
+title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
 content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
 +
 +
