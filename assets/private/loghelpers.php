@@ -128,7 +128,7 @@ function getRecentActivities($logLimit) {
 		$rows = array();
 
 		while ($row = $result->fetch_assoc()) {
-			array_push($rows, [$row['date'], $row['time'], $row['project'], $row['task'], $row['details']]);
+			array_push($rows, [$row['date'], $row['time'], '<a href="https://log.v-os.ca/' . $row['project'] . '">' . $row['project'] . '</a>', '<a href="https://log.v-os.ca/' . $row['task'] . '">' . $row['task'] . '</a>', $row['details']]);
 		}
 
 		$displayLogCount = $logLimit;
