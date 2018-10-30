@@ -413,7 +413,7 @@ class Parser {
 		else $string = '<p>'. $string;
 
 		//remove last opening paragraph tag if no text is present
-		if (substr($string, -3, 3) === '<p>') $string = substr($string, 0, sizeof($string) - 4);
+		if (substr($string, -3, 3) === '<p>') $string = substr($string, 0, strlen($string) - 4);
 		//add paragraph closer at end if paragraph tag not empty
 		else $string = $string . '</p>';
 
