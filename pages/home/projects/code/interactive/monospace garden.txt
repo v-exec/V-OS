@@ -3,7 +3,7 @@ image: monospace garden>1
 image name: #[Monospace_Garden]
 links: Download>content/monospace garden/Monospace_Garden_Windows.zip, Github>https://github.com/v-exec/Monospace-Garden
 tags: project, code, interactive
-title: #[Monospace Garden] is a solar construction emulator.
+title: #[Monospace_Garden] is a solar construction emulator.
 content:
 
 The #[Monospace_Garden] was created as a research application meant to navigate the experience of solar system creation.
