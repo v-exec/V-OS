@@ -103,7 +103,7 @@
 						echo $artifact->formattedTags[$i];
 					}
 					echo '<div class="side-divider" style="margin-top: 16px"></div>';
-				} else echo '<div class="side-divider"></div>';
+				}
 				?>
 
 				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·

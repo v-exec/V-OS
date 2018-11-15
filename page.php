@@ -11,6 +11,7 @@ if (isset($_GET['v'])) {
 
 include 'assets/private/parser.php';
 include 'assets/private/artifact.php';
+include 'assets/private/customartifact.php';
 include 'assets/private/logcredentials.php';
 include 'assets/private/loghelpers.php';
 include 'assets/private/static.php';
@@ -80,9 +81,37 @@ createArtifacts();
 formatArtifacts();
 
 //load artifact
-if (getArtifact($v) != null) $artifact = getArtifact($v);
-//if artifact doesn't exist, load 404
-else $artifact = getArtifact('404');
+if (getArtifact($v) != null) {
+	$artifact = getArtifact($v);
+} else if(substr($v, 0, 4) === "tag-") {
+	//check if looking at generated tag-artifact
+	$tag = substr($v, 4, strlen($v));
+	$tagCount = 0;
+
+	for ($i = 0; $i < sizeof($artifacts); $i++) {
+		if ($tagCount > 0) break;
+		if ($artifacts[$i]->hasTag($tag)) {
+			$tagCount++;
+		}
+	}
+
+	if ($tagCount > 0) {
+		//generate custom artifact
+		$artifact = new CustomArtifact();
+		$artifact->attributes['name'] =  "Tagged: " . $tag;
+		$artifact->attributes['title'] = "Artifacts tagged with _[" . $tag . "].";
+		$artifact->attributes['content'] = '-[' . $tag . ']';
+		$artifact->path = ['home'];
+		$parser->firstFormat($artifact);
+		$parser->secondFormat($artifact);
+	} else {
+		//load 404
+		$artifact = getArtifact('404');
+	}
+} else {
+	//if artifact doesn't exist, load 404
+	$artifact = getArtifact('404');
+}
 
 //get template
 ob_start();
