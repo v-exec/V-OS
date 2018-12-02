@@ -9,7 +9,10 @@ content: This digital space is a virtual library of my @[work>projects], @[narra
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm.
 +
 +
-Here, you can find my #[projects] and their documentation. If you don't know where to start, check out the #[index].
+Here, you can find my #[projects] and their documentation. For professional information, please visit my #[portfolio].
++
++
+If you don't know where to start, check out the #[index].
 
 %[]
 

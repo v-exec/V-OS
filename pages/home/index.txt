@@ -6,7 +6,7 @@ title: The #[index] is the main navigation hub of #[V-OS].
 content: The #[index] is managed by #[LOGO], so be sure to thank him for keeping things tidy. If you need help, you can talk with him through his CLI in the sidebar.
 +
 +
-The #[site] is divided into three sectors.
+The site is divided into three sectors.
 
 %[]
 ![#[Projects]]
@@ -19,3 +19,6 @@ $[research>title]
 %[]
 ![#[Verse]]
 $[verse>title] #[LOGO] is especially active in that area.
+
+%[]
+There exist two pages outside of these sectors. The #[victor] page, which features information about me. And, my #[portfolio].

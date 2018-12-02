@@ -9,22 +9,7 @@ content:
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal and Tokyo. I study Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
 +
 +
-I've worked as:
-+
-+
-+ A web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
-+
-+
-+ A game design teacher at @[Dawson College>https://www.dawsoncollege.qc.ca/].
-+
-+
-+ A research assistant at @[Obx Labs>http://www.obxlabs.net/] working on virtual reality and typography.
-+
-+
-+ A programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
-+
-+
-+ A technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/]. 
+For professional information, check out my #[portfolio].
 
 %[]
 
@@ -108,33 +93,4 @@ I also log my daily activities, in an attempt to track, analyze, and optimize my
 @[Soundcloud>https://soundcloud.com/v_exec]: Unfiltered music repository.
 ++
 @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
-]
-
-%[]
-
-![Professional Information]
-If you're looking for something formal, here's my @[cv>content/victor/cv.pdf]. I'm available for freelance work for any of the following tasks, and anything in the general field of interactive media:
-
-=[
-2D graphics
-++
-3D graphics
-++
-music production
-++
-audio design
-++
-game design
-++
-game development
-++
-app development
-++
-web design
-++
-web development
-++
-interactive media
-++
-teaching
 ]
