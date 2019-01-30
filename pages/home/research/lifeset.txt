@@ -5,7 +5,7 @@ tags: research
 title: #[Lifeset] is a collection of guidelines to human existence.
 content:
 
-#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human (currently 35). The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
+#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human (currently 37). The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
 +
 +
 More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
@@ -14,7 +14,7 @@ More specifically, these are the rules that @[I>victor] live by, and I plan on r
 I'd like to mention a few other short texts that cover similar topics of self-improvement and productivity, by @[Ian Battaglia>https://monochromatic.co/metachromatic/index/the-blank-pages] and @[Devine Lu Linvega>http://wiki.xxiivv.com/Aesthetics].
 
 -[
-*[Balance and Well-being] focuses on happiness in general, and personal improvement.
+*[Balance and Well-Being] focuses on happiness in general, and personal improvement.
 ++
 *[Perspective and Awareness] deals with questions of how one sees and interprets the world.
 ++
@@ -27,14 +27,19 @@ These divisions exist to provide a simple form of organization, though most of t
 
 %[]
 
-![Balance and Well-being]
+![Balance and Well-Being]
+
+*[Embrace yourself]: Although we should strive for self-improvement, there are parts of ourselves that are not particularly subject to change. When you find them, do not waste too much energy trying to change them. Embrace those aspects of yourself and learn to co-exist with them, as opposed to eradicating them.
+
++
++
 
 *[Avoid excess]: Whether it be drugs and alcohol, exercise, media consumption, work, etc., excesses are to be avoided. Excess is acceptable, only when it is temporarily (in the short-term) brought on deliberately through specific activities.
 
 +
 +
 
-*[Avoid spectrum extremes for stability]: We often find ourselves criticizing our location on spectrums and conclude that we should jump to the opposite extreme of where we initially were. For many cases, it is best to avoid this altogether, if possible, and go towards the relative center as soon as possible. Keep in mind that 'center', in this case, is subject to personal preference and circumstances, meaning that the center must first be found, in order to travel to it.
+*[Avoid spectrum extremes]: We often find ourselves criticizing our location on spectrums and conclude that we should jump to the opposite extreme of where we initially were. For many cases, it is best to go towards the relative center of said spectrums. Keep in mind that 'center', in this case, is subject to personal preference and circumstances, meaning that the center must first be found, in order to travel to it.
 +
 +
 Things to be especially careful about in terms of balance: Taking things too seriously / not seriously enough, being too emotional / cold, working too much / not enough, being too social / not social enough, being too considerate / inconsiderate. The list goes on, but these aspects are typical areas of imbalance.
@@ -50,7 +55,7 @@ Both stability and adventure are important. Find the threshold of desire you hav
 +
 +
 
-*[Avoid neglecting aspects of life you think you do not need but really do]: Existing as a human comes with many quirks. One of them is that you most likely need the things everyone else needs. Social interaction, sexual stimulation, emotional presence; think carefully if you're thinking of cutting them out.
+*[Avoid neglecting aspects of life you potentially assume are unnecessary]: Existing as a human comes with many quirks. One of said quirks is that you most likely need the things everyone else needs. Social interaction, sexual stimulation, emotional presence; think carefully if you're thinking of cutting them out of your life.
 
 +
 +
@@ -71,11 +76,6 @@ Both stability and adventure are important. Find the threshold of desire you hav
 +
 
 *[Do not aim to impress others]: "Being yourself" is a popular saying, but it fails to explicitly specify how trying to impress others is the catalyst to no longer being yourself. Going about life persistently looking for ways to make others like you / your work only brings anxiety. It is wiser to treat impressions as a side-effect of your genuine interests and behavior.
-
-+
-+
-
-*[Do not be afraid to leave]: Groups, objects, events, things we can possess. To own a possession is not a commitment to never let it go. If you feel your path continues elsewhere, take the initiative to leave and continue your journey, for the path you tread is your only persistent possession.
 
 +
 +
@@ -101,15 +101,15 @@ Both stability and adventure are important. Find the threshold of desire you hav
 +
 +
 
-*[Treat different layers of value sets appropriately]: In the human world, each abstraction of culture calls for a possible new set of values. These series of abstractions (Human>Earth>Country>City>Neighborhood>Family, for example) form a hierarchy of nested value systems. In this hierarchy, inner-values are dependent on the outer-values, but outer-values are not dependent on inner-values.
+*[Use rationality appropriately]: Rationality is a tool, to be used in all cases involving the methodology of reaching a goal. That is to say, a situation where the purpose is to find the most appropriate way to achieving a pre-established goal. Rationality's appropriateness ends at situations that have no goal, and subjective preferences based on innate biological traits take over.
 +
 +
-Only outer-values can be treated as 'correct' from the perspective of inner-values. How far down or high up the given value set is irrelevant to its overall 'correctness', it only affects its popularity and likelihood of adoption. Be aware of the value sets at different levels, but do not pass subjective judgment. Their validity must be evaluated through the goals they aim to achieve, their efficiency in doing so, and their compatibility with other value sets.
+Many matters, including emotions and social relationships, are not fundamentally rational (from a human perspective). Thus, attempting to deal with these areas from a purely rational perspective only breeds frustration.
 
 +
 +
 
-*[Be aware of the human perspective, versus the cosmic perspective]: On a scale larger than human communities, as animals, we assign meaning based on our biological programming and its systems for evaluating value (and all sub-sets of values are based on this overarching value system). With that in mind, we also possess the ability to handle abstractions and consciously conjure thoughts that do not pertain to this primal value system. Through this practice, we may eventually reach the value system belonging to the cosmos itself, which, at the moment, is void.
+*[Be aware of the human perspective, versus the cosmic perspective]: On a scale larger than human communities, as animals, we assign meaning based on our biological programming and its systems for evaluating value (and all sub-sets of values are based on this overarching value system). With that in mind, we also possess the ability to handle abstractions and consciously conjure thoughts that do not pertain to this primal value system. Through this practice, we may eventually reach the value system belonging to the cosmos itself, which, at the moment, appears to be void.
 +
 +
 Despite the cosmos' all-encompassing nature, as humans, we remain at least partially anchored to our primal value system and perspective. A healthy life uses the human perspective to drive healthy habits for the human body and mind (the practical), and it uses the cosmic perspective to drive some forms of morality, higher purpose, and higher understanding (the philosophical).
@@ -121,6 +121,9 @@ Do not neglect the human perspective, for it cannot be escaped before death. Do 
 +
 
 *[Do not idolize]: Admiration is fine, but idolization is not. In idolizing an existing entity, you set your upper-limits of appreciation to something that already exists. It avoids disappointment in attempts to reach it, as reaching whatever existing entity you idolize is technically possible. However, it equally avoids progress towards creating and reaching that which does not yet exist.
++
++
+Additionally, to idolize is to take something real and idealize it into fiction. All idols are false idols.
 
 +
 +
@@ -130,7 +133,15 @@ Do not neglect the human perspective, for it cannot be escaped before death. Do 
 +
 +
 
+*[Live in the moment]: To take in life is to exist in the present. To achieve this, do not overstimulate the mind with constant desires for entertainment and activity. Let your mind rest, this trains your capacity to focus. Also, remove expectations in scenarios where you have a highly structured view of something. By having no expectations, you make choices in the moment based on your current desires, as opposed to constant reference to reaching future expectations.
+
++
++
+
 *[Follow your path]: Feel free to not meet others' desires or expectations when appropriate. Be sure to look carefully at rules, guidelines, and criteria, so that you are sure they align with your goals and intentions. If they do not, consider disregarding them. Prioritize and remember your individuality.
++
++
+Do not be afraid to leave parts of your life if your path continues elsewhere. A direction is not a lifelong commitment. Take the initiative to leave and continue your journey, for the path you tread is your only persistent possession.
 
 +
 +
@@ -140,7 +151,7 @@ Do not neglect the human perspective, for it cannot be escaped before death. Do 
 +
 +
 
-*[Face loneliness]: Whether you have friends or a romantic partner, there is no escaping the loneliness of human existence. Embrace the fact that you will be alone, and do not live to feed a feeling that cannot be satiated. Remember that you alone will be your only partner through life, so put your priorities first (within reason).
+*[Face loneliness]: Whether you have friends or a romantic partner, there is no escaping the loneliness of human existence. Embrace the fact that you will be alone, and do not live to feed a feeling that cannot be satiated. Remember that you alone will be your only partner through life.
 
 %[]
 
@@ -191,7 +202,7 @@ Do not neglect the human perspective, for it cannot be escaped before death. Do 
 +
 +
 
-*[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. On a small scale, a meta-objective, like improving the quality of your drawings of hands, will make you more critical towards your technique and accelerate your improvement. On a larger scale, long-term objectives will encourage you to be fully and more consistently engaged in the activities you wish to practice.
+*[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. On a small scale, short-term objectives will make you more critical towards your technique and accelerate your improvement. On a larger scale, long-term objectives will encourage you to be fully and more consistently engaged in the activities you wish to practice.
 
 +
 +
@@ -217,14 +228,9 @@ Do not neglect the human perspective, for it cannot be escaped before death. Do 
 +
 +
 
-*[Use rationality appropriately]: Rationality is a tool, to be used in all cases involving the methodology of reaching a goal. That is to say, a situation where the purpose is to find the most appropriate way to achieving a pre-established goal. Rationality's appropriateness ends at situations that have no goal, and subjective preferences based on innate biological traits take over.
-
-+
-+
-
 *[Anchor abstract concepts]: Abstract concepts can be difficult to grasp and to keep track of. When trying to develop abstract ideas, it is good to, at the very least, manifest them into the physical realm through symbols like writing. Beyond that, they can also be manifested through designed experiences. Each attempt to manifest an abstract idea is one step closer to understanding it fully.
 
 +
 +
 
-*[Do not over-indulge in theory]: Theoretical knowledge is useful, but it is easy to get lost in the world of theory without balancing it out through practice. Theoretical knowledge is pointless if it is not put to use.
+*[Do not over-indulge in theory]: Theoretical knowledge is useful, but it is easy to get lost in the world of theory without balancing it out through practice. Theoretical knowledge is pointless if it is never put to use.

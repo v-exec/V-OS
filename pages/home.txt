@@ -27,17 +27,7 @@ If you don't know where to start, check out the #[index].
 ![Updates]
 
 -[
-Added photography set for #[Archform].
+Created #[portfolio] section for professional purposes.
 ++
-Added documentation for #[Org_Proc], an organic synthesis model.
-++
-Updated @[work history>victor].
-++
-Added documentation for #[Nom], a candy commercial.
-++
-Added new #[Lifeset] entries.
-++
-Cleaned up #[V-OS] page tags, and added verse tags to appropriate pages.
-++
-Rewrote parts of #[Ethera's Word].
+Updated #[Lifeset] protocols.
 ]

@@ -6,65 +6,80 @@ tags: personal
 title: Victor's #[portfolio].
 content:
 
-![Summary]
-
-My name is #[Victor] [vi], and I'm a multidisciplinary designer and developer residing both in Montreal and Tokyo. In college, I studied Interactive Media Arts. Currently, I study Computation Arts at Concordia University in Montreal and Waseda University in Tokyo.
-+
-+
-I work as a freelance designer and developer, taking on projects involving design (2D graphics, touch-ups, UI, branding, web, game), audio (music and sound effect production), programming (web, game), and teaching.
-+
-+
-If you would like more informal documentation of myself, please refer to the #[victor] page.
-+
-+
-If you're interested in a formal document that summarizes the information on this page, please take a look at my @[curriculum vitae>content/victor/cv.pdf].
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
 
 %[]
 
-![Work Experience]
+![Summary]
 
-In the past, I've worked as:
+My name is #[Victor] [vi], and I'm a multidisciplinary designer and developer residing both in Montreal and Tokyo.
 +
 +
-+ A technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/].
+I design, develop, and produce media, especially new / experimental media that challenges and innovates on existing products. Projects involving design (2D graphics, touch-ups, UI, branding, web, 3D modeling, 3D rendering, game design), audio (music and sound effect production), programming (fullstack web, game), and teaching any of the aformentioned skills, are all within my capacity.
++
++
+As a designer, my goal is to create engaging products that are aesthetically pleasing, unique and innovative, and relevant to your objectives. Whether it be a website, an experimental game, a song, or a graphic for your brand, the purpose is to enable your business to better communicate what you offer, and how well you do it, to your clients. My goal is to accomplish that through high-quality production, as well as conversations with you on how to realize your objectives.
++
++
+As an instructor, my goal is to take students from beginner to proficient in any discipline by focusing on mastering the basics. Expertise is a result of in-depth understanding of the fundamentals, combined with practice. Practice is something students must undertake themselves. But, instructing the fundamentals is a responsability I enjoy taking on through fun, engaging, and personal teaching settings.
++
++
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[curriculum vitae>content/victor/cv.pdf].
+
+%[]
+
+![Experience]
+
+I studied in Montreal, graduating with first class honors from Interactive Media Arts in Dawson College. Currently, I study Computation Arts at Concordia University in Montreal, as well as Waseda University in Tokyo.
++
++
+What follows is my work experience.
+
+%[]
+
+Technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/].
 +
 +
 There, I acted as a technical lead and instructor in the field of game design and audio. I was also involved in teaching programming in C# in Unity over the course of the 1 month workshop. I created and taught the curriculum for audio production, narrative design, and a portion of the programming section. I also helped students (~15 in total) collectively create a game that they had conceptualized. My help ranged from 3D work in Blender, to audio production, to programming in C#, to version control troubleshooting.
-+
-+
-+ A programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
+
+%[]
+
+Programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
 +
 +
 There, I helped teach university students how to code in Java and work on personal projects.
-+
-+
-+ A research assistant at @[Obx Labs>http://www.obxlabs.net/] working on virtual reality and typography.
+
+%[]
+
+Research assistant at @[Obx Labs>http://www.obxlabs.net/] working on virtual reality and typography.
 +
 +
 There, I conceptualized and produced experimental typography projects using both Unity and Unreal Engine for use with the HTC Vive.
-+
-+
-+ A game design teacher at @[Dawson College>https://www.dawsoncollege.qc.ca/].
+
+%[]
+
+Game design teacher at @[Dawson College>https://www.dawsoncollege.qc.ca/].
 +
 +
 There, I created and taught a 2-week full-time curriculum centered around familiarizing students with game design, and helping each student produce a personal game using Construct 2.
-+
-+
-+ A web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
+
+%[]
+
+Web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
 +
 +
 There, I dealt with client requiremnts and front-end design of websites.
 
 %[]
 
-![Professional Information]
-
-If you are interested in hiring me for work in the following fields:
+![Skills]
 
 =[
 2D graphics
 ++
 3D graphics
+++
+photography
 ++
 music production
 ++
@@ -74,18 +89,18 @@ game design
 ++
 game development
 ++
-app development
-++
 web design
 ++
 web development
 ++
 interactive media
 ++
+english
+++
+french
+++
 teaching
 ]
-
-Please contact me at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com].
 
 %[]
 
@@ -105,124 +120,81 @@ Please contact me at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.desig
 
 ![Projects]
 
-Below is a collection of curated projects that showcase previous work, some of which was for clients, some of which are personal projects.
+Below is a collection of curated projects that showcase previous work, some of which were for clients, some of which are personal projects.
++
++
+For a full list of projects, go @[here>projects].
 
 %[]
 
-![#[Saturn]]
-&[saturn>1]
+#[Visual] - 2D
 
-#[Saturn] is a landscape illustration. It was made to serve as an album cover for #[The Cosmic Affliction]. It was created using Terragen for 3D terrain, followed by color correction, digital collage-ing, and illustration in Photoshop.
-
-%[]
-
-![#[Org_Proc]]
--[
-&[org proc>1]
+=[
+#[Atmos]
 ++
-&[org proc>3]
+#[ARK Simulation]
+++
+#[Archform]
+++
+#[Verse Nodes]
 ]
 
-#[Org_Proc] is a series of 3D renders centered around generative modeling. Each shot in the series features a different algorithm for mesh generation made in Houdini. They are all rendered using Blender.
-
 %[]
 
-![#[Moré]]
-&[moré>1]
+#[Visual] - 3D
 
-#[Moré] is a narrative scene created in Blender. It features a small sculpted character, and procedural geometry generated by texture mapping.
-
-%[]
-
-![#[Keerosin]]
-&[keerosin>3]
-
-#[Keerosin] is a hero prop modeled in Blender using both hardsurface modeling and sculpting. The purpose of this project was to create a prop that featured both organic and hard surface geometry, and acted as a narrative device in a post-apocalyptic story.
-+
-+
-A low-poly mesh was produced in Blender for performance purposes. It was also UV unwrapped in Blender, and textured in Substance Painter. Later, the finished asset was imported into Unity.
-
-%[]
-
-![#[Atmos]]
-&[atmos>1]
-
-#[Atmos] is a landscape illustration. Like #[saturn], it was created using Terragen for 3D terrain and atmospherics. Mandelbulb 3D was used to create the structure, and it was collaged into the scene. Photoshop was used for additional illustration.
-
-%[]
-
-![#[ARK Simulation]]
-&[ark simulation>1]
-
-#[ARK Simulation] is a future UI project created in Blender and Illustrator, for the purpose of experimenting with 2D and 3D user interfacing.
-
-%[]
-
-![#[The Cosmic Affliction]]
-<iframe class="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1552257507/size=large/bgcol=ffffff/linkcol=333333/tracklist=true/transparent=true/" seamless><a href="http://v-exec.bandcamp.com/album/the-cosmic-affliction">The Cosmic Affliction by v_exec</a></iframe>
-+
-#[The Cosmic Affliction] is a multi-genre narrative album. It was created in Ableton primarily with synthesizers, with composition done on a keyboard midi controller, and it features processed vocals and guitar in certain songs.
-
-%[]
-
-![#[Keyden]]
-
-<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321657222&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-+
-+
-<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/324179960&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-+
-+
-#[Keyden] is a set of two atmospheric tracks for #[Keyde]. They were both produced in Ableton, using processed guitar and synthesizers.
-
-%[]
-
-![#[DotCycle]]
-&[dotcycle>4]
-
-#[DotCycle] is a narrative game where the player progresses through an environment with poetry and music. It is made in Unity, and required me to write a camera dithering shader for its visual aesthetic.
-
-%[]
-
-![#[Purity]]
-
-#[Purity] is a wiki engine. It was created for the purpose of acting as a content management system for #[v-os]. In fact, the site you're on right now is built using #[Purity]!
-
-%[]
-
-![#[Keyde]]
-&[keyde>10]
-
-#[Keyde] is a dynamic visualization of different mathematical formulas. The purpose of the project was to create visuals based off of formulas that evolve dynamically based on data provided by an EEG reading. It was made in Unity.
-
-%[]
-
-![#[Log]]
-&[log>2]
-
-#[Log] is a productivity log visualization tool. It was created with the purpose of tracking my productivity and various project statistics. It is made using PHP and mySQL.
-
-%[]
-
-![#[RELAY]]
-&[relay>2]
-
-#[RELAY] is an asymetric multiplayer geolocative hacking game. It was created for the purpose of encouraging spontaneous interaction between strangers in the physical world. It was created using NodeJS.
-
-%[]
-
-![#[Visor]]
-&[visor>1]
-
-#[Visor] is a web-based presentation tool. It was made with the intent of motivating minimal slides and clean presentation layouts.
-
-%[]
-
-![#[You Are Two]]
--[
-&[you are two>2]
+=[
+#[Saturn]
 ++
-&[you are two>3]
+#[Org_Proc]
+++
+#[Moré]
+++
+#[Keerosin]
+++
+#[Atomic AI]
+++
+#[Eradise]
 ]
 
-#[You Are Two] is an asymetric multiplayer platforming game that comments on the difficulties associated with diagnosing and living with bipolar disorder. It was created for Ubisoft's Game Lab competition. I led the team producing the game, and focused on gameplay design, visual design, audio asset production, programming, and some work on level design.
+%[]
+
+#[Audio]
+
+=[
+#[The Cosmic Affliction]
+++
+#[Keyden]
+++
+#[Mythaphil]
+]
+
+%[]
+
+#[Code] - Web
+
+=[
+#[Purity]
+++
+#[Log]
+++
+#[RELAY]
+++
+#[Visor]
+]
+
+%[]
+
+#[Code] - Game
+
+=[
+#[DotCycle]
+++
+#[Keyde]
+++
+#[You Are Two]
+]
+
+%[]
+
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
