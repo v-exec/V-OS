@@ -1,0 +1,20 @@
+name: Techform
+image: techform>12
+image name: #[Techform]
+tags: project, visual, photography
+title: #[Techform] - Advanced refinement.
+content:
+?[And the nature of the world bent to their will, as a mastery of its elements realized.]
+
+&[techform>1]
+&[techform>2]
+&[techform>3]
+&[techform>4]
+&[techform>5]
+&[techform>6]
+&[techform>7]
+&[techform>8]
+&[techform>9]
+&[techform>10]
+&[techform>11]
+&[techform>12]

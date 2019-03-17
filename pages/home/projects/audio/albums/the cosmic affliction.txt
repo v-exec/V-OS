@@ -6,4 +6,4 @@ links: Bandcamp>https://v-exec.bandcamp.com/album/the-cosmic-affliction
 tags: project, audio, album, verse, phenomenon
 title: #[The Cosmic Affliction] is a narrative-centric electronic album, following a #[Solemn] drifter of the planes.
 content:
-<iframe class="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=1552257507/size=large/bgcol=ffffff/linkcol=333333/tracklist=true/transparent=true/" seamless><a href="http://v-exec.bandcamp.com/album/the-cosmic-affliction">The Cosmic Affliction by v_exec</a></iframe>
+<iframe class="media" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/339277145&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

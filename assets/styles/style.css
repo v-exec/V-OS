@@ -96,16 +96,6 @@ a.external:after {
 	border: solid 1px #ccc;
 }
 
-.bandcamp {
-	display: block;
-	width: 80%;
-	height: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 0;
-	border-radius: 4px;
-}
-
 /*-----------HEADER-----------*/
 #header {
 	position: relative;

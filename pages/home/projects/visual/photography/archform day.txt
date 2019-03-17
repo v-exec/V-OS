@@ -1,0 +1,29 @@
+name: Archform Day
+image: archform day>14
+image name: #[Archform Day]
+tags: project, visual, photography
+title: #[Archform Day] - Shining strata.
+content:
+?[On the surface, they mastered the synthesis between man and machine. Their environment bent to their will - a perfect suit for their bodies.]
+
+&[archform day>1]
+&[archform day>2]
+&[archform day>3]
+&[archform day>4]
+&[archform day>5]
+&[archform day>6]
+&[archform day>7]
+&[archform day>8]
+&[archform day>9]
+&[archform day>10]
+&[archform day>11]
+&[archform day>12]
+&[archform day>13]
+&[archform day>14]
+&[archform day>15]
+&[archform day>16]
+&[archform day>17]
+&[archform day>18]
+&[archform day>19]
+&[archform day>20]
+&[archform day>21]

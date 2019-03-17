@@ -1,6 +1,6 @@
 name: Home
 image: org proc>3
-image name: #[Org_Proc]
+image name: #[org_proc]
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
 content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
@@ -27,6 +27,12 @@ If you don't know where to start, check out the #[index].
 ![Updates]
 
 -[
+Added #[Archform Day], #[Archform Night], #[Aquaform], #[Fireform], and #[Techform], photography albums taken in Tokyo.
+++
+Added #[Episodic EP], a short album paying homage to life's episodic nature.
+++
+Made digital version of #[Perfect Empathy], playable @[here>https://v-exec.github.io/Perfect-Empathy/].
+++
 Created #[portfolio] section for professional purposes.
 ++
 Updated #[Lifeset] protocols.

@@ -1,5 +1,5 @@
 name: Portfolio
-image: victor>1
+image: victor>2
 image name: #[Victor]
 white: true
 tags: personal
