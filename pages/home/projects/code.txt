@@ -1,6 +1,7 @@
 name: Code
-image: keyde>1
-image name: #[Keyde]
+image: qurotema>4
+image name: #[Qurotema]
+white: true
 links: Github>https://github.com/v-exec
 tags: nav
 title: The #[code] division is dedicated to programming and multimedia composite #[projects].

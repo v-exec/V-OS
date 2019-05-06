@@ -1,6 +1,7 @@
 name: Projects
-image: atomarray>2
-image name: #[Atom Array]
+image: qu-6>9
+image name: #[Qu-6]
+white: true
 tags: nav
 title: The #[projects] section is a collection of all publicly documented projects.
 content: Projects here represent a curated selection of projects that I feel are catalysts to interesting stories, and are of sufficiently high quality.

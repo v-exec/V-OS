@@ -27,6 +27,10 @@ If you don't know where to start, check out the #[index].
 ![Updates]
 
 -[
+Changed display images for navigation pages.
+++
+Documented #[Cartographer], a procedurally generated, persistent multiplayer exploration game.
+++
 Added #[Archform Day], #[Archform Night], #[Aquaform], #[Fireform], and #[Techform], photography albums taken in Tokyo.
 ++
 Added #[Episodic EP], a short album paying homage to life's episodic nature.

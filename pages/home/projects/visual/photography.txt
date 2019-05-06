@@ -1,6 +1,7 @@
 name: Photography
-image: papur>7
-image name: #[Papur]
+image: archform night>11
+image name: #[Archform Night]
+white: true
 tags: nav
 title: The #[photography] section features all photographic work.
 content: =[photography]

@@ -1,6 +1,7 @@
 name: Graphic
-image: truli>1
-image name: #[Truli]
+image: ark simulation>1
+image name: #[Ark Simulation]
+white: true
 tags: nav
 title: The #[graphic] section features all visual digital media.
 content: =[graphic]

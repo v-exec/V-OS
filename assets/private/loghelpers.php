@@ -82,10 +82,10 @@ function getLogData() {
 			return null;
 
 		$lastDate = getExtremeDate($location, 'division', 1);
-		$hours = getAllHours($location, 'division');
-		$logs = getAllLogs($location, 'division');
-		$days = getAllDays($location, 'division');
-		$divisionStats = getDivisionRatio(null, null, $location, 'division');
+		$hours = number_format(str_replace(',', '', getAllHours($location, 'division')), null, null, '');
+		$logs = str_replace(',', '', getAllLogs($location, 'division'));
+		$days = str_replace(',', '', getAllDays($location, 'division'));
+		$divisionStats = str_replace(',', '', getDivisionRatio(null, null, $location, 'division'));
 
 	} else if ($artifact->hasTag('project')) {
 		$firstDate = getExtremeDate($location, 'project', 0);
@@ -94,16 +94,16 @@ function getLogData() {
 			return null;
 
 		$lastDate = getExtremeDate($location, 'project', 1);
-		$hours = getAllHours($location, 'project');
-		$logs = getAllLogs($location, 'project');
-		$days = getAllDays($location, 'project');
-		$divisionStats = getDivisionRatio(null, null, $location, 'project');
+		$hours = number_format(str_replace(',', '', getAllHours($location, 'project')), null, null, '');
+		$logs = str_replace(',', '', getAllLogs($location, 'project'));
+		$days = str_replace(',', '', getAllDays($location, 'project'));
+		$divisionStats = str_replace(',', '', getDivisionRatio(null, null, $location, 'project'));
 
 	} else {
 		return null;
 	}
 
-	$hourDayAverage = number_format($hours / $days, 1);
+	$hourDayAverage = number_format(str_replace( ',', '', $hours) / str_replace( ',', '', $days), 1);
 
 	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
 

@@ -1,6 +1,6 @@
 name: Interactive
-image: elyium>2
-image name: #[Elyium]
+image: cartographer>1
+image name: #[Cartographer]
 white: true
 tags: nav
 title: The #[interactive] section features games and interactive media.
