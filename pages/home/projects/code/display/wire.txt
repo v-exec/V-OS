@@ -1,7 +1,7 @@
 name: Wire
 image: wire>1
 image name: #[Wire]
-links: Github>https://github.com/v-exec/Wire
+links: Github>https://github.com/v-exec/Wire, View Online>http://exp.v-os.ca/wire
 tags: project, code, display
 title: #[Wire] is a dynamic logo system.
 content: #[Wire] was inspired by a glitchy audio visualizer. Because it contained no form of easing, the visualizer would rapidly change states and create afterimages, inspiring the aesthetic for #[Wire].
