@@ -8,7 +8,7 @@ content: #[Perfect Empathy] puts you, a cursed adventurer, in a dungeon. Your cu
 
 %[]
 
-#[Perfect Empathy] was made into a digital game, fully playable @[here>https://v-exec.github.io/Perfect-Empathy/].
+#[Perfect Empathy] was made into a digital game, fully playable @[here>http://exp.v-os.ca/perfect-empathy].
 
 %[]
 
