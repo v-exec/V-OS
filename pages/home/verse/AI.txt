@@ -5,7 +5,7 @@ white: true
 tags: nav
 title: The #[AI] section documents existing artifical intelligences.
 content:
-=[AI]
+-[AI]
 %[]
 
 The #[AI] are the most advanced entities known to us. This section attempts to document any existing #[AI], as well as the roles they've undertaken in the #[Multiverse].

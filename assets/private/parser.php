@@ -89,8 +89,10 @@ class Parser {
 			//reformat 10 times to allow for 10 levels of nested artifact content retrieval
 			//could be theoretically infinite, but that doesn't seem practical, and will easily end up with infinite loops
 			for ($i = 0; $i < 10; $i++) {
+				$this->formatText($artifact, 'content', '|');
 				$this->formatText($artifact, 'content', '-');
 				$this->formatText($artifact, 'content', '=');
+				$this->formatText($artifact, 'content', '/');
 				$this->formatText($artifact, 'content', '$');
 			}
 			
@@ -166,6 +168,14 @@ class Parser {
 					$new = $this->createCustomLink($string);
 					break;
 
+				case '/':
+					$new = $this->createStyledLink($string);
+					break;
+
+				case '|':
+					$new = $this->createFullList($string);
+					break;
+
 				case '-':
 					$new = $this->createSpaciousList($string);
 					break;
@@ -232,6 +242,37 @@ class Parser {
 		return '<a href="'.$link.'" class="external">'.$word.'</a>';
 	}
 
+	//styled link (note: breaks flow of page, redeclaring '<p>' to keep flow)
+	private function createStyledLink($string) {
+		global $artifacts;
+
+		$string = $this->cleanString($string);
+
+		if ($this->artifactExist($string)) {
+			$art = $this->getArtifact($string);
+
+			return '</p><div href="'.strtolower($string).'" class="page-card neutral-link"><div class="page-card-image" style="background-image:url('.$art->attributes['image'].')"></div><div class="page-card-title">'.$art->attributes['title'].'</div></div><p>';
+		}
+
+		return;
+	}
+
+	//page-card list grouped by $string(tag) (note: breaks flow of page, redeclaring '<p>' to keep flow)
+	private function createFullList($string) {
+		global $artifacts;
+
+		$string = $this->cleanString($string);
+		$list = null;
+
+		for ($i = 0; $i < sizeof($artifacts); $i++) {
+			if ($artifacts[$i]->hasTag($string)) {
+				$list = $list.$this->createStyledLink('/['.$artifacts[$i]->attributes['name'].']');
+			}
+		}
+
+		return $list;
+	}
+
 	//title list grouped by $string(tag) (note: breaks flow of page, redeclaring '<p>' to keep flow)
 	private function createSpaciousList($string) {
 		global $artifacts;
@@ -242,7 +283,10 @@ class Parser {
 		//check if is custom list by checking if there are (++) seperating text elements
 		if (strpos($string, '++') == false) {
 			for ($i = 0; $i < sizeof($artifacts); $i++) {
-				if ($artifacts[$i]->hasTag($string)) $list = $list.'<li>'.$artifacts[$i]->attributes['title'].'</li>';
+				if ($artifacts[$i]->hasTag($string)) {
+					//$list = $list.'<li>'.$artifacts[$i]->attributes['title'].'</li>';
+					$list = $list.$this->createStyledLink('/['.$artifacts[$i]->attributes['name'].']');
+				}
 			}
 		} else {
 			$strings = explode('++', trim($string));
@@ -258,6 +302,7 @@ class Parser {
 	private function createCondensedList($string) {
 		global $artifacts;
 
+		$dirtyString = $string;
 		$string = $this->cleanString($string);
 		$list = null;
 
@@ -316,6 +361,7 @@ class Parser {
 		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.svg';
 
 		$image = str_replace(' ', '%20', $image);
+		$image = str_replace("'", "\'", $image);
 
 		return $image;
 	}

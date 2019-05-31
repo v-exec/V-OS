@@ -4,4 +4,4 @@ image name: #[Quro]
 white: true
 tags: nav
 title: The #[singles] section includes singular songs.
-content: =[single]
+content: -[single]

@@ -68,7 +68,7 @@ There, I created and taught a 2-week full-time curriculum centered around famili
 Web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
 +
 +
-There, I dealt with client requiremnts and front-end design of websites.
+There, I dealt with client requirements and front-end design of websites.
 
 %[]
 
@@ -127,73 +127,49 @@ For a full list of projects, go @[here>projects].
 
 %[]
 
-#[Visual] - 2D
+![#[Visual] - 2D]
 
-=[
-#[Atmos]
-++
-#[ARK Simulation]
-++
-#[Archform]
-++
-#[Verse Nodes]
-]
+/[Atmos]
+/[ARK Simulation]
+/[Archform]
+/[Verse Nodes]
 
 %[]
 
-#[Visual] - 3D
+![#[Visual] - 3D]
 
-=[
-#[Saturn]
-++
-#[Org_Proc]
-++
-#[Moré]
-++
-#[Keerosin]
-++
-#[Atomic AI]
-++
-#[Eradise]
-]
+/[Saturn]
+/[Org_Proc]
+/[Moré]
+/[Keerosin]
+/[Atomic AI]
+/[Eradise]
 
 %[]
 
-#[Audio]
+![#[Audio]]
 
-=[
-#[The Cosmic Affliction]
-++
-#[Keyden]
-++
-#[Mythaphil]
-]
+/[The Cosmic Affliction]
+/[Keyden]
+/[Mythaphil]
 
 %[]
 
-#[Code] - Web
+![#[Code] - Web]
 
-=[
-#[Purity]
-++
-#[Log]
-++
-#[RELAY]
-++
-#[Visor]
-]
+/[Purity]
+/[Log]
+/[RELAY]
+/[Visor]
 
 %[]
 
-#[Code] - Game
+![#[Code] - Game]
 
-=[
-#[DotCycle]
-++
-#[Keyde]
-++
-#[You Are Two]
-]
+/[DotCycle]
+/[Keyde]
+/[You Are Two]
+/[Cartographer]
 
 %[]
 

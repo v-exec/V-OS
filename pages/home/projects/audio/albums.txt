@@ -3,6 +3,6 @@ image: keyde>5
 image name: #[Keyde]
 tags: nav
 title: The #[albums] section includes sets of songs that were created to work as a cohesive narrative or technical unit.
-content: =[album]
+content: #[Albums] are collections of thematically related songs, regardless of length or song count.
 %[]
-#[Albums] are collections of thematically related songs, regardless of length or song count.
+-[album]

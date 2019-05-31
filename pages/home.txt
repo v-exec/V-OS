@@ -3,16 +3,13 @@ image: org proc>3
 image name: #[org_proc]
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
-content: This digital space is a virtual library of my @[work>projects], @[narratives>verse], and, to a degree, @[myself>research].
+content: This digital space is a virtual library of my #[projects], @[narratives>verse], and #[research].
 +
 +
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm. For professional information, please visit my #[portfolio].
 +
 +
-Here, you can find my #[projects] and their documentation. For professional information, please visit my #[portfolio].
-+
-+
-If you don't know where to start, check out the #[index].
+#[V-OS] is organized like a wiki. _[All bold text is clickable. Please enjoy exploring.] If you don't know where to start, check out the #[index].
 
 %[]
 
@@ -27,6 +24,8 @@ If you don't know where to start, check out the #[index].
 ![Updates]
 
 -[
+Updated links with page cards.
+++
 Changed display images for navigation pages.
 ++
 Documented #[Cartographer], a procedurally generated, persistent multiplayer exploration game.

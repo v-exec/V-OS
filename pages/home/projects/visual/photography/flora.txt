@@ -3,7 +3,7 @@ image: flora>8
 image name: #[Flora]
 white: true
 tags: project, visual, photography
-title: #[Flora] is a growing series of photographs depicting the constantly active micro-monde of the insectarium and flora worlds.
+title: #[Flora] are depictions of the micro-monde of the insectarium and flora worlds.
 content:
 &[flora>1]
 &[flora>2]

@@ -3,14 +3,7 @@ image: papur>3
 image name: #[Papur]
 tags: nav
 title: The #[audio] division includes all music and sound #[projects].
-content:$[singles>title]
-=[single]
-%[]
-
-$[albums>title]
-=[album]
-%[]
-
+content:
 Audio is produced primarily using Ableton as a DAW, previously with FL Studio and at times Logic Pro. Assisted through Nektar Impact LX 61 as a midi controller.
 +
 +
@@ -18,3 +11,11 @@ All audio excluding drum samples are synthesized, whether through popular VSTs o
 +
 +
 Music regularly includes (typically processed) electric guitar.
+
+%[]
+$[singles>title]
+-[single]
+
+%[]
+$[albums>title]
+-[album]

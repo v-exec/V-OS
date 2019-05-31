@@ -3,7 +3,7 @@ image: analog>1
 image name: #[Analog]
 white: true
 tags: verse, person
-title: #[Analog] is a decentralized group of tech-savvy vigilantes, operating in various sectors of the #[Multiverse].
+title: #[Analog] is a decentralized group of tech-savvy vigilantes.
 content: #[Analog] was formed as a reactionary response to governmental secrecy in regards to interuniversal data. Its founders are D██████ ███e█████ and Fl███ █████, a theoretical physicist and systems expert respectively. When working privately for the UEG, they were the first to oppose the privatization of the information, covering topics like interuniversal travel, logs regarding at least 23 different universes, confirmation of 2 other alien species, and new progress in AI research.
 +
 +

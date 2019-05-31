@@ -4,8 +4,8 @@ image name: #[V-OS]
 links: Github>https://github.com/v-exec/V-OS
 white: true
 tags: project, code, tool
-title: #[V-OS] is a designed space destined for multimedia production, narrative exploration, and philosophical investigation.
-content: This site acts as a hub for a collection of multimedia experiments and projects. #[V-OS] focuses on providing a space to create and document fictional worlds made real through experimental media projects, in an attempt create and study a series of realities.
+title: #[V-OS] is a designed space for media, narrative, and philosophy.
+content: This site acts as a hub for a collection of multimedia experiments, narrative explorations, and philosophical investigations. #[V-OS] focuses on providing a space to create and document fictional worlds made real through experimental media projects, in an attempt create and study a series of realities.
 +
 +
 #[V-OS] is made using #[Purity].

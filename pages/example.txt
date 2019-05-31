@@ -128,11 +128,18 @@ Creates a custom link to any given URL.
 @[Custom link>https://github.com/v-exec/Purity]
 
 %[======================================]
+/ [project] styled link
++
++
+Creates a stylized link to an artifact, if it exists.
+/[purity]
+
+%[======================================]
 & [dir>img _[optional] ++ text] image
 +
 +
 Creates an image, with an optional annotation.
-&[di>2 ++ Annotation.]
+&[purity>2 ++ Annotation.]
 
 %[======================================]
 * [text] bold
