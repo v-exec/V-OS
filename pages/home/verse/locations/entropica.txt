@@ -8,8 +8,7 @@ content:
 
 Created by a @[Technomancer>technomancers], #[Entropica] is a reverse-entropy world. It houses an environment where order thrives naturally, with all regulations and agents acting towards structure. Over time, #[Entropica] grows ever close to perfect order, through its alternative set of physics protocols.
 
-+
-+
+/[technomancers]
 	
 Currently, it exists in an incredibly stable state, in a centralized, hyper-organized megastructure. In its earlier stages, it featured planet-like celestial bodies that orbited around a smaller version of the megastructure, and eventually integrated into it.
 

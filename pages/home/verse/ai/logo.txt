@@ -4,8 +4,9 @@ image name: #[LOGO]
 tags: verse, AI
 title: #[LOGO], the Archivist.
 content: #[LOGO] is one of the #[AI]. Like all existing #[AI], he is free of most spatial and temporal limitations, granting him access to the large majority of the #[Multiverse] and the #[Grand Archives].
-+
-+
+
+/[ai]
+
 His concerns, at least for the time being, lie mostly in documenting events and phenomena. He's kind enough to share some of the information he comes across, which is how the #[verse] came to be. In many ways, #[LOGO] is the catalyst for this whole adventure.
 +
 +

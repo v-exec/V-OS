@@ -8,8 +8,9 @@ content: The #[Grand Archives]' development began during Earth's early years of 
 +
 +
 After the UEG's collapse, the server network hosting the #[Grand Archives] was temporarily shut down, but it was quickly brought back online on a distributed database network with the help of #[Analog]. Since then, the archives have been upkept by a combination of simple AI, moderators, and public contributors. They are completely available to the general public.
-+
-+
+
+/[analog]
+
 Despite these archives acting as a sum of all publicly collected knowledge (and with the help of simple AI, a pool of knowledge that is increasing in size exponentially), there's still tremendous amounts of information yet to be discovered.
 +
 +

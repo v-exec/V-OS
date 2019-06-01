@@ -1,11 +1,10 @@
 name: Keyden
-image: keyde>9
+image: keyde>5
 image name: #[Keyde]
 white: true
 links: Soundcloud>https://soundcloud.com/v_exec/sets/keyden
 tags: project, audio, album
 title: The #[Keyden] is a mechanical decryption mechanism.
 content: The #[Keyden] audio collection  acts as the soundtrack for #[Keyde].
-+
-+
+/[keyde]
 <iframe class="media" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/339275447&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

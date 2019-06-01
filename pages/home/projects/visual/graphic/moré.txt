@@ -10,5 +10,8 @@ Many travellers have made their way to the white planes to visit their temples a
 ?[Yet another drifter had found themselves at the entrance of my angelic palace, looking to reclaim what was never theirs, holding but only a few drops of knowledge of the absolution I might bring to a lost soul.]
 
 The creator(s) of the temples have not yet been pinpointed.
+
+/[mora]
+/[dei]
 &[moré>2]
 &[moré>1]

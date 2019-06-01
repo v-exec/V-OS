@@ -5,6 +5,10 @@ white: true
 tags: project, visual, graphic
 title: The #[Verse Nodes] are a collection of images made specifically for the #[verse].
 content:
+
+/[verse]
+
+%[]
 ![$[Gates of Qurotema>title]]
 &[qurotema>2]
 

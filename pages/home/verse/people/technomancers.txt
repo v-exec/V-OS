@@ -8,8 +8,9 @@ content: The #[Technomancers] are a small faction (last recorded: 14) of highly 
 +
 +
 The members of the #[Technomancers] are unknown, though there are rumors that at least one of the members of #[Analog] is part of them.
-+
-+
+
+/[analog]
+
 Their philosophy revolves around assembling diverse teams of highly skilled individuals, and furthering their group's technological understanding. As a result, it is likely that some AI of intellect equivalent to #[LOGO]'s are products of the #[Technomancers], though no direct evidence suggests this.
 +
 +

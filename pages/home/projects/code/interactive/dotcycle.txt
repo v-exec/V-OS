@@ -8,8 +8,7 @@ title: #[DotCycle] is a narrative game taking place in archived memories of an #
 content: ?[Operator, this is the most intact instance so far. It appears to be divided into episodic nihilisic revelations of sorts. This is our best chance yet at understanding why these things keep offing themselves.]
 
 #[DotCycle] is a recorded exploration of archived memories from one of the last unsuccessful #[atomic AI]. Composed from poetry, music, and environments that coalesce into a representation of the subject's most remarkable memories.
-+
-+
+/[atomic ai]
 @[Download it for windows here>http://v-os.ca/content/dotcycle/DotCycle_Windows.zip].
 +
 @[Watch full playthrough here>https://www.youtube.com/watch?v=eX9zbHPs6eY].

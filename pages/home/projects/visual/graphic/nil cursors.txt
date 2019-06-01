@@ -10,5 +10,6 @@ content:
 
 ?[Creatures mimicking those made of Light hide their Void cores. "I've seen one", you say? You'll have to excuse my old mind, but even in my years, my only exposure to them is indirect. A tip for those foolish enough to go searching for what doesn't concern them: Don't let the Inverted Halo fool you - the Cursors are far from the realm of the Holy.]
 
+/[nil]
 &[nil cursors>2]
 &[nil cursors>1]

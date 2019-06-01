@@ -9,3 +9,5 @@ content: This site acts as a hub for a collection of multimedia experiments, nar
 +
 +
 #[V-OS] is made using #[Purity].
+
+/[purity]

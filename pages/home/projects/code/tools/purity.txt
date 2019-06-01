@@ -6,6 +6,7 @@ links: Github>https://github.com/v-exec/Purity
 tags: project, code, tool
 title: #[Purity] is an authoring engine that acts as the back-end of #[V-OS].
 content: #[Purity] is a specialized wiki engine built in PHP, with the purpose of creating a minimalistic platform for complex, interwoven networks of data.
+/[v-os]
 
 %[]
 
