@@ -11,17 +11,23 @@ I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montre
 +
 For professional information, check out my #[portfolio].
 
+/[portfolio]
+
 %[]
 
 ![Vi]
 
 Dissatisfied with the state and quality of our reality, I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
-+
-+
+
+/[multiverse]
+
 Through my voyage, whether it be through skill or pure luck, I've met one of the AI: #[LOGO]. He is the catalyst to this adventure.
-+
-+
+
+/[logo]
+
 Here, in #[V-OS], a construct universe, I've decided to create a home for other travellers, an archive for my findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
+
+/[v-os]
 
 %[]
 
@@ -74,6 +80,8 @@ generalism
 ]
 
 I also log my daily activities, in an attempt to track, analyze, and optimize my productivity and overall lifestyle. A live visualization of that data can be found on the @[Log>http://log.v-os.ca].
+
+/[log]
 
 %[]
 
