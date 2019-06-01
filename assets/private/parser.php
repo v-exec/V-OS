@@ -251,7 +251,7 @@ class Parser {
 		if ($this->artifactExist($string)) {
 			$art = $this->getArtifact($string);
 
-			return '</p><div href="'.strtolower($string).'" class="page-card neutral-link"><div class="page-card-image" style="background-image:url('.$art->attributes['image'].')"></div><div class="page-card-title">'.$art->attributes['title'].'</div></div><p>';
+			return '</p><div href="'.strtolower($string).'" class="page-card"><a class="page-card-image" href="'.$art->attributes['name'].'" style="background-image:url('.$art->attributes['image'].')"></a><div class="page-card-title">'.$art->attributes['title'].'</div></div><p>';
 		}
 
 		return;

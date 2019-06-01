@@ -124,7 +124,7 @@
 					<h1><?php echo $artifact->attributes['title']?></h1>
 				</div>
 
-				<div class="divider"></div>
+				<div class="divider" style="transform: translateX(0)"></div>
 
 				<div id="content">
 					<?php echo $artifact->attributes['content'];?>
