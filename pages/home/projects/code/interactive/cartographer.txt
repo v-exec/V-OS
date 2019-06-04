@@ -2,8 +2,11 @@ name: Cartographer
 image: cartographer>1
 image name: #[Cartographer]
 white: true
-links: Play Online>http://exp.v-os.ca/cartographer, Github>https://github.com/v-exec/Cartographer
+links: Play Online>https://exp.v-os.ca/cartographer, Github>https://github.com/v-exec/Cartographer
 tags: project, code, interactive
 title: #[Cartographer] is a procedurally generated persistent multiplayer exploration game.
 content: #[Cartographer] is an exploration game centered around navigating biomes, exploring a generated world, and reading and leaving pins for other visitors of the world to read.
++
++
+Play it @[here>https://exp.v-os.ca/cartographer].
 &[cartographer>2]

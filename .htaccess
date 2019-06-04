@@ -11,6 +11,6 @@ RewriteRule ^(.*)$ $1.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)$ /page.php?v=$1 [NC,L]
 
-ErrorDocument 404 http://v-os.ca/404
-ErrorDocument 403 http://v-os.ca/404
-ErrorDocument 500 http://v-os.ca/404
+ErrorDocument 404 https://v-os.ca/404
+ErrorDocument 403 https://v-os.ca/404
+ErrorDocument 500 https://v-os.ca/404
