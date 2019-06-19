@@ -1,5 +1,5 @@
 name: Antiverse
-image: atomarray>3
+image: atomarray>1
 image name: #[Atom Array]
 tags: verse, location
 title: The #[Antiverse] is an aged world in its first stages of heat death.

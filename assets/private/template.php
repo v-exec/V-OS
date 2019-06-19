@@ -33,9 +33,7 @@
 
 <body>
 	<a href="home">
-		<canvas id="userCanvas" width="400" height="400">
-			This feature (html canvas) does not work on your browser.
-		</canvas>
+		<canvas id="userCanvas" width="400" height="400"></canvas>
 	</a>
 	
 	<div id="header">
@@ -136,28 +134,18 @@
 
 	<div id="footer">
 		<div id="footer-content">
-			<div class="footer-left">
-				<span class="footer-text">
-					<a class="neutral-link" href="https://v-os.ca/victor">Victor Ivanov</a>
-					<br>
-					<a class="neutral-link" href="https://v-os.ca/home">V-OS</a> · <a class="neutral-link" href="https://log.v-os.ca">LOG</a>
-				</span>
-			</div>
+			<span class="footer-left">
+				<a class="neutral-link" href="https://v-os.ca/victor">Victor Ivanov</a>
+				<br>
+				<a class="neutral-link" href="https://v-os.ca/home">V-OS</a> · <a class="neutral-link" href="https://log.v-os.ca">LOG</a>
+			</span>
 
 			<a class="footer-center neutral-link" href='http://webring.xxiivv.com/#random' target='_blank'><img src='https://v-os.ca/assets/ui/ring.svg'></img></a>
 
-			<div class="footer-right">
-				<span class="footer-text">
-					<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllDays(null, null);?> days</a><br>
-					<a href="https://log.v-os.ca" class="neutral-link">updated
-					<?php echo getLastUpdate(null, null);?>
-					</a>
-				</span>
-				<span class="footer-text">
-					<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllHours(null, null);?> hours</a><br>
-					<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllLogs(null, null);?> logs</a>
-				</span>
-			</div>
+			<span class="footer-right">
+				<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllDays(null, null);?> days</a><br>
+				<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllHours(null, null);?> hours</a><br>
+			</span>
 		</div>
 	</div>
 

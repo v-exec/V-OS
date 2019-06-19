@@ -1,6 +1,7 @@
 name: Audio
-image: papur>3
-image name: #[Papur]
+image: qurotema>3
+image name: #[Quro]
+white: true
 tags: nav
 title: The #[audio] division includes all music and sound #[projects].
 content:

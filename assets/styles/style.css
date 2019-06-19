@@ -46,8 +46,7 @@ a:hover {
 }
 
 a.external:after {
-	content: "~";
-	color: #777;
+	content: " ⊷";
 }
 
 .neutral-link {
@@ -199,13 +198,16 @@ a.external:after {
 }
 
 .log-stat {
-	display: block;
-	margin-bottom: 4px;
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	margin-bottom: 20px;
 }
 
 .log-bar {
-	display: block;
-	height: 16px;
+	display: inline-block;
+	vertical-align: top;
+	height: 15px;
 	margin-bottom: 20px;
 	background-color: #ccc;
 	border-radius: 3px;
@@ -440,58 +442,62 @@ li .annotation {
 /*-----------FOOTER-----------*/
 #footer {
 	width: 100%;
+	height: 90px;
 	background-color: #000;
 }
 
 #footer-content {
 	max-width: 900px;
+	height: 100%;
     position: relative;
     overflow: auto;
-    padding: 30px 40px 30px 40px;
 	margin: auto;
 }
 
+.footer-left,
+.footer-right {
+	display: inline-block;
+	position: absolute;
+	vertical-align: top;
+	color: #fff;
+	font-size: 13px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.footer-left a,
+.footer-right a {
+	color: #fff;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+	background-color: #777;
+}
+
 .footer-left {
-	float: left;
+	left: 40px;
 }
 
 .footer-right {
-	float: right;
+	right: 40px;
 	text-align: right;
 }
 
 .footer-center {
 	position: absolute;
-	height: 28px;
-	left: calc(50% - 14px);
+	height: 30px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .footer-center img {
-	height: 28px;
+	height: 30px;
 }
 
 .footer-center:hover {
 	background-color: #000;
-}
-
-.footer-text {
-	display: inline-block;
-	vertical-align: top;
-	color: #fff;
-	font-size: 13px;
-	margin-right: 40px;
-}
-
-.footer-text * {
-	color: #fff;
-}
-
-.footer-text a:hover {
-	background-color: #777;
-}
-
-.footer-right .footer-text {
-	margin: 0 0 0 40px;
 }
 
 /*-----------MEDIA-----------*/

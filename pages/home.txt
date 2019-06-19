@@ -9,34 +9,20 @@ content: This digital space is a virtual library of my #[projects], @[narratives
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a quest to architect a new reality and deconstruct the physical realm. For professional information, please visit my #[portfolio].
 +
 +
-#[V-OS] is organized like a wiki. _[All bold text is clickable. Please enjoy exploring.] If you don't know where to start, check out the #[index].
+#[V-OS] is a wiki, where _[all bold text is clickable]. So, please enjoy exploring. If you feel stuck or lost, please check out the #[index].
 
 %[]
 
-~[@[Vi>victor]'s recent @[activities>https://log.v-os.ca].
+![Recent]
+
+~[@[Log>https://log.v-os.ca]
 +
 +
->[getRecentActivities(7);]
-]
+>[getRecentActivities(7);]]
+
+>[getRecentProjects(3);]
 
 %[]
 
-![Updates]
-
--[
-Updated links with page cards.
-++
-Changed display images for navigation pages.
-++
-Documented #[Cartographer], a procedurally generated, persistent multiplayer exploration game.
-++
-Added #[Archform Day], #[Archform Night], #[Aquaform], #[Fireform], and #[Techform], photography albums taken in Tokyo.
-++
-Added #[Episodic EP], a short album paying homage to life's episodic nature.
-++
-Made digital version of #[Perfect Empathy], playable @[here>https://v-exec.github.io/Perfect-Empathy/].
-++
-Created #[portfolio] section for professional purposes.
-++
-Updated #[Lifeset] protocols.
-]
+![#[Projects] List]
+=[project]

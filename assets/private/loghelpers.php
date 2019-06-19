@@ -103,13 +103,36 @@ function getLogData() {
 		return null;
 	}
 
-	$hourDayAverage = number_format(str_replace( ',', '', $hours) / str_replace( ',', '', $days), 1);
+	$hourDayAverage = number_format(str_replace(',', '', $hours) / str_replace(',', '', $days), 1);
 
 	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
 
 	for ($i = 0; $i < sizeof($divisionStats); $i++) {
-		$data = $data . '<span class="log-stat">'. $divisionStats[$i][0] .'</span>';
-		$data = $data . '<div class="log-bar" style="width: '.number_format($divisionStats[$i][1] / $hours * 100, 1) .'%;"></div>';
+		switch ($divisionStats[$i][0]) {
+			case 'Code':
+				$data = $data . '<span class="log-stat">COD</span>';
+				break;
+
+			case 'Visual':
+				$data = $data . '<span class="log-stat">VIS</span>';
+				break;
+
+			case 'Abstract':
+				$data = $data . '<span class="log-stat">ABS</span>';
+				break;
+
+			case 'Audio':
+				$data = $data . '<span class="log-stat">AUD</span>';
+				break;
+
+			case 'Personal':
+				$data = $data . '<span class="log-stat">PER</span>';
+				break;
+		}
+		//max-width: calc(100% - 30px);
+		$percentage = number_format($divisionStats[$i][1] / $hours * 100, 1);
+		$data = $data . '<div class="log-bar" style="width: calc('.$percentage.'% - '. (30 * $percentage / 100) .'px);"></div>';
+		if ($i != (sizeof($divisionStats) - 1)) $data = $data . '<br>';
 	}
 
 	$data = $data . '<span class="log-text">'.$hours.' '.pluralize('hour', $hours).' · '.$logs.' '.pluralize('log', $logs).'</span>';
@@ -143,6 +166,38 @@ function getRecentActivities($logLimit) {
 			$date = new DateTime($rows[$i][0]);
 			if ($i > 0) $string = $string . '<br><br>';
 			$string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3].' · '.$rows[$i][4];
+		}
+	}
+
+	$conn->close();
+
+	return $string;
+}
+
+function getRecentProjects($projectLimit) {
+	$q = 'select log.date, project.name as project from log left join project on project.id = log.project_id order by log.id asc;';
+
+	$conn = connect();
+	$result = $conn->query($q);
+
+	if ($result->num_rows > 0) {
+		$rows = array();
+
+		while (sizeof($rows) < $projectLimit) {
+			$row = $result->fetch_assoc();
+
+			$matchingProject = false;
+			for ($i = 0; $i < sizeof($rows); $i++) {
+				if ($row['project'] == $rows[$i]) $matchingProject = true;
+			}
+
+			if (getArtifact($row['project']) && !$matchingProject) array_push($rows, $row['project']);
+		}
+
+		$string;
+
+		for ($i = 0; $i < $projectLimit; $i++) {
+			$string = $string . '/['.$rows[$i].']';
 		}
 	}
 
@@ -271,6 +326,11 @@ function getAllDays($l, $type) {
 		$q = 'select count(distinct(date)) as num_days from log left join '.$type.' on '.$type.'.id = log.'.$type.'_id where '.$type.'.name = '."'".$l."'".';';
 		return getnum($q, 'num_days');
 	}
+}
+
+function getAllProjects() {
+	$q = 'select count(*) as num_projects from project;';
+	return getNum($q, 'num_projects');
 }
 
 function getLastUpdate() {

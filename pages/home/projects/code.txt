@@ -4,7 +4,7 @@ image name: #[Qurotema]
 white: true
 links: Github>https://github.com/v-exec
 tags: nav
-title: The #[code] division is dedicated to programming and multimedia composite #[projects].
+title: The #[code] division includes programming and multimedia composite #[projects].
 content:
 
 Projects under #[code]'s production process is varied, ranging from game engines like Unity and Unreal, to web languages like Javascript and PHP, to frameworks like Processing, to microprocessors like the Arduino.

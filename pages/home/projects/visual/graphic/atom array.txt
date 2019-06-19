@@ -1,7 +1,6 @@
 name: Atom Array
-image: atomarray>5
+image: atomarray>2
 image name: #[Atom Array]
-white: true
 tags: project, visual, graphic, verse, phenomenon
 title: An #[Atom Array] is an artifically constructed wormhole.
 content: An instance of a multidemnsional wormhole in the #[Antiverse]. Among many of the #[Solemn]'s impressive technologies, their #[Atom Array] tech remains the most intriguing (and beautiful).
@@ -9,7 +8,5 @@ content: An instance of a multidemnsional wormhole in the #[Antiverse]. Among ma
 /[antiverse]
 /[solemn]
 
-&[atomarray>4]
-&[atomarray>1]
 &[atomarray>2]
-&[atomarray>3]
+&[atomarray>1]

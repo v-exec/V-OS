@@ -4,19 +4,17 @@ image name: #[Qu-6]
 white: true
 tags: nav
 title: The #[projects] section is a collection of all publicly documented projects.
-content: A curated selection of projects I feel are catalysts to interesting stories, and are of sufficiently high quality.
-
-%[]
+content:
 ![#[Visual]]
-=[visual]
+/[visual]
 
 %[]
 ![#[Audio]]
-=[audio]
+/[audio]
 
 %[]
 ![#[Code]]
-=[code]
+/[code]
 
 %[]
 If a project is logged in the @[Log>http://log.v-os.ca], its logged statistics will be visible in the sidebar.
