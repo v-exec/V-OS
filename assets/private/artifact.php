@@ -266,7 +266,8 @@ function getMostRecent($count) {
 		$i = 0;
 
 		while (sizeof($recent) < $count) {
-			if (!$sortedArtifacts[$i]->hasTag('nav')) {
+			//disregard any navigation pages
+			if (!$sortedArtifacts[$i]->hasTag('nav') && !$sortedArtifacts[$i]->hasTag('hub')) {
 				array_push($recent, $sortedArtifacts[$i]);
 			}
 			$i++;
