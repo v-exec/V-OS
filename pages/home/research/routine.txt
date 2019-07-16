@@ -2,7 +2,7 @@ name: Routine
 image: truli>1
 image name: #[Truli]
 tags: research
-title: #[Routine].
+title: #[Routine] is a set of routines for lifestyle maintenance.
 content:
 
 In highschool, my goal was to escape routine out of sheer boredom. I hated school, and I hated having to do the same thing every day. I've developed a slightly more nuanced view of routine since then and felt the positive benefits of keeping a healthy routine. With this page, I'd like to formalize a small and simple set of routines, or perhaps better referred to as _[habits], to keep me on a track towards a nicer lifestyle.
