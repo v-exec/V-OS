@@ -20,7 +20,7 @@ I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a ques
 +
 >[getRecentActivities(7);]]
 
->[getRecentProjects(3);]
+>[getMostRecent(3);]
 
 %[]
 

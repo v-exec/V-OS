@@ -32,6 +32,9 @@ class Artifact {
 	//pure path array, no styling
 	public $brokenPath = array();
 
+	//last modified time in unix timestamp
+	public $lastModifiedStamp = null;
+
 	//constructor parses file to retrieve its contents
 	public function __construct($filePath, $brokenPath) {
 
@@ -84,6 +87,9 @@ class Artifact {
 		array_shift($brokenPath); //remove pages directory
 		array_push($brokenPath, $this->attributes['name']); //add page name 
 		$this->path = $brokenPath;
+
+		//get file's last modified timestamp
+		$this->lastModifiedStamp = date(filemtime($filePath));
 	}
 
 	//returns true if artifact has tag ($string)
@@ -158,7 +164,7 @@ function formatArtifacts() {
 	global $parser;
 
 	//sort artifacts alphabetically
-	usort($artifacts, "artifactComparison");
+	usort($artifacts, 'artifactComparison');
 
 	if ($parser && $artifacts) {
 		for ($i = 0; $i < sizeof($artifacts); $i++) {
@@ -221,24 +227,58 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 			if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $location) {
 				if ($artifacts[$i] == $artifact) {
 					if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
-					$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+					$contents = $contents .'<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 				} else {
 					if ($getName) $contents += '<span class="'. $nameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
-					$contents = $contents . '<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+					$contents = $contents .'<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 				}
 			}
 		//if content page, include pages with same leading tag OR ones in same folder
 		} else if ($artifacts[$i]->brokenPath[sizeof($artifacts[$i]->brokenPath) - 2] == $location || $artifacts[$i]->hasTag($tag)) {
 			if ($artifacts[$i] == $artifact) {
 				if ($getName) $contents += '<span class="'. $nameStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
-				$contents = $contents . '<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+				$contents = $contents .'<span class="'. $titleStyle .' '. $sameStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 			} else {
 				if ($getName) $contents += '<span class="'. $nameStyle .'">'. $artifacts[$i]->attributes['name'] .'</span>';
-				$contents = $contents . '<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
+				$contents = $contents .'<span class="'. $titleStyle .'">'. $artifacts[$i]->attributes['title'] .'</span>';
 			}
 		}
 	}
 
 	return $contents;
+}
+
+//custom comparison for ordering artifacts by timestamp
+function stampComparison($a, $b) {
+	return ($a->lastModifiedStamp > $b->lastModifiedStamp) ? -1 : 1;
+}
+
+//return links to most recently modified non-nav pages
+function getMostRecent($count) {
+	global $artifacts;
+
+	$sortedArtifacts = $artifacts;
+
+	if ($artifacts) {
+		usort($sortedArtifacts, 'stampComparison');
+
+		$recent = array();
+		$i = 0;
+
+		while (sizeof($recent) < $count) {
+			if (!$sortedArtifacts[$i]->hasTag('nav')) {
+				array_push($recent, $sortedArtifacts[$i]);
+			}
+			$i++;
+		}
+
+		$result = '';
+
+		for ($i = 0; $i < sizeof($recent); $i++) {
+			$result = $result .'/['.$recent[$i]->attributes['name'].']';
+		}
+
+		return $result;
+	}
 }
 ?>

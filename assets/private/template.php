@@ -104,6 +104,13 @@
 				}
 				?>
 
+				<?php
+				if ($artifact->lastModifiedStamp) {
+					echo '<span>Last Modified: ' . Date('Y.m.d', $artifact->lastModifiedStamp) . '</span>';
+					echo '<div class="side-divider" style="margin-top: 16px"></div>';
+				}
+				?>
+
 				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·
 				<a class="neutral-link" href="https://github.com/v-exec">Github</a> ·
 				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>

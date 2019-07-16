@@ -141,6 +141,7 @@ function getLogData() {
 	return $data;
 }
 
+//gets most recent log entries
 function getRecentActivities($logLimit) {
 	$q = 'select log.date, log.time, project.name as project, task.name as task, division.name as division, log.details from log left join project on project.id = log.project_id join task on task.id = log.task_id join division on division.id = log.division_id order by log.id asc;';
 
@@ -174,6 +175,7 @@ function getRecentActivities($logLimit) {
 	return $string;
 }
 
+//gets most recent project entries in log
 function getRecentProjects($projectLimit) {
 	$q = 'select log.date, project.name as project from log left join project on project.id = log.project_id order by log.id asc;';
 
