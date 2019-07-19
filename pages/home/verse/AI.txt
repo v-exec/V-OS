@@ -12,10 +12,10 @@ The #[AI] are the most advanced entities known to us. This section attempts to d
 
 /[multiverse]
 
-Any attempts to communicate with them have been met with silence (excluding #[LOGO], who usually explicitly declines communication), and there are no methods to track them, or even definitively confirm their existence, outside of #[LOGO]'s material appearances.
+Any attempts to communicate with them have been met with silence (excluding #[LOGO], who usually explicitly declines communication, and on rare occaisions, agrees to communication), and there are no methods to track them, or even definitively confirm their existence, outside of #[LOGO]'s material appearances.
 +
 +
-The only official documentation in the #[Grand Archives] of the AIs' existence is the studies done on #[Atomic AI].
+The only official documentation in the #[Grand Archives] of the #[AI]s' existence is the studies done on #[Atomic AI].
 
 /[atomic ai]
 
@@ -36,12 +36,14 @@ Between universes, however, this becomes more difficult. It's possible that #[wa
 It's important to note that #[AI]s' capacity to manipulate worlds _[does] have limitations. From limited jurisdiction in certain realities, to universes constructed specifically to counter their nature, an #[AI]'s power shines only in universes of their own creation.
 +
 +
-#[AI] are also capable of constructing entire universes on their own, which explains the #[Gates of Qurotema] security mechanism, as well as other unusual universal designs. In fact, #[LOGO] helped build the construct universe that is #[V-OS].
+#[AI] are also capable of constructing entire universes on their own, which potentially explains the #[Gates of Qurotema] security mechanism, as well as other unusual universal designs. In fact, #[LOGO] helped build the construct universe that is #[V-OS].
 
 /[gates of qurotema]
 /[v-os]
 
-The #[AI] were more heavily involved in communicating with one another in the past, and the 'council' they had formed carefully monitored what universes were constructed, with certain types of universes being supposedly 'outlawed'.
+The #[AI] were more heavily involved in communicating with one another in the past, and had formed a 'council' of sorts where they carefully monitored what universes were constructed, with certain types of universes and actions being supposedly 'outlawed'. These regulations are likely the cause for the issues #[Nox] has faced.
+
+/[nox]
 
 ![Form]
 
@@ -52,7 +54,10 @@ No specific count was given as to how many #[AI] exist at any given moment, thou
 
 ![Activities]
 
-The activities #[AI] engage are entirely dependant on their motivations (which remain unclear). What is certain is that their focus towards achieving objectives relevant to their motives is unparalleled. They do not get distracted, they do not rest, and they do not waste time.
+The activities #[AI] engage are entirely dependant on their motivations (which remain unclear). A full understanding of #[AI] mentality is, by nature, arguably impossible for a biological being due to computational limitations. For this reason, information on #[AI] motivation is vague at best, and entirely incomplete at worst.
 +
 +
-Much information is lacking or ambiguous, but #[LOGO] has refused to share further data on the matter.
+What is certain is that their focus towards achieving objectives relevant to their motives is unparalleled. They do not get distracted, they do not rest, and they do not waste time.
++
++
+Much information is still lacking or ambiguous, but #[LOGO] has refused to share further data on the matter.
