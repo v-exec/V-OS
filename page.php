@@ -14,7 +14,6 @@ include 'assets/private/artifact.php';
 include 'assets/private/customartifact.php';
 include 'assets/private/logcredentials.php';
 include 'assets/private/loghelpers.php';
-include 'assets/private/static.php';
 
 //makes header information white (used when background image is dark)
 function checkWhite() {
@@ -118,9 +117,5 @@ ob_start();
 include 'assets/private/template.php';
 $page = ob_get_contents();
 ob_end_clean();
-
-//create files for static site?
-$makeStatic = false;
-if ($makeStatic == true) exportStatic();
-else echo $page;
+echo $page;
 ?>
