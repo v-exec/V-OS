@@ -8,6 +8,8 @@ content:
 
 ~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
 
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>content/victor/cv.pdf].
+
 %[]
 
 ![Summary]
@@ -15,16 +17,19 @@ content:
 My name is #[Victor] [vi], and I'm a multidisciplinary designer and developer residing both in Montreal and Tokyo.
 +
 +
-I design, develop, and produce media, especially new / experimental media that challenges and innovates on existing products. Projects involving design (2D graphics, touch-ups, UI, branding, web, 3D modeling, 3D rendering, game design), audio (music and sound effect production), programming (fullstack web, game), and teaching any of the aformentioned skills, are all within my capacity.
+I design, develop, and produce static and interactive media. I work with @[graphics>visual] (2D graphics, editing, UI, branding, web, 3D modeling, 3D rendering, animation), #[audio] (music and sound effect production), and @[programming>code] (fullstack web, game). Using this skillset, my goal is to create _[unique, innovative, aesthetically powerful, and engaging media] to materialize a project's vision - _[to tell a story].
 +
 +
-As a designer, my goal is to create engaging products that are aesthetically pleasing, unique and innovative, and relevant to your objectives. Whether it be a website, an experimental game, a song, or a graphic for your brand, the purpose is to enable your business to better communicate what you offer, and how well you do it, to your clients. My goal is to accomplish that through high-quality production, as well as conversations with you on how to realize your objectives.
+For businesses, I offer branding consultation, as well as brand design and platform development.
 +
 +
-As an instructor, my goal is to take students from beginner to proficient in any discipline by focusing on mastering the basics. Expertise is a result of in-depth understanding of the fundamentals, combined with practice. Practice is something students must undertake themselves. But, instructing the fundamentals is a responsability I enjoy taking on through fun, engaging, and personal teaching settings.
+For studios, I offer 2D and 3D asset production (textures, models, rigs, environments, concept art, user interfacing), audio production (effects and music), as well as art direction, game design, and interaction programming.
 +
 +
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[curriculum vitae>content/victor/cv.pdf].
+As the digital art industry has adopted more mixed media production techniques in the past decades, my skills have become increasingly relevant. My abilities allow me to be both comfortable using a single medium if necessary, as well as combining multiple media in order to work significantly more rapidly and efficiently. All the while, communication between different experts is seamless, given my experience in varied fields. Ultimately, these skills are a means to an end: to tell a story in its most impactful form.
++
++
+With that said, I look forward to putting my skillset towards making our vision into a reality.
 
 %[]
 
@@ -40,14 +45,14 @@ What follows is my work experience.
 Technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/].
 +
 +
-There, I acted as a technical lead and instructor in the field of game design and audio. I was also involved in teaching programming in C# in Unity over the course of the 1 month workshop. I created and taught the curriculum for audio production, narrative design, and a portion of the programming section. I also helped students (~15 in total) collectively create a game that they had conceptualized. My help ranged from 3D work in Blender, to audio production, to programming in C#, to version control troubleshooting.
+There, I acted as a technical lead and instructor in the field of game design and audio. I was also involved in teaching programming in C# in Unity over the course of the 1 month workshop. I created and taught the curriculum for audio production, narrative design, and a portion of the programming section. I also helped students (~15 in total) collectively create a game that they had conceptualized. My help ranged from 3D work in Blender, to audio production, to programming in C#, to version control management.
 
 %[]
 
 Programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
 +
 +
-There, I helped teach university students how to code in Java and work on personal projects.
+There, I helped teach university students how to code in Java and work on personal game development projects.
 
 %[]
 
@@ -72,38 +77,6 @@ There, I dealt with client requirements and front-end design of websites.
 
 %[]
 
-![Skills]
-
-=[
-2D graphics
-++
-3D graphics
-++
-photography
-++
-music production
-++
-audio design
-++
-game design
-++
-game development
-++
-web design
-++
-web development
-++
-interactive media
-++
-english
-++
-french
-++
-teaching
-]
-
-%[]
-
 ![Links]
 
 -[
@@ -120,24 +93,18 @@ teaching
 
 ![Projects]
 
-Below is a collection of curated projects that showcase previous work, some of which were for clients, some of which are personal projects.
+Below is a collection of curated projects that showcase previous work, some of which were for clients, and others personal projects.
 +
 +
-For a full list of projects, go @[here>projects].
+For a full list of projects, please visit the #[projects] page.
 
 %[]
 
-![#[Visual] - 2D]
+![#[Visual] - 2D and 3D graphics.]
 
 /[Atmos]
 /[ARK Simulation]
 /[Archform]
-/[Verse Nodes]
-
-%[]
-
-![#[Visual] - 3D]
-
 /[Saturn]
 /[Org_Proc]
 /[Moré]
@@ -147,7 +114,7 @@ For a full list of projects, go @[here>projects].
 
 %[]
 
-![#[Audio]]
+![#[Audio] - Music and ambient production.]
 
 /[The Cosmic Affliction]
 /[Keyden]
@@ -155,17 +122,12 @@ For a full list of projects, go @[here>projects].
 
 %[]
 
-![#[Code] - Web]
+![#[Code] - Web platforms, interactive media, and games.]
 
 /[Purity]
 /[Log]
 /[RELAY]
 /[Visor]
-
-%[]
-
-![#[Code] - Game]
-
 /[DotCycle]
 /[Keyde]
 /[You Are Two]
@@ -174,3 +136,5 @@ For a full list of projects, go @[here>projects].
 %[]
 
 ~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
+
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>content/victor/cv.pdf].

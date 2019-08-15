@@ -9,7 +9,7 @@ content:
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal and Tokyo. I study Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
 +
 +
-For professional information, check out my #[portfolio].
+For professional information, please take a look at my #[portfolio].
 
 /[portfolio]
 
