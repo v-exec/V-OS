@@ -310,25 +310,37 @@ a.external:after {
 }
 
 .text-image,
-.text-image-annotated {
+.text-image-annotated,
+.video,
+.video-annotated,
+.audio,
+.audio-annotated {
 	width: 100%;
 	border-radius: 4px;
 	margin: 0 0 40px 0;
 }
 
-.text-image-annotated {
+.text-image-annotated,
+.video-annotated {
 	margin: 0 0px 5px 0px;
 }
 
-.annotation {
+.image-annotation,
+.video-annotation {
 	display: block;
 	color: #777;
 	font-size: 13px;
 	padding: 0 0 40px 0;
 }
 
-.annotation:before {
+.image-annotation:before,
+.video-annotation:before {
 	content: "+ ";
+}
+
+.audio-annotation {
+	display: block;
+	padding-bottom: 5px;
 }
 
 li .text-image,

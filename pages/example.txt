@@ -26,7 +26,6 @@ Here follows a list of all _[rules], a description for each one, and an accompan
 Creates a list of artifacts that have this tag.
 =[page]
 
-
 %[======================================]
 - [tag] title list
 +
@@ -140,6 +139,20 @@ Creates a stylized link to an artifact, if it exists.
 +
 Creates an image, with an optional annotation.
 &[purity>2 ++ Annotation.]
+
+%[======================================]
+^ [dir>audio  _[optional] ++ text] audio
++
++
+Creates an audio element, with an optional title.
+^[example>mythaphil ++ Annotation.]
+
+%[======================================]
+< [dir>video  _[optional] ++ text] video
++
++
+Creates a video element, with an optional annotation.
+<[example>nom ++ Annotation.]
 
 %[======================================]
 * [text] bold
