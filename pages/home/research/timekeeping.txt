@@ -44,7 +44,7 @@ So, if I worked for 3 hours, but 1 hour of that time was spent not actually work
 Instead, I take mental note of how much time I've spent not working during a task, and deduce it from the total time spent on said task. I also subdivide my tasks into 30 minute segments. The idea here being that if I do something for less than 30 minutes, then it probably isn't worth logging. And, if I do something for 45 minutes, this encourages me to put a bit more time in and finish things up, reaching 1 hour. In addition, it helps to not get too caught up in small units of time, since that makes for more mental exertion. It might not seem like much at first, but it adds up over the hundreds of days.
 +
 +
-The act of forcing a certain time 'resolution' is quite important. Preference can range from taking on only a single task per day, to locking log entires to the hours of the day (i.e. logs can only be at 11am, 12pm, 13pm, etc.), like in @[Rutherford's _[Chronologicon]>https://craze.co.uk/chronologicon]. One encourages a more focused and day-long approach, and the other engages with the 24 hours of the day more intimately. Each an interesting solution to deciding on what time resolution works best for one's workstyle.
+The act of forcing a certain time 'resolution' is quite important. Preference can range from taking on only a single task per day, to locking log entires to the hours of the day (i.e. logs can only be at 11am, 12pm, 13pm, etc.). One encourages a more focused and day-long approach, and the other engages with the 24 hours of the day more intimately. Each an interesting solution to deciding on what time resolution works best for one's workstyle.
 
 %[]
 
@@ -75,7 +75,7 @@ This is quite integral to the nature of a log. The idea is to study one aspect o
 A great advantage to logging something like "productivity" is that it motivates some serious introspection on what is important. I found that reflecting on these ideas helped me define my personal idea of productivity, and classifying activities inside and outside of that definition made me realize what I truly value in the long-term.
 +
 +
-I ultimately aim to log the time that I spend getting better at, and creatng things that I care about. It's about productivity, specifically in the (mostly) creative sector. The topics I choose to log are therefore specifically oriented towards that goal.
+I ultimately aim to log the time that I spend getting better at, and creating things that I care about. It's about productivity, specifically in the (mostly) creative sector. The topics I choose to log are therefore specifically oriented towards that goal.
 
 %[]
 

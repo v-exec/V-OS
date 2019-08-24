@@ -24,14 +24,14 @@ Here follows a list of all _[rules], a description for each one, and an accompan
 +
 +
 Creates a list of artifacts that have this tag.
-=[page]
+=[research]
 
 %[======================================]
 - [tag] title list
 +
 +
 Creates a list of artifacts' titles that have this tag.
--[page]
+-[research]
 
 %[======================================]
 = [text1 ++ text2] condensed custom list

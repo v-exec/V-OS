@@ -4,7 +4,7 @@ var V = {};
 //----------**SETUP**----------//
 
 //canvas ID
-V.canvas = document.getElementById('userCanvas');
+V.canvas = document.getElementById('vCanvas');
 
 //determines the width of the wire shape
 V.sizeX = 85;
@@ -13,7 +13,7 @@ V.sizeX = 85;
 V.sizeY = 100;
 
 //number of rendered Wire objects
-V.logoCount = 3;
+V.logoCount = 5;
 
 //chance that the final Wire in the object array doesn't render after glitching (between 0 - 1, the higher, the more likely it is to render)
 //might not render Wire if logoCount = 1 and renderLastChance < 1
@@ -47,7 +47,7 @@ V.downTime = 7000;
 //determines how often wire blinks when not glitching (between 0 - 1, the higher, the more blinky)
 V.blinkyness = 0.01;
 
-//----------**NO TOUCHY**----------//
+//----------**INTERNAL**----------//
 
 //set up canvas context
 V.ctx = V.canvas.getContext('2d');
@@ -118,7 +118,7 @@ function Wire(newX, newY, newSizeX, newSizeY, newGlitchAmount, newStableGlitchAm
 
 		V.ctx.lineCap = 'round';
 		V.ctx.lineJoin = 'round';
-		V.ctx.lineWidth = 5;
+		V.ctx.lineWidth = 8;
 		V.ctx.strokeStyle = "rgba(" + V.colorR + ", " + V.colorG + ", " + V.colorB + ", 1)";
 
 		V.ctx.moveTo(this.coords[0], this.coords[1]);

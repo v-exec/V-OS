@@ -32,16 +32,17 @@
 </head>
 
 <body>
-	<a href="home">
-		<canvas id="userCanvas" width="400" height="400"></canvas>
-	</a>
-	
 	<div id="header">
-		<div class="header-image" style="background-image: url(<?php echo addslashes($artifact->attributes['image']);?>)">
-			<div class="header-content">
-				<span class="header-title"><?php echo $artifact->attributes['image name'];?></span>
-			</div>
+		<div id="header-bar">
+			<span class="header-title"><?php echo $artifact->attributes['image name'];?></span>
+			<?php echo getSectorIconLink($artifact, 'header-sector');?>
+
+			<a href="home">
+				<canvas id="vCanvas" width="400" height="400"></canvas>
+			</a>
 		</div>
+
+		<div class="header-image" style="background-image: url(<?php echo addslashes($artifact->attributes['image']);?>)"></div>
 	</div>
 
 	<div id="no-page-header"></div>
@@ -160,8 +161,8 @@
 <script src="assets/scripts/cli.js"></script>
 <script src="assets/scripts/requestscript.js"></script>
 
-<?php checkWhite();?>
-<?php checkImage();?>
+<?php checkWhite($artifact, false);?>
+<?php checkImage($artifact);?>
 
 </body>
 </html>

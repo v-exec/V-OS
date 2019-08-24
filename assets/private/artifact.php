@@ -248,6 +248,101 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 	return $contents;
 }
 
+function getSectorIconLink($artifact, $style) {
+	$isVerse = false;
+	$isResearch = false;
+	$isAud = false;
+	$isVis = false;
+	$isCod = false;
+
+	$path = $artifact->brokenPath;
+	//remove file extension
+	$path[sizeof($path) - 1] = substr($path[sizeof($path) - 1], 0, sizeof($path[sizeof($path) - 1]) - 5);
+
+	for ($i = 0; $i < sizeof($path); $i++) {
+		if (trim($path[$i]) == 'verse') $isVerse = true;
+		if (trim($path[$i]) == 'research') $isResearch = true;
+		if (trim($path[$i]) == 'audio') $isAud = true;
+		if (trim($path[$i]) == 'visual') $isVis = true;
+		if (trim($path[$i]) == 'code') $isCod = true;
+	}
+	
+	echo '<a href="';
+	if ($isResearch) echo 'research';
+	else if ($isVerse) echo 'verse';
+	else if ($isAud) echo 'audio';
+	else if ($isVis) echo 'visual';
+	else if ($isCod) echo 'code';
+	else echo 'home';
+	echo '">';
+
+	echo '<img class="'. $style .'" src="assets/ui/';
+	if ($isResearch) echo 'abs';
+	else if ($isVerse) echo 'ver';
+	else if ($isAud) echo 'aud';
+	else if ($isVis) echo 'vis';
+	else if ($isCod) echo 'cod';
+	else echo 'def';
+
+	if (checkWhite($artifact, true)) {
+		echo '_w.svg"></img></a>';
+	} else {
+		echo '.svg"></img></a>';
+	}
+}
+
+//makes header information white
+function checkWhite($artifact, $check) {
+	if (!$check) {
+		if ($artifact->attributes['white'] == 'true') {
+			echo
+			'<style>
+			.header-title, .header-link {
+				color: #fff;
+			}
+			.long-divider {
+				background-color: #fff;
+			}
+			.header-title:hover {
+				background-color: #777;
+			}
+			</style>
+
+			<script>
+			V.colorR = 255;
+			V.colorG = 255;
+			V.colorB = 255;
+			</script>';
+		}
+	} else {
+		if ($artifact->attributes['white'] == 'true') return true;
+		else return false;
+	}
+}
+
+function checkImage($artifact) {
+	if (!$artifact->attributes['image']) {
+		echo
+		'<style>
+		#header {
+			display: none;
+		}
+		#no-page-header {
+			display: block;
+		}
+		#userCanvas {
+			position: absolute;
+		}
+		</style>
+
+		<script>
+		V.colorR = 255;
+		V.colorG = 255;
+		V.colorB = 255;
+		</script>';
+	}
+}
+
 //custom comparison for ordering artifacts by timestamp
 function stampComparison($a, $b) {
 	return ($a->lastModifiedStamp > $b->lastModifiedStamp) ? -1 : 1;

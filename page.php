@@ -15,57 +15,6 @@ include 'assets/private/customartifact.php';
 include 'assets/private/logcredentials.php';
 include 'assets/private/loghelpers.php';
 
-//makes header information white (used when background image is dark)
-function checkWhite() {
-	global $artifact;
-
-	if ($artifact->attributes['white'] == 'true'){
-		echo
-		'<style>
-		.header-title, .header-link {
-			color: #fff;
-		}
-		.long-divider {
-			background-color: #fff;
-		}
-		.header-title:hover {
-			background-color: #777;
-		}
-		</style>
-
-		<script>
-		V.colorR = 255;
-		V.colorG = 255;
-		V.colorB = 255;
-		</script>';
-	}
-}
-
-function checkImage() {
-	global $artifact;
-
-	if (!$artifact->attributes['image']) {
-		echo
-		'<style>
-		#header {
-			display: none;
-		}
-		#no-page-header {
-			display: block;
-		}
-		#userCanvas {
-			position: absolute;
-		}
-		</style>
-
-		<script>
-		V.colorR = 255;
-		V.colorG = 255;
-		V.colorB = 255;
-		</script>';
-	}
-}
-
 //name of directory for artifact declarations
 $pageDirectory = 'pages';
 

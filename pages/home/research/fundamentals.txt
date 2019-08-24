@@ -1,0 +1,59 @@
+name: Fundamentals
+image: truli>4
+image name: #[Truli]
+tags: research
+title: To learn and to teach is a practice rooted in the #[fundamentals].
+content:
+
+I've taught in design camps, workshops, university classrooms, and more informal contexts. I feel great joy in helping others acquire the knowledge and skills necessary for them to materialize their imagination into reality.
++
++
+It's not uncommon to hear that teaching is a great tool for learning. Naturally, I agree. I believe that to be an effective teachers, one must never forfeit their role as a student. Despite my teaching experience, I very regularly get concerned the abilities I lack. I watch youtube videos, follow tutorials, read books and articles, anything to further the skills I am unsatisfied with.
++
++
+In the last few years, I have begun formalizing and documenting my thoughts on constructing a meaningful lifestyle, where I can feel happy with a healthy body, a developed social network, and a fulfilling work life. I speak about these topics in many places in #[research], notably #[lifeset] and #[routine]. The reason why I've written these things is as much for you as for me. With so many things to think about, challenges to face, and flawed human traits to combat, I forget the lessons I've already learned. These writings help me build a dependable basis, so I can spend my time moving forward, instead of running in circles.
+
+%[]
+
+What I'd like to speak about here is about learning and mastering skills. I try to do a lot of things, because I'm passionate about nearly all facets of media production. This brings both advantages, and disadvantages. One of these downsides being that every time I pick up something new, I am a beginner. I've been a beginner in one thing or another for my entire life so far, and I have no doubts this trend will persist.
++
++
+With that being said, being a beginner has taught me a lot about how to graduate from that stage of learning, and accelerate your skills' growth. That lesson is all about the _[fundamentals].
++
++
+The fundamentals of a craft are often taught in a 101 course, and depending on the proficiency of your teacher, hopefully revisited over the course of your learning. What some might fail to see is how the fundamentals are, in fact, the entire course. They're the 2 year program. They're the lifelong journey to mastery.
++
++
+The fundamentals are not just important, they are _[the only thing].
+
+%[]
+
+Of course, let me clarify. Learning the fundamentals in a 2 hour video will not make you a master. There's two reasons for that.
++
++
+1. You haven't actually learned the fundamentals. Sure, you've acquired the theoretical knowledge, but you must apply those fundamentals to make them a part of your intuitive mind. Only then will you be able to build with the building blocks they provide.
++
++
+2. You haven't put in the time. Mastery is attained through a fair amount of practice _[alongside] a deep understanding of the fundamentals. One does not substitute the other.
++
++
+But what's important is that if you learn the fundamentals, and then make decent attempts of applying them, you will unlock the ability to put in that practice time _[while] having fun, and getting closer to making your imagination real. This, as opposed to suffering slow progress and chaotic workflow each time you sit down to better your skills.
+
+%[]
+
+Let me illustrate what exactly the "fundamentals" are.
++
++
+In programming, one of the first things you might learn are variables and if() statements. You will realize that it is theoretically possible to build any program given these tools. Even at a lower level, the idea of storing data in memory, and moving it under a certain condition, is the fundamental mechanism upon which operate all machines.
++
++
+Of course, there are many more technical elements to programming. However these are all abstractions - more complex configurations of variables and simple if() statements. Their purpose is to make your job as a programmer more efficient, modular, and less time-consuming. But at their core, the fundamentals reign king.
++
++
+In music, there is pitch, duration, and tone. You will realize that it is theoretically possible to build any configurations of sound with these tools. One again, there exist complex configurations of these - consonance/disonnance in chords, consonance/disonnance in progressions, techniques for producing and mixing tones. But, at their core... Well, you get the idea.
++
++
+In 3D; vertices, edges, and faces. In painting; value, color, and perspective. In animation; movement, stretching, and keyframing.
++
++
+This is why, when I learn, and when I teach, I focus with great energy on the base blocks of a skill. Learning and truly understanding the fundamentals is what allows you to more comfortably access the complex structures built on top of them, and to start having fun creating. All the while, the fundamentals will continue to inform your work, and remain ever-present in your practices. So with that, whenever you pick up a new thing, learn its fundamentals, and never forget them.

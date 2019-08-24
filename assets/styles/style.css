@@ -79,13 +79,13 @@ a.external:after {
 }
 
 /*-----------MEDIA-----------*/
-#userCanvas {
-	position: fixed;
-	left: 15px;
-	top: 15px;
+#vCanvas {
+	position: absolute;
 	width: 100px;
 	height: 100px;
-	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .media {
@@ -99,9 +99,29 @@ a.external:after {
 #header {
 	position: relative;
 	width: 100%;
-	height: 84vh;
+	height: calc(100vh - 160px);
 	z-index: 0;
 	background-color: #f7f7f7;
+}
+
+#header-bar {
+	z-index: 1;
+	position: fixed;
+	width: calc(100% - 80px);
+	height: 120px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 18px;
+}
+
+#no-page-header {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 140px;
+	z-index: 0;
+	background-color: #000;
 }
 
 .header-image {
@@ -111,26 +131,20 @@ a.external:after {
 	background-position: center;
 }
 
-.header-content {
-	position: absolute;
-	box-sizing: border-box;
-	width: 100%;
-	bottom: 0;
-	padding: 40px;
-}
-
 .header-title {
-	font-family: "Roboto Mono";
-	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	white-space: nowrap;
 }
 
-#no-page-header {
-	display: none;
-	position: relative;
-	width: 100%;
-	height: 130px;
-	z-index: 0;
-	background-color: #000;
+.header-sector {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);  
 }
 
 /*-----------SIDEBAR-----------*/
@@ -230,7 +244,7 @@ a.external:after {
 /*-----------BODY-----------*/
 #full-container {
 	display: flex;
-	max-width: calc(320px + 910px);
+	max-width: calc(320px + 900px);
 	margin-left: auto;
 	margin-right: auto;
 }
