@@ -112,7 +112,6 @@ a.external:after {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	font-size: 18px;
 }
 
 #no-page-header {
@@ -135,6 +134,7 @@ a.external:after {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	font-size: 20px;
 	white-space: nowrap;
 }
 
