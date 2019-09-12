@@ -17,4 +17,11 @@ content:
 /[code]
 
 %[]
+![#[Writing]]
+/[writing]
+
+%[]
 If a project is logged in the @[Log>http://log.v-os.ca], its logged statistics will be visible in the sidebar.
+
+%[]
+=[project]

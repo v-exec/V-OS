@@ -42,7 +42,7 @@
 			</a>
 		</div>
 
-		<div class="header-image" style="background-image: url(<?php echo addslashes($artifact->attributes['image']);?>)"></div>
+		<div class="header-image" style="background-image: url(<?php echo $artifact->attributes['image'];?>)"></div>
 	</div>
 
 	<div id="no-page-header"></div>

@@ -254,6 +254,7 @@ function getSectorIconLink($artifact, $style) {
 	$isAud = false;
 	$isVis = false;
 	$isCod = false;
+	$isWri = false;
 
 	$path = $artifact->brokenPath;
 	//remove file extension
@@ -265,6 +266,7 @@ function getSectorIconLink($artifact, $style) {
 		if (trim($path[$i]) == 'audio') $isAud = true;
 		if (trim($path[$i]) == 'visual') $isVis = true;
 		if (trim($path[$i]) == 'code') $isCod = true;
+		if (trim($path[$i]) == 'writing') $isWri = true;
 	}
 	
 	echo '<a href="';
@@ -273,6 +275,7 @@ function getSectorIconLink($artifact, $style) {
 	else if ($isAud) echo 'audio';
 	else if ($isVis) echo 'visual';
 	else if ($isCod) echo 'code';
+	else if ($isWri) echo 'writing';
 	else echo 'home';
 	echo '">';
 
@@ -282,6 +285,7 @@ function getSectorIconLink($artifact, $style) {
 	else if ($isAud) echo 'aud';
 	else if ($isVis) echo 'vis';
 	else if ($isCod) echo 'cod';
+	else if ($isWri) echo 'wri';
 	else echo 'def';
 
 	if (checkWhite($artifact, true)) {

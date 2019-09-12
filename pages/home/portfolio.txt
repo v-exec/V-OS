@@ -8,7 +8,7 @@ content:
 
 ~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
 
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>content/victor/cv.pdf].
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].
 
 %[]
 
