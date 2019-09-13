@@ -2,7 +2,7 @@ name: RE_I AM THE LIGHT
 image: pc>10
 image name: #[PC]
 white: true
-tags: project, writing, verse, phenomenon
+tags: project, writing, verse, phenomenon, code, interactive
 links: Read>media/downloads/re_i am the light/re_i am the light.pdf
 title: #[RE_I AM THE LIGHT].
 content:
