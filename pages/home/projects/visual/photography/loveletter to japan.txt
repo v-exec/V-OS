@@ -9,7 +9,7 @@ content:
 &[loveletter to japan>2]
 &[loveletter to japan>3]
 
-At first, things were difficult. A langauge I didn't speak, a half-assed effort to fit into the foreign social protocols of a vastly different society, and no friends or acquaintences.
+At first, things were difficult. A language I didn't speak, a half-assed effort to fit into the foreign social protocols of a vastly different society, and no friends or acquaintances.
 +
 +
 Even among other international students I realized how varied peoples' values were. We tend to surround ourselves with the same set of people in our own bubble. In my case, these were artists, designers, and coders.
