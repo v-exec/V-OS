@@ -13,16 +13,16 @@
 	<meta property="og:title" content="V-OS">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="The Vi Wiki">
-	<meta property="og:image" content="https://v-os.ca/images/v-os/1.png">
+	<meta property="og:image" content="https://v-os.ca/media/images/v-os/1.png">
 
 	<meta name="twitter:url" content="https://v-os.ca/">
 	<meta name="twitter:title" content="V-OS">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:description" content="The Vi Wiki">
-	<meta name="twitter:image" content="https://v-os.ca/images/v-os/1.png">
+	<meta name="twitter:image" content="https://v-os.ca/media/images/v-os/1.png">
 
 	<meta name="description" content="The V Wiki">
-	<meta name="keywords" content="Digital, Art, Design, Videogames, Games, Music, Portfolio, Montreal">
+	<meta name="keywords" content="Digital, Art, Design, Video, Videogames, Games, Music, Portfolio, Montreal">
 	<meta name="author" content="Victor Ivanov">
 	<link rel='icon' href='https://v-os.ca/assets/ui/v_ico.ico' type='image/x-icon'>
 
