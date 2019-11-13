@@ -88,6 +88,8 @@ function guide(e) {
 			var newName = input.substring(6, input.length).trim();
 			if (newName == "") outputText("I need you to write the new name you want me to call you.");
 			else {
+				//sanitize string
+				newName = encodeHTML(newName);
 				username = newName;
 				document.cookie = "username=" + username +"; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
 				outputText(replaceUsername(rename));
@@ -97,6 +99,8 @@ function guide(e) {
 			var newName = input.substring(2, input.length).trim();
 			if (newName == "") outputText("I need you to write the new name you want me to call you.");
 			else {
+				//sanitize string
+				newName = encodeHTML(newName);
 				username = newName;
 				document.cookie = "username=" + username +"; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
 				outputText(replaceUsername(rename));
@@ -181,4 +185,8 @@ function getCookie(cname) {
 		}
 	}
 	return "";
+}
+
+function encodeHTML(s) {
+	return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 }
