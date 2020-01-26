@@ -5,4 +5,7 @@ white: true
 links: Github>https://github.com/v-exec/Freya
 tags: project, code, tool
 title: #[Freya] is a minimal Discord bot.
-content: #[Freya] is an in-production Discord bot.
+content: #[Freya] is a Discord bot who was created to provide assistance in small media-based tasks and translation.
++
++
+In multi-lingual servers, language can become troublesome for some users. By adding a custom emoji reaction to a message, #[Freya] will translate it to English, letting all users engage in conversation regardless of language.

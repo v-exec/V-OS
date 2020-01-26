@@ -248,7 +248,7 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 	return $contents;
 }
 
-function getSectorIconLink($artifact, $style) {
+function getSectorIconLink($artifact, $style, $forceWhite) {
 	$isVerse = false;
 	$isResearch = false;
 	$isAud = false;
@@ -288,10 +288,11 @@ function getSectorIconLink($artifact, $style) {
 	else if ($isWri) echo 'wri';
 	else echo 'def';
 
-	if (checkWhite($artifact, true)) {
+	if ($forceWhite) {
 		echo '_w.svg"></img></a>';
 	} else {
-		echo '.svg"></img></a>';
+		if (checkWhite($artifact, true)) echo '_w.svg"></img></a>';
+		else echo '.svg"></img></a>';
 	}
 }
 

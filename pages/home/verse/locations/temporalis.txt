@@ -15,8 +15,6 @@ As it stands, #[Temporalis] is usually considered to act as more of a verse-wide
 As for #[LOGO]'s archived information regarding the city, it is described as a mythical, Eden-like city, residing in an extremely small yet stable universe approximately four cubic kilometers in volume. The upper regions of the city are populated with various visitors of foreign lands, often browsing markets with rare trinkets and unique gadgets. It has no apparent political structure, only acting as a social and commercial hub with no governing body.
 +
 +
-In more secluded areas of the city, however, are a multitude of machines used for timekeeping. These machines all function by tracking time in different ways, and there exists a cross-reference network that ensures all machines are synchronized. One of them uses delicately crafted crystals (as seen in #[Crystaline]) that refract light in a specific pattern that allows for extremely precise time tracking using the speed of light as the temporal constant. These machines are inaccessible through regular city routes, and are heavily guarded by non-sentient automatons.
-
-/[crystaline]
+In more secluded areas of the city, however, are a multitude of machines used for timekeeping. These machines all function by tracking time in different ways, and there exists a cross-reference network that ensures all machines are synchronized. One of them uses delicately crafted crystals that refract light in a specific pattern that allows for extremely precise time tracking using the speed of light as the temporal constant. These machines are inaccessible through regular city routes, and are heavily guarded by non-sentient automatons.
 
 Time in #[Temporalis] is in fact driven by #[Temporalis] itself. This means that the time-keeping mechanisms in the city are simply actors in a feedback loop that upholds the passage of time. How this process was kickstarted is unknown.

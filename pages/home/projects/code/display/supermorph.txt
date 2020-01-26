@@ -38,11 +38,12 @@ z = radius * r2 * sin(latitude point)
 +
 +
 #[SuperMORPH] uses the Kinect's depth sensor to gather data regarding the user's width, height, distance, and joint coordinates, using a combination of @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2], a library to interface Kinect with Processing(Java).
++
++
+The superhsape acts as a mathematical representation of the human body in its current state.
 
 &[supermorph>2]
 
-This data is normalized to reduce the jittery input, and then used to drive the parameters of the superformula, changing the supershape's structure and appearance. Additionally, users can rotate and zoom the camera by closing their hands and dragging.
+This data is normalized to reduce the jittery input, and then used to drive the parameters of the superformula, changing the supershape's structure and appearance. Users can also rotate and zoom the camera by closing their hands and dragging.
 
 &[supermorph>1]
-
-This project was a collaborative piece made with Sarah Lauzon, who managed supershape generation and rendering. I dealt with the algorithms for user input, gesture handling, and supershape dynamics.

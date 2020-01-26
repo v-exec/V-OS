@@ -35,7 +35,7 @@
 	<div id="header">
 		<div id="header-bar">
 			<span class="header-title"><?php echo $artifact->attributes['image name'];?></span>
-			<?php echo getSectorIconLink($artifact, 'header-sector');?>
+			<?php echo getSectorIconLink($artifact, 'header-sector', false);?>
 
 			<a href="home">
 				<canvas id="vCanvas" width="400" height="400"></canvas>
@@ -148,7 +148,7 @@
 				<a class="neutral-link" href="https://v-os.ca/home">V-OS</a> · <a class="neutral-link" href="https://log.v-os.ca">LOG</a>
 			</span>
 
-			<a class="footer-center neutral-link" href='http://webring.xxiivv.com/#random' target='_blank'><img src='https://v-os.ca/assets/ui/ring.svg'></img></a>
+			<?php echo getSectorIconLink($artifact, 'footer-center', true);?>
 
 			<span class="footer-right">
 				<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllDays(null, null);?> days</a><br>

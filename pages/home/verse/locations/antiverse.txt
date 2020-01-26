@@ -1,6 +1,6 @@
 name: Antiverse
-image: atomarray>1
-image name: #[Atom Array]
+image: antiverse>1
+image name: #[Antiverse]
 tags: verse, location
 title: The #[Antiverse] is an aged world in its first stages of heat death.
 content: The #[Antiverse] is one of many universes within the #[Multiverse]. As one of the first universes to be discovered by the humans, it has been subject to a huge amount of studies.
