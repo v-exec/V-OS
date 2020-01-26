@@ -1,0 +1,23 @@
+name: Nakade
+image: nakade>3
+image name: #[Nakade]
+white: true
+links: Download>media/downloads/nakade/nakade_windows.zip
+tags: project, code, display
+title: #[Nakade] is realtime point-cloud audiovisual demo.
+content:
+
+<iframe class="media" src="https://player.vimeo.com/video/386068451" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
++
++
+#[Nakade] was created for @[Synchrony 2020>https://synchrony.nyc/2020/] in an 11-hour train ride from New York to Montreal, winning first place in the Demo category.
+
+~[Download the realtime windows executable @[here>media/downloads/nakade/nakade_windows.zip].]
+
+The project was created in collaboration with @[Simon Demeule>https://simondemeule.com/], who took the role of graphics programmer for point cloud rendering, point cloud manipulation, post processing effects, and scene management.
+
+&[nakade>1]
+
+All environments in this demo were made using photogrammetry of locations in New York and the train the jam took place in.
+
+&[nakade>2]
