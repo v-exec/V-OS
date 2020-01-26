@@ -3,7 +3,6 @@ image: relay>1
 image name: #[RELAY]
 white: true
 links: Play Online>https://relaygame.herokuapp.com/, Github>https://github.com/v-exec/Relay
-page: https://relaygame.herokuapp.com/
 tags: project, code, interactive
 title: #[RELAY] is an asymmetric multiplayer geolocative hacking game.
 content:

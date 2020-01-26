@@ -2,9 +2,18 @@ name: Qurotema
 image: qurotema>4
 image name: #[Qurotema]
 white: true
-tags: verse, location
-title: #[Qurotema] is a mysterious construct universe.
+links: Download>media/downloads/qurotema/qurotema_windows.zip, Github>https://github.com/v-exec/Qurotema
+tags: project, code, interactive, verse, location
+title: #[Qurotema] is an off-limits construct universe.
 content:
+
+?[The _[remote operator] protocol's done, and we've prepared the travel entity. What do you say, #[Di]? Time to explore #[Qurotema] for yourself?]
+
+@[Windows download.>media/downloads/qurotema/qurotema_windows.zip]
+
+&[qurotema>6]
+
+%[]
 
 #[Qurotema] was discovered and explored predominantly by Dr. Sino in his research on interuniversal travel. Practically no information beyond his research exists in regards to the nature and laws of #[Qurotema]. This also includes #[LOGO], who claims to have no information, either.
 +
@@ -21,6 +30,8 @@ The experimental travel model was a success. After a few test runs, Dr. Sino cam
 During his visits, he kept live audio logs of his findings. He described the world as:
 
 ?[Extremely dark, to the point of complete darkness. Despite there being no light, I could still see. I heard voices that spoke in languages I had never heard, but I could still understand them. There seemed to be fluid-like substances stacked on top of one another. A dark fluid, like water, sat below me, and an equally dark fluid, air, I traveled through. These fluids, the apparent constituents of this atmosphere, were unlike any other; each one as dark as the last, I could sink or swim upwards freely, as they gave no resistance to my exploration. The feeling was that of floating in water, but less resistance, and no urge to breathe.]
+
+/[i-tema]
 
 His notes suggest that with each subsequent visit, he became increasingly compulsive in returning. Each trip would last approximately 2 days (though his logs claim they lasted 4 hours, on average). During his third trip, he discovered what is theorized to be a "security layer" of #[Qurotema]: The #[Gates of Qurotema]. He notes:
 
@@ -48,4 +59,4 @@ During the Doctor's travels (which lasted 2 days on average, and not 4 hours, as
 Seeing as how any captured imagery from Dr. Sino's travels is difficult to interpret, there are doubts about the mental stability of Dr. Sino and the validity of what was percieved during his trips.
 +
 +
-At the moment, any travels to #[Qurotema] are prohibited.
+All travels to #[Qurotema] are prohibited. Naturally, this didn't stop the #[technomancers].
