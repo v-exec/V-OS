@@ -1,6 +1,7 @@
 name: Home
-image: org proc>3
-image name: #[org_proc]
+image: i-tema>5
+image name: #[i-tema]
+white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
 content: This digital space is a virtual library of my #[projects], @[narratives>verse], and #[research].

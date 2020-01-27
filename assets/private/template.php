@@ -9,21 +9,26 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=0.8">
 
-	<meta property="og:url" content="https://v-os.ca/">
-	<meta property="og:title" content="V-OS">
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:url" content="https://v-os.ca/<?php echo rawurlencode(ucfirst($artifact->attributes['name'])); ?>">
+	<meta property="og:title" content="V · <?php echo ucfirst($artifact->attributes['name']); ?>">
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="The Vi Wiki">
-	<meta property="og:image" content="https://v-os.ca/media/images/v-os/1.png">
+	<meta property="og:description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
+	<meta property="og:image" content="<?php echo 'https://v-os.ca/'.$artifact->attributes['image']; ?>">
 
-	<meta name="twitter:url" content="https://v-os.ca/">
-	<meta name="twitter:title" content="V-OS">
+	<meta name="twitter:url" content="https://v-os.ca/<?php echo rawurlencode(ucfirst($artifact->attributes['name'])); ?>">
+	<meta name="twitter:title" content="V · <?php echo ucfirst($artifact->attributes['name']); ?>">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:description" content="The Vi Wiki">
-	<meta name="twitter:image" content="https://v-os.ca/media/images/v-os/1.png">
+	<meta name="twitter:description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
+	<meta name="twitter:image" content="<?php echo 'https://v-os.ca/'.$artifact->attributes['image']; ?>">
 
-	<meta name="description" content="The V Wiki">
-	<meta name="keywords" content="Digital, Art, Design, Video, Videogames, Games, Music, Portfolio, Montreal">
+	<meta name="description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
+
+	<meta name="keywords" content="v, v os, vos, v-os, victor ivanov, victor, ivanov, vi, artist, montreal, wiki, black and white, black, white, greyscale, grayscale, gray, grey, scale, achrome, achromatic, monochromatic, monochrome, digital, art, graphic, graphics, design, video, videogames, video games, games, web, website, development, developer, programming, programmer, music, audio, portfolio, tokyo, japan, cyberpunk, experimental, experiment, verse, narrative, story, stories, log, productive, productivity, generalist, generalism, discipline, multi, multidisciplinary, multiple disciplines, media, medium">
+
 	<meta name="author" content="Victor Ivanov">
+	
 	<link rel='icon' href='https://v-os.ca/assets/ui/v_ico.ico' type='image/x-icon'>
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
