@@ -5,27 +5,31 @@ white: true
 tags: personal
 title: #[Victor] Ivanov - Vi
 content:
-![Victor]
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer in Montreal and Tokyo. I study Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
+
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
 +
-+
-For professional information, please take a look at my #[portfolio].
+For professional information, please take a look at my #[portfolio].]
 
 /[portfolio]
 
 %[]
 
+![Victor]
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I've studied Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
+
+%[]
+
 ![Vi]
 
-Dissatisfied with the state and quality of our reality, I set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
+Dissatisfied with the state and quality of our reality, vi set out on a journey to acquire knowledge, understand the constituents of the #[Multiverse], and deconstruct the physical realm in an attempt to see what lurks behind the panels.
 
 /[multiverse]
 
-Through my voyage, whether it be through skill or pure luck, I've met one of the AI: #[LOGO]. He is the catalyst to this adventure.
+Through his voyage, whether it be through skill or pure luck, vi met one of the AI: #[LOGO]. He is the catalyst to this adventure.
 
 /[logo]
 
-Here, in #[V-OS], a construct universe, I've decided to create a home for other travellers, an archive for my findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
+Here, in #[V-OS], a construct universe, they've decided to create a home for other travellers, an archive for their findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
 
 /[v-os]
 
@@ -102,3 +106,11 @@ I also log my daily activities, in an attempt to track, analyze, and optimize my
 ++
 @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
 ]
+
+%[]
+
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
++
+For professional information, please take a look at my #[portfolio].]
+
+/[portfolio]

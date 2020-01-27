@@ -6,36 +6,35 @@ tags: personal
 title: Victor's #[portfolio].
 content:
 
-~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
++
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].]
 
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].
+/[victor]
 
 %[]
 
 ![Summary]
 
-My name is #[Victor] [vi], and I'm a multidisciplinary designer and developer residing both in Montreal and Tokyo.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal.
 +
 +
-I design, develop, and produce static and interactive media. I work with @[graphics>visual] (2D graphics, editing, UI, branding, web, 3D modeling, 3D rendering, animation), #[audio] (music and sound effect production), and @[programming>code] (fullstack web, game). Using this skillset, my goal is to create _[unique, innovative, aesthetically powerful, and engaging media] to materialize a project's vision - _[to tell a story].
+I design, develop, and produce static and interactive media. I work with @[graphics>visual] (2D graphics, video, UI, branding, web, 3D modeling, rendering, effects, animation), #[audio] (music and effect production), and @[programming>code] (back end web, front end web, games). 
 +
 +
-For businesses, I offer branding consultation, as well as brand design and platform development.
+My goal is to create _[unique, innovative, aesthetically powerful, polished, and engaging media] to materialize a project's vision - _[to tell a story]. My interest is most focused on philosophical exploration, and the ways in which technology can be a narrative catalyst for these topics.
 +
 +
-For studios, I offer 2D and 3D asset production (textures, models, rigs, environments, concept art, user interfacing), audio production (effects and music), as well as art direction, game design, and interaction programming.
+Above all, what's most important is the story. Whether this be the story of a brand through a website and visual identity, the story of a building through its modeling and texturing, or the story of characters through interactive systems, narrative reigns as the ultimate goal.
 +
 +
-As the digital art industry has adopted more mixed media production techniques in the past decades, my skills have become increasingly relevant. My abilities allow me to be both comfortable using a single medium if necessary, as well as combining multiple media in order to work significantly more rapidly and efficiently. All the while, communication between different experts is seamless, given my experience in varied fields. Ultimately, these skills are a means to an end: to tell a story in its most impactful form.
-+
-+
-With that said, I look forward to putting my skillset towards making our vision into a reality.
+Every story is best told through different and varied media. For this reason, my approach is to find the most appropriate media for each story, and develop whatever skills are necessary to tell it. I am a skilled technician with an expanding set of experience and expertise, but my interest is not exclusively centered around technical work. The technical is a means to an end - a path to telling a good story how it's meant to be told.
 
 %[]
 
 ![Experience]
 
-I studied in Montreal, graduating with first class honors from Interactive Media Arts in Dawson College. Currently, I study Computation Arts at Concordia University in Montreal, as well as Waseda University in Tokyo.
+I studied in Montreal, graduating with first class honors from Interactive Media Arts in Dawson College, and with a Bachelors of Fine Arts from Concordia University's Computation Arts program. Additionally, I've studied at Waseda University in Tokyo for a year, with a focus in architecture, narrative, and design.
 +
 +
 What follows is my work experience.
@@ -100,41 +99,20 @@ For a full list of projects, please visit the #[projects] page.
 
 %[]
 
-![#[Visual] - 2D and 3D graphics.]
-
-/[Atmos]
-/[ARK Simulation]
-/[Archform]
-/[Saturn]
-/[Org_Proc]
-/[Moré]
-/[Keerosin]
-/[Atomic AI]
-/[Eradise]
-
-%[]
-
-![#[Audio] - Music and ambient production.]
-
-/[The Cosmic Affliction]
-/[Keyden]
-/[Mythaphil]
-
-%[]
-
-![#[Code] - Web platforms, interactive media, and games.]
-
-/[Purity]
-/[Log]
-/[RELAY]
-/[Visor]
+/[Nakade]
 /[DotCycle]
-/[Keyde]
-/[You Are Two]
-/[Cartographer]
+/[Qurotema]
+/[4D SOCIETY]
+/[Purity]
+/[The Cosmic Affliction]
+/[Ark Simulation]
+/[Moré]
+/[Loveletter To Japan]
 
 %[]
 
-~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!]
+~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
++
+If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].]
 
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>content/victor/cv.pdf].
+/[victor]
