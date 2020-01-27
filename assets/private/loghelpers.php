@@ -108,6 +108,9 @@ function getLogData() {
 	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
 
 	for ($i = 0; $i < sizeof($divisionStats); $i++) {
+		//omit Personal division
+		if ($divisionStats[$i][0] == 'Personal') continue;
+
 		switch ($divisionStats[$i][0]) {
 			case 'Code':
 				$data = $data . '<span class="log-stat">COD</span>';
@@ -123,10 +126,6 @@ function getLogData() {
 
 			case 'Audio':
 				$data = $data . '<span class="log-stat">AUD</span>';
-				break;
-
-			case 'Personal':
-				$data = $data . '<span class="log-stat">PER</span>';
 				break;
 		}
 		//max-width: calc(100% - 30px);

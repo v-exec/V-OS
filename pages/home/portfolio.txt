@@ -106,7 +106,8 @@ For a full list of projects, please visit the #[projects] page.
 /[Purity]
 /[The Cosmic Affliction]
 /[Ark Simulation]
-/[Moré]
+/[Log]
+/[You Are X]
 /[Loveletter To Japan]
 
 %[]
