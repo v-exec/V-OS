@@ -53,7 +53,7 @@ In programming, one of the first things you might learn are variables and if() s
 Of course, there are many more technical elements to programming. However these are all abstractions - more complex configurations of variables and simple if() statements. Their purpose is to make your job as a programmer more efficient, modular, and less time-consuming. But at their core, the fundamentals reign king.
 +
 +
-In music, there is pitch, duration, and tone. You will realize that it is theoretically possible to build any configurations of sound with these tools. One again, there exist complex configurations of these - consonance/disonnance in chords, consonance/disonnance in progressions, techniques for producing and mixing tones. But, at their core... Well, you get the idea.
+In music, there is pitch, duration, and tone. You will realize that it is theoretically possible to build any configurations of sound with these tools. Once again, there exist complex configurations of these - consonance/disonnance in chords, consonance/disonnance in progressions, techniques for producing and mixing tones. But, at their core... Well, you get the idea.
 +
 +
 In 3D; vertices, edges, and faces. In painting; value, color, and perspective. In animation; movement, stretching, and keyframing.
