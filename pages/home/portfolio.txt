@@ -32,64 +32,6 @@ Every story is best told through different and varied media. For this reason, my
 
 %[]
 
-![Experience]
-
-I studied in Montreal, graduating with first class honors from Interactive Media Arts in Dawson College, and with a Bachelors of Fine Arts from Concordia University's Computation Arts program. Additionally, I've studied at Waseda University in Tokyo for a year, with a focus in architecture, narrative, and design.
-+
-+
-What follows is my work experience.
-
-%[]
-
-Technical lead and instructor for the sixth installment of the @[Skins Workshop>http://abtec.org/iif/workshops/skins-video-game-workshop/], in collaboration with @[Abtec>http://abtec.org/] / @[IFF>http://abtec.org/iif/] / @[Obx Labs>http://www.obxlabs.net/].
-+
-+
-There, I acted as a technical lead and instructor in the field of game design and audio. I was also involved in teaching programming in C# in Unity over the course of the 1 month workshop. I created and taught the curriculum for audio production, narrative design, and a portion of the programming section. I also helped students (~15 in total) collectively create a game that they had conceptualized. My help ranged from 3D work in Blender, to audio production, to programming in C#, to version control management.
-
-%[]
-
-Programming teaching assistant at @[Concordia University>https://www.concordia.ca/] for the Computation Arts program.
-+
-+
-There, I helped teach university students how to code in Java and work on personal game development projects.
-
-%[]
-
-Research assistant at @[Obx Labs>http://www.obxlabs.net/] working on virtual reality and typography.
-+
-+
-There, I conceptualized and produced experimental typography projects using both Unity and Unreal Engine for use with the HTC Vive.
-
-%[]
-
-Game design teacher at @[Dawson College>https://www.dawsoncollege.qc.ca/].
-+
-+
-There, I created and taught a 2-week full-time curriculum centered around familiarizing students with game design, and helping each student produce a personal game using Construct 2.
-
-%[]
-
-Web designer at @[Arthem.co>https://www.facebook.com/arthemco/].
-+
-+
-There, I dealt with client requirements and front-end design of websites.
-
-%[]
-
-![Links]
-
--[
-@[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]: Professional profile containing work experience, education, skills, and other work-related information.
-++
-@[GitHub>https://github.com/v-exec]: Code projects repository.
-++
-@[Bandcamp>https://v-exec.bandcamp.com/releases]: Released albums and featured music repository.
-++
-@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
-]
-
-%[]
-
 ![Projects]
 
 Below is a collection of curated projects that showcase previous work, some of which were for clients, and others personal projects.
@@ -109,6 +51,20 @@ For a full list of projects, please visit the #[projects] page.
 /[Log]
 /[You Are X]
 /[Loveletter To Japan]
+
+%[]
+
+![Links]
+
+-[
+@[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]: Professional profile containing work experience, education, skills, and other work-related information.
+++
+@[GitHub>https://github.com/v-exec]: Code projects repository.
+++
+@[Bandcamp>https://v-exec.bandcamp.com/releases]: Released albums and featured music repository.
+++
+@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
+]
 
 %[]
 
