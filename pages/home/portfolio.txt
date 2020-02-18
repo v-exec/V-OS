@@ -14,7 +14,7 @@ If you would like more informal documentation of myself, please refer to the #[v
 
 %[]
 
-![Summary]
+![About Me]
 
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal.
 +
@@ -34,23 +34,22 @@ Every story is best told through different and varied media. For this reason, my
 
 ![Projects]
 
-Below is a collection of curated projects that showcase previous work, some of which were for clients, and others personal projects.
+Below is a collection of curated projects that showcase some of my work.
 +
 +
 For a full list of projects, please visit the #[projects] page.
 
 %[]
 
-/[Nakade]
-/[DotCycle]
-/[Qurotema]
-/[4D SOCIETY]
 /[Purity]
+/[Nakade]
+/[Qurotema]
 /[The Cosmic Affliction]
-/[Ark Simulation]
-/[Log]
+/[DotCycle]
+/[4D SOCIETY]
 /[You Are X]
 /[Loveletter To Japan]
+/[Log]
 
 %[]
 

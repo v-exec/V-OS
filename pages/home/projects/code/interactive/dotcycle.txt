@@ -2,7 +2,7 @@ name: DotCycle
 image: dotcycle>4
 image name: #[DotCycle]
 white: true
-links: Download>media/downloads/dotcycle/dotcycle_windows.zip, Playthrough>https://www.youtube.com/watch?v=eX9zbHPs6eY, Github>https://github.com/v-exec/DotCycle
+links: Download>media/downloads/dotcycle/dotcycle_windows.zip, Github>https://github.com/v-exec/DotCycle
 tags: project, code, interactive, verse, phenomenon
 title: #[DotCycle] is a narrative game taking place in archived memories of an #[atomic AI].
 content: ?[Operator, this is the most intact instance so far. I think it's our best chance at understanding why they keep offing themselves.]
@@ -15,9 +15,11 @@ Explore these archived memories, and learn of the AI's revalations about sentien
 
 /[atomic ai]
 
-@[Download it for windows here>media/downloads/dotcycle/dotcycle_windows.zip].
-+
-@[Watch full playthrough here>https://www.youtube.com/watch?v=eX9zbHPs6eY].
+~[Download it for @[windows right here>media/downloads/dotcycle/dotcycle_windows.zip], or watch the full playthrough below.]
+
+<iframe class="media" src="https://www.youtube.com/embed/eX9zbHPs6eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+%[]
 
 &[dotcycle>1]
 &[dotcycle>2]
