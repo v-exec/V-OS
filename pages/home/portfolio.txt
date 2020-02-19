@@ -8,13 +8,17 @@ content:
 
 ~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
 +
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].]
+If you would like more informal documentation of myself, please refer to the #[victor] page.]
 
 /[victor]
 
 %[]
 
 ![About Me]
+
+Check out my @[resume>media/downloads/victor/cv.pdf] for work experience and highlighted projects.
+
+%[]
 
 I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal.
 +
@@ -25,10 +29,10 @@ I design, develop, and produce static and interactive media. I work with @[graph
 My goal is to create _[unique, innovative, aesthetically powerful, polished, and engaging media] to materialize a project's vision - _[to tell a story]. My interest is most focused on philosophical exploration, and the ways in which technology can be a narrative catalyst for these topics.
 +
 +
-Above all, what's most important is the story. Whether this be the story of a brand through a website and visual identity, the story of a building through its modeling and texturing, or the story of characters through interactive systems, narrative reigns as the ultimate goal.
+As an artist and producer, what I find most important is the story. Whether this be the story of a brand through a website and visual identity, the story of a building through its modeling and texturing, or the story of characters through interactive systems, narrative reigns as the ultimate goal.
 +
 +
-Every story is best told through different and varied media. For this reason, my approach is to find the most appropriate media for each story, and develop whatever skills are necessary to tell it. I am a skilled technician with an expanding set of experience and expertise, but my interest is not exclusively centered around technical work. The technical is a means to an end - a path to telling a good story how it's meant to be told.
+Every story is best told through different and varied media. For this reason, my approach is to find the most appropriate media for each story, and develop whatever skills are necessary to tell it. This approach has helped me become a skilled technician with an expanding set of experience and expertise in various media. My passion is learning new skills, and putting my existing ones to use on each project - to tell a good story how it's meant to be told.
 
 %[]
 
@@ -69,6 +73,6 @@ For a full list of projects, please visit the #[projects] page.
 
 ~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
 +
-If you would like more informal documentation of myself, please refer to the #[victor] page. Also, please take a look at my @[resume>media/downloads/victor/cv.pdf].]
+If you would like more informal documentation of myself, please refer to the #[victor] page.]
 
 /[victor]
