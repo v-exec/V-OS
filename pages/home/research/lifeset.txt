@@ -5,67 +5,37 @@ tags: research
 title: #[Lifeset] is a collection of guidelines to human existence.
 content:
 
-#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human (currently 37). The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
+#[Lifeset] is a public repository of guidelines, rules, and tips, to help structure and optimize life as a human. The rules of #[Lifeset] are focused on providing an easily digestible, yet expansive set of guidelines, both practical and theoretical, for living a healthy, productive, and fulfilling life.
 +
 +
-More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. To avoid alienating through specifics, and to keep things relatively brief, I won't give examples or elaborate background stories as to how I've come to these rules.
+More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. This page acts both as a tool for others to study, but also something for me to refer to, to remind myself of the lessons I have learned.
 +
 +
-I'd like to mention a few other short texts that cover similar topics of self-improvement and productivity, by @[Ian Battaglia>https://monochromatic.co/metachromatic/index/the-blank-pages] and @[Devine Lu Linvega>http://wiki.xxiivv.com/Aesthetics].
-
--[
-*[Balance and Well-Being] focuses on happiness in general, and personal improvement.
-++
-*[Perspective and Awareness] deals with questions of how one sees and interprets the world.
-++
-*[Focus and Motivation] looks at optimizing productivity and being overall industrious.
-++
-*[Knowledge and Abstraction] focuses on expanding knowledge, and using it effectively.
-]
-
-These divisions exist to provide a simple form of organization, though most of the guidelines below bleed into one or more divisions, so the classifications are not to be taken too seriously.
+For those who are reading this with the intent of tackling their own issues, I strongly advise picking the points which you feel are most relevant to your current struggles, and then writing about them in reflection.
 
 %[]
-
-![Balance and Well-Being]
-
-*[Embrace yourself]: Although we should strive for self-improvement, there are parts of ourselves that are not particularly subject to change. When you find them, do not waste too much energy trying to change them. Embrace those aspects of yourself and learn to co-exist with them, as opposed to eradicating them.
-
-+
-+
 
 *[Avoid excess]: Whether it be drugs and alcohol, exercise, media consumption, work, etc., excesses are to be avoided. Excess is acceptable, only when it is temporarily (in the short-term) brought on deliberately through specific activities.
 
 +
 +
 
-*[Avoid spectrum extremes]: We often find ourselves criticizing our location on spectrums and conclude that we should jump to the opposite extreme of where we initially were. For many cases, it is best to go towards the relative center of said spectrums. Keep in mind that 'center', in this case, is subject to personal preference and circumstances, meaning that the center must first be found, in order to travel to it.
-+
-+
-Things to be especially careful about in terms of balance: Taking things too seriously / not seriously enough, being too emotional / cold, working too much / not enough, being too social / not social enough, being too considerate / inconsiderate. The list goes on, but these aspects are typical areas of imbalance.
+*[Avoid spectrum extremes]: When we feel we are "too much X", we conclude that we should jump to the opposite extreme of where we initially were. For many cases, it is best to go towards the relative center of said spectrums. 'Center', in this case, is subject to personal preference and circumstances, meaning that the center must first be found, in order to travel to it. Things to be especially careful about in terms of balance: Taking things too seriously / not seriously enough, being too emotional / cold, working too much / not enough, being too social / not social enough, being too considerate / inconsiderate, being too boring / too outgoing.
 
 +
 +
 
-*[Explore spectrum extremes for adventure]: Adventure often manifests itself in ways that make us both extremely happy and upset. Adventure is not the traveling to different locations, or the meeting new people in of itself; it is the emotional dynamics they inspire. To have an adventure is to exist on the extremes.
-+
-+
-Both stability and adventure are important. Find the threshold of desire you have for each, and balance the two accordingly.
+*[Avoid neglecting aspects of life you might assume are unnecessary]: Existing as a human comes with many quirks. One of said quirks is that you most likely need the things everyone else needs. Social interaction, sexual stimulation, emotional presence; think carefully if you are thinking of cutting something like that out of your life.
 
 +
 +
 
-*[Avoid neglecting aspects of life you potentially assume are unnecessary]: Existing as a human comes with many quirks. One of said quirks is that you most likely need the things everyone else needs. Social interaction, sexual stimulation, emotional presence; think carefully if you're thinking of cutting them out of your life.
+*[Be malleable]: When you have encountered an aspect of yourself that you would like to change, put extensive focus and effort into changing it. A habit might take a long time to form, but until then, consciously practice what you would like to change. Making gradual changes (over the course of months, and even years) is often unnecessarily time consuming, and puts you in a state of instability for a longer period of time. Be malleable, and make changes to yourself quickly.
 
 +
 +
 
-*[Be malleable]: When you've encountered an aspect of yourself that you'd like to change, put extensive focus and effort into changing it. A habit might take a long time to form, but until then, consciously practice what you'd like to change. Making gradual changes (over the course of months, and even years) is often unnecessarily time consuming, and puts you in a state of instability for a longer period of time. Be malleable, and make changes to yourself quickly.
-
-+
-+
-
-*[Do not become overly attached]: All is temporary, and attachments (especially to material possessions) create unnecessary anchors to the physical realm. Neglecting the temporary nature of everything also encourages taking said things for granted. Appreciate that which is temporary, but be ready to let it go at any given point.
+*[Do not become overly attached]: All is temporary, and attachments (especially to material possessions) create unnecessary anchors to the physical realm. Neglecting the temporary nature of everything also encourages taking said things for granted. Appreciate that which is temporary, but be ready to let it go at any given point. There is no escaping the loneliness of human existence. Embrace the fact that you will be alone, and do not live to feed a feeling that cannot be satiated. Remember that you alone will be your only partner through life.
 
 +
 +
@@ -75,7 +45,7 @@ Both stability and adventure are important. Find the threshold of desire you hav
 +
 +
 
-*[Do not aim to impress others]: "Being yourself" is a popular saying, but it fails to explicitly specify how trying to impress others is the catalyst to no longer being yourself. Going about life persistently looking for ways to make others like you / your work only brings anxiety. It is wiser to treat impressions as a side-effect of your genuine interests and behavior.
+*[Do not aim to impress others]: "Being yourself" is a popular saying, but it fails to explicitly specify the most common reason for not being oneself: attempting to impress others. Going about life persistently looking for ways to make others like you / your work only brings anxiety. It is wiser to treat impressions as a side-effect of your genuine interests and behavior.
 
 +
 +
@@ -85,99 +55,55 @@ Both stability and adventure are important. Find the threshold of desire you hav
 +
 +
 
-*[Know your passions]: Not every subject needs to be something you deeply care about. Understand what it is that motivates you to exist, make that the forefront of your life, and appreciate everything else more passively. People will have different passions, and that is natural.
+*[Know your passions and your purpose]: Understand what it is that you enjoy doing (passions), and what motivates you to exist (purpose). Achieve your purpose through your passions. Make this the mission of your life.
 
 +
 +
-
-*[Do not overwork]: Productivity is important, but it is fueled through a well-rested mind. Investigate why productity is important to you, and seek out low-stress ways of achieving the same goals. Life's experiences should not be exclusively dedicated to formal work.
-
-%[]
-
-![Perspective and Awareness]
 
 *[Remember the importance of perspective]: It can be tempting to accept our vision of the world as absolute. However, as fundamentally subjective creatures, one must remember that our vision of the world is never accurate. Use this to your advantage, and remember that many emotional lows are due to perspective. A shift in perspective is a shift of your reality. 
 
 +
 +
 
-*[Use rationality appropriately]: Rationality is a tool, to be used in all cases involving the methodology of reaching a goal. That is to say, a situation where the purpose is to find the most appropriate way to achieving a pre-established goal. Rationality's appropriateness ends at situations that have no goal, and subjective preferences based on innate biological traits take over.
-+
-+
-Many matters, including emotions and social relationships, are not fundamentally rational (from a human perspective). Thus, attempting to deal with these areas from a purely rational perspective only breeds frustration.
+*[Use rationality appropriately]: Rationality is a tool, to be used in all cases involving the methodology of reaching a goal. That is to say, a situation where the purpose is to find the most appropriate way to achieving a pre-established goal. Rationality's appropriateness ends at situations that have no goal, and subjective preferences based on innate biological traits take over. Many matters, including emotions and social relationships, are not fundamentally rational (from a human perspective). Thus, attempting to deal with these areas from a purely rational perspective only breeds frustration.
 
 +
 +
 
-*[Be aware of the human perspective, versus the cosmic perspective]: On a scale larger than human communities, as animals, we assign meaning based on our biological programming and its systems for evaluating value (and all sub-sets of values are based on this overarching value system). With that in mind, we also possess the ability to handle abstractions and consciously conjure thoughts that do not pertain to this primal value system. Through this practice, we may eventually reach the value system belonging to the cosmos itself, which, at the moment, appears to be void.
+*[Be aware of the human perspective, versus the cosmic perspective]: As animals, our biology plays a large role in determing our fundamental values. Communities, families, and our lives are heavily influenced by these base values. We find meaning in life because these values drive us to care about things. That being said, we also possess the ability to handle abstractions and consciously conjure thoughts that do not pertain to this primal value system. Beyond these values, we search for meaning in the cosmos. The value system of our universe appears, at the moment, to be void.
 +
 +
-Despite the cosmos' all-encompassing nature, as humans, we remain at least partially anchored to our primal value system and perspective. A healthy life uses the human perspective to drive healthy habits for the human body and mind (the practical), and it uses the cosmic perspective to drive some forms of morality, higher purpose, and higher understanding (the philosophical).
-+
-+
-Do not neglect the human perspective, for it cannot be escaped before death. Do not neglect the cosmic perspective, for it cannot be escaped after death.
+Whether we like it or not, meaning does not seem to exist outside ourselves. As humans, a healthy life is composed of a balance of embracing the meaning that our biology provides us, and embarking on philosophical journeys to continue our search for meaning outside the human perspective.
 
 +
 +
 
-*[Do not idolize]: Admiration is fine, but idolization is not. In idolizing an existing entity, you set your upper-limits of appreciation to something that already exists. It avoids disappointment in attempts to reach it, as reaching whatever existing entity you idolize is technically possible. However, it equally avoids progress towards creating and reaching that which does not yet exist.
-+
-+
-Additionally, to idolize is to take something real and idealize it into fiction. All idols are false idols.
+*[Un-immerse yourself]: Every now and then, step out of the immersive world of your occupations and worries, and reflect on the state of affairs. Being mindful, introspective, and reflective in this manner encourages regular reassessments of values and objectives, and gives good peace of mind.
 
 +
 +
 
-*[Un-immerse yourself]: Every now and then, step out of the immersive world of your occupations, and reflect on the state of affairs. Being mindful, introspective, and reflective in this manner encourages regular reassessments of values and objectives, and gives good peace of mind.
+*[Live in the moment]: You only exist now. Reflect on the past, set goals for the future, and then act. Endless worries about future plans will only paralyze you. Most desires are not years ahead, but only one step in front of you. Take that step.
 
 +
 +
 
-*[Live in the moment]: To take in life is to exist in the present. To achieve this, do not overstimulate the mind with constant desires for entertainment and activity. Let your mind rest, this trains your capacity to focus. Also, remove expectations in scenarios where you have a highly structured view of something. By having no expectations, you make choices in the moment based on your current desires, as opposed to constant reference to reaching future expectations.
+*[Follow your path]: Feel free to not meet others' desires or expectations when appropriate. Do not compare yourselves to others: everyone is on their own path, with their own obstances. You are on your own path for your own reasons. Remind yourself of these reasons. Disregard the rules of your environment if they do not align with your goals and intentions. Prioritize and remember your individuality. A direction on your path is not a lifelong commitment, and it is okay to change directions at any point in your life. You, and the path you tread is your only persistent possession. Put those first.
 
 +
 +
 
-*[Follow your path]: Feel free to not meet others' desires or expectations when appropriate. Be sure to look carefully at rules, guidelines, and criteria, so that you are sure they align with your goals and intentions. If they do not, consider disregarding them. Prioritize and remember your individuality.
-+
-+
-Do not be afraid to leave parts of your life if your path continues elsewhere. A direction is not a lifelong commitment. Take the initiative to leave and continue your journey, for the path you tread is your only persistent possession.
+*[Create a plan]: Analyze your environment. Find what you want to change. Create a plan on how to change it, commit to these plans, and execute them. Refer to these plans to stay true to your aspirations.
 
 +
 +
 
-*[Focus on yourself]: Do not be selfish, but remember that some systems in your life are not meant to be overly-prioritized, and should instead act as support structures for yourself and what you find important. Prioritize the only permanent component of your temporary life: yourself.
-
-+
-+
-
-*[Face loneliness]: Whether you have friends or a romantic partner, there is no escaping the loneliness of human existence. Embrace the fact that you will be alone, and do not live to feed a feeling that cannot be satiated. Remember that you alone will be your only partner through life.
-
-%[]
-
-![Focus and Motivation]
-
-*[List objectives and plans]: Create a list of objectives, and detailed plans on how to reach each one. In making explicit instructions on how to achieve given objectives, you're working out and preparing yourself for the potential obstacles, as well as paving a path for the work to come.
-
-+
-+
-
-*[Track your progress]: Track your progress explicitly through writing, or relevant applications. The simple act of consciously reviewing your progress will encourage you to be more aware of your work habits, and push you to work more if you're not progressing as quickly as you'd like.
-
-+
-+
-
-*[Stay true to your aspirations]: On bigger projects especially, it is easy to lose track of the underlying purpose behind your work. In times like these, it is good to refer to a clearly defined objective, so as to not lose focus on the ultimate goal.
+*[Track your progress]: Track your progress explicitly through writing, or relevant applications. The simple act of consciously reviewing your progress will encourage you to be more aware of your habits, and push you to work more if you are not progressing as quickly as you would like.
 
 +
 +
 
 *[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand on your pool of knowledge.
-
-+
-+
-
-*[Commit]: When you've made a decision you are confident in, commit to it. Create a defined justification for your decision, and refer to it when you feel doubtful. You will waste a lot more time and nearly always come to unpleasant conclusions if you persistently flip flop between options.
 
 +
 +
@@ -192,26 +118,15 @@ Do not be afraid to leave parts of your life if your path continues elsewhere. A
 +
 +
 
-*[Avoid unnecessary comparisons]: Do not become obsessive in comparing your work to others'; always remember your personal ambitions. When facing moments of detrimental comparison, remind yourself of the reasons for why you enjoy doing the work you do. If you aren't progressing towards your objective, then the comparison is fair, and should be used as motivation.
-
-+
-+
-
-*[Create a plan]: Analyze your environment, find what you want to change, create a plan on how to change it, and then execute it. This cycle is found in all aspects of existence in our cause and effect universe. Master it, and only nature itself will prove an obstacle.
-
-+
-+
-
 *[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. On a small scale, short-term objectives will make you more critical towards your technique and accelerate your improvement. On a larger scale, long-term objectives will encourage you to be fully and more consistently engaged in the activities you wish to practice.
 
 +
 +
 
-*[Do not depend on inspiration]: To operate exclusively on inspiration is to ignore developing creativity as a skill. Inspiration should be utilized when it is present, but creative work should not depend on it. Furthermore, no activity is exclusively composed of creativity. In waiting for inspiration to strike, countless hours of potential improvement in the technical side of an activity are gone.
+*[Do not depend on inspiration]: Ccreativity is a skill. Practice it. Inspiration should be utilized when it is present, but creative work should not depend on it. Furthermore, no activity is exclusively composed of creativity. In waiting for inspiration to strike, countless hours of potential improvement in the technical side of an activity are gone.
 
-%[]
-
-![Knowledge and Abstraction]
++
++
 
 *[Practice curiosity]: Seek to learn and satiate all curiosities. The act of learning should provide joy, and should be sought out on a regular basis. Many topics seem superficially uninteresting, but end up being very engaging at a higher depth.
 
