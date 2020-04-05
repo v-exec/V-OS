@@ -4,6 +4,6 @@ image name: #[Nakade]
 white: true
 tags: nav
 title: The #[display] section features coded visuals and installations.
-content: The projects found here are created using web languages like Javascript, game engines like Unreal, and frameworks like Processing.
+content: The projects found here are created using web languages like Javascript, game engines like Unreal and Unity, and frameworks like Processing.
 %[]
 -[display]
