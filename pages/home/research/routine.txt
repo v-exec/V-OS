@@ -9,15 +9,12 @@ In highschool, my goal was to escape routine out of sheer boredom. I hated schoo
 +
 +
 As I've said in my thoughts on #[timekeeping], writing stuff down has proved incredibly useful in making me more proactive. Therefore, the following routines' goals are to make it easier for me to manage my health and time investment long-term by planning out a well-documented set of things I should do each and every day.
-+
-+
-Time has been overall slightly inflated to ensure that I have time to complete the activities.
 
 %[]
 
 ![Morning]
 
-Wake up at the same time each day (currently 7:45am).
+Wake up at the same time each day.
 +
 +
 Take a lukewarm shower and brush teeth. 15 minutes.
@@ -26,31 +23,37 @@ Take a lukewarm shower and brush teeth. 15 minutes.
 Dry off and get dressed. 15 minutes.
 +
 +
-Stretch. 15 minutes.
+Light exercise touching on every major muscle group. 10 minutes.
 +
 +
-Light exercise touching on every major muscle group, but focusing on a singular muscle group I feel needs most development. 15 minutes.
-+
-+
-_[Morning routine: ~60 minutes.]
+*[Morning routine: ~40 minutes.]
 
 %[]
 
-![Day]
+![Day - Responsabilities]
 
-_[In no particular order, and outside of work / school, and things like eating.]
+Create / review list of tasks. 30 minutes.
 +
 +
+Complete tasks.
++
++
+Stop all work by 5pm.
++
++
+*[Work activities: maximum 8 hours.]
+
+%[]
+
+![Day - Free Time]
+
 Focus on building a skill I'd like to be better at. Personal project, daily media production, raw practice, etc. Minimum 2 hours.
 +
 +
-Play / relax without productive intent. Minimum 2 hours if in the mood.
+Play / relax without productive intent. Minimum 2 hours.
 +
 +
-_[Skill and play can be omitted from a day's routine as long as the time is made up for in the next days.]
-+
-+
-_[Non-work related activities: minimum 2 - 4 hours.]
+*[Free time activities: minimum 4 hours.]
 
 %[]
 
@@ -65,36 +68,33 @@ Brush teeth. 5 minutes.
 Stretch. 10 minutes.
 +
 +
-Sleep with minimal phone interaction.
-+
-+
-_[Night routine: ~20 minutes.]
+*[Night routine: ~20 minutes.]
 
 %[]
 
 ![Exercise]
 
-_[Three times per week with rest day in-between, each exercise done to failure, with easier progressions. Dynamic stretch and warm up before workout, static stretch after workout.]
+Three times per week with rest day in-between, each exercise done to failure, with easier progressions. Dynamic stretch and warm up before workout, static stretch after workout. Leg exercises can be replaced with biking.
 +
 +
-Pullups (grip distance, grip direction, negatives) / Curl + Rows
+Rows
 +
-Squat (depth, pistol)
+Wide Pushups
 +
-Pushup (diamond, dive-bomber)
+Curls
 +
-L-Sit (boat hold)
+L-Sit / Boat Hold
 +
-Dip (bench, negative)
+Side Plank
 +
-Hip raise (single leg)
+Pike / Handstand
 +
-Handstand (hold, pushup, pike)
+Single Leg Hip Raise
 +
-Side Plank (arm straightness, crunches)
+Pistol Squat
 +
 +
 x2
 +
 +
-_[Estimated time: ~75 minutes.]
+*[Estimated time: ~60 minutes.]
