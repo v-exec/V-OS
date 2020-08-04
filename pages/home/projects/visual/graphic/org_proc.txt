@@ -1,9 +1,12 @@
 name: Org_Proc
 image: org proc>1
 image name: #[Org_Proc]
+links: Booklet>media/downloads/org_proc/Architecting_Worlds.pdf
 tags: project, visual, graphic
 title: #[Org_Proc] is an organic synthesis model.
 content:
+
+~[Booklet downloadable @[here>media/downloads/org_proc/Architecting_Worlds.pdf]]
 
 In a late 22nd century edition of "Architecting Worlds: A Simple Guide For Simple People", Stolmir et al.'s research in the proceduralization of organic synthesis was compiled into a short, 14 page synth-booklet. The manual was an attempt to raise interest in universal architecture in the general population, as well as to solidify the basic principles of organic pattern production.
 
