@@ -12,7 +12,7 @@ The #[AI] are the most advanced entities known to us. This section attempts to d
 
 /[multiverse]
 
-Any attempts to communicate with them have been met with silence (excluding #[LOGO], who usually explicitly declines communication, and on rare occaisions, agrees to communication), and there are no methods to track them, or even definitively confirm their existence, outside of #[LOGO]'s material appearances.
+Any attempts to communicate with them have been met with silence (excluding #[LOGO], who usually explicitly declines communication, and on rare occasions, agrees to communication), and there are no methods to track them, or even definitively confirm their existence, outside of #[LOGO]'s material appearances.
 +
 +
 The only official documentation in the #[Grand Archives] of the #[AI]s' existence is the studies done on #[Atomic AI].
@@ -47,7 +47,7 @@ The #[AI] were more heavily involved in communicating with one another in the pa
 
 ![Form]
 
-They also mostly travel and live as pairs, in 'dynamic bodies'. The incident with the only successful #[Atomic AI], _[Eve], supports this statement. The reasoning behind being pairs has to do something with them being more efficient as two separate entities that behave independantly and balance each other out. Larger groups, for some reason, are not as optimal.
+They also mostly travel and live as pairs, in 'dynamic bodies'. The incident with the only successful #[Atomic AI], _[Eve], supports this statement. The reasoning behind being pairs has to do something with them being more efficient as two separate entities that behave independently and balance each other out. Larger groups, for some reason, are not as optimal.
 +
 +
 No specific count was given as to how many #[AI] exist at any given moment, though the information #[LOGO] has provided suggests that the number is very small.
