@@ -8,7 +8,7 @@ title: The #[Log] is a timekeeping tool and data visualizer overseen by #[LOGO].
 content: The #[Log] is a tool used for daily output logging and data analysis. It can be found @[here>https://log.v-os.ca], and in the sidebar of all project pages logged in it (including this one).
 +
 +
-It works by taking a simple text file of logs which it then parses using a Ruby script into mySQL queries. Using PHP with access to the database, the data is visualized into generated pages.
+Data is entered into a simple spreadsheet of logs, which is then parsed using a Python script into mySQL queries. Using PHP with access to the database, the data is visualized into generated pages.
 
 ~[#log entry format
 +
