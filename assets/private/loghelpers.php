@@ -68,8 +68,7 @@ function getLogData() {
 
 			//get query results
 			while ($row = $result->fetch_assoc()) {
-				if ($row['division'] == 'None' || $row['division'] == 'Personal') continue;
-				array_push($rows, [$row['division'], $row['hours']]);
+				if ($row['project'] != 'None' && $row['task'] != 'None' && $row['division'] != 'None') array_push($rows, [$row['division'], $row['hours']]);
 			}
 			$divisionStats = $rows;
 		}
@@ -108,9 +107,6 @@ function getLogData() {
 	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
 
 	for ($i = 0; $i < sizeof($divisionStats); $i++) {
-		//omit Personal division
-		if ($divisionStats[$i][0] == 'Personal') continue;
-
 		switch ($divisionStats[$i][0]) {
 			case 'Code':
 				$data = $data . '<span class="log-stat">COD</span>';
@@ -151,7 +147,7 @@ function getRecentActivities($logLimit) {
 		$rows = array();
 
 		while ($row = $result->fetch_assoc()) {
-			array_push($rows, [$row['date'], $row['time'], '<a href="https://log.v-os.ca/' . $row['project'] . '">' . $row['project'] . '</a>', '<a href="https://log.v-os.ca/' . $row['task'] . '">' . $row['task'] . '</a>', $row['details']]);
+			if ($row['project'] != 'None' && $row['task'] != 'None' && $row['division'] != 'None') array_push($rows, [$row['date'], $row['time'], '<a href="https://log.v-os.ca/' . $row['project'] . '">' . $row['project'] . '</a>', '<a href="https://log.v-os.ca/' . $row['task'] . '">' . $row['task'] . '</a>', $row['details']]);
 		}
 
 		$displayLogCount = $logLimit;
@@ -165,7 +161,8 @@ function getRecentActivities($logLimit) {
 		for ($i = 0; $i < $size; $i++) {
 			$date = new DateTime($rows[$i][0]);
 			if ($i > 0) $string = $string . '<br><br>';
-			$string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3].' · '.$rows[$i][4];
+			if ($rows[$i][4] !== '') $string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3].' · '.$rows[$i][4];
+			else $string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3];
 		}
 	}
 
