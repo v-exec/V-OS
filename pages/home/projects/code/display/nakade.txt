@@ -4,7 +4,7 @@ image name: #[Nakade]
 white: true
 links: Download>media/downloads/nakade/nakade_windows.zip
 tags: project, code, display
-title: #[Nakade] is realtime point-cloud audiovisual demo.
+title: #[Nakade] is a realtime point-cloud audiovisual demo.
 content:
 
 <iframe class="media" src="https://player.vimeo.com/video/386068451" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
