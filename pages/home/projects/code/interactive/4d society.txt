@@ -3,7 +3,7 @@ image: 4d society>6
 image name: #[4D SOCIETY]
 white: true
 links: Download>media/downloads/4d society/4D_SOCIETY_windows.zip, Github>https://github.com/v-exec/4D-SOCIETY
-tags: project, code, interactive
+tags: project, code, interactive, audio, single
 title: #[4D SOCIETY] is a first person exploration game with navigational puzzles driven by experimental graphics.
 content:
 

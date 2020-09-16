@@ -3,7 +3,7 @@ image: nakade>3
 image name: #[Nakade]
 white: true
 links: Download>media/downloads/nakade/nakade_windows.zip
-tags: project, code, display
+tags: project, code, display, audio, single
 title: #[Nakade] is a realtime point-cloud audiovisual demo.
 content:
 

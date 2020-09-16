@@ -3,7 +3,7 @@ image: qurotema>4
 image name: #[Qurotema]
 white: true
 links: Download>media/downloads/qurotema/qurotema_windows.zip, Github>https://github.com/v-exec/Qurotema
-tags: project, code, interactive, verse, location
+tags: project, code, interactive, verse, location, audio, single
 title: #[Qurotema] is an off-limits construct universe.
 content:
 

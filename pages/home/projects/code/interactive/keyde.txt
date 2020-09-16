@@ -1,10 +1,15 @@
 name: Keyde
 image: keyde>10
 image name: #[Keyde]
-tags: project, code, interactive
+tags: project, code, interactive, audio, album
 title: #[Keyde] is a contemporary kaleidoscope.
-content: Created using Unity, #[Keyde] is a virtual reality application for Android an iOS. It is composed of a series of generative visuals driven by hardware data: accelorometer, location, camera feed, and touch. The application also features two dynamicly mixed ambient audio tracks, found in the Keyden Series.
+content: Created using Unity, #[Keyde] is a virtual reality application for Android an iOS. It is composed of a series of generative visuals driven by hardware data: accelorometer, location, camera feed, and touch.
 +
++
+#[Keyde] was designed to be used in tandem with an EEG head mount, with the visuals being driven by signals from the user's brain.
++
++
+The application also features two dynamicly mixed ambient audio tracks.
 +
 <iframe class="media" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/339275447&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
