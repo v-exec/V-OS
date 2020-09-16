@@ -1,0 +1,17 @@
+name: Fracas
+image: fracas>2
+image name: #[Fracas]
+links: Watch>https://www.youtube.com/watch?v=iI3iD-WkdaU
+tags: project, code, display
+title: #[Fracas] is a realtime point cloud music video with photogrammetric flowers.
+content:
+
+<iframe class="media" src="https://www.youtube.com/embed/iI3iD-WkdaU" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
++
++
+#[Fracas] explores patterns and biological aesthetics under the eyes of the digital.
++
++
+#[Fracas] was made with the help of Simon Demeule's code, developed in our project #[Nakade].
+
+/[Nakade]

@@ -1,0 +1,16 @@
+name: Expansion
+image: expansion>2
+image name: #[Expansion]
+white: true
+links: Watch>https://www.youtube.com/watch?v=oQ_9SPHta88
+tags: project, code, display
+title: #[Expansion] is a realtime particle system-based audio visualizer.
+content:
+
+<iframe class="media" src="https://www.youtube.com/embed/oQ_9SPHta88" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
++
++
+#[Expansion] tells the story of data. We start with passive observations, and eventually learn to exercise influence around the world around us. This input and manipulation of data is at the core of how we relate to our universe.
++
++
+#[Expansion] was made using a combination of particle physics, webcam input, and audio analysis. The entirety of #[Expansion] is made in a single realtime take, and the technology used to make it is being developed as a VJ kit.
