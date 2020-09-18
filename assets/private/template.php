@@ -125,6 +125,9 @@
 				<a class="neutral-link" href="https://soundcloud.com/v_exec">Soundcloud</a> ·
 				<a class="neutral-link" href="https://www.instagram.com/v_exec/">Instagram</a> ·
 				<a class="neutral-link" href="https://www.linkedin.com/in/victor-ivanov/">LinkedIn</a>
+				<br>
+				<br>
+				<a class="neutral-link" href="mailto:victor.ivanov.design@gmail.com">victor.ivanov.design@gmail.com</a>
 			</div><div id="body-content">
 
 				<div id="mobile-path">
