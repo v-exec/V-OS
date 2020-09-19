@@ -1,0 +1,14 @@
+name: Full_body
+image: full_body>3
+image name: #[full_body]
+links: Github>https://github.com/v-exec/full_body, Use Online>https://exp.v-os.ca/full_body
+tags: project, code, tool
+title: #[Full_body] is an exercise sequencer.
+content: #[Full_body] is a desktop web app made to add variety to monotonous workout routines, and an easy way of collecting data for tracking in third party applications.
++
++
+For full documentation and instructions on how to use this app, please visit the @[github page>https://github.com/v-exec/full_body].
+
+&[full_body>2]
+
+#[Full-body] randomizes your exercise sequence, gives you generated text for each supported movement, shows you your progress, tracks time spent on particular muscle groups / target areas / exercises per workout, and displays that information in the end. It's simple, but practical for anyone looking to worry less about the order of their routine.
