@@ -122,6 +122,11 @@
 				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>
 				<br>
 				<br>
+				<a class="neutral-link" href="https://www.artstation.com/v_exec">ArtStation</a> ·
+				<a class="neutral-link" href="https://www.youtube.com/user/ReducedProcess">Youtube</a> ·
+				<a class="neutral-link" href="https://v-exec.itch.io/">Itch</a>
+				<br>
+				<br>
 				<a class="neutral-link" href="https://soundcloud.com/v_exec">Soundcloud</a> ·
 				<a class="neutral-link" href="https://www.instagram.com/v_exec/">Instagram</a> ·
 				<a class="neutral-link" href="https://www.linkedin.com/in/victor-ivanov/">LinkedIn</a>
