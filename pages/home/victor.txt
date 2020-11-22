@@ -15,7 +15,7 @@ For professional information, please take a look at my #[portfolio].]
 %[]
 
 ![Victor]
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I've studied Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I've studied Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and work as a freelance designer and developer for games, publicity, and experimental art.
 
 %[]
 
@@ -32,85 +32,3 @@ Through his voyage, whether it be through skill or pure luck, vi met one of the 
 Here, in #[V-OS], a construct universe, they've decided to create a home for other travellers, an archive for their findings, and a platform through which to unravel the mysteries behind the unusual sectors of existence.
 
 /[v-os]
-
-%[]
-
-![Interests]
-I write code, create graphics/illustrations, play and produce music, architect worlds, and many other things in-between.
-+
-+
-I am fascinated by anything related to the following themes and topics:
-
-=[
-graphics
-++
-audio
-++
-interaction
-++
-games
-++
-narrative
-++
-cyberpunk
-++
-science fiction
-++
-world building
-++
-conceptual art
-++
-philosophy
-++
-design
-++
-teaching
-++
-psychology
-++
-physics
-++
-chemistry
-++
-mathematics
-++
-programming
-++
-systems analysis
-++
-optimization
-++
-generalism
-]
-
-I also log my daily activities, in an attempt to track, analyze, and optimize my productivity and overall lifestyle. A live visualization of that data can be found on the @[Log>http://log.v-os.ca].
-
-/[log]
-
-%[]
-
-![Online Presence]
-
--[
-@[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]: Professional profile containing work experience, education, skills, and other work-related information.
-++
-@[GitHub>https://github.com/v-exec]: Code projects repository.
-++
-@[Twitter>https://twitter.com/v_exec]: Media-centric profile for all media updates and semi-intimate communication.
-++
-@[Instagram>https://www.instagram.com/v_exec/]: Exclusively media-centric profile, primarily focused on visuals.
-++
-@[Bandcamp>https://v-exec.bandcamp.com/releases]: Released albums and featured music repository.
-++
-@[Soundcloud>https://soundcloud.com/v_exec]: Unfiltered music repository.
-++
-@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
-]
-
-%[]
-
-~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
-+
-For professional information, please take a look at my #[portfolio].]
-
-/[portfolio]

@@ -9,9 +9,9 @@ content:
 <iframe class="media" src="https://www.youtube.com/embed/CYOmMb62t6g" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 +
 +
-#[Jagged Orbit] is a music video for Halftribe & Spinnet's @[Jagged Orbit>https://synphaera.bandcamp.com/track/jagged-orbit]. It tells a story of the creation of a world both unique, and simultaneously familiar.
+#[Jagged Orbit] is a music video for Halftribe & Spinnet's @[Jagged Orbit>https://synphaera.bandcamp.com/track/jagged-orbit]. It tells a story of the creation of a world both unique, and simultaneously familiar - from the physical forces that manifested it, to its eventual fall to entropy.
 +
 +
-This project was created using photogrammetry of landscape videos taken with a drone, which are used as force fields for various particle systems.
+This project was created using photogrammetry of landscape videos taken with a drone, which were then used as force fields for various particle systems.
 
 &[jagged orbit>2]
