@@ -33,7 +33,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,900|Roboto:400,400i,700|Roboto+Mono">
-	<link rel="stylesheet" type="text/css" href="assets/styles/style.css?ver=<?php echo filemtime('assets/styles/style.css');?>">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/style.css?>">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
 			</a>
 		</div>
 
-		<div class="header-image" style="background-image: url(<?php echo $artifact->attributes['image'];?>)"></div>
+		<div class="header-image" style="background-image: url(/<?php echo $artifact->attributes['image'];?>)"></div>
 	</div>
 
 	<div id="no-page-header"></div>
@@ -170,9 +170,9 @@
 		</div>
 	</div>
 
-<script src="assets/scripts/logo.js"></script>
-<script src="assets/scripts/cli.js"></script>
-<script src="assets/scripts/requestscript.js"></script>
+<script src="/assets/scripts/logo.js"></script>
+<script src="/assets/scripts/cli.js"></script>
+<script src="/assets/scripts/requestscript.js"></script>
 
 <?php checkWhite($artifact, false);?>
 <?php checkImage($artifact);?>

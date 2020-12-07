@@ -3,7 +3,6 @@
 if (isset($_GET['v'])) {
 	if ($_GET['v']) {
 		$v = strtolower($_GET['v']);
-		$v = sanitize($v);
 	} else $v = 'home';
 } else {
 	$_GET['v'] = 'home';
@@ -57,6 +56,11 @@ else if(substr($v, 0, 4) === "tag-") {
 		redirect($v);
 	}
 } else if (substr($v, 0, 4) === "404-") {
+	//if slashes remain, sanitize and redirect
+	if (strstr($v, '/')) {
+		redirect(substr($v, 4, $v.length));
+	}
+
 	//create 404
 	$name = substr($v, 4, $v.length);
 	$artifact = new CustomArtifact();
@@ -88,12 +92,13 @@ ob_end_clean();
 echo $page;
 
 function redirect($search) {
+	$search = sanitize($search);
 	header('Location: https://v-os.ca/404-' . $search);
 	die();
 }
 
 function sanitize($string) {
-	$string = preg_replace('/[^A-Za-z0-9\-]/', '', $string); //remove special chars
+	$string = preg_replace('/[^A-Za-z0-9\-]/', '', $string);
 	$string = htmlspecialchars($string, ENT_QUOTES);
 	return $string;
 }
