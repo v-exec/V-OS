@@ -3,6 +3,7 @@
 if (isset($_GET['v'])) {
 	if ($_GET['v']) {
 		$v = strtolower($_GET['v']);
+		$v = sanitize($v);
 	} else $v = 'home';
 } else {
 	$_GET['v'] = 'home';
@@ -29,9 +30,8 @@ createArtifacts();
 formatArtifacts();
 
 //load artifact
-if (getArtifact($v) != null) {
-	$artifact = getArtifact($v);
-} else if(substr($v, 0, 4) === "tag-") {
+if (getArtifact($v) != null) $artifact = getArtifact($v);
+else if(substr($v, 0, 4) === "tag-") {
 	//check if looking at generated tag-artifact
 	$tag = substr($v, 4, strlen($v));
 	$tagCount = 0;
@@ -53,12 +53,31 @@ if (getArtifact($v) != null) {
 		$parser->firstFormat($artifact);
 		$parser->secondFormat($artifact);
 	} else {
-		//load 404
-		$artifact = getArtifact('404');
+		//if attempt to create tag artifact results in no found entires, 404
+		redirect($v);
 	}
+} else if (substr($v, 0, 4) === "404-") {
+	//create 404
+	$name = substr($v, 4, $v.length);
+	$artifact = new CustomArtifact();
+	$artifact->attributes['name'] =  "404 - " . $name;
+	$artifact->attributes['image'] = "404>1";
+	$artifact->attributes['image name'] = "#[404]";
+	$artifact->attributes['white'] = "true";
+	$artifact->attributes['title'] = "Artifact _[" . $name . "] not found.";
+	$artifact->attributes['content'] = "
+	Seems like #[LOGO] hasn't indexed _[" . $name . "] yet, sorry about that.
+	<br><br>
+	If you're lost, take a look at the #[index], or check out some of the #[projects].
+	<br><br>
+	If you think this page should exist, please contact me through my @[email>victor.ivanov.design@gmail.com].
+	";
+	$artifact->path = ['home'];
+	$parser->firstFormat($artifact);
+	$parser->secondFormat($artifact);
 } else {
 	//if artifact doesn't exist, load 404
-	$artifact = getArtifact('404');
+	redirect($v);
 }
 
 //get template
@@ -67,4 +86,15 @@ include 'assets/private/template.php';
 $page = ob_get_contents();
 ob_end_clean();
 echo $page;
+
+function redirect($search) {
+	header('Location: https://v-os.ca/404-' . $search);
+	die();
+}
+
+function sanitize($string) {
+	$string = preg_replace('/[^A-Za-z0-9\-]/', '', $string); //remove special chars
+	$string = htmlspecialchars($string, ENT_QUOTES);
+	return $string;
+}
 ?>

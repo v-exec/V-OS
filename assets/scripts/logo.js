@@ -1,7 +1,7 @@
 //object wrap for Wire
 var V = {};
 
-//----------**SETUP**----------//
+//setup
 
 //canvas ID
 V.canvas = document.getElementById('vCanvas');
@@ -30,7 +30,7 @@ V.colorR = 0;
 V.colorG = 0;
 V.colorB = 0;
 
-//----------**ANIMATION**----------//
+//animation
 
 //determines how radically wire glitches
 V.glitchyness = 60;
@@ -47,8 +47,6 @@ V.downTime = 7000;
 //determines how often wire blinks when not glitching (between 0 - 1, the higher, the more blinky)
 V.blinkyness = 0.01;
 
-//----------**INTERNAL**----------//
-
 //set up canvas context
 V.ctx = V.canvas.getContext('2d');
 
@@ -60,8 +58,6 @@ V.renderLast = true;
 
 //determines whether or not Wire is glitching (starts as false so as to give user a view of the base shape)
 V.isGlitching = false;
-
-//----------**FUNCTIONS & CLASSES**----------//
 
 //random float generator
 function getRandomFloat(min, max) {
@@ -146,7 +142,7 @@ function Wire(newX, newY, newSizeX, newSizeY, newGlitchAmount, newStableGlitchAm
 	}
 }
 
-//----------**RUN**----------//
+//runtime
 
 //animation setup, assign Wire objects, set their initial position, and call draw function to start animation loop
 function setup() {

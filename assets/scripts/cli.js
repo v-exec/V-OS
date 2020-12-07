@@ -1,5 +1,4 @@
-//===================================================== Variables
-
+//globals
 var cli = document.getElementById('cli');
 
 var outputBox = document.getElementById('lo-cli-output');
@@ -9,8 +8,7 @@ var username;
 var loc;
 var input;
 
-//===================================================== Text
-
+//responses
 var noNameGreetings = [
 "Hi, I'm LOGO. I can't seem to find you in my logs, what's your name?",
 "Hello, my name's LOGO. I can't seem find you in my records, what would you like me to call you?",
@@ -44,12 +42,10 @@ for (var i = 0; i < commands.length; i++) help += commands[i];
 var indexFail = "There seemed to be an error fetching the indices, my apologies.";
 var travelFail = "The location you are trying to travel to does not appear to exist.";
 
-//===================================================== Runtime
-
+//runtime
 intro();
 
-//===================================================== Primary Functions
-
+//main
 cli.addEventListener("click", function() {
 	inputBox.focus();
 });
@@ -126,8 +122,7 @@ function guide(e) {
 	}
 }
 
-//===================================================== Helpers
-
+//helpers
 function travel(destination) {
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://v-os.ca/assets/public/cli.php?a=travel&b=' + destination);

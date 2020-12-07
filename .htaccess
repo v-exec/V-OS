@@ -1,16 +1,29 @@
 RewriteEngine on
 
+# always make rewrites from the root dir
+RewriteBase /
+
+# deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# hide contents of directories
+IndexIgnore *
+
+# force https
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://v-os.ca/$1 [R,L]
 
+# index
 DirectoryIndex page.php
 
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
-
+# if file doesn't exist (pretty much always), load query into root/page.php?v=...
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ /page.php?v=$1 [NC,L]
+RewriteRule ^(.+)$ page.php?v=$1 [NC,L]
 
-ErrorDocument 404 https://v-os.ca/404
-ErrorDocument 403 https://v-os.ca/404
-ErrorDocument 500 https://v-os.ca/404
+# redirect errors
+ErrorDocument 404 https://v-os.ca/404-Error
+ErrorDocument 403 https://v-os.ca/404-Error
+ErrorDocument 500 https://v-os.ca/404-Error

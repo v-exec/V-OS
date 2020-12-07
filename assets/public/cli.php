@@ -40,11 +40,9 @@ if ($_GET["a"] == "travel") {
 		return;
 	}
 
-	for ($j = 0; $j < 4; $j++) {
-		for ($i = 0; $i < sizeof($artifacts); $i++) {
-			if (levenshtein($test, $artifacts[$i]->attributes['name'], 1, 2, 1) < strlen($test) - $j) {
-				$result = $artifacts[$i]->attributes['name'];
-			}
+	for ($i = 0; $i < sizeof($artifacts); $i++) {
+		if (levenshtein($test, $artifacts[$i]->attributes['name'], 2, 2, 2) < strlen($test)) {
+			$result = $artifacts[$i]->attributes['name'];
 		}
 	}
 
