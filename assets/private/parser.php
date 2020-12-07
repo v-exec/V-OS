@@ -78,7 +78,7 @@ class Parser {
 			$this->formatText($artifact, 'content', '?');
 			$this->formatText($artifact, 'content', '&');
 			$this->formatText($artifact, 'content', '^');
-			$this->formatText($artifact, 'content', '<');
+			$this->formatText($artifact, 'content', ',');
 			$this->formatText($artifact, 'content', '%');
 			$this->formatText($artifact, 'content', '!');
 			$this->formatText($artifact, 'content', '>');
@@ -152,7 +152,7 @@ class Parser {
 					$new = $this->createAudio($string);
 					break;
 
-				case '<':
+				case ',':
 					$new = $this->createVideo($string);
 					break;
 
