@@ -1,0 +1,14 @@
+name: Architects of Souls
+image: architects of souls>1
+image name: #[Architects of Souls]
+white: true
+tags: project, audio, album, verse, phenomenon
+title: #[Architects of Souls] is a WIP album revolving around the creation of #[AI] and its influence in the #[multiverse].
+content:
+
+So far, one of the 12+ songs has been completed.
+
+^[architects of souls>1 ++ Wherein Titans Fall]
+
+/[ai]
+/[multiverse]
