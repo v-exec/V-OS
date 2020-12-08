@@ -6,9 +6,13 @@ links: Watch>https://www.youtube.com/watch?v=CYOmMb62t6g&feature=youtu.be
 tags: project, code, display
 title: #[Jagged Orbit] is a photogrammetry-based realtime particle system.
 content:
-<iframe class="media" src="https://www.youtube.com/embed/CYOmMb62t6g" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+,[jagged orbit>1]
+
+~[Video is very high bitrate and requires a fast internet speed to view.
 +
 +
+If your video is often buffering, please watch the @[compressed version on Youtube>https://www.youtube.com/watch?v=CYOmMb62t6g&feature=youtu.be].]
+
 #[Jagged Orbit] is a music video for Halftribe & Spinnet's @[Jagged Orbit>https://synphaera.bandcamp.com/track/jagged-orbit]. It tells a story of the creation of a world both unique, and simultaneously familiar - from the physical forces that manifested it, to its eventual fall to entropy.
 +
 +
