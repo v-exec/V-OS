@@ -2,7 +2,7 @@ name: Nakade
 image: nakade>3
 image name: #[Nakade]
 white: true
-links: Download>media/downloads/nakade/nakade_windows.zip, Watch>https://vimeo.com/386068451
+links: Windows Download>media/downloads/nakade/nakade_windows.zip, Mac Download>media/downloads/nakade/nakade.app.zip, Watch>https://vimeo.com/386068451
 tags: project, code, display, audio, single
 title: #[Nakade] is a realtime point-cloud audiovisual demo.
 content:
@@ -13,7 +13,7 @@ content:
 +
 If you're experiencing interruptions, please watch the @[compressed version on Vimeo>https://vimeo.com/386068451].
 +
-Ideally, download the @[executable>media/downloads/nakade/nakade_windows.zip] for yourself if you have a nice Windows machine to see the product in full realtime quality!]
+Ideally, download the @[Windows executable>media/downloads/nakade/nakade_windows.zip] or @[Mac executable>media/downloads/nakade/nakade.app.zip] for yourself if you have a nice machine to see the product in full realtime quality!]
 
 #[Nakade] was created for @[Synchrony 2020>https://synchrony.nyc/2020/] in an 11-hour train ride from New York to Montreal, winning first place in the Demo category.
 
