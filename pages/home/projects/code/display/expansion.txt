@@ -7,9 +7,12 @@ tags: project, code, display
 title: #[Expansion] is a realtime particle system-based audio visualizer.
 content:
 
-<iframe class="media" src="https://www.youtube.com/embed/oQ_9SPHta88" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+,[expansion>1]
+
+~[The video above is very high bitrate and requires a good internet connection.
 +
-+
+If the video is buffering, please check out the @[compressed video on Youtube>https://www.youtube.com/watch?v=oQ_9SPHta88].]
+
 #[Expansion] is a music video for Ascendant's @[Expansion>https://synphaera.bandcamp.com/track/expansion] which tells the story of data. We start with passive observations, and eventually learn to exercise influence around the world around us. This input and manipulation of data is at the core of how we relate to our universe.
 +
 +

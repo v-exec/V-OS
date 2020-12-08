@@ -14,7 +14,7 @@ content:
 +
 The current version is available for @[download (Windows)>media/downloads/qurotema/qurotema_windows.zip], and the full playthrough can be viewed below.]
 
-<iframe class="media" src="https://www.youtube.com/embed/pqO7EeNAWfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+,[qurotema>1]
 
 %[]
 

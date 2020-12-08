@@ -145,14 +145,14 @@ Creates an image, with an optional annotation.
 +
 +
 Creates an audio element, with an optional title.
-^[example>mythaphil ++ Annotation.]
+^[mythaphil>1 ++ Mythaphil]
 
 %[======================================]
 , [dir>video  _[optional] ++ text] video
 +
 +
 Creates a video element, with an optional annotation.
-,[example>nom ++ Annotation.]
+,[dotcycle>1 ++ DotCycle]
 
 %[======================================]
 * [text] bold

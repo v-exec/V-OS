@@ -9,9 +9,8 @@ content: #[Delta] was created for the purpose of providing a realtime stylized f
 +
 +
 The original set of filters was created using Processing, and they were later recreated in a @[standalone app>media/downloads/delta/Delta_windows.zip] using Unity, written to work much more efficiently on the GPU.
-+
-+
-<iframe class="media" src="https://www.youtube.com/embed/QkI3rkdxj9M" frameborder="0" allowfullscreen></iframe>
+
+,[delta>1]
 
 %[]
 

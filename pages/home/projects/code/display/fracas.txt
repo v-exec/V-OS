@@ -6,9 +6,8 @@ tags: project, code, display
 title: #[Fracas] is a realtime point cloud music video with photogrammetric flowers.
 content:
 
-<iframe class="media" src="https://www.youtube.com/embed/iI3iD-WkdaU" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-+
-+
+,[fracas>1]
+
 #[Fracas] is a music video for Shawn Bell's @[Fracas>https://shawnbell.bandcamp.com/track/fracas]. It explores patterns and biological aesthetics under the eyes of the digital.
 +
 +

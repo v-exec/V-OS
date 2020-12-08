@@ -1,0 +1,24 @@
+name: Invictus
+image: invictus>1
+image name: #[Invictus]
+white: true
+links: Website>https://www.invictusgloves.com
+tags: project, visual, graphic
+title: #[Invictus] is a collection of branding and publicity projects for @[Invictus Gloves>https://www.invictusgloves.com].
+content:
+
+@[Invictus Gloves>https://www.invictusgloves.com] specializes in creating custom gloves for football teams looking to wear their team brand on their attire.
+
+,[invictus>1]
+,[invictus>2]
+
+In these projects, I produced a large selection of 3D glove models, materials, animations, commercials, and glove assets for realtime visualization and customization in their interactive web viewer. These assets were either used as-is (in the case of commercials and product reveal videos), or in their @[website>https://www.invictusgloves.com/].
+
+&[invictus>3]
+&[invictus>4]
+&[invictus>5]
+&[invictus>6]
+
+Additionally, I handled part of client requirements, project management, and communications with different teams for the web visualization. Technical work and select projects were shared with Vartan Timourdjian.
+
+&[invictus>2]

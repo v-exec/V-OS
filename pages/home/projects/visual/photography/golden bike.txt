@@ -5,6 +5,9 @@ white: true
 tags: project, visual, photography
 title: #[Golden Bike] is a documentation of a 360km bike trip across Japan.
 content:
+
+,[golden bike>1]
+
 Tomi, Taylor, and I decided to take advantage of the time we had between semesters in Japan by going on a biking trip.
 
 &[golden bike>1]

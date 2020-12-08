@@ -7,6 +7,8 @@ tags: project, audio, album
 title: #[Episodic EP] is a short album of songs made during a year in Tokyo.
 content:
 #[Episodic EP] is a short set of songs made to pay homage to life's episodic nature, and its endless sequence of closing and opening chapters.
-+
-+
-<iframe class="media" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/700500768&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+^[episodic ep>Deathbeds Cover ++ Deathbeds - Cover]
+^[episodic ep>My Miles ++ My Miles]
+^[episodic ep>Otso ++ Otso]
+^[episodic ep>One Day ++ Един Ден Няма Да Съм Тук]

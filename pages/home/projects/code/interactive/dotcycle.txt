@@ -17,7 +17,7 @@ Explore these archived memories, and learn of the AI's revalations about sentien
 
 ~[Download it for @[windows right here>media/downloads/dotcycle/dotcycle_windows.zip], or watch the full playthrough below.]
 
-<iframe class="media" src="https://www.youtube.com/embed/eX9zbHPs6eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+,[dotcycle>1]
 
 %[]
 
