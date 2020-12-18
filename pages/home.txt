@@ -1,6 +1,6 @@
 name: Home
-image: i-tema>5
-image name: #[i-tema]
+image: early midnight>10
+image name: #[Early Midnight]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.

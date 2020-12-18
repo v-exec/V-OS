@@ -1,6 +1,6 @@
 name: Portfolio
-image: victor>2
-image name: #[Victor]
+image: early midnight>1
+image name: #[Early Midnight]
 white: true
 tags: personal
 title: Victor's #[portfolio].

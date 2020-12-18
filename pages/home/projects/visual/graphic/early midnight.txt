@@ -1,0 +1,24 @@
+name: Early Midnight
+image: early midnight>7
+image name: #[Early Midnight]
+white: true
+tags: project, visual, graphic, verse, people
+title: An #[Early Midnight] is the predecessor intrasuit to the #[Successor Series] project.
+content: 
+
+Made as extensions to human form, Early Midnights walked among people as another step towards the future - as grim as it turned out to be.
++
++
+Procedurally created in its entirety in Houdini. Heavily inspired by @[Fernando Magalhaes>http://mgxs.co/]' procedural helmet generation.
+
+&[early midnight>2]
+&[early midnight>3]
+&[early midnight>4]
+&[early midnight>5]
+&[early midnight>6]
+&[early midnight>7]
+&[early midnight>8]
+&[early midnight>9]
+&[early midnight>10]
+&[early midnight>11]
+&[early midnight>1]
