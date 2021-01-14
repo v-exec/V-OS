@@ -1,5 +1,5 @@
 name: Full_body
-image: full_body>3
+image: full_body>4
 image name: #[full_body]
 links: Github>https://github.com/v-exec/full_body, Use Online>https://exp.v-os.ca/full_body
 tags: project, code, tool
@@ -9,6 +9,9 @@ content: #[Full_body] is a desktop web app made to add variety to monotonous wor
 +
 For full documentation and instructions on how to use this app, please visit the @[github page>https://github.com/v-exec/full_body].
 
-&[full_body>2]
+&[full_body>1]
 
-#[Full-body] randomizes your exercise sequence, gives you generated text for each supported movement, shows you your progress, tracks time spent on particular muscle groups / target areas / exercises per workout, and displays that information in the end. It's simple, but practical for anyone looking to worry less about the order of their routine.
+#[Full-body] randomizes your exercise sequence, gives you generated text for each supported movement, shows you your progress, and tracks time over the course of your workout. It's simple, but practical for anyone looking for a bit of variety in their exercise regime, accompanied by pleasant visuals.
+
+&[full_body>2]
+&[full_body>3]

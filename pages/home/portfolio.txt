@@ -1,5 +1,5 @@
 name: Portfolio
-image: early midnight>1
+image: early midnight>12
 image name: #[Early Midnight]
 white: true
 tags: personal

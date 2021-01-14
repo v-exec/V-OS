@@ -71,7 +71,7 @@ function guide(e) {
 
 		if (username == null && input.length > 0) {
 			username = input;
-			document.cookie = "username=" + username +"; expires=Fri, 31 Dec 2020 23:59:59 GMT;";
+			document.cookie = "username=" + username +"; expires=Fri, 31 Dec 2030 23:59:59 GMT;";
 			outputText(replaceUsername(introductions[getRandomInt(0, introductions.length)]));
 
 		} else if (input.toLowerCase().startsWith("help")) {
