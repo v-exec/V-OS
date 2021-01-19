@@ -18,6 +18,7 @@ html {
 	margin: 0;
 	background-color: var(--default);
 	scrollbar-width: thin;
+	scrollbar-color: var(--dark) var(--background);
 }
 
 *,:before,:after {
