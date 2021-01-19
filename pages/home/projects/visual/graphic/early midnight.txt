@@ -9,7 +9,10 @@ content:
 Made as extensions to human form, Early Midnights walked among people as another step towards the future - as grim as it turned out to be.
 +
 +
-Procedurally created in its entirety in Houdini. Heavily inspired by @[Fernando Magalhaes>http://mgxs.co/]' procedural helmet generation.
+These helmets were procedurally modeled in their entirety in Houdini. Texture maps were produced in Substance Designer, and materials and rendering were done in Blender.
++
++
+Heavily inspired by @[Fernando Magalhaes>http://mgxs.co/]' procedural helmet generation.
 
 &[early midnight>2]
 &[early midnight>3]

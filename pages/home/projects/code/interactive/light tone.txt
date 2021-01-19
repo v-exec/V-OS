@@ -11,7 +11,7 @@ content:#[Light Tone] allows users to play music on an imaginary piano roll in t
 #[Light Tone] aims to create an etheral feeling of playing music simply by extending one's hands, without touching anything, and to allow just about anyone to experience the joy of creating music on-the-fly.
 +
 +
-The project is programmed in Processing (Java) and uses Microsoft's Kinect for input, with @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2] for Kinect interfacing with Processing, @[TheMidiBus>https://github.com/sparks/themidibus] for MIDI output, and @[LoopMidi>http://www.tobias-erichsen.de/software/loopmidi.html] for interfacing between Processing and Ableton Live.
+The project is programmed in Processing and uses a Kinect for input. The screen width of Kinect's depth map is used as a range in which a discrete number of inputs are mapped. For exhibition purposes, the notes played by users are then mapped to a scale that suits the dynamic piece heard in the background.
 +
 +
-<iframe class="media" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283293885&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+This project was made with @[KinectPV2>https://github.com/ThomasLengeling/KinectPV2] for Kinect interfacing with Processing, @[TheMidiBus>https://github.com/sparks/themidibus] for MIDI output, and @[LoopMidi>http://www.tobias-erichsen.de/software/loopmidi.html] for interfacing between Processing and Ableton Live.
