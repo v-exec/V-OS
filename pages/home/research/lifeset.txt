@@ -50,12 +50,12 @@ For those who are reading this with the intent of tackling their own issues, I s
 +
 +
 
-*[Value your time]: Time is limited, and for many it appears to become increasinly valuable with age. As small of a word "inconvenience" is, facing inconvenience after inconvenience loses countless hours, days, and months of time you could be spending doing something fulfilling. Organize your time, and avoid people and circumstances that regularly pose inconveniences to your capacity to keep your time organized.
+*[Value your time]: Time is limited, and for many it appears to become increasingly valuable with age. As small of a word "inconvenience" is, facing inconvenience after inconvenience loses countless hours, days, and months of time you could be spending doing something fulfilling. Organize your time, and avoid people and circumstances that regularly pose inconveniences to your capacity to keep your time organized.
 
 +
 +
 
-*[Know your passions and your purpose]: Understand what it is that you enjoy doing (passions), and what motivates you to exist (purpose). Achieve your purpose through your passions. Make this the mission of your life.
+*[Know your passions and your purpose]: Understand what it is that you enjoy doing and can develop skill towards (passions), and what you'd like to change in the world (purpose). Achieve your purpose through your passions. These two things combined are pillars to what gives you reason to exist. Make this the mission of your life.
 
 +
 +
@@ -78,17 +78,17 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Un-immerse yourself]: Every now and then, step out of the immersive world of your occupations and worries, and reflect on the state of affairs. Being mindful, introspective, and reflective in this manner encourages regular reassessments of values and objectives, and gives good peace of mind.
+*[Un-immerse yourself]: Every now and then, step out of the immersive world of your occupations and worries, and reflect on the state of affairs. The anxieties that govern your life are often much smaller when seen from the perspective of the cosmos. Being mindful, introspective, and reflective in this manner encourages regular reassessments of values and objectives, and gives good peace of mind.
 
 +
 +
 
-*[Live in the moment]: You only exist now. Reflect on the past, set goals for the future, and then act. Endless worries about future plans will only paralyze you. Most desires are not years ahead, but only one step in front of you. Take that step.
+*[Live in the moment]: You only exist now. Reflect on the past, set goals for the future, and then act. Endless worries about future plans and past regrets will only paralyze you. Most desires are not years ahead, but only one step in front of you. Take that step.
 
 +
 +
 
-*[Follow your path]: Feel free to not meet others' desires or expectations when appropriate. Do not compare yourselves to others: everyone is on their own path, with their own obstances. You are on your own path for your own reasons. Remind yourself of these reasons. Disregard the rules of your environment if they do not align with your goals and intentions. Prioritize and remember your individuality. A direction on your path is not a lifelong commitment, and it is okay to change directions at any point in your life. You, and the path you tread is your only persistent possession. Put those first.
+*[Follow your path]: Do not put a harmful amount of pressure on yourself to meet others' expectations. Do not compare yourselves to others: everyone is on their own path, with their own obstances. You are on your own path for your own reasons. Remind yourself of these reasons. Disregard the rules of your environment if they do not align with your goals and intentions. Prioritize and remember your individuality. A direction on your path is not a lifelong commitment, and it is okay to change directions at any point in your life. You, and the path you tread is your only persistent possession. Put those first.
 
 +
 +
@@ -98,12 +98,12 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Track your progress]: Track your progress explicitly through writing, or relevant applications. The simple act of consciously reviewing your progress will encourage you to be more aware of your habits, and push you to work more if you are not progressing as quickly as you would like.
+*[Track your progress]: Track your progress explicitly through writing or tracking applications. The simple act of consciously reviewing your progress will encourage you to be more aware of your habits, and push you to work more if you are not progressing as quickly as you would like.
 
 +
 +
 
-*[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand on your pool of knowledge.
+*[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand your pool of knowledge.
 
 +
 +
@@ -118,7 +118,7 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. On a small scale, short-term objectives will make you more critical towards your technique and accelerate your improvement. On a larger scale, long-term objectives will encourage you to be fully and more consistently engaged in the activities you wish to practice.
+*[Practice with intention]: Your skills will improve far more quickly if they are being used with a focus on a specific objective. Short-term objectives will make you more critical towards your technique and accelerate your improvement, and long-term objectives will help you cover the full start-to-finish of a project, and therefore develop skills for all necessary parts of your process.
 
 +
 +
@@ -133,19 +133,9 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Learn and balance low and high level perspectives]: Low and high level workflows are both important in creating a proper balance between time and control. Working on a higher level allows for quicker production, but forces you to depend on the quality of lower levels, which can often be limiting for more complex projects. Working on a low level allows for extensive control over your work, but developing more complex tools takes a lot of time. Each task requires you to choose the balance between these two, and being familiar with both allows for more freedom in choosing an appropriate setup.
-
-+
-+
-
 *[Be a generalist]: Engage in all practices that interest you, avoid specializing in a single field. Find ways to combine knowledge and skills from one discipline to another. Information is too accessible and conveniently structured to only engage in a single discipline.
 
 +
 +
 
 *[Anchor abstract concepts]: Abstract concepts can be difficult to grasp and to keep track of. When trying to develop abstract ideas, it is good to, at the very least, manifest them into the physical realm through symbols like writing. Beyond that, they can also be manifested through designed experiences. Each attempt to manifest an abstract idea is one step closer to understanding it fully.
-
-+
-+
-
-*[Do not over-indulge in theory]: Theoretical knowledge is useful, but it is easy to get lost in the world of theory without balancing it out through practice. Theoretical knowledge is pointless if it is never put to use.
