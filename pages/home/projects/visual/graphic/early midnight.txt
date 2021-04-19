@@ -14,12 +14,10 @@ These helmets were procedurally modeled in their entirety in Houdini. Texture ma
 +
 Heavily inspired by @[Fernando Magalhaes>http://mgxs.co/]' procedural helmet generation.
 
-&[early midnight>2]
-&[early midnight>3]
 &[early midnight>4]
 &[early midnight>12]
-&[early midnight>5]
 &[early midnight>6]
+&[early midnight>13]
 &[early midnight>7]
 &[early midnight>8]
 &[early midnight>9]
