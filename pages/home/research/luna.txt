@@ -5,13 +5,13 @@ tags: research
 links: Gallery>@https://luna.v-os.ca/
 title: #[Luna] is a monthly web exhibition.
 content:
-#[Luna] launched in May 2018, with the first exhibition being hosted in June. The purpose of #[Luna] is to host art driven by technological and philosophical themes.
+#[Luna] launched in May 2018, with the first exhibition being hosted in June. The purpose of #[Luna] was to host art driven by technological and philosophical themes in a digital environment. After a year of monthly exhibitions, #[Luna] finished its run.
 +
 +
-Artists are encouraged to create art that is not traditionally exhibited in a gallery: Writing, programs, games, tools, algorithms, music, etc. The web environment allows these pieces to be embedded into the gallery, with the aim of diversifying the forms of media that can be exhibited.
+For the duration of the exhibitions, artists awere encouraged to create art that is not traditionally exhibited in a gallery: Writing, programs, games, tools, algorithms, music, etc. The web environment allows these pieces to be embedded into the gallery, with the aim of diversifying the forms of media that can be exhibited.
 +
 +
-Additionally, artists are encouraged to equally focus on the documentation of their project through textual support of their piece. This reflection on their work ties in with the philosophical investigation of each month's theme.
+Additionally, artists were encouraged to equally focus on the documentation of their project through textual support of their piece. This reflection on their work ties in with the philosophical investigation of each month's theme.
 +
 +
-An archived version of the exhibition can be found here @[here>https://luna.v-os.ca/].
+An archived version of the most recent exhibition can be found here @[here>https://luna.v-os.ca/].

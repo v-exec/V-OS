@@ -9,9 +9,6 @@ content:
 +
 +
 More specifically, these are the rules that @[I>victor] live by, and I plan on refining and modifying them over time. This page acts both as a tool for others to study, but also something for me to refer to, to remind myself of the lessons I have learned.
-+
-+
-For those who are reading this with the intent of tackling their own issues, I strongly advise picking the points which you feel are most relevant to your current struggles, and then writing about them in reflection.
 
 %[]
 
@@ -83,7 +80,7 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Live in the moment]: You only exist now. Reflect on the past, set goals for the future, and then act. Endless worries about future plans and past regrets will only paralyze you. Most desires are not years ahead, but only one step in front of you. Take that step.
+*[Live in the moment]: Only the present really exists. Reflect on the past, set goals for the future, and then act. Endless worries about future plans and past regrets will only paralyze you. Suffering in the present for a promise of happiness in the future is a complex situation that may yield immense disappointment. A lot of happiness is also accessible in the present. Don't waste your life chasing fulfillment when it was standing right in front of you.
 
 +
 +
@@ -103,7 +100,7 @@ Whether we like it or not, meaning does not seem to exist outside ourselves. As 
 +
 +
 
-*[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand your pool of knowledge.
+*[Be a stoic]: Take every opportunity, negative or positive, as a chance to improve yourself. Take every challenge as a way to prove your skills and learn something new. Take every foreign experience as an opportunity to expand your pool of knowledge. Focus on that which you can influence.
 
 +
 +

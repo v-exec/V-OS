@@ -122,10 +122,6 @@
 				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>
 				<br>
 				<br>
-				<a class="neutral-link" href="https://twitter.com/v_exec">Twitter</a> ·
-				<a class="neutral-link" href="https://www.instagram.com/v_exec/">Instagram</a>
-				<br>
-				<br>
 				<a class="neutral-link" href="mailto:victor.ivanov.design@gmail.com">victor.ivanov.design@gmail.com</a>
 			</div><div id="body-content">
 

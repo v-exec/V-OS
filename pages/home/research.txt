@@ -3,5 +3,9 @@ image: truli>6
 image name: #[Truli]
 tags: nav
 title: The #[research] section is the space destined for my research, and personal inquiries.
-content: Currently, there exist the following public entries.
+content:
+The pages in #[research] serve both as a public repository for anyone who's interested in reading about some of the philosophies I follow (as painfully egotistical as that feels), as well as a place for me to revisit when I feel lost and in need of a reminder on wha's important to me.
++
++
+Currently, there exist the following public entries.
 -[research]
