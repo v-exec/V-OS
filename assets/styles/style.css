@@ -19,6 +19,7 @@ html {
 	background-color: var(--default);
 	scrollbar-width: thin;
 	scrollbar-color: var(--dark) var(--background);
+	cursor: none;
 }
 
 *,:before,:after {
@@ -57,6 +58,7 @@ a {
 
 a:hover {
 	background-color: var(--highlight);
+	cursor: none;
 }
 
 a.external:after {
@@ -90,6 +92,49 @@ a.external:after {
 
 ::-webkit-scrollbar-thumb {
 	background-color: var(--dark);
+}
+
+/*-----------MOUSE-----------*/
+#mouseClose,
+#mouseFar,
+#mouseCursor,
+#mouseIcon {
+	opacity: 0;
+}
+
+#mouseClose,
+#mouseFar,
+#mouseCursor {
+	width: 40px;
+	height: 40px;
+
+	position: absolute;
+	z-index: 1000;
+	pointer-events: none;
+	border-radius: 100px;
+	border: solid 2px var(--highlight);
+}
+
+#mouseClose {
+	width: 10px;
+	height: 10px;
+	background-color: var(--highlight);
+}
+
+#mouseCursor {
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border: solid 1px #000;
+
+	transition: width ease 0.5s, height ease 0.5s, background-color ease 0.5s;
+}
+
+#mouseIcon {
+	position: absolute;
+	width: 25px;
+	z-index: 1000;
+	pointer-events: none;
 }
 
 /*-----------MEDIA-----------*/
@@ -289,6 +334,10 @@ a.external:after {
 	line-height: normal;
 }
 
+#lo-cli-input:hover {
+	cursor: none;
+}
+
 #lo-cli-input:focus {
 	outline: none;
 }
@@ -412,6 +461,10 @@ li .annotation {
 	border-right: solid 1px var(--bright);
 	background-size: cover;
 	background-position: center;
+}
+
+.page-card-image:hover {
+	filter: brightness(0.75);
 }
 
 .page-card-title {

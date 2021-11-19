@@ -296,6 +296,38 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 	}
 }
 
+function getSectorIcon($artifact, $style) {
+	$isVerse = false;
+	$isResearch = false;
+	$isAud = false;
+	$isVis = false;
+	$isCod = false;
+	$isWri = false;
+
+	$path = $artifact->brokenPath;
+	//remove file extension
+	$path[sizeof($path) - 1] = substr($path[sizeof($path) - 1], 0, sizeof($path[sizeof($path) - 1]) - 5);
+
+	for ($i = 0; $i < sizeof($path); $i++) {
+		if (trim($path[$i]) == 'verse') $isVerse = true;
+		if (trim($path[$i]) == 'research') $isResearch = true;
+		if (trim($path[$i]) == 'audio') $isAud = true;
+		if (trim($path[$i]) == 'visual') $isVis = true;
+		if (trim($path[$i]) == 'code') $isCod = true;
+		if (trim($path[$i]) == 'writing') $isWri = true;
+	}
+	
+	echo '<img id="'. $style . '" src="/assets/ui/'; 
+	if ($isResearch) echo 'abs';
+	else if ($isVerse) echo 'ver';
+	else if ($isAud) echo 'aud';
+	else if ($isVis) echo 'vis';
+	else if ($isCod) echo 'cod';
+	else if ($isWri) echo 'wri';
+	else echo 'def';
+	echo '.svg">';
+}
+
 //makes header information white
 function checkWhite($artifact, $check) {
 	if (!$check) {

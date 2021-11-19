@@ -37,6 +37,11 @@
 </head>
 
 <body>
+	<div id="mouseCursor"></div>
+	<div id="mouseClose"></div>
+	<div id="mouseFar"></div>
+	<?php echo getSectorIcon($artifact, 'mouseIcon');?>
+
 	<div id="header">
 		<div id="header-bar">
 			<span class="header-title"><?php echo $artifact->attributes['image name'];?></span>
@@ -161,6 +166,7 @@
 	</div>
 
 <script src="/assets/scripts/logo.js"></script>
+<script src="/assets/scripts/mouse.js"></script>
 <script src="/assets/scripts/cli.js"></script>
 <script src="/assets/scripts/requestscript.js"></script>
 
