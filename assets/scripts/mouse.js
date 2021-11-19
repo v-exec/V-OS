@@ -20,12 +20,17 @@ const iconWidth = 25;
 
 let reset = true;
 
+document.addEventListener('mousemove', function(e) {
+	cursorX = e.clientX;
+	cursorY = e.clientY;
+});
+
 window.requestAnimationFrame(run);
 
 function run() {
-	document.onmousemove = function (event) {
-		cursorX = event.pageX;
-		cursorY = event.pageY;
+	if (cursorX == undefined || cursorY == undefined) {
+		window.requestAnimationFrame(run);
+		return;
 	}
 
 	let dx = cursorX - cCursorX;
