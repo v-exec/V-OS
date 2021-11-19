@@ -1,6 +1,6 @@
 name: Home
-image: early midnight>13
-image name: #[Early Midnight]
+image: qu-6>13
+image name: #[QU-6]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.

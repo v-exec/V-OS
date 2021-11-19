@@ -1,5 +1,5 @@
 name: QU-6
-image: qu-6>1
+image: qu-6>12
 image name: #[QU-6]
 white: true
 tags: project, visual, graphic, verse, location
@@ -10,8 +10,9 @@ content:
 core struct [6]
 +
 parent: #[luna]
-dat: 40-05-34
-]
+dat: 40-05-34]
+
+,[qu-6>1]
 
 &[qu-6>1]
 &[qu-6>2]

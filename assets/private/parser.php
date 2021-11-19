@@ -476,7 +476,7 @@ class Parser {
 		$video = str_replace(' ', '%20', $video);
 		
 		if ($annotation != '') $vid = '</p><video controls class="video-annotated"><source class="video-source" src="'.$video.'"></video>'.$annotation.'<p>';
-		else $vid = '</p><video controls class="video"><source class="video-source" src="'.$video.'"></video><p>';
+		else $vid = '</p><video controls class="video" src="'.$video.'"></video><p>';
 		
 		return $vid;
 	}
