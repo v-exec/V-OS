@@ -20,22 +20,13 @@ Check out my @[resume>media/downloads/victor/cv.pdf] for formal documentation of
 
 %[]
 
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I design, develop, and produce static and interactive media. I work with a variety of media, mainly:
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and engaging media]. Both my educational and professional life has been oriented towards building a capable set of technical skills in a variety of media, all the while developing an eye for aesthetics.
 +
 +
-@[Graphics>visual] - 2D graphics, video, UI, branding, photography, 3D modeling, rendering, effects, and animation. Using tools like Photoshop, Illustrator, Premiere, Lightroom, Blender, Houdini, Metashape, Substance Designer and Painter, and Marvelous Designer.
+As both an artist and developer, it's important for me to keep myself engaged in both the worlds of art and coding. Thankfully, I've been able to find many opportunities to put my skills to use, especially in the realms of 3D graphics and games. It is my goal to continue learning new skills and to put my existing ones to use on each project.
 +
 +
-#[Audio] - Music and effect production. Using tools like Ableton, acoustic and electric guitar, and keyboard.
-+
-+
-@[Programming>code] - Back and front end web development, game scripting, and shaders. Using languages like PHP, Javascript, CSS, HLSL, C#, and tools like NodeJS and Unity.
-+
-+
-My goal is to create _[unique, innovative, aesthetically powerful, polished, and engaging media] to materialize a project's vision - _[to tell a story]. My personal interest is most focused on philosophical exploration, and the ways in which technology can be a narrative catalyst for these topics.
-+
-+
-As an artist and producer, what I find most vital to a project is its narrative. Every story is best told through different and varied media. For this reason, I've developed a large breadth of technical skills which all conceptually relate to my desire and ability to tell varied stories effectively. My passion is learning new skills, and putting my existing ones to use on each project - to tell a good story how it's meant to be told.
+As for my personal projects, they typically feature a major narrative element. I am heavily inspired by cyberpunk media, and I try to craft narratives focused on philosophical exploration and the ways in which technology can be a narrative catalyst for these topics.
 
 %[]
 
@@ -47,15 +38,10 @@ If you'd like to see a full list of projects, please visit the #[projects] page.
 /[Nakade]
 /[Qurotema]
 /[Cartographer]
+/[QU-6]
+/[Early Midnight]
 /[You Are X]
-
-
-/[The Cosmic Affliction]
-/[Fruits of Labour]
-/[Loveletter To Japan]
-
-/[Purity]
-/[Log]
+/[Invictus]
 
 %[]
 
