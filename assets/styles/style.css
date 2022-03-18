@@ -65,7 +65,8 @@ a.external:after {
 	content: " ⊷";
 }
 
-.neutral-link {
+.neutral-link,
+.neutral-text {
 	display: inline-block;
 	text-decoration: none;
 	font-weight: 400;
@@ -236,14 +237,6 @@ a.external:after {
 	display: block;
 	font-weight: 400;
 	border-radius: 4px;
-}
-
-.side-box:hover {
-	background-color: rgba(0,0,0,0);
-}
-
-.side-box:hover .log-bar {
-	background-color: var(--default);
 }
 
 .side-divider {

@@ -1,14 +1,22 @@
 name: Log
 image: log>1
 image name: #[Log]
-links: Log>https://log.v-os.ca, Github>https://github.com/v-exec/Log
+links: Github>https://github.com/v-exec/Log
 white: true
 tags: project, code, tool
 title: The #[Log] is a timekeeping tool and data visualizer overseen by #[LOGO].
-content: The #[Log] is a tool used for daily output logging and data analysis. It can be found @[here>https://log.v-os.ca], and in the sidebar of all project pages logged in it (including this one).
+content: The #[Log] is a tool used for daily output logging and data analysis.  Its data can be found in the sidebar of all project pages logged in it (including this one).
 +
 +
-Data is entered into a simple spreadsheet of logs, which is then parsed using a Python script into mySQL queries. Using PHP with access to the database, the data is visualized into generated pages.
+Data is entered into a simple spreadsheet of logs, which is then parsed using a Python script into mySQL queries. The original version used PHP to generate visualizations, but has been deprecated in favor of a more streamlined pipeline using google sheets.
++
++
+Below are some images showcasing what this interface looked like, including an overview of all log entries, as well as the auto-generated pages for projects showing time allocation in different categories of productivity.
+
+&[log>2]
+&[log>3]
+&[log>4]
+&[log>5]
 
 ~[#log entry format
 +

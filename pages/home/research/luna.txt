@@ -2,8 +2,7 @@ name: Luna
 image: lucency>1
 image name: #[Lucency]
 tags: research
-links: Gallery>@https://luna.v-os.ca/
-title: #[Luna] is a monthly web exhibition.
+title: #[Luna] was a monthly web exhibition.
 content:
 #[Luna] launched in May 2018, with the first exhibition being hosted in June. The purpose of #[Luna] was to host art driven by technological and philosophical themes in a digital environment. After a year of monthly exhibitions, #[Luna] finished its run.
 +
@@ -12,6 +11,3 @@ For the duration of the exhibitions, artists awere encouraged to create art that
 +
 +
 Additionally, artists were encouraged to equally focus on the documentation of their project through textual support of their piece. This reflection on their work ties in with the philosophical investigation of each month's theme.
-+
-+
-An archived version of the most recent exhibition can be found here @[here>https://luna.v-os.ca/].

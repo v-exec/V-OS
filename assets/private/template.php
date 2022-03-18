@@ -81,9 +81,9 @@
 				echo '<div class="side-divider"></div>';
 
 				if ($data = getLogData()) {
-					echo '<a class="side-box" href="https://log.v-os.ca/'. $artifact->attributes['name'] .'">';
+					echo '<div class="side-box">';
 					echo $data;
-					echo '</a>';
+					echo '</div>';
 					echo '<div class="side-divider"></div>';
 				}
 				?>
@@ -153,14 +153,14 @@
 			<span class="footer-left">
 				<a class="neutral-link" href="https://v-os.ca/victor">Victor Ivanov</a>
 				<br>
-				<a class="neutral-link" href="https://v-os.ca/home">V-OS</a> · <a class="neutral-link" href="https://log.v-os.ca">LOG</a>
+				<a class="neutral-link" href="https://v-os.ca/home">V-OS</a>
 			</span>
 
 			<?php echo getSectorIconLink($artifact, 'footer-center', true);?>
 
 			<span class="footer-right">
-				<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllDays(null, null);?> days</a><br>
-				<?php echo '<a href="https://log.v-os.ca" class="neutral-link">'.getAllHours(null, null);?> hours</a><br>
+				<?php echo '<span class="neutral-text">'.getAllDays(null, null);?> days</a><br>
+				<?php echo '<span class="neutral-text">'.getAllHours(null, null);?> hours</a><br>
 			</span>
 		</div>
 	</div>
