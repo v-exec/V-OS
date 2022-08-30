@@ -37,8 +37,6 @@
 </head>
 
 <body>
-	<div id="mouseCursor"></div>
-	<div id="mouseClose"></div>
 	<div id="mouseFar"></div>
 	<?php echo getSectorIcon($artifact, 'mouseIcon');?>
 

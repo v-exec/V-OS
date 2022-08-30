@@ -25,5 +25,37 @@ I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a ques
 
 %[]
 
-![#[Projects] List]
-=[project]
+![@[Graphics>graphic]]
+=[graphic]
+
+![#[Photography]]
+=[photography]
+
+%[]
+
+![#[Singles]]
+=[single]
+
+![#[Albums]]
+=[album]
+
+%[]
+
+![#[Tools]]
+=[tool]
+
+![@[Interactives>interactive]]
+=[interactive]
+
+![@[Displays>display]]
+=[display]
+
+%[]
+
+![#[Writing]]
+=[writing]
+
+%[]
+
+![#[Research]]
+=[research]

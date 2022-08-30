@@ -1,22 +1,17 @@
-let followClose = document.getElementById("mouseClose");
-let followFar = document.getElementById("mouseFar");
-let cursor = document.getElementById("mouseCursor");
+let follow = document.getElementById("mouseFar");
 let icon = document.getElementById("mouseIcon");
 
 let cursorX = -1;
 let cursorY = -1;
-let cCursorX = -1;
-let cCursorY = -1;
 let fCursorX = -1;
 let fCursorY = -1;
 
-const easeSlow = 0.1;
-const easeFast = 0.2;
+const ease = 0.2;
 
-const closeWidth = 10;
-const farWidth = 40;
-const cursorWidth = 8;
-const iconWidth = 25;
+const followSize = 40;
+const iconSize = 25;
+
+const opacity = 0.25;
 
 let reset = true;
 
@@ -33,43 +28,27 @@ function run() {
 		return;
 	}
 
-	let dx = cursorX - cCursorX;
-	cCursorX += dx * easeFast;
+	dx = cursorX - fCursorX;
+	fCursorX += dx * ease;
 
-	let dy = cursorY - cCursorY;
-	cCursorY += dy * easeFast;
-
-	dx = cCursorX - fCursorX;
-	fCursorX += dx * easeSlow;
-
-	dy = cCursorY - fCursorY;
-	fCursorY += dy * easeSlow;
+	dy = cursorY - fCursorY;
+	fCursorY += dy * ease;
 
 	if (reset) {
-		cCursorX = cursorX;
-		cCursorY = cursorY;
 		fCursorX = cursorX;
 		fCursorY = cursorY;
 
 		if (cursorX != -1) reset = false;
 	} else {
-		cursor.style.opacity = 1;
-		followClose.style.opacity = 1;
-		followFar.style.opacity = 1;
+		follow.style.opacity = opacity;
 		icon.style.opacity = 1;
 	}
 
-	cursor.style.left = cursorX - cursorWidth / 2 + 'px';
-	cursor.style.top = cursorY - cursorWidth / 2 + 'px';
+	follow.style.left = fCursorX - followSize / 2 + 'px';
+	follow.style.top = fCursorY - followSize / 2 + 'px';
 
-	followClose.style.left = cCursorX - closeWidth / 2 + 'px';
-	followClose.style.top = cCursorY - closeWidth / 2 + 'px';
-
-	followFar.style.left = fCursorX - farWidth / 2 + 'px';
-	followFar.style.top = fCursorY - farWidth / 2 + 'px';
-
-	icon.style.left = (fCursorX - iconWidth / 2) + 15 + 'px';
-	icon.style.top = (fCursorY - iconWidth / 2) - 15 + 'px';
+	icon.style.left = (fCursorX - iconSize / 2) + 15 + 'px';
+	icon.style.top = (fCursorY - iconSize / 2) - 15 + 'px';
 
 	window.requestAnimationFrame(run);
 }
