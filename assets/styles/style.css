@@ -306,10 +306,6 @@ a.external:after {
 	line-height: normal;
 }
 
-#lo-cli-input:hover {
-	cursor: none;
-}
-
 #lo-cli-input:focus {
 	outline: none;
 }
