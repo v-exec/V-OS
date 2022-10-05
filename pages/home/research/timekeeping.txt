@@ -7,131 +7,63 @@ tags: research
 title: Thoughts on #[timekeeping].
 content:
 
-This post's purpose is to address various sections of the design process for the @[Log>https://log.v-os.ca]. It covers the primary design challenges I faced, their solutions, as well as some discussion on the advantages of logging, log data visualization, and probably some rambling.
-
-%[]
-
-In the beginning of 2017, I began to log my productivity. Skeptical of its effects, but nonetheless inspired by @[Devine Lu Linvega>https://twitter.com/neauoire]'s timekeeping application, @[Horaire>http://wiki.xxiivv.com/Horaire], I gave it a try.
+This post's purpose is to address the @[Log>https://log.v-os.ca], my experience with tracking my productivity, and my insights after 4+ years (wow!) of doing this.
 +
 +
-The idea was simple: Each day, I'd log the productive things I did. Very conveniently, I was also just about finished making the first iteration of #[V-OS] in the very beginning of January, so this seemed like the perfect time to begin.
-
-%[]
-
-This is the current model for a single log entry.
-
-~[#log entry format
-+
-#DATE       TIME  PROJECT  TASK      DIVISION  DETAILS
-2018.10.12  1.0   V-OS     Design    Visual    Small visual updates.
-]
-
-Below are the design challenges I came across, and expansions I made to the system from its conception.
+So, in the beginning of 2017, I began to log my productivity.
 +
 +
-Note: The design decisions I made were specific to my existing work style, and the type of information I wanted to get out of the Log. Like many designs, it is not absolute. Everyone's system should be catered to the user(s)' goals, and the design should reflect that.
+The idea was simple: Each day, I'd log the productive things I did. Very conveniently, I was also just about finished making the first iteration of #[V-OS] in the very beginning of January, so this seemed like the perfect time to begin. The format I settled on after a few months of experimentation looks something like this:
 
-%[]
-
-![*[Log time resolution]]
-
-A few of my friends (@[deuveir>https://twitter.com/deuveir] and @[josh>https://twitter.com/joshavanier]) have decided to log the start and end time of their entries. After careful consideration, I decided against this decision for the Log, because I wasn't particularly interested in knowing _[when] I'm working during the day, I just wanted to work. I also don't usually work with zero breaks and perfect focus, and my work schedule tends to be quite erratic. I typically tend to feel most comfortable taking regular, small breaks, and engaging with work whenever I have time.
-+
-+
-So, if I worked for 3 hours, but 1 hour of that time was spent not actually working, then logging the entirety of those 3 hours would pollute the purity of the logs, since they ultimately aim to exclusively log productive time.
-+
-+
-Instead, I take mental note of how much time I've spent not working during a task, and deduce it from the total time spent on said task. I also subdivide my tasks into 30 minute segments. The idea here being that if I do something for less than 30 minutes, then it probably isn't worth logging. And, if I do something for 45 minutes, this encourages me to put a bit more time in and finish things up, reaching 1 hour. In addition, it helps to not get too caught up in small units of time, since that makes for more mental exertion. It might not seem like much at first, but it adds up over the hundreds of days.
-+
-+
-The act of forcing a certain time 'resolution' is quite important. Preference can range from taking on only a single task per day, to locking log entires to the hours of the day (i.e. logs can only be at 11am, 12pm, 13pm, etc.). One encourages a more focused and day-long approach, and the other engages with the 24 hours of the day more intimately. Each an interesting solution to deciding on what time resolution works best for one's workstyle.
-
-%[]
-
-![*[Logging non-project activities]]
-
-If I were to doodle something for 1 hour, I'd like to log that as time spent practicing my drawing skills. The issue is, because the Log is project-centric, there isn't a way for me to log a non-project activity. So, I decided to create the _[Arch Projects], a set of projects that act as repositories of all non-project-categorizeable activities.
-
--[
-*[Doodle] for visuals.
-++
-*[Jam] for audio.
-++
-*[Tinker] for tech and systems.
-++
-*[Study] for abstract / design.
+~[DATE        TIME  PROJECT  TASK      DIVISION   DETAILS
+2018.10.12  1.0   V-OS     Design    Visual     Small visual updates.
 ]
 
 %[]
 
-![*[Expanding log topics]]
+![*[The Design: Time Tracking]]
 
-At some point, I considered logging things like physical exercise and other non-creative work. I decided that it would ultimately throw off my statistics, and it'd make more sense to keep the logs purely focused on creative productivity, the thing I set out to track in the first place. If ever I were to want to keep track of other things, then it'd be more appropriate to create a separate set of log entries, so as to keep data types segregated.
+The question that kept coming back to me is "how exactly should I track time?". I've seen approaches where a user would log the exact start and end time of their entries. I decided against this approach because, realistically, I don't actually focus exclusively on work for a long and continuous amount of time. I like getting distracted with conversations with friends, or watching something interesting, and surely I shouldn't count that as 'productive', right? If I worked for 3 hours, but 1 hour of that time was spent not actually working, then logging the entirety of those 3 hours would sort of 'pollute' the logs with inaccurate data.
 +
 +
-This is quite integral to the nature of a log. The idea is to study one aspect of life in relative isolation. The point is _[not] to accumulate a large number of hours (although it does help to see a counter reflecting your productivity go up), but to learn about, and manage your lifestyle. A log is unique to the rules of its creator, so what constitutes "productivity", in the case of my log, is entirely defined by me. So perhaps someone else's log would include physical exercise because it's relevant to the parts of their life they want to track.
+Instead, when I note down my productivity I reflect on how much time I spent not working during a task, and deduct it from the total time I remember spending on said task. I also subdivide my tasks into 30 minute segments for simplicity sake. If I do something for less than 30 minutes, then it probably isn't worth logging, and it's just easier than being a hardass about every minute. Otherwise it all adds up and becomes very tiring over hundreds of days.
 +
 +
-A great advantage to logging something like "productivity" is that it motivates some serious introspection on what is important. I found that reflecting on these ideas helped me define my personal idea of productivity, and classifying activities inside and outside of that definition made me realize what I truly value in the long-term.
-+
-+
-I ultimately aim to log the time that I spend getting better at, and creating things that I care about. It's about productivity, specifically in the (mostly) creative sector. The topics I choose to log are therefore specifically oriented towards that goal.
+Now, I realize that this approach means my logging seems quite subjective - and yeah, it is. I think that's an unavoidable downside to this, "how long I'm productive for" can be defined quite differently. I lose some accuracy by relying on my obviously imperfect perception of time and memory, but I also think the ultra-precise method of time tracking loses accuracy unless you're extremely dedicated, but that's honestly not the point of timekeeping. Read on to see what I mean.
 
 %[]
 
-![*[Data visualization]]
+![*[The Good: Long Term Results & Data Visualization]]
 
-During this time, I had also started creating the #[Log], a @[live log visualization tool>https://log.v-os.ca], which came with its own set of challenges. Notably, creating a parser for my logs, and learning more PHP and mySQL. Despite the fun visualizations, I decided to keep my logs in a .txt format, so that if ever my system broke, house burnt down, or the universe collapsed, I would have a simplistic variant of my logs, which I would argue is much more important than fancy visuals (as fun as those are).
+At the start, I created the #[Log], a @[live log visualization tool>https://log.v-os.ca]. Visualizations helped me by gamifying timekeeping and encouraging me to work more. But to be honest, I rarely visit these visualizations now that the novelty has worn off.
 +
 +
-Visualizations have helped me by gamifying timekeeping and encouraging me to work more. It's been fun to see trends and relationships between various projects and tasks. Though, I'd be lying if I said there's an extreme advantage to having graphs and visualizations. The statistics math can be done without visuals, and that's really the most important part of the #[Log].
+Chances are, if you go on the @[log site>https://log.v-os.ca] (assuming it's still up), you'll see the footer saying how I haven't updated it in hundreds of days or something. I've actually ended up using google sheets for tracking and visualization, just because they're a lot easier to work with than most other options. This whole manually built log ended up being more of a hype project than anything.
 +
 +
-I typically advise people to start logging in a very simple and seamless system, so that logging is as easy and cheap as possible. So, I repeat, the visuals are entirely _[secondary] to the actual act of logging. I noticed the largest improvements in productivity when I logged, not when I began visualizing the data. Visuals are very fun, and they can be useful ways to exercise pattern recognition. But visualization is, at least from my perspective, mostly an aesthetically pleasing addition to the log, not a fundamental utility.
+But still, did I learn anything? Was visualizing all that data worth it? In a way it does help me get overviews of larger periods of time. But otherwise, it feels very secondary to the actual advantages I've experienced with timekeeping.
 +
 +
-I've considered making additional tools to make logging more automated and fancy: command-line interfaces, web databases, and even a shared logging site. The problem that kept coming up was that a text file is just _[way too easy to edit].
+The *[real, core lesson] is that *[the act of logging itself is the most important part]. It doesn't have to be detailed, or even especially accurate. When I started logging, I just felt a much more sober and active relationship between myself and my productivity, like I was now aware of these hours each day that I'd otherwise never take notice of. The simple fact of keeping track of my time helps internalize that time in a way that makes it easier to reflect upon. I can't really imagine my life without the sense of awareness that timekeeping brings me.
 +
 +
-If I want to change the name of a project, I use search and replace. If I want to change a day's entry, I scroll down to it. If I want to erase an entry, I delete the line. If I want to create a new entry, I just write it down. The convenience and liberty offered in a text file means I'd have to make a really, _[really] good interface just to match what a text file can do. So the base of the #[Log] is as modest as can be, which makes for a very robust foundation.
-
-%[]
-
-![*[High-level categorization]]
-
-In parallel with the creation of #[Log], I started to get interested in creating more elaborate forms of representation of the logs. This is where the final addition comes in: the Divisions. I like to classify things and keep my mental space organized, so this seemed like an appropriate addition to the system. As a generalist, I do find myself engaging in various sectors of work, and I've classified them as the following:
-
--[
-*[Abstract], for design, and the intangible.
-++
-*[Code], for systems, coding, and tech.
-++
-*[Visual], for graphics, video, and images.
-++
-*[Audio], for music and audio.
-++
-*[Personal], for maintenance, personal curiosities, and mindless tasks.
-]
-
-Put simply, _[divisions] act as markers for the type of work I'm doing on a higher level, and _[tasks] act as markers of the technical task I'm engaging in. This helps give me a pretty abstracted idea of what type of stuff I've been doing for a given period of time.
+I believe what determines the value of tracking something is primarily the frequency at which you add and revisit information. Too little and it makes no difference to your mind, too much and you end up obsessing about it (more on that below). The perfect balance helps you gain some more control over what you're tracking.
 
 %[]
 
-![*[Tracking empty days]]
+![*[The Dangerous: Defining Productivity & Obsession]]
 
-During an update to the #[Log]'s visualization algorithm, I realized I had forgotten to keep track of days when I didn't work. Missing days created unwanted gaps in my data that my visualization and statistics algorithms didn't account for by default.
+Throughout this experience, I struggled to define what should be in the Log. Physical exercise? That's not very 'creative' so maybe not. What if it was a sport? I guess some sports can have an aesthetic component. What if it was dancing? Well that's definitely artistic and creative, but I don't know where to draw the line between 'sport' and 'art' now. Or what about watching movies that inspire me? Those are pretty important for my artistic and human fulfillment, but is it 'productive' to watch them?
 +
 +
-I could have tried and check if dates were missing, but the simplest solution was just going back, creating logs for empty days, and making sure the database and visualization could handle them properly. All in all, keeping track of empty days is just as important as busy days.
+I hoped that tracking my time for years would help me find an answer to this dilemma. To this day, I have no answer, but I'm now at peace with this question - I think I just accept this gray zone comfortably. Obviously this is much less an issue when tracking things like weight, calories, or time spent doing more explicitly defined activities. But in my case, 'timekeeping' and 'productivity' are intimately linked concepts.
++
++
+As far as we know, time will continue to flow forward, and our lives with it. It can feel like we want to be productive in order to make use of every moment. Or maybe we instead want to be productive for social reputation, or just to please our own ego, or to relieve our anxieties of not spending our time doing 'succesful' things.
++
++
+I can't really speak for anyone other than myself, but I don't like it when timekeeping becomes a tool to maximize my productivity for the sake of productivity. Sometimes this can go so far as to waste *[much] more time with tools or plans for productivity instead of just... doing fulfilling things in the first place. I would know! I suggest maintaining the simplest possible system, because the ultimate point is to actually be productive, not track things.
 
 %[]
 
-![*[Final thoughts]]
-
-So, the fact that I kept doing this for over a year now might have spoiled the reveal: logging is insanely useful. It's hard to determine its effects on my life, as I can't properly isolate it from all the other things in the beginning of 2017 that might have increased my productivity. I can say, however, that logging is, still, likely the most effective tool in increasing my productivity.
-+
-+
-It also helped me reflect on what I value, by forcing me to categorize my daily activities into "productive" and "non-productive" divisions. This is a big step in understanding oneself and what one finds important in long-term activity devotion.
-+
-+
-My levels of productivity at the very least *[doubled] as a result of my logs. The simple fact of keeping track of my time (_[without any visualization]) helps externalize time spent working in a way that makes it easier to reflect upon. The bottom line is, if you want to take control over a part of your life, start logging it. I, now, can't imagine my life without the sense of awareness that timekeeping brings me.
+So I'd like to leave you with these thoughts: timekeeping is a way of being more aware of how you spend your time, and with that awareness comes control. Timekeeping, this control, can help you optimize your life to be focused on all right things, or all the wrong things. Use it wisely! :)

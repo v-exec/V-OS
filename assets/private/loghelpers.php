@@ -147,7 +147,7 @@ function getRecentActivities($logLimit) {
 		$rows = array();
 
 		while ($row = $result->fetch_assoc()) {
-			if ($row['project'] != 'None' && $row['task'] != 'None' && $row['division'] != 'None') array_push($rows, [$row['date'], $row['time'], '<a href="https://log.v-os.ca/' . $row['project'] . '">' . $row['project'] . '</a>', '<a href="https://log.v-os.ca/' . $row['task'] . '">' . $row['task'] . '</a>', $row['details']]);
+			if ($row['project'] != 'None' && $row['task'] != 'None' && $row['division'] != 'None') array_push($rows, [$row['date'], $row['time'], $row['project'], $row['task'], $row['details']]);
 		}
 
 		$displayLogCount = $logLimit;
@@ -163,39 +163,6 @@ function getRecentActivities($logLimit) {
 			if ($i > 0) $string = $string . '<br><br>';
 			if ($rows[$i][4] !== '') $string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3].' · '.$rows[$i][4];
 			else $string = $string . $date->format('m.d').' · '.number_format($rows[$i][1], 1, '.', '').'h · '.$rows[$i][2].' · '.$rows[$i][3];
-		}
-	}
-
-	$conn->close();
-
-	return $string;
-}
-
-//gets most recent project entries in log
-function getRecentProjects($projectLimit) {
-	$q = 'select log.date, project.name as project from log left join project on project.id = log.project_id order by log.id asc;';
-
-	$conn = connect();
-	$result = $conn->query($q);
-
-	if ($result->num_rows > 0) {
-		$rows = array();
-
-		while (sizeof($rows) < $projectLimit) {
-			$row = $result->fetch_assoc();
-
-			$matchingProject = false;
-			for ($i = 0; $i < sizeof($rows); $i++) {
-				if ($row['project'] == $rows[$i]) $matchingProject = true;
-			}
-
-			if (getArtifact($row['project']) && !$matchingProject) array_push($rows, $row['project']);
-		}
-
-		$string;
-
-		for ($i = 0; $i < $projectLimit; $i++) {
-			$string = $string . '/['.$rows[$i].']';
 		}
 	}
 
@@ -229,34 +196,6 @@ function checkType($l) {
 	return null;
 }
 
-function getOppositeType($type) {
-	if ($type == 'task') return 'project';
-	else if ($type == 'project') return 'task';
-	else if ($type == 'division') return 'project';
-}
-
-function createSvgArc($x, $y, $r, $startAngle, $endAngle) {
-	if($startAngle > $endAngle){
-		$s = $startAngle;
-		$startAngle = $endAngle;
-		$endAngle = $s;
-	}
-
-	if ($endAngle - $startAngle > M_PI*2) $endAngle = M_PI*1.99999;
-
-	if ($endAngle - $startAngle <= M_PI) $largeArc = 0;
-	else $largeArc = 1;
-
-	 $arc = [
-		'M', $x, $y,
-		'L', $x + (cos($startAngle) * $r), $y - (sin($startAngle) * $r), 
-		'A', $r, $r, 0, $largeArc, 0, $x + (cos($endAngle) * $r), $y - (sin($endAngle) * $r),
-		'L', $x, $y
-	];
-
-	return join(' ', $arc);
-}
-
 function getDivisionRatio($contextPage, $contextType, $topic, $topicType) {
 	if (!$contextPage) {
 		$q = 'select '.$topicType.'.name as title, division.name as division, sum(log.time) as hours from log left join project on project.id = log.project_id join task on task.id = log.task_id join division on division.id = log.division_id where '.$topicType.'.name = '."'".$topic."'".' group by division order by hours desc;';
@@ -277,14 +216,6 @@ function getDivisionRatio($contextPage, $contextType, $topic, $topicType) {
 		return $rows;
 	}
 	$conn->close();
-}
-
-function remap($x, $in_min, $in_max, $out_min, $out_max) {
-	$result = ($x - $in_min) * ($out_max - $out_min) / ($in_max - $in_min) + $out_min;
-
-	if ($result > $out_max) return $out_max;
-	if ($result < $out_min) return $out_min;
-	return $result;
 }
 
 function pluralize($s, $n) {
@@ -324,27 +255,6 @@ function getAllDays($l, $type) {
 		$q = 'select count(distinct(date)) as num_days from log left join '.$type.' on '.$type.'.id = log.'.$type.'_id where '.$type.'.name = '."'".$l."'".';';
 		return getnum($q, 'num_days');
 	}
-}
-
-function getAllProjects() {
-	$q = 'select count(*) as num_projects from project;';
-	return getNum($q, 'num_projects');
-}
-
-function getLastUpdate() {
-	$now = new DateTime();
-	$now = $now->sub(new DateInterval('P1D'));
-	$q = 'select max(date) as num_date from log;';
-	$recent = new DateTime(getnum($q, "num_date"));
-
-	$r;
-
-	$difference = $now->diff($recent)->format("%a");
-	if ($difference <= 0) $r = "today";
-	else if ($difference == 1) $r = $difference." day ago";
-	else $r = $difference." days ago";
-
-	return $r;
 }
 
 function getExtremeDate($l, $type, $end) {

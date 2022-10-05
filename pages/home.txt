@@ -1,6 +1,6 @@
 name: Home
-image: qu-6>13
-image name: #[QU-6]
+image: toriyomu>4
+image name: #[Toriyomu]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
@@ -16,10 +16,7 @@ I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer on a ques
 
 ![Recent]
 
-~[@[Log>https://log.v-os.ca]
-+
-+
->[getRecentActivities(7);]]
+~[>[getRecentActivities(7);]]
 
 >[getMostRecent(3);]
 
