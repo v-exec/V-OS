@@ -7,38 +7,21 @@ tags: project, visual, graphic, code, interactive
 title: #[Invictus] is a collection of branding, publicity, and web projects for @[Invictus Gloves>https://www.invictusgloves.com].
 content:
 
-@[Invictus Gloves>https://www.invictusgloves.com] specializes in creating custom football and golf gloves for players looking to personalize their play equipment.
+@[Invictus Gloves>https://www.invictusgloves.com] specializes in creating custom sports gloves for players looking to personalize their play equipment.
 +
 +
-Invictus was looking to create an e-commerce experience that showcased the quality of their gloves in the form of static 3D renders, video publicity, and an interactive realtime 3D web application where users can create their own custom gloves.
+They was looking to create an e-commerce experience that showcased the quality of their gloves in the form of static 3D renders, video publicity, and an interactive realtime 3D web application where users can create their own custom gloves.
 +
 +
-I began work in collaboration with Vartan Timourdjian from @[Argos Productions>http://argosprod.com/] to produce a large selection of 3D glove models for both high-resolution pre-rendered sequences and optimized realtime rendering. The production of these assets included pipeline development for effecient iteration, texturing, animation, and lighting. High resolution models were used in Invcitus' @[website>https://www.invictusgloves.com/] as videos and images to showcase their products, and optimized models were used for Invcitus' @[custom glove creator app>https://invictusgloves.com/golf-gloves-creator/].
+Working in collaboration with Vartan Timourdjian from @[Argos Productions>http://argosprod.com/], we produced a large selection of 3D glove models for both high-resolution pre-rendered sequences and optimized realtime rendering. Renders of these high resolution models were used in Invcitus' @[website>https://www.invictusgloves.com/] as videos and images to showcase their products, and optimized models were used for Invcitus' @[custom glove creator app>https://invictusgloves.com/golf-gloves-creator/].
 
-&[invictus>4 ++ Invictus' football store page showcasing various glove models.]
-&[invictus>5 ++ Invictus' golf gloves, created through photogrammetry.]
+&[invictus>5 ++ Invictus' football store page showcasing various glove models.]
+&[invictus>4 ++ Invictus' golf gloves, modeled and texturing using photogrammetry.]
 
-When it came to the custom glove creator app, it had to:
+Aside from 3D production, I lead the development of their web-based realtime 3D custom glove creator. With Three.js and some custom shaders, this app covers a wide range of devices at a decent performance while maintaining good graphical fidelity in a realtime rendering environment.
 +
 +
-- Render a 3D model in realtime on all modern web platforms on desktops and mobile devices.
-+
-+
-- Allow users to easily navigate a 3D model.
-+
-+
-- Allow users to customize the colors of select regions of a 3D model.
-+
-+
-- Allow users to upload custom images or write custom text, and paint these as textures on select regions of a 3D model.
-+
-+
-- Save all user options and interface with an e-commerce backend to create products for sale.
-+
-+
-- Allow for easy switching of models, as Invictus would use this app for both their football and golf gloves.
-+
-+
-I defaulted to my favorite 3D web library, Three.js, and through the creation of custom shaders, I ensured the application would allow for all model customizations while keeping performance optimal.
+Additionally, we support uploading images or custom text, which is projected onto select regions of the 3D model. This allows users to print custom graphics, like their team logo, on these gloves.
 
-&[invictus>3 ++ Custom glove creator application.]
+&[invictus>2 ++ Football glove creator application.]
+&[invictus>3 ++ Golf glove creator application.]

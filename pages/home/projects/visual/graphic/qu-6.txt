@@ -2,6 +2,7 @@ name: QU-6
 image: qu-6>12
 image name: #[QU-6]
 white: true
+links: Watch>https://youtu.be/LI9ENKTY4Q8
 tags: project, visual, graphic, verse, location
 title: #[QU-6], m_struct #760.
 content:
@@ -13,6 +14,8 @@ parent: #[luna]
 dat: 40-05-34]
 
 ,[qu-6>1]
+
+~[Trouble loading the video? Watch it on @[Youtube>https://youtu.be/LI9ENKTY4Q8].]
 
 &[qu-6>1]
 &[qu-6>2]
