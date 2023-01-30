@@ -1,0 +1,24 @@
+name: TIMESCAPE
+image: timescape>1
+image name: #[TIMESCAPE]
+white: true
+links: Watch>https://www.youtube.com/watch?v=P2iOaK7cr-s
+tags: project, visual, graphic, verse, location
+title: #[TIMESCAPE], a known future.
+content:
+
+In our limited lives, it is difficult to perceive time at scales unfamiliar to us. Today, we face an unprecedented vision of the future.
++
++
+In #[TIMESCAPE], we explore a place untouched by human perception, time having overflowed into a new era. Deceptive contemplation. Regardless of how far we can see, should we claim responsibility  for a world whose past we directed?
++
++
+Audio by Sanea Ima (a/k/a Pablo Geeraert).
+
+,[timescape>1]
+
+~[Trouble loading the video? Watch it on @[Youtube>https://www.youtube.com/watch?v=P2iOaK7cr-s].]
+
+&[timescape>4]
+&[timescape>2]
+&[timescape>3]
