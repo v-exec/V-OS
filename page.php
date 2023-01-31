@@ -74,7 +74,7 @@ else if(substr($v, 0, 4) === "tag-") {
 	<br><br>
 	If you're lost, take a look at the #[index], or check out some of the #[projects].
 	<br><br>
-	If you think this page should exist, please contact me through my @[email>victor.ivanov.design@gmail.com].
+	If you think this page should exist, please contact me through my @[email>mailto:victor.ivanov.design@gmail.com].
 	";
 	$artifact->path = ['home'];
 	$parser->firstFormat($artifact);
