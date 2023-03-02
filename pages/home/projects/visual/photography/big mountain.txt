@@ -1,0 +1,27 @@
+name: Big Mountain
+image: big mountain>2
+image name: #[Big Mountain]
+white: false
+tags: project, visual, photography
+links: Video Documentation>https://www.youtube.com/watch?v=vUZ6y4Li-co
+title: #[Big Mountain] is a documentation of a visit to Banff.
+content:
+
+&[big mountain>1]
+&[big mountain>2]
+&[big mountain>3]
+&[big mountain>4]
+&[big mountain>5]
+&[big mountain>6]
+&[big mountain>7]
+&[big mountain>8]
+&[big mountain>9]
+&[big mountain>10]
+&[big mountain>11]
+&[big mountain>12]
+&[big mountain>13]
+&[big mountain>14]
+&[big mountain>15]
+&[big mountain>16]
+&[big mountain>17]
+&[big mountain>18]

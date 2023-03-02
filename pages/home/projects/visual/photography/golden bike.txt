@@ -3,10 +3,9 @@ image: golden bike>12
 image name: #[Golden Bike]
 white: true
 tags: project, visual, photography
+links: Video Documentation>https://www.youtube.com/watch?v=GwT-0QmR84w
 title: #[Golden Bike] is a documentation of a 360km bike trip across Japan.
 content:
-
-,[golden bike>1]
 
 Tomi, Taylor, and I decided to take advantage of the time we had between semesters in Japan by going on a biking trip.
 
@@ -91,6 +90,6 @@ Upon returning, it felt like we had been on a month+ long trip. Physically exhau
 
 &[golden bike>19]
 
-This was my first long-distance biking trip. It was without a doubt one of my best experiences in Japan. A true sense of adventure. I look forward to the future.
+This was my first long-distance biking trip. It was without a doubt one of my best experiences in Japan. A true sense of adventure.
 
 &[golden bike>20]
