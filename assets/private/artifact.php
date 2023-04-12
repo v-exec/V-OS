@@ -258,7 +258,7 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 
 	$path = $artifact->brokenPath;
 	//remove file extension
-	$path[sizeof($path) - 1] = substr($path[sizeof($path) - 1], 0, sizeof($path[sizeof($path) - 1]) - 5);
+	$path[sizeof((array)$path) - 1] = substr($path[sizeof((array)$path) - 1], 0, sizeof((array)$path[sizeof((array)$path) - 1]) - 5);
 
 	for ($i = 0; $i < sizeof($path); $i++) {
 		if (trim($path[$i]) == 'verse') $isVerse = true;
@@ -306,7 +306,7 @@ function getSectorIcon($artifact, $style) {
 
 	$path = $artifact->brokenPath;
 	//remove file extension
-	$path[sizeof($path) - 1] = substr($path[sizeof($path) - 1], 0, sizeof($path[sizeof($path) - 1]) - 5);
+	$path[sizeof((array)$path) - 1] = substr($path[sizeof((array)$path) - 1], 0, sizeof((array)$path[sizeof((array)$path) - 1]) - 5);
 
 	for ($i = 0; $i < sizeof($path); $i++) {
 		if (trim($path[$i]) == 'verse') $isVerse = true;

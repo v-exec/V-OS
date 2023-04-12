@@ -9,11 +9,13 @@ if (isset($_GET['v'])) {
 	$v = $_GET['v'];
 }
 
-include 'assets/private/parser.php';
-include 'assets/private/artifact.php';
-include 'assets/private/customartifact.php';
-include 'assets/private/logcredentials.php';
-include 'assets/private/loghelpers.php';
+ini_set('display_errors', 0);
+
+require 'assets/private/parser.php';
+require 'assets/private/artifact.php';
+require 'assets/private/customartifact.php';
+require 'assets/private/logcredentials.php';
+require 'assets/private/loghelpers.php';
 
 //name of directory for artifact declarations
 $pageDirectory = 'pages';
@@ -29,8 +31,9 @@ createArtifacts();
 formatArtifacts();
 
 //load artifact
-if (getArtifact($v) != null) $artifact = getArtifact($v);
-else if(substr($v, 0, 4) === "tag-") {
+if (getArtifact($v) != null) {
+	$artifact = getArtifact($v);
+} else if(substr($v, 0, 4) === "tag-") {
 	//check if looking at generated tag-artifact
 	$tag = substr($v, 4, strlen($v));
 	$tagCount = 0;
@@ -87,8 +90,7 @@ else if(substr($v, 0, 4) === "tag-") {
 //get template
 ob_start();
 include 'assets/private/template.php';
-$page = ob_get_contents();
-ob_end_clean();
+$page = ob_get_clean();
 echo $page;
 
 function redirect($search) {

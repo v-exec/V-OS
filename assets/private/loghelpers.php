@@ -56,7 +56,7 @@ function getLogData() {
 		$hours = getAllHours(null, null);
 		$logs = getAllLogs(null, null);
 		$days = getAllDays(null, null);
-		$divisionStats;
+		$divisionStats = array();
 
 		$q = 'select division.name as division, sum(log.time) as hours from log left join project on project.id = log.project_id join task on task.id = log.task_id join division on division.id = log.division_id group by division order by hours desc;';
 
@@ -84,7 +84,7 @@ function getLogData() {
 		$hours = number_format(str_replace(',', '', getAllHours($location, 'division')), null, null, '');
 		$logs = str_replace(',', '', getAllLogs($location, 'division'));
 		$days = str_replace(',', '', getAllDays($location, 'division'));
-		$divisionStats = str_replace(',', '', getDivisionRatio(null, null, $location, 'division'));
+		$divisionStats = getDivisionRatio(null, null, $location, 'division');
 
 	} else if ($artifact->hasTag('project')) {
 		$firstDate = getExtremeDate($location, 'project', 0);
@@ -96,7 +96,8 @@ function getLogData() {
 		$hours = number_format(str_replace(',', '', getAllHours($location, 'project')), null, null, '');
 		$logs = str_replace(',', '', getAllLogs($location, 'project'));
 		$days = str_replace(',', '', getAllDays($location, 'project'));
-		$divisionStats = str_replace(',', '', getDivisionRatio(null, null, $location, 'project'));
+		$divisionStats = [];
+		$divisionStats = getDivisionRatio(null, null, $location, 'project');
 
 	} else {
 		return null;
@@ -104,7 +105,7 @@ function getLogData() {
 
 	$hourDayAverage = number_format(str_replace(',', '', $hours) / str_replace(',', '', $days), 1);
 
-	$data = $data . '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
+	$data = '<span class="log-text">'.$firstDate.' · '.$lastDate.'</span>';
 
 	for ($i = 0; $i < sizeof($divisionStats); $i++) {
 		switch ($divisionStats[$i][0]) {
@@ -125,7 +126,7 @@ function getLogData() {
 				break;
 		}
 		//max-width: calc(100% - 30px);
-		$percentage = number_format($divisionStats[$i][1] / $hours * 100, 1);
+		$percentage = number_format(floatval($divisionStats[$i][1]) / floatval($hours) * 100, 1);
 		$data = $data . '<div class="log-bar" style="width: calc('.$percentage.'% - '. (30 * $percentage / 100) .'px);"></div>';
 		if ($i != (sizeof($divisionStats) - 1)) $data = $data . '<br>';
 	}
@@ -156,7 +157,7 @@ function getRecentActivities($logLimit) {
 		if (sizeof($rows) > $displayLogCount) $size = $displayLogCount;
 		else $size = sizeof($rows);
 
-		$string;
+		$string = "";
 
 		for ($i = 0; $i < $size; $i++) {
 			$date = new DateTime($rows[$i][0]);
@@ -263,6 +264,8 @@ function getExtremeDate($l, $type, $end) {
 		
 	$conn = connect();
 	$result = $conn->query($q);
+
+	$date = null;
 
 	if ($result->num_rows > 0) {
 		$rows = array();
