@@ -33,19 +33,19 @@ V.colorB = 0;
 //animation
 
 //determines how radically wire glitches
-V.glitchyness = 60;
+V.glitchyness = 50;
 
 //determines how radically glitched the final wire will be once it stops glitching (must be at least (gridSize / 2 + 1) if wire is to change after glitching)
 V.finalGlitchyness = 50;
 
 //determines amount of time that it takes wire to stop glitching in millis (the duration of the glitch, essentially)
-V.glitchTime = 400;
+V.glitchTime = 300;
 
 //determines amount of time spent not glitching in millis (calculated from the point where wire begins glitching)
 V.downTime = 7000;
 
 //determines how often wire blinks when not glitching (between 0 - 1, the higher, the more blinky)
-V.blinkyness = 0.01;
+V.blinkyness = 0.005;
 
 //set up canvas context
 V.ctx = V.canvas.getContext('2d');

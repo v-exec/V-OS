@@ -249,43 +249,47 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 }
 
 function getSectorIconLink($artifact, $style, $forceWhite) {
-	$isVerse = false;
-	$isResearch = false;
+	$isRes = false;
+	$isVer = false;
 	$isAud = false;
 	$isVis = false;
 	$isCod = false;
 	$isWri = false;
+	$isPro = false;
 
 	$path = $artifact->brokenPath;
 	//remove file extension
 	$path[sizeof((array)$path) - 1] = substr($path[sizeof((array)$path) - 1], 0, sizeof((array)$path[sizeof((array)$path) - 1]) - 5);
 
 	for ($i = 0; $i < sizeof($path); $i++) {
-		if (trim($path[$i]) == 'verse') $isVerse = true;
-		if (trim($path[$i]) == 'research') $isResearch = true;
+		if (trim($path[$i]) == 'research') $isRes = true;
+		if (trim($path[$i]) == 'verse') $isVer = true;
 		if (trim($path[$i]) == 'audio') $isAud = true;
 		if (trim($path[$i]) == 'visual') $isVis = true;
 		if (trim($path[$i]) == 'code') $isCod = true;
 		if (trim($path[$i]) == 'writing') $isWri = true;
+		if (trim($path[$i]) == 'professional') $isPro = true;
 	}
 	
 	echo '<a href="';
-	if ($isResearch) echo 'research';
-	else if ($isVerse) echo 'verse';
+	if ($isRes) echo 'research';
+	else if ($isVer) echo 'verse';
 	else if ($isAud) echo 'audio';
 	else if ($isVis) echo 'visual';
 	else if ($isCod) echo 'code';
 	else if ($isWri) echo 'writing';
+	else if ($isPro) echo 'professional';
 	else echo 'home';
 	echo '">';
 
 	echo '<img class="'. $style .'" src="assets/ui/';
-	if ($isResearch) echo 'abs';
-	else if ($isVerse) echo 'ver';
+	if ($isRes) echo 'abs';
+	else if ($isVer) echo 'ver';
 	else if ($isAud) echo 'aud';
 	else if ($isVis) echo 'vis';
 	else if ($isCod) echo 'cod';
 	else if ($isWri) echo 'wri';
+	else if ($isPro) echo 'pro';
 	else echo 'def';
 
 	if ($forceWhite) {
@@ -297,33 +301,36 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 }
 
 function getSectorIcon($artifact, $style) {
-	$isVerse = false;
-	$isResearch = false;
+	$isRes = false;
+	$isVer = false;
 	$isAud = false;
 	$isVis = false;
 	$isCod = false;
 	$isWri = false;
+	$isPro = false;
 
 	$path = $artifact->brokenPath;
 	//remove file extension
 	$path[sizeof((array)$path) - 1] = substr($path[sizeof((array)$path) - 1], 0, sizeof((array)$path[sizeof((array)$path) - 1]) - 5);
 
 	for ($i = 0; $i < sizeof($path); $i++) {
-		if (trim($path[$i]) == 'verse') $isVerse = true;
-		if (trim($path[$i]) == 'research') $isResearch = true;
+		if (trim($path[$i]) == 'research') $isRes = true;
+		if (trim($path[$i]) == 'verse') $isVer = true;
 		if (trim($path[$i]) == 'audio') $isAud = true;
 		if (trim($path[$i]) == 'visual') $isVis = true;
 		if (trim($path[$i]) == 'code') $isCod = true;
 		if (trim($path[$i]) == 'writing') $isWri = true;
+		if (trim($path[$i]) == 'professional') $isPro = true;
 	}
 	
 	echo '<img id="'. $style . '" src="/assets/ui/'; 
-	if ($isResearch) echo 'abs';
-	else if ($isVerse) echo 'ver';
+	if ($isRes) echo 'abs';
+	else if ($isVer) echo 'ver';
 	else if ($isAud) echo 'aud';
 	else if ($isVis) echo 'vis';
 	else if ($isCod) echo 'cod';
 	else if ($isWri) echo 'wri';
+	else if ($isPro) echo 'pro';
 	else echo 'def';
 	echo '.svg">';
 }

@@ -1,6 +1,7 @@
 name: Professional
 image: invictus>1
 image name: #[Invictus]
+white: true
 tags: nav
 title: The #[professional] division includes all professional #[projects].
 content: -[professional]
