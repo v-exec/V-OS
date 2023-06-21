@@ -2,8 +2,8 @@ name: Invictus
 image: invictus>1
 image name: #[Invictus]
 white: true
-links: Website>https://www.invictusgloves.com, Collaborators>http://argosprod.com/
-tags: project, visual, graphic, code, interactive
+links: Client Website>https://www.invictusgloves.com, Collaborators>http://argosprod.com/
+tags: project, professional
 title: #[Invictus] is a collection of branding, publicity, and web projects for @[Invictus Gloves>https://www.invictusgloves.com].
 content:
 
@@ -25,3 +25,4 @@ Additionally, we support uploading images or custom text, which is projected ont
 
 &[invictus>2 ++ Football glove creator application.]
 &[invictus>3 ++ Golf glove creator application.]
+&[invictus>6 ++ Baseball glove creator application.]

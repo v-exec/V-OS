@@ -20,13 +20,13 @@ Check out my @[resume>media/downloads/victor/cv.pdf] for formal documentation of
 
 %[]
 
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and engaging media]. Both my educational and professional life has been oriented towards building a capable set of technical skills in a variety of media, all the while developing an eye for aesthetics.
+I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative media]. My aim is to use my capable set of technical skills and eye for aesthetics to create imagination-sparking experiences.
 +
 +
-As both an artist and developer, it's important for me to keep myself engaged in both the worlds of art and coding. Thankfully, I've been able to find many opportunities to put my skills to use, especially in the realms of 3D graphics and games. It is my goal to continue learning new skills and to put my existing ones to use on each project.
+I've been fortunate enough to find many opportunities to put both my artistic and programming skills to use, especially in the realms of 3D graphics and games. It is my goal to continue learning new skills and to put my existing ones to use on each project.
 +
 +
-As for my personal projects, they typically feature a major narrative element. I am heavily inspired by cyberpunk media, and I try to craft narratives focused on philosophical exploration and the ways in which technology can be a narrative catalyst for these topics.
+I also produce a lot of personal work, with my projects typically featuring a major narrative element. I am heavily inspired by cyberpunk media, and I try to craft narratives focused on philosophical exploration and the ways in which technology can be a narrative catalyst for these topics.
 
 %[]
 
@@ -34,13 +34,13 @@ As for my personal projects, they typically feature a major narrative element. I
 
 If you'd like to see a full list of projects, please visit the #[projects] page.
 
-/[Jagged Orbit]
-/[Nakade]
+/[Kabam]
+/[Iregular]
 /[Qurotema]
 /[Cartographer]
 /[QU-6]
-/[Early Midnight]
-/[You Are X]
+/[Toriyomu]
+/[Jagged Orbit]
 /[Invictus]
 
 %[]

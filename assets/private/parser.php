@@ -472,6 +472,7 @@ class Parser {
 		$video = $video.'.mp4';
 		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 4).'.webm';
 		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 5).'.ogg';
+		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 4).'.mov';
 
 		$video = str_replace(' ', '%20', $video);
 		

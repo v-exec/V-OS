@@ -74,7 +74,7 @@ function getLogData() {
 		}
 		$conn->close();
 
-	} else if ($artifact->hasTag('nav')) {
+	} else if ($artifact->hasTag('nav') || $artifact->hasTag('professional')) {
 		$firstDate = getExtremeDate($location, 'division', 0);
 
 		if ($firstDate == null)
