@@ -1,6 +1,6 @@
 name: Home
-image: toriyomu>4
-image name: #[Toriyomu]
+image: off>1
+image name: #[Off]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.

@@ -9,11 +9,9 @@ content:
 
 ,[nakade>1]
 
-~[The video above is very high bitrate and requires a strong internet connection.
+~[The video above has a very high bitrate.
 +
-If you're experiencing interruptions, please watch the @[compressed version on Vimeo>https://vimeo.com/386068451].
-+
-Ideally, download the @[Windows executable>media/downloads/nakade/nakade_windows.zip] or @[Mac executable>media/downloads/nakade/nakade.app.zip] for yourself if you have a nice machine to see the product in full realtime quality!]
+If you're having trouble loading it, please check out the @[compressed video on Vimeo>https://vimeo.com/386068451].]
 
 #[Nakade] was created for @[Synchrony 2020>https://synchrony.nyc/2020/] in an 11-hour train ride from New York to Montreal, winning first place in the Demo category.
 

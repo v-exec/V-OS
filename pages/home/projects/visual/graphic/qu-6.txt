@@ -13,11 +13,13 @@ core struct [6]
 parent: #[luna]
 dat: 40-05-34]
 
-Audio by Sanea Ima (a/k/a Pablo Geeraert).
+Audio by @[Sanea Ima>https://pablosanea.com/].
 
 ,[qu-6>1]
 
-~[Trouble loading the video? Watch it on @[Youtube>https://youtu.be/LI9ENKTY4Q8].]
+~[The video above has a very high bitrate.
++
+If you're having trouble loading it, please check out the @[compressed video on Youtube>https://youtu.be/LI9ENKTY4Q8].]
 
 &[qu-6>1]
 &[qu-6>2]

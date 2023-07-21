@@ -12,7 +12,7 @@ overwrite cell: bit 5608]
 
 ,[miosc>1]
 
-#[Mi_Osc] is the second collaboration between digital artist Victor Ivanov and composer Pablo Geeraert. The short audiovisual work explores themes of intensity, ephemerality, focus, and distraction. Although momentary and brief, the piece presents the viewer with a synchronicity between two contrasting behaviours: the centred and minimalistic visuals, and the disjointed and acute music.  
+#[Mi_Osc] is a collaboration with composer @[Sanea Ima>https://pablosanea.com/]. The short audiovisual work explores themes of intensity, ephemerality, focus, and distraction. Although momentary and brief, the piece presents the viewer with a synchronicity between two contrasting behaviours: the centred and minimalistic visuals, and the disjointed and acute music.  
 +
 +
 The two artists are interested in developing a variety of audiovisual aesthetics and narratives. #[QU-6] and #[Mi_Osc] act as evidences of their collaborative direction.
