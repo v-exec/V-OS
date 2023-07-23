@@ -4,6 +4,4 @@ image name: #[Truli]
 tags: nav
 title: The #[research] section is the space destined for my research, and personal inquiries.
 content:
-
-The pages in #[research] serve as a public repository for me (and any other curious traveler) to revisit when I feel lost and in need of a reminder on what's important to me.
 -[research]

@@ -4,6 +4,5 @@ image name: #[Seven]
 white: true
 tags: nav
 title: The #[tools] section features practical applications and artistry tools.
-content: The projects found here are created primarily using client-side Javascript and HTML/CSS, PHP, NodeJS, and in specific cases Ruby and mySQL.
-%[]
+content:
 -[tool]

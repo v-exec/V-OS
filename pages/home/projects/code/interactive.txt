@@ -4,6 +4,5 @@ image name: #[Cartographer]
 white: true
 tags: nav
 title: The #[interactive] section features games and interactive media.
-content: The projects found here are created using Unity, Unreal Engine, Kinect, Processing, and web languages (or any given combination).
-%[]
+content:
 -[interactive]
