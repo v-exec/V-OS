@@ -149,7 +149,7 @@
 	<div id="footer">
 		<div id="footer-content">
 			<span class="footer-left">
-				<a class="neutral-link" href="https://v-os.ca/victor">Victor Ivanov</a>
+				<a class="neutral-link" href="https://v-os.ca/portfolio">Victor Ivanov</a>
 				<br>
 				<a class="neutral-link" href="https://v-os.ca/home">V-OS</a>
 			</span>

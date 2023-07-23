@@ -21,6 +21,3 @@ As for the site itself, it is divided into three sectors.
 /[projects]
 /[verse]
 /[research]
-
-%[]
-There exist two pages outside of these sectors. The #[victor] page, which features information about me. And, my #[portfolio].

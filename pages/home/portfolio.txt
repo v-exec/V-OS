@@ -6,27 +6,23 @@ tags: personal
 title: Victor's #[portfolio].
 content:
 
-~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
+I'm Victor [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I've studied Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and often work as a developer and technical artist for games, publicity, web, and installation art. 
 +
-If you would like more informal documentation of myself, please refer to the #[victor] page.]
-
-/[victor]
++
+I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative] media.
++
++
+I've been fortunate enough to find many opportunities to put both my artistic and programming skills to use across the realm of 3D visuals, and feel like the world of graphics - whether it be realtime or prerending - offers endlessly engaging challenges that balance technical expertise and artistic expression.
++
++
+I try to keep my traditional art skillsets sharp by producing a lot of personal work, with many of my projects typically featuring a major narrative factor. I craft stories focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore the human condition.
 
 %[]
 
-![About Me]
-
-Check out my @[resume>media/downloads/victor/cv.pdf] for formal documentation of work experience and education.
-
-%[]
-
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative media]. My aim is to use my capable set of technical skills and eye for aesthetics to create imagination-sparking experiences.
+Check out my @[resume>media/downloads/portfolio/cv.pdf] for formal documentation of work experience and education.
 +
 +
-I've been fortunate enough to find many opportunities to put both my artistic and programming skills to use, especially in the realms of 3D graphics and games. It is my goal to continue learning new skills and to put my existing ones to use on each project.
-+
-+
-I also produce a lot of personal work, with my projects typically featuring a major narrative element. I am heavily inspired by cyberpunk media, and I try to craft narratives focused on philosophical exploration and the ways in which technology can be a narrative catalyst for these topics.
+Also, send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
 
 %[]
 
@@ -36,12 +32,12 @@ If you'd like to see a full list of projects, please visit the #[projects] page.
 
 /[Kabam]
 /[Iregular]
-/[Qurotema]
+/[Chroniqueur]
+/[Invictus]
 /[Cartographer]
+/[Jagged Orbit]
 /[QU-6]
 /[Toriyomu]
-/[Jagged Orbit]
-/[Invictus]
 
 %[]
 
@@ -56,11 +52,3 @@ If you'd like to see a full list of projects, please visit the #[projects] page.
 ++
 @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
 ]
-
-%[]
-
-~[Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
-+
-If you would like more informal documentation of myself, please refer to the #[victor] page.]
-
-/[victor]

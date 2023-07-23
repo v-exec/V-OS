@@ -1,5 +1,5 @@
 name: Home
-image: off>1
+image: off>3
 image name: #[Off]
 white: true
 tags: hub
@@ -7,7 +7,7 @@ title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and exp
 content: This digital space is a virtual library of my #[projects], @[narratives>verse], and #[research].
 +
 +
-I'm #[Victor] [vi], and I'm a multidisciplinary designer and developer exploring the unusual sectors of this realm. For professional information, please visit my #[portfolio].
+I'm Victor [vi], and I'm a multidisciplinary designer and developer exploring the unusual sectors of this realm. For professional information, please visit my #[portfolio].
 +
 +
 #[V-OS] is a wiki, where _[all bold text is clickable]. So, please enjoy exploring. If you feel stuck or lost, please check out the #[index].

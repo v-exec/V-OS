@@ -2,17 +2,15 @@ name: 4D SOCIETY
 image: 4d society>6
 image name: #[4D SOCIETY]
 white: true
-links: Download>media/downloads/4d society/4D_SOCIETY_windows.zip, Github>https://github.com/v-exec/4D-SOCIETY
+links: Github>https://github.com/v-exec/4D-SOCIETY
 tags: project, code, interactive, audio, single
 title: #[4D SOCIETY] is a first person exploration game with navigational puzzles driven by experimental graphics.
 content:
 
-Inspired by games like @[Memories of a Broken Dimension>https://store.steampowered.com/app/544300/Memory_of_a_Broken_Dimension/], @[Fugue In Void>https://moshelinke.itch.io/fugue-in-void], and @[NaissanceE>https://store.steampowered.com/app/265690/NaissanceE/], #[4D SOCIETY] explores environments filled with large-scale brutalist architecture, disorienting and experimental graphics, and a narrative with questions surrounding philosophical ideology.
-
-~[Windows download of a prototype available @[here>media/downloads/4d society/4D_SOCIETY_windows.zip].
+Inspired by games like @[Memories of a Broken Dimension>https://store.steampowered.com/app/544300/Memory_of_a_Broken_Dimension/], @[Fugue In Void>https://moshelinke.itch.io/fugue-in-void], and @[NaissanceE>https://store.steampowered.com/app/265690/NaissanceE/], #[4D SOCIETY] explores environments filled with large-scale brutalist architecture, disorienting and experimental graphics, and a narrative with questions surrounding an alien ideology.
 +
 +
-Game is in extremely early development and currently only exists as proof of concept.]
+Currently, #[4D SOCIETY] is purely a proof of concept.
 
 ,[4d society>1]
 
