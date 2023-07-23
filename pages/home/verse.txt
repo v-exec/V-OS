@@ -20,7 +20,7 @@ $[phenomena>title]
 =[phenomenon]
 %[]
 
-The information documented in the #[verse] is a collection of archives created and upkept by #[LOGO] regarding locations, events, and people of the #[Multiverse].
+The information documented in the #[verse] is a collection of archives created and upkept by #[LOGO] regarding #[locations], @[events>phenomena], and #[people] of the #[Multiverse].
 +
 +
 #[LOGO] believes it's more fun to navigate the #[verse] pages when browsing projects linking to them, but that's up to you.

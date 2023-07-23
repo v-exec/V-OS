@@ -5,12 +5,7 @@ white: true
 tags: nav
 title: The #[audio] division includes all music and sound #[projects].
 content:
-Audio is produced primarily using Ableton as a DAW, assisted through Nektar Impact LX 61 as a midi controller.
-+
-+
-All audio excluding drum samples are synthesized, whether through popular VSTs or, in more experimental projects, frameworks like MaxMSP or PureData. Music also regularly includes processed electric guitar and vocals.
 
-%[]
 $[singles>title]
 -[single]
 
