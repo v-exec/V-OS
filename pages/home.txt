@@ -1,6 +1,6 @@
 name: Home
-image: off>3
-image name: #[Off]
+image: time breaker>2
+image name: #[Time Breaker]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.

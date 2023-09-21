@@ -6,29 +6,30 @@ tags: personal
 title: Victor's #[portfolio].
 content:
 
-I'm Victor [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I've studied Computation Arts at Concordia University in Montreal and Waseda University in Tokyo, and often work as a developer and technical artist for games, publicity, web, and installation art. 
+I'm Victor [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I work as a developer and technical artist for games, publicity, web, and art installations.
 +
 +
-I design, develop, and produce static and interactive media in various forms, including #[visual], #[audio], and #[code]. My technical focus is primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative] media.
+I design, develop, and produce static and interactive media, with my technical focus primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative] media.
 +
 +
-I've been fortunate enough to find many opportunities to put both my artistic and programming skills to use across the realm of 3D visuals, and feel like the world of graphics - whether it be realtime or prerending - offers endlessly engaging challenges that balance technical expertise and artistic expression.
+In my 5 years of experience, I've put my artistic and programming skills to use across the realm of 3D visuals, tackling challenges in realtime and offline rendering that balance technical expertise and artistic expression.
+If you're looking to build beautiful and performant interactive media that leverages custom-built tools and an efficient art production and integration pipeline, please get in touch.
 +
 +
-I try to keep my traditional art skillsets sharp by producing a lot of personal work, with many of my projects typically featuring a major narrative factor. I craft stories focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore the human condition.
+I also try to keep my traditional art skillsets sharp by producing a lot of personal work, found in the #[projects] page. I craft stories focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore the human condition.
 
 %[]
 
 Check out my @[resume>media/downloads/portfolio/cv.pdf] for formal documentation of work experience and education.
 +
 +
-Also, send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] for business inquiries, or just a nice conversation!
+Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] to get in touch!
 
 %[]
 
 ![Curated Projects]
 
-If you'd like to see a full list of projects, please visit the #[projects] page.
+For a full list of projects, please visit the #[projects] page.
 
 /[Kabam]
 /[Iregular]
