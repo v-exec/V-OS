@@ -1,6 +1,6 @@
 name: Home
-image: time breaker>2
-image name: #[Time Breaker]
+image: cibo>7
+image name: #[Cibo]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>verse], and experiments.
