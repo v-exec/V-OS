@@ -6,17 +6,25 @@ tags: personal
 title: Victor's #[portfolio].
 content:
 
-I'm Victor [vi], and I'm a multidisciplinary designer and developer currently residing in Montreal. I work as a developer and technical artist for games, publicity, web, and art installations.
+I'm Victor [vi], and I'm the creator of this space, currently residing in Montreal. I work as a developer, artist, and technical artist for games, publicity, web, and art installations.
 +
 +
-I design, develop, and produce static and interactive media, with my technical focus primarily rooted in using code to create _[unique, innovative, aesthetically powerful, polished, and imaginative] media.
+I design, develop, and produce static and interactive media, focusing to create _[unique, innovative, aesthetically powerful, polished, and imaginative] experiences.
 +
 +
-In my 5 years of experience, I've put my artistic and programming skills to use across the realm of 3D visuals, tackling challenges in realtime and offline rendering that balance technical expertise and artistic expression.
-If you're looking to build beautiful and performant interactive media that leverages custom-built tools and an efficient art production and integration pipeline, please get in touch.
+In my >[date("Y") - 2019;] years of work, I've put my artistic and programming skills to use across the realm of digital media for various clients and studios, tackling challenges that balance technical expertise and artistic expression.
 +
 +
-I also try to keep my traditional art skillsets sharp by producing a lot of personal work, found in the #[projects] page. I craft stories focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore the human condition.
+More precisely, my experience covers the development of full stack websites and realtime 3D web applications, offline and realtime rendering for a variety of use-cases, full pipeline offline and realtime 3D art production, shaders and VFX, procedural generation systems, 3D pipeline design and tool development, and small-to-medium project management.
++
++
+In short, I love all digital media, and I value creative exploration and novelty in my work.
+I feel most motivated and fulfilled when I'm forced to learn new things and solve problems I'm not familiar with.
+I'm always looking for new opportunities to create something novel, and solve unique problems with unique solutions.
++
++
+I also keep my traditional art skillsets sharp by producing a lot of personal work, found in the #[projects] page.
+I craft stories and art often focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore the human experience.
 
 %[]
 
@@ -33,6 +41,7 @@ For a full list of projects, please visit the #[projects] page.
 
 /[Kabam]
 /[Iregular]
+/[Dpt]
 /[Chroniqueur]
 /[Invictus]
 /[Time Breaker]

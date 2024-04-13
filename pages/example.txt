@@ -78,7 +78,7 @@ The same formatting rules exist here as in the regular 'content' _[attribute].
 +
 +
 Executes PHP code.
->["Result of '2 + 2', calculated with php: " . (2 + 2);]
+Result of '2 + 2', calculated with php: >[(2 + 2);]
 
 %[======================================]
 issueRequest(_[string] request type, _[string] artifact name, _[string (optional)] requested attribute) Javascript request issue to _[Purity]. (Request reponses for following examples found in console.log).
