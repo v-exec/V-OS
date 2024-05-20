@@ -15,7 +15,7 @@ If you're having trouble loading it, please check out the @[compressed video on 
 
 #[Nakade] was created for @[Synchrony 2020>https://synchrony.nyc/2020/] in an 11-hour train ride from New York to Montreal, winning first place in the Demo category.
 
-The project was created in collaboration with @[Simon Demeule>https://simondemeule.com/], who took the role of graphics programmer for point cloud rendering, point cloud manipulation, post processing effects, and scene management.
+The project was created in collaboration with @[Léa Demeule>https://leademeule.com/], who took the role of graphics programmer for point cloud rendering, point cloud manipulation, post processing effects, and scene management.
 
 &[nakade>1]
 
