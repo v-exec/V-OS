@@ -125,7 +125,7 @@
 				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>
 				<br>
 				<br>
-				<a class="neutral-link" href="mailto:victor.ivanov.design@gmail.com">victor.ivanov.design@gmail.com</a>
+				<a class="neutral-link" href="mailto:vi@v-os.ca">vi@v-os.ca</a>
 			</div><div id="body-content">
 
 				<div id="mobile-path">

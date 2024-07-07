@@ -31,7 +31,7 @@ I craft stories and art often focused on alternate realities and fictional world
 Check out my @[resume>media/downloads/portfolio/cv.pdf] for formal documentation of work experience and education.
 +
 +
-Send me an email at @[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com] to get in touch!
+Send me an email at @[vi@v-os.ca>mailto:vi@v-os.ca] to get in touch!
 
 %[]
 
@@ -60,5 +60,5 @@ For a full list of projects, please visit the #[projects] page.
 ++
 @[Bandcamp>https://v-exec.bandcamp.com/releases]: Released albums and featured music repository.
 ++
-@[victor.ivanov.design@gmail.com>mailto:victor.ivanov.design@gmail.com]: Email address.
+@[vi@v-os.ca>mailto:vi@v-os.ca]: Email address.
 ]
