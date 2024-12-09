@@ -5,27 +5,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>V · <?php echo ucfirst($artifact->attributes['name']);?></title>
+	<title><?php echo ucfirst($artifact->attributes['name']);?></title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=0.8">
 
 	<meta name="robots" content="index, follow">
 
 	<meta property="og:url" content="https://v-os.ca/<?php echo rawurlencode(ucfirst($artifact->attributes['name'])); ?>">
-	<meta property="og:title" content="V · <?php echo ucfirst($artifact->attributes['name']); ?>">
+	<meta property="og:title" content="<?php echo ucfirst($artifact->attributes['name']); ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
 	<meta property="og:image" content="<?php echo 'https://v-os.ca/'.$artifact->attributes['image']; ?>">
 
 	<meta name="twitter:url" content="https://v-os.ca/<?php echo rawurlencode(ucfirst($artifact->attributes['name'])); ?>">
-	<meta name="twitter:title" content="V · <?php echo ucfirst($artifact->attributes['name']); ?>">
+	<meta name="twitter:title" content="<?php echo ucfirst($artifact->attributes['name']); ?>">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
 	<meta name="twitter:image" content="<?php echo 'https://v-os.ca/'.$artifact->attributes['image']; ?>">
 
 	<meta name="description" content="<?php echo strip_tags($artifact->attributes['title']); ?>">
 
-	<meta name="keywords" content="v, v os, vos, v-os, victor ivanov, victor, ivanov, vi, artist, montreal, wiki, black and white, black, white, greyscale, grayscale, gray, grey, scale, achrome, achromatic, monochromatic, monochrome, digital, art, graphic, graphics, design, video, videogames, video games, games, web, website, development, developer, programming, programmer, music, audio, portfolio, tokyo, japan, cyberpunk, experimental, experiment, verse, narrative, story, stories, log, productive, productivity, generalist, generalism, discipline, multi, multidisciplinary, multiple disciplines, media, medium">
+	<meta name="keywords" content="victor ivanov, vi, v, vos, v os, v-os, artist, developer, montreal, canada, tokyo, japan, wiki, digital art, video games, portfolio">
 
 	<meta name="author" content="Victor Ivanov">
 	

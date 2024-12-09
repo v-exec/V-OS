@@ -25,7 +25,7 @@ content:
 /[professional]
 
 %[]
-If a project is tracked in the @[Log>http://log.v-os.ca], its logged statistics will be visible in the sidebar.
+If a project is tracked, its logged statistics will be visible in the sidebar.
 
 %[]
 =[project]

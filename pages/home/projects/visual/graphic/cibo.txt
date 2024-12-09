@@ -13,7 +13,7 @@ content:
 +
 If you're having trouble loading it, please check out the @[compressed video on Youtube>https://youtu.be/-Y01IHjy3w4?si=VqyQeA-zO_ZK3iOl].]
 
-This piece was created for @[Clinton Jones>https://www.youtube.com/channel/UCWIfzAYHyNSyHmT2AO-54yg]' @["Eternal Ascent" challenge>#] over the course of a month, from concept to final render.
+This piece was created for @[Clinton Jones>https://www.youtube.com/channel/UCWIfzAYHyNSyHmT2AO-54yg]' @["Eternal Ascent" challenge>https://www.youtube.com/watch?v=UNjMSFLkMZA] over the course of a month, from concept to final render.
 Participants were given a template animation to work with. All models, textures, animations, and shaders beyond that were made for this challence.
 
 ,[cibo>2]
