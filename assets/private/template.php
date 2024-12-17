@@ -120,9 +120,9 @@
 				}
 				?>
 
-				<a class="neutral-link" href="https://github.com/v-exec">Github</a> ·
+				<a class="neutral-link" href="https://github.com/vi-ctor-vi">Github</a> ·
 				<a class="neutral-link" href="https://www.linkedin.com/in/victor-ivanov/">LinkedIn</a> ·
-				<a class="neutral-link" href="https://v-exec.bandcamp.com/releases">Bandcamp</a>
+				<a class="neutral-link" href="https://vi-ctor-vi.bandcamp.com/releases">Bandcamp</a>
 				<br>
 				<br>
 				<a class="neutral-link" href="mailto:vi@v-os.ca">vi@v-os.ca</a>
